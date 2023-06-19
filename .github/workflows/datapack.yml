@@ -1,4 +1,4 @@
-name: Stellarity-DEV
+name: DEV
 on: [push]
 jobs:
   build:
@@ -7,7 +7,7 @@ jobs:
     - uses: actions/checkout@master
     - uses: actions/upload-artifact@v3
       with:
-        name: Stellarity-DEV
+        name: DEV
         path: |
           data/
           pack.mcmeta
