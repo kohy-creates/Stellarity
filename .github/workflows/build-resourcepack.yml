@@ -1,4 +1,4 @@
-name: Stellarity-ResourcePack
+name: ResourcePack
 on: [push]
 jobs:
   build:
@@ -7,7 +7,7 @@ jobs:
     - uses: actions/checkout@master
     - uses: actions/upload-artifact@v3
       with:
-        name: Stellarity-ResourcePack
+        name: ResourcePack
         path: |
           resource_pack/assets/
           resource_pack/pack.png
