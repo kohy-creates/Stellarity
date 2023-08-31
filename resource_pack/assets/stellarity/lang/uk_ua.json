@@ -16,6 +16,9 @@
 	"stellarity.mobs.gloop": "Глюк",
 	"stellarity.mobs.pixie": "Піксі",
 	"stellarity.mobs.empress": "Імператриця Світла",
+
+	"stellarity.explorer_map.end_city": "Мапа мандрівника (Місто Енду)",
+	"stellarity.explorer_map.end_village": "Мапа мандрівника (Селище Енду)",
   
 	"stellarity.items.special.donator": "Предмет благодійника",
 	"stellarity.items.special.developer": "Предмет розробника",
@@ -139,6 +142,7 @@
 	"stellarity.items.spellbooks.natures_wrath.description.2": "назавжди розблокуючи чи покращуючи її можливості",
 	"stellarity.items.spellbooks.natures_wrath.description.3": "Використайте навприсядки, щоб викликати стаю Вовчих Мар",
 	"stellarity.items.spellbooks.natures_wrath.spirit_wolf": "Вовча Мара",
+	"stellarity.items.spellbooks.natures_wrath.power": "Обурення Природи насичується силою!",
   
 	"stellarity.items.tools.shulker.axe": "Шалкесокира",
 	"stellarity.items.tools.shulker.hoe": "Шалкеротика",
@@ -241,6 +245,7 @@
 	"stellarity.items.altar_of_light": "Вівтар Святих",
   
 	"stellarity.items.cursed_tome": "Проклятий Гримуар",
+	"stellarity.items.cursed_tome.unlock_entry": "%s містить нову мудрість під обгорткою!",
 	"stellarity.items.cursed_tome.description.1": "Вміщує в собі усю інформацію",
 	"stellarity.items.cursed_tome.description.2": "про предмети Stellarity",
 	"stellarity.items.cursed_tome.description.flavor_text": "'Ваш посібник у кишені!'",
@@ -344,7 +349,7 @@
   
 	"stellarity.items.cursed_tome.entries.trinkets.soaring_insignia.center": "  ",
 	"stellarity.items.cursed_tome.entries.trinkets.soaring_insignia.description": "Емблема, наділена часткою сили Імператриці.\nКористувач може заперечувати самі сили гравітації, вільно підносячись у повітря.",
-	"stellarity.items.cursed_tome.entries.trinkets.soaring_insignia.obtaining": "Зрідка випадає з Імператриці Світла.\n\nГарантовано випадає, якщо вона була вбита у Верхньому Світі вдень.",
+	"stellarity.items.cursed_tome.entries.trinkets.soaring_insignia.obtaining": "Зрідка випадає з Імператриці Світла.\n\nГарантовано випадає, якщо вона була вбита у Верхньому світі вдень.",
   
 	"stellarity.items.cursed_tome.entries.stella.center": "         ",
 	"stellarity.items.cursed_tome.entries.stella.description": "Виготовлений з найчистіших Святих кристалів, переповнених палаючою енергією. Що більш точні удари завдаються ворогам, то більш розігрівається полумʼя.",
@@ -359,7 +364,7 @@
   
 	"stellarity.items.cursed_tome.entries.kaleidoscope.center": "    ",
 	"stellarity.items.cursed_tome.entries.kaleidoscope.description": "Меч незрівнянної сили, що надходить просто від Сонця. Заряджається, а потім випускає накопичену енергію у руйнівному розряді під час змаху.",
-	"stellarity.items.cursed_tome.entries.kaleidoscope.obtaining": "Випадає з Імператриці Світла, але тільки якщо вона була вбита у Верхньому Світі вдень.",
+	"stellarity.items.cursed_tome.entries.kaleidoscope.obtaining": "Випадає з Імператриці Світла, але тільки якщо вона була вбита у Верхньому світі вдень.",
   
 	"stellarity.advancements.blindfolded": "Твоя морда просить цеглини",
 	"stellarity.advancements.blindfolded.description": "Подивіться на ендермена та розлютіть його",
@@ -483,7 +488,7 @@
 	"stellarity.advancements.summon_empress": "Непорочна Королева",
 	"stellarity.advancements.summon_empress.description": "Киньте Пил піксі на Вівтар Святих, щоб викликати Її Величність",
 	"stellarity.advancements.fae_flayer": "Заклинатель фей",
-	"stellarity.advancements.fae_flayer.description": "Перенесіть Вівтар Святих у Верхній Світ та вбийте Імператрицю вдень. Усі зусилля нагороджуються",
+	"stellarity.advancements.fae_flayer.description": "Перенесіть Вівтар Святих у Верхній світ та вбийте Імператрицю вдень. Усі зусилля нагороджуються",
 	"stellarity.advancements.charge_anchor_end": "Крапля в море Вічності",
 	"stellarity.advancements.charge_anchor_end.description": "Повністю зарядіть Якір відродження в Краю. Він встановить точку відродження так само, як і у Незері.",
   
