@@ -38,11 +38,11 @@
 
 	// Items
 	// Explorer Maps
-	"stellarity.explorer_map.end_city": "Bản đồ thám hiểm Thành phố Kết thúc",
-	"stellarity.explorer_map.end_village": "Bản đồ thám hiểm Ngôi làng Kết thúc",
+	"stellarity.explorer_map.end_city": "Bản đồ thám hiểm Thành phố End",
+	"stellarity.explorer_map.end_village": "Bản đồ thám hiểm Ngôi làng End",
 
 	// Misc easter egg item
-	"stellarity.items.memory_of_gloop": "Bên trong kí ức yêu thương của Bé Chất nhầy",
+	"stellarity.items.memory_of_gloop": "Tưởng nhớ bé Chất nhầy",
 
 	// Empty Enchanted Book
 	"stellarity.items.empty_enchanted_book.description.1": "Nó không mang bất kì dòng phù phép nào",
@@ -203,10 +203,10 @@
 	"stellarity.items.trinkets.ender_insignia.description.2": "Sức mạnh này ban đầu khá yếu và sẽ tăng dẫn theo thời gian",
 	"stellarity.items.trinkets.ender_insignia.description.3": "Đứng thẳng hoặc chịu sát thương sẽ khiến bạn phải tích lại từ đầu",
 	"stellarity.items.trinkets.ender_insignia.description.4": "Sức mạnh Rồng thiêng đang nằm gọn trong tay bạn",
-	"stellarity.items.trinkets.starstruck_carcanet": "Dây chuyền Ngàn Sao",
+	"stellarity.items.trinkets.starstruck_carcanet": "Dây chuyền Ngàn sao",
 	"stellarity.items.trinkets.starstruck_carcanet.description.1": "Triệu hồi 3 vì sao rơi xuống khi bạn chịu sát thương",
 	"stellarity.items.trinkets.starstruck_carcanet.description.2": "Những ngôi sao này bỏ qua một phần phòng ngự của đối phương",
-	"stellarity.items.trinkets.soaring_insignia": "Phù hiệu Thiên Không",
+	"stellarity.items.trinkets.soaring_insignia": "Phù hiệu Thiên không",
 	"stellarity.items.trinkets.soaring_insignia.description.1": "Trao cho bạn khả năng bay lượn vĩnh viễn",
 	"stellarity.items.trinkets.soaring_insignia.description.2": "với sự nhanh nhẹn khá hạn chế",
 	"stellarity.items.trinkets.soaring_insignia.description.3": "Đi rón rén và nhìn lên/xuống để điều chỉnh độ cao",
@@ -347,17 +347,17 @@
 
 	"stellarity.items.cursed_tome.entries.pandoras_barrel.center": "",
 	"stellarity.items.cursed_tome.entries.pandoras_barrel.description": "Nỗ lực tạo ra thứ gì đó từ con số không.\nMở nó ra sẽ mang lại cho bạn những món đồ ngẫu nhiên, đồng thời triệu hồi ra những sinh vật ngẫu nhiên tuỳ thuộc vào quần xã nơi bạn đang đứng.",
-	"stellarity.items.cursed_tome.entries.pandoras_barrel.obtaining": "Thi thoảng được tìm thấy tại Thành phố Kết thúc.\nCũng có thể được chế tạo tại Tế đàn Nguyền rủa.",
+	"stellarity.items.cursed_tome.entries.pandoras_barrel.obtaining": "Thi thoảng được tìm thấy tại Thành phố End.\nCũng có thể được chế tạo tại Tế đàn Nguyền rủa.",
 
 	"stellarity.items.cursed_tome.entries.ancient_armor.center": "    ",
 	"stellarity.items.cursed_tome.entries.ancient_armor.title": "Giáp Cổ đại",
 	"stellarity.items.cursed_tome.entries.ancient_armor.description": "Ban cho những kẻ sử dụng cơn thịnh nộ của Người Cổ đại, giúp tăng sát thương theo cấp số nhân trên mỗi đòn đánh.",
-	"stellarity.items.cursed_tome.entries.ancient_armor.obtaining": "Chế tạo tại Tế đàn Nguyền rủa với 5/8/7/4 Vỏ bọc Cổ đại (tương ứng với Mũ/Áo/Quần/Giày)\n\nVỏ bọc Cổ đại có thể tìm thấy trong Hòm báu, Thành phố Kết thúc và có thể mua được tại Ngôi làng Kết thúc.",
+	"stellarity.items.cursed_tome.entries.ancient_armor.obtaining": "Chế tạo tại Tế đàn Nguyền rủa với 5/8/7/4 Vỏ bọc Cổ đại (tương ứng với Mũ/Áo/Quần/Giày)\n\nVỏ bọc Cổ đại có thể tìm thấy trong Hòm báu, Thành phố End và có thể mua được tại Ngôi làng End.",
 
 	"stellarity.items.cursed_tome.entries.hallowed_armor.center": "  ",
 	"stellarity.items.cursed_tome.entries.hallowed_armor.title": "Giáp Thần thánh",
 	"stellarity.items.cursed_tome.entries.hallowed_armor.description": "Những người mang trên mình bộ giáp thiêng liêng này được cho là nhận được sự bảo vệ từ thiên đường, trao cho họ khả năng trở nên bất khả xâm phạm trong một thời gian ngắn.",
-	"stellarity.items.cursed_tome.entries.hallowed_armor.obtaining": "Chế tạo tại Tế đàn Nguyền rủa với 5/8/7/4 Kết tinh Thần thánh (tương ứng với Mũ/Áo/Quần/Giày)\n\nKết tinh Thần thánh có thể tìm thấy trong Hòm báu, Thành phố Kết thúc và có thể mua được tại Ngôi làng Kết thúc.",
+	"stellarity.items.cursed_tome.entries.hallowed_armor.obtaining": "Chế tạo tại Tế đàn Nguyền rủa với 5/8/7/4 Kết tinh Thần thánh (tương ứng với Mũ/Áo/Quần/Giày)\n\nKết tinh Thần thánh có thể tìm thấy trong Hòm báu, Thành phố End và có thể mua được tại Ngôi làng End.",
 
 	"stellarity.items.cursed_tome.entries.spirit_dagger.center": " ",
 	"stellarity.items.cursed_tome.entries.spirit_dagger.description": "Món vũ khí này không đi một mình. Nếu hai chiếc được sử dụng cùng lúc, đòn tấn công từ chúng sẽ thu hút những Tinh linh lạc lối. Người dùng có thể ngay lập tức dịch chuyển đến vị trí của chúng và được tăng sức mạnh trong một khoảng thời gian ngắn.",
@@ -369,11 +369,11 @@
 
 	"stellarity.items.cursed_tome.entries.spellbooks.natures_wrath.center": "",
 	"stellarity.items.cursed_tome.entries.spellbooks.natures_wrath.description": "Những Dân làng đã cố thử tạo ra những vật phẩm ma thuật.\nCuốn sách này thấm nhuần nguồn năng lượng từ những quần xã mà người dùng đặt chân đến, gia tăng thuộc tính của chính nó.",
-	"stellarity.items.cursed_tome.entries.spellbooks.natures_wrath.obtaining": "Thi thoảng được bán bởi những Thủ thư tại Ngôi làng Kết thúc.",
+	"stellarity.items.cursed_tome.entries.spellbooks.natures_wrath.obtaining": "Thi thoảng được bán bởi những Thủ thư tại Ngôi làng End.",
 	
 	"stellarity.items.cursed_tome.entries.trinkets.duskberry.center": "",
 	"stellarity.items.cursed_tome.entries.trinkets.duskberry.description": "Có lẽ nó là loại quả đặc biệt nhất từng được sinh ra tại Rừng thánh. Loại quả thần bí này truyền ma lực cho bất kì ai cầm nó trên tay, gia cường các giác quan và khả năng của họ.\nNghe kể rằng vị nó như bizmuth.",
-	"stellarity.items.cursed_tome.entries.trinkets.duskberry.obtaining": "Có thể được tìm thấy tại Con thuyền Kết thúc trong Rừng thánh với một tỉ lệ cụ thể là 57.14%.\n\nCũng có thể được tìm thấy trong Hòm Thần thánh với tỉ lệ rất kì quặc kể trên.",
+	"stellarity.items.cursed_tome.entries.trinkets.duskberry.obtaining": "Có thể được tìm thấy tại Con thuyền End trong Rừng thánh với một tỉ lệ cụ thể là 57.14%.\n\nCũng có thể được tìm thấy trong Hòm Thần thánh với tỉ lệ rất kì quặc kể trên.",
 	
 	"stellarity.items.cursed_tome.entries.trinkets.starstruck_carcanet.center": "",
 	"stellarity.items.cursed_tome.entries.trinkets.starstruck_carcanet.description": "Không như những dây chuyền thông thường khác, chiếc này được đeo vì một vài lí do kì lạ. Triệu hồi những vì sao rơi xuống gần đó khi người đeo chịu sát thương, gây sát thương lớn cho bất kì thứ gì nằm trong quỹ đạo của nó.",
@@ -432,7 +432,7 @@
 	"stellarity.advancements.god_slayer": "Thần linh? Thêm nữa xem nào?",
 	"stellarity.advancements.god_slayer.description": "Bạn đã chứng minh bản thân xứng đáng bằng cách đánh bại con Quái thú hung ác hai lần",
 	"stellarity.advancements.kill_la_kill": "Giết và Giết",
-	"stellarity.advancements.kill_la_kill.description": "Hành quyết kẻ Cai ngục",
+	"stellarity.advancements.kill_la_kill.description": "Hành quyết Kẻ cai ngục",
 	"stellarity.advancements.sacrificial_ritual": "Nghi lễ Hiến tế",
 	"stellarity.advancements.sacrificial_ritual.description": "Đặt 4 viên Pha lê End lên trên 4 khối Đá nền",
 	"stellarity.advancements.third_times_the_charm": "Quá tam ba bận",
@@ -453,7 +453,7 @@
 	"stellarity.advancements.treasure_room": "Hướng tới bí mật bị chôn vùi",
 	"stellarity.advancements.treasure_room.description": "Tìm được một chiếc Đầu Kho báu hiếm. Chúng không để làm gì cả, nhưng có thể dùng để sưu tầm",
 	"stellarity.advancements.open_chest_in_end_city": "Giờ ai mới là Kẻ trộm đây?",
-	"stellarity.advancements.open_chest_in_end_city.description": "Cướp đồ trong một chiếc rương tại thành phố Kết thúc",
+	"stellarity.advancements.open_chest_in_end_city.description": "Cướp đồ trong một chiếc rương tại thành phố End",
 	"stellarity.advancements.ender_adventurer": "Nhà lữ hành vượt thời gian",
 	"stellarity.advancements.ender_adventurer.description": "Khám phá tất cả các quần xã dưới The End",
 	"stellarity.advancements.forever_stranded": "Lưu lạc mãi mãi",
@@ -465,7 +465,7 @@
 	"stellarity.advancements.topped_off": "Tối đa rồi đây sao?",
 	"stellarity.advancements.topped_off.description": "Tăng cường máu tối đa của bạn bằng cách ăn 10 con Cá Pha lê Trái tim",
 	"stellarity.advancements.duskberry_find": "Đừng mạo hiểm!",
-	"stellarity.advancements.duskberry_find.description": "Nhặt một Quả mọng Hoàng hôn từ một chiếc rương trong Con thuyền Kết thúc tại khu Rừng thánh",
+	"stellarity.advancements.duskberry_find.description": "Nhặt một Quả mọng Hoàng hôn từ một chiếc rương trong Con thuyền End tại khu Rừng thánh",
 	"stellarity.advancements.poor_life_choices": "Sai lầm tồi tệ nhất...",
 	"stellarity.advancements.poor_life_choices.description": "Ăn, trồng và cho một Con cáo ăn Quả mọng Hoàng hôn",
 	"stellarity.advancements.absolute_devotion": "Sự thành tâm tuyệt đối",
@@ -532,7 +532,7 @@
 	"stellarity.death_messages.spirit_dagger.2": "%1$s đã bị chém làm đôi bởi %2$s",
 	"stellarity.death_messages.spirit_dagger.3": "%1$s đã bị ám sát bởi %2$s",
 	"stellarity.death_messages.dragonblade.1": "%1$s đã bị đánh bay đến thế giới khác bởi %2$s",
-	"stellarity.death_messages.dragonblade.2": "%1$s đã đánh %2$s hơi quá tay",
+	"stellarity.death_messages.dragonblade.2": "%2$s đã đánh %1$s hơi quá tay",
 	"stellarity.death_messages.dragonblade.3": "%1$s đã bị đưa đến thực tại khác bởi %2$s",
 	"stellarity.death_messages.tamaris_execute.1": "%1$s đã bị hành quyết công khai bởi %2$s",
 	"stellarity.death_messages.tamaris_execute.2": "%1$s đã bị %2$s bắt phải trải qua cảm giác nhận 999 sát thương",
