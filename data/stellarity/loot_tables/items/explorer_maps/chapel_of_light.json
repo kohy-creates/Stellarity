@@ -18,7 +18,7 @@
 						{
 							"function": "minecraft:set_name",
 							"name": {
-								"translate": "stellarity.explorer_map.chapel",
+								"translate": "stellarity.explorer_map.chapel_of_light",
 								"fallback": "Chapel of Light Explorer Map",
 								"color": "light_purple",
 								"italic": false

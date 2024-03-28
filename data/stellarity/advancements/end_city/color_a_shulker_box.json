@@ -4,11 +4,11 @@
 			"item": "minecraft:light_blue_shulker_box"
 		},
 		"title": {
-			"translate": "stellarity.advancements.colorful_arsenal",
+			"translate": "stellarity.advancements.color_a_shulker_box",
 			"fallback": "Organizational Wizard"
 		},
 		"description": {
-			"translate": "stellarity.advancements.colorful_arsenal.description",
+			"translate": "stellarity.advancements.color_a_shulker_box.description",
 			"fallback": "Color a Shulker Box any color you want"
 		},
 		"frame": "task",

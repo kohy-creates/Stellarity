@@ -23,7 +23,7 @@
 							"lore": [
 								"",
 								{
-									"translate": "stellarity.items.pandoras_barrel.description.1",
+									"translate": "stellarity.items.pandoras_barrel.description",
 									"fallback": "You never know what's inside!",
 									"color": "#EEEEEE",
 									"italic": false

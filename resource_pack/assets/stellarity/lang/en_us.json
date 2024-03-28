@@ -71,7 +71,7 @@
 	// Explorer Maps
 	"stellarity.explorer_map.end_city": "End City Explorer Map",
 	"stellarity.explorer_map.end_village": "End Village Explorer Map",
-	"stellarity.explorer_map.chapel_of_light": "Chapel of Lighft Explorer Map",
+	"stellarity.explorer_map.chapel_of_light": "Chapel of Light Explorer Map",
 
 	// Misc easter egg item
 	"stellarity.items.memory_of_gloop": "In The Loving Memory of Gloop",
@@ -643,7 +643,7 @@
 
 	// Death Messages
 	// %1$s - victim
-	// %2$ - attacker
+	// %2$s - attacker
 	"stellarity.death_messages.sharanga_explosion": "%1$s was torn apart by %2$s's Spectral Boom Boom",
 	"stellarity.death_messages.carcanet.1": "%1$s was struck too hard by %2$s's star",
 	"stellarity.death_messages.carcanet.2": "%1$s received help with meeting the sky from %2$s",
