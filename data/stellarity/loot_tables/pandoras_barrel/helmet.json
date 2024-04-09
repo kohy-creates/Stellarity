@@ -712,7 +712,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:slime_block",
+					"name": "minecraft:mangrove_leaves",
 					"functions": [
 						{
 							"function": "minecraft:set_attributes",
@@ -780,7 +780,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:netherrack",
+					"name": "minecraft:cherry_leaves",
 					"functions": [
 						{
 							"function": "minecraft:set_attributes",
@@ -789,6 +789,37 @@
 									"attribute": "minecraft:generic.max_health",
 									"name": "stellarity.pandoras_barrel_biome",
 									"amount": 20,
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:any_of",
+							"terms": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"biome": "minecraft:cherry_grove"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherrack",
+					"functions": [
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.max_health",
+									"name": "stellarity.pandoras_barrel_biome",
+									"amount": -10,
 									"operation": "addition",
 									"slot": "mainhand"
 								}
@@ -819,7 +850,7 @@
 								{
 									"attribute": "minecraft:generic.max_health",
 									"name": "stellarity.pandoras_barrel_biome",
-									"amount": 21,
+									"amount": -11,
 									"operation": "addition",
 									"slot": "mainhand"
 								}
@@ -850,7 +881,7 @@
 								{
 									"attribute": "minecraft:generic.max_health",
 									"name": "stellarity.pandoras_barrel_biome",
-									"amount": 22,
+									"amount": -12,
 									"operation": "addition",
 									"slot": "mainhand"
 								}
@@ -881,7 +912,7 @@
 								{
 									"attribute": "minecraft:generic.max_health",
 									"name": "stellarity.pandoras_barrel_biome",
-									"amount": 23,
+									"amount": -13,
 									"operation": "addition",
 									"slot": "mainhand"
 								}
@@ -912,7 +943,7 @@
 								{
 									"attribute": "minecraft:generic.max_health",
 									"name": "stellarity.pandoras_barrel_biome",
-									"amount": 24,
+									"amount": -14,
 									"operation": "addition",
 									"slot": "mainhand"
 								}

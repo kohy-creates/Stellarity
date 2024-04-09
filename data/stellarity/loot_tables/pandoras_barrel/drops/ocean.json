@@ -2,20 +2,20 @@
 	"pools": [
 		{
 			"rolls": {
-				"min": 3,
-				"max": 4
+				"min": 6,
+				"max": 8
 			},
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 25,
+					"weight": 12,
 					"name": "minecraft:gravel",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 3,
-								"max": 5
+								"min": 6,
+								"max": 8
 							},
 							"add": false
 						}
@@ -23,14 +23,14 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 15,
+					"weight": 10,
 					"name": "minecraft:kelp",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 4
+								"min": 4,
+								"max": 8
 							},
 							"add": false
 						}
@@ -40,13 +40,13 @@
 					"type": "minecraft:tag",
 					"name": "stellarity:pandoras_barrel/prismarine",
 					"expand": true,
-					"weight": 10,
+					"weight": 7,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 5
+								"min": 5,
+								"max": 11
 							},
 							"add": false
 						}
@@ -54,14 +54,14 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 17,
+					"weight": 11,
 					"name": "minecraft:seagrass",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 5
+								"min": 4,
+								"max": 8
 							},
 							"add": false
 						}
@@ -69,13 +69,14 @@
 				},
 				{
 					"type": "minecraft:item",
+					"weight": 8,
 					"name": "minecraft:cod",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
-								"max": 2
+								"max": 3
 							},
 							"add": false
 						}
@@ -83,13 +84,29 @@
 				},
 				{
 					"type": "minecraft:item",
+					"weight": 7,
 					"name": "minecraft:salmon",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
-								"max": 2
+								"max": 3
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 7,
+					"name": "minecraft:ink_sac",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4
 							},
 							"add": false
 						}

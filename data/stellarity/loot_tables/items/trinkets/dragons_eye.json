@@ -8,8 +8,13 @@
 					"name": "minecraft:popped_chorus_fruit",
 					"functions": [
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"dragons_eye\",CustomModelData:90000,Enchantments:[{}],HideFlags:2,kohara.fireproof:1b}"
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.trinkets.dragons_eye",
+								"fallback": "Dragon's Eye",
+								"color": "#9936D6",
+								"italic": false
+							}
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -17,7 +22,7 @@
 								"",
 								{
 									"translate": "stellarity.items.trinkets.dragons_eye.description.1",
-									"fallback": "Pacifies all Endermen, Endermites and Phantoms",
+									"fallback": "Pacifies most End mobs",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -43,13 +48,8 @@
 							"replace": false
 						},
 						{
-							"function": "minecraft:set_name",
-							"name": {
-								"translate": "stellarity.items.trinkets.dragons_eye",
-								"fallback": "Dragon's Eye",
-								"color": "#9936D6",
-								"italic": false
-							}
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.special_item:\"dragons_eye\",CustomModelData:90000,Enchantments:[{}],HideFlags:2,kohara.fireproof:1b}"
 						},
 						{
 							"function": "minecraft:set_attributes",

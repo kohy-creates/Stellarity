@@ -5,16 +5,18 @@
 			"nbt": "{Enchantments:[{}],CustomModelData:90000}"
 		},
 		"title": {
-			"translate": "stellarity.advancements.confusing_fruit_2",
+			"translate": "stellarity.advancements.eat_golden_chorus_fruit",
 			"fallback": "(Au)some Delight!"
 		},
 		"description": {
-			"translate": "stellarity.advancements.confusing_fruit_2.description",
-			"fallback": "Find and eat a Golden Chorus Fruit"
+			"translate": "stellarity.advancements.eat_golden_chorus_fruit.description",
+			"fallback": "Find and eat a Golden Chorus Fruit",
+			"color": "dark_aqua"
 		},
 		"frame": "challenge",
 		"show_toast": true,
-		"announce_to_chat": true
+		"announce_to_chat": true,
+		"hidden": true
 	},
 	"parent": "stellarity:husbandry/eat_chorus_fruit",
 	"criteria": {

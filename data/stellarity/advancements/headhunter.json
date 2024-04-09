@@ -11,7 +11,8 @@
 		"description": [
 			{
 				"translate": "stellarity.advancements.headhunter.description",
-				"fallback": "Find EVERY collectible Head"
+				"fallback": "Find EVERY collectible Head",
+				"color": "dark_aqua"
 			},
 			"\n",
 			{
@@ -26,7 +27,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "stellarity:treasure_room",
+	"parent": "stellarity:find_a_head",
 	"criteria": {
 		"1": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"items": ["minecraft:player_head"],"nbt": "{stellarity.head_id:1}"}]}},
 		"2": {"trigger": "minecraft:inventory_changed","conditions":{"items":[{"items": ["minecraft:player_head"],"nbt": "{stellarity.head_id:2}"}]}},

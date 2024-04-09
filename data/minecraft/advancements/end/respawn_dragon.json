@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dragon_head"
+			"item": "minecraft:end_crystal"
 		},
 		"title": {
 			"translate": "advancements.end.respawn_dragon.title"

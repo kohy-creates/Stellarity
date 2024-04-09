@@ -13,7 +13,7 @@
 							"name": {
 								"translate": "stellarity.items.golden_chorus_fruit",
 								"fallback": "Golden Chorus Fruit",
-								"color": "light_cyan",
+								"color": "#55FFFF",
 								"italic": false
 							}
 						},

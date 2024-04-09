@@ -4,80 +4,103 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:stone",
-					"functions": [
+					"type": "minecraft:alternatives",
+					"children": [
 						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
+							"type": "minecraft:item",
+							"name": "minecraft:end_stone",
+							"functions": [
 								{
-									"attribute": "minecraft:generic.max_health",
-									"name": "stellarity.pandoras_barrel_biome",
-									"amount": -1,
-									"operation": "addition",
-									"slot": "mainhand"
+									"function": "minecraft:set_attributes",
+									"modifiers": [
+										{
+											"attribute": "minecraft:generic.max_health",
+											"name": "stellarity.pandoras_barrel_biome",
+											"amount": -3,
+											"operation": "addition",
+											"slot": "mainhand"
+										}
+									]
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"dimension": "minecraft:the_end"
+									}
 								}
 							]
-						}
-					],
-					"conditions": [
+						},
 						{
-							"condition": "minecraft:location_check",
-							"predicate": {
-								"dimension": "minecraft:overworld"
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:netherrack",
-					"functions": [
-						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
+							"type": "minecraft:item",
+							"name": "minecraft:netherrack",
+							"functions": [
 								{
-									"attribute": "minecraft:generic.max_health",
-									"name": "stellarity.pandoras_barrel_biome",
-									"amount": -2,
-									"operation": "addition",
-									"slot": "mainhand"
+									"function": "minecraft:set_attributes",
+									"modifiers": [
+										{
+											"attribute": "minecraft:generic.max_health",
+											"name": "stellarity.pandoras_barrel_biome",
+											"amount": -2,
+											"operation": "addition",
+											"slot": "mainhand"
+										}
+									]
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"dimension": "minecraft:the_nether"
+									}
 								}
 							]
-						}
-					],
-					"conditions": [
+						},
 						{
-							"condition": "minecraft:location_check",
-							"predicate": {
-								"dimension": "minecraft:the_nether"
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:end_stone",
-					"functions": [
-						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
+							"type": "minecraft:item",
+							"name": "minecraft:grass_block",
+							"functions": [
 								{
-									"attribute": "minecraft:generic.max_health",
-									"name": "stellarity.pandoras_barrel_biome",
-									"amount": -3,
-									"operation": "addition",
-									"slot": "mainhand"
+									"function": "minecraft:set_attributes",
+									"modifiers": [
+										{
+											"attribute": "minecraft:generic.max_health",
+											"name": "stellarity.pandoras_barrel_biome",
+											"amount": -1,
+											"operation": "addition",
+											"slot": "mainhand"
+										}
+									]
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"dimension": "minecraft:overworld"
+									}
 								}
 							]
-						}
-					],
-					"conditions": [
+						},
 						{
-							"condition": "minecraft:location_check",
-							"predicate": {
-								"dimension": "minecraft:the_end"
-							}
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"functions": [
+								{
+									"function": "minecraft:set_attributes",
+									"modifiers": [
+										{
+											"attribute": "minecraft:generic.max_health",
+											"name": "stellarity.pandoras_barrel_biome",
+											"amount": -1,
+											"operation": "addition",
+											"slot": "mainhand"
+										}
+									]
+								}
+							]
 						}
 					]
 				}

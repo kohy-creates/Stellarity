@@ -39,14 +39,6 @@
 				"minCount": 8,
 				"maxCount": 8
 			}
-		],
-		"monster": [
-			{
-				"type": "minecraft:zombie",
-				"weight": 10,
-				"minCount": 2,
-				"maxCount": 3
-			}
 		]
 	},
 	"spawn_costs": {},

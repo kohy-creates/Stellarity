@@ -32,6 +32,18 @@
 									"color": "#EEEEEE",
 									"italic": false
 								},
+								{
+									"translate": "stellarity.items.weapons.prismatic_punch.description.2",
+									"fallback": "which explode multiple times",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.weapons.prismatic_punch.description.3",
+									"fallback": "and set mobs on Prismatic Inferno",
+									"color": "#EEEEEE",
+									"italic": false
+								},
 								"",
 								{
 									"translate": "Stellarity",

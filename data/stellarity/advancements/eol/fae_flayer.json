@@ -1,18 +1,17 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:glowstone",
-			"nbt": "{Enchantments:[{}]}"
+			"item": "minecraft:chiseled_quartz_block",
+			"nbt": "{Enchantments:[{}],CustomModelData:90000}"
 		},
 		"title": {
 			"translate": "stellarity.advancements.fae_flayer",
-			"fallback": "Fae Flayer",
-			"color": "gold"
+			"fallback": "Fae Flayer"
 		},
 		"description": {
 			"translate": "stellarity.advancements.fae_flayer.description",
 			"fallback": "Move an Altar of The Sacred to the Overworld, then summon and kill the Empress during the day",
-			"color": "yellow"
+			"color": "gold"
 		},
 		"frame": "challenge",
 		"show_toast": true,

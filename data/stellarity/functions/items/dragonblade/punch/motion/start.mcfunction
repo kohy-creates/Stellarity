@@ -2,12 +2,13 @@
 # 8 seconds
 scoreboard players set @s stellarity.items.dragonblade.cooldown 160
 tag @s add stellarity.items.dragonblade.cooldown
+tag @s add stellarity.cooldown_tickdown
 
 # Reset stacks
 function stellarity:items/dragonblade/reset_stacks
 
 # Get punch direction and distance
-execute store result score #enchant stellarity.misc run data get entity @p[predicate=stellarity:items/holding_dragonblade,predicate=kohara:player/is_sneaking] SelectedItem.tag.Enchantments.[{id:"minecraft:knockback"}].lvl 1
+execute store result score #enchant stellarity.misc run data get entity @p[predicate=stellarity:items/holding/dragonblade,predicate=kohara:player/is_sneaking] SelectedItem.tag.Enchantments.[{id:"minecraft:knockback"}].lvl 1
 
 # Punch distance gets reduced by half of knockback resistance
 scoreboard players set #2 stellarity.misc 2
@@ -31,7 +32,7 @@ scoreboard players set #hit stellarity.misc 0
 scoreboard players set #distance stellarity.misc 0
 scoreboard players set #particles stellarity.misc 0
 
-execute facing entity @p[predicate=stellarity:items/holding_dragonblade,predicate=kohara:player/is_sneaking] eyes rotated ~180 0 anchored feet positioned ^ ^.5 ^ run function stellarity:items/dragonblade/punch/motion/raycast
+execute facing entity @p[predicate=stellarity:items/holding/dragonblade,predicate=kohara:player/is_sneaking] eyes rotated ~180 0 anchored feet positioned ^ ^.5 ^ run function stellarity:items/dragonblade/punch/motion/raycast
 
 # Cool little visuals
-execute as @p[predicate=stellarity:items/holding_dragonblade,predicate=kohara:player/is_sneaking] at @s rotated as @s rotated ~ 0 positioned ^ ^1.2 ^1 run function stellarity:items/dragonblade/punch/special_fx/particle_aec_spawn
+execute as @p[predicate=stellarity:items/holding/dragonblade,predicate=kohara:player/is_sneaking] at @s rotated as @s rotated ~ 0 positioned ^ ^1.2 ^1 run function stellarity:items/dragonblade/punch/special_fx/particle_aec_spawn

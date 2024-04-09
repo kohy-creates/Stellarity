@@ -1,10 +1,10 @@
 function stellarity:items/chorus_dagger/damage/deal with storage stellarity:temp chorus_dagger
 
 execute \
-	facing entity @p[predicate=stellarity:items/holding_chorus_dagger,predicate=kohara:player/is_sneaking] eyes \
+	facing entity @p[predicate=stellarity:items/holding/chorus_dagger,predicate=kohara:player/is_sneaking] eyes \
 	rotated ~ 0 \
 	positioned ^ ^ ^1 \
-	as @p[predicate=stellarity:items/holding_chorus_dagger,predicate=kohara:player/is_sneaking] \
+	as @p[predicate=stellarity:items/holding/chorus_dagger,predicate=kohara:player/is_sneaking] \
 	rotated as @s \
 	run \
 	function stellarity:items/chorus_dagger/as_player_post_dash

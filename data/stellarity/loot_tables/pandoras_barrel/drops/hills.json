@@ -2,8 +2,8 @@
 	"pools": [
 		{
 			"rolls": {
-				"min": 3,
-				"max": 4
+				"min": 6,
+				"max": 8
 			},
 			"entries": [
 				{
@@ -14,8 +14,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 4
+								"min": 4,
+								"max": 7
 							},
 							"add": false
 						}
@@ -24,7 +24,7 @@
 				{
 					"type": "minecraft:item",
 					"weight": 10,
-					"name": "minecraft:spruce_leaves",
+					"name": "minecraft:stripped_spruce_log",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -39,6 +39,21 @@
 				{
 					"type": "minecraft:item",
 					"weight": 10,
+					"name": "minecraft:spruce_leaves",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 7,
+								"max": 12
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 7,
 					"name": "minecraft:oak_log",
 					"functions": [
 						{
@@ -53,14 +68,29 @@
 				},
 				{
 					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:stripped_oak_log",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
 					"weight": 10,
 					"name": "minecraft:oak_leaves",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 4
+								"min": 8,
+								"max": 12
 							},
 							"add": false
 						}
@@ -74,8 +104,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 5
+								"min": 4,
+								"max": 8
 							},
 							"add": false
 						}
@@ -98,14 +128,29 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 6,
+					"weight": 11,
 					"name": "minecraft:stone",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 3,
-								"max": 6
+								"min": 5,
+								"max": 9
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"name": "minecraft:cobblestone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 8
 							},
 							"add": false
 						}

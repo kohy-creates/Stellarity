@@ -1,5 +1,11 @@
-name: Stellarity-Music
-on: [push]
+name: Build Music Addon
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'music_pack/**'
+
 jobs:
   build:
     runs-on: ubuntu-latest

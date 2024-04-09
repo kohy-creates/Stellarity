@@ -1,5 +1,3 @@
-## y = x(100 - apen)/100 
-
 scoreboard players set #100 kohara.misc 100
 
 $scoreboard players operation #temp1 kohara.misc = $(holder) $(score)

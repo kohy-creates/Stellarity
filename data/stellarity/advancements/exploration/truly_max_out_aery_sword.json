@@ -13,10 +13,10 @@
 			{
 				"translate": "stellarity.advancements.truly_max_out_aery_sword.description",
 				"fallback": "Even the grim power of this ice sword has its limits...",
-				"color": "light_gray"
+				"color": "aqua"
 			}
 		],
-		"frame": "challenge",
+		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": true

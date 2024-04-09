@@ -2,14 +2,60 @@
 	"pools": [
 		{
 			"rolls": {
-				"min": 3,
-				"max": 4
+				"min": 6,
+				"max": 8
 			},
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 5,
-					"name": "minecraft:grass",
+					"weight": 10,
+					"name": "minecraft:short_grass",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 6
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 12,
+					"name": "minecraft:birch_log",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4,
+								"max": 7
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 7,
+					"name": "minecraft:stripped_birch_log",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:tag",
+					"weight": 7,
+					"name": "stellarity:pandoras_barrel/flowers/birch_forest",
+					"expand": true,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -23,28 +69,14 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 6,
-					"name": "minecraft:birch_log",
+					"weight": 8,
+					"name": "minecraft:stick",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 3
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:birch_leaves",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 2,
-								"max": 5
+								"min": 3,
+								"max": 6
 							},
 							"add": false
 						}

@@ -6,8 +6,7 @@
 		},
 		"title": {
 			"translate": "stellarity.advancements.hallelujah",
-			"fallback": "Hallelujah!",
-			"color": "#FFCC38"
+			"fallback": "Hallelujah!"
 		},
 		"description": {
 			"translate": "stellarity.advancements.hallelujah.description",

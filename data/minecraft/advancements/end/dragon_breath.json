@@ -9,8 +9,7 @@
 		"description": [
 			{
 				"translate": "advancements.end.dragon_breath.description"
-			},
-			"..."
+			}
 		],
 		"frame": "goal",
 		"show_toast": true,

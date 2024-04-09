@@ -1,4 +1,5 @@
-particle dust 0.046875 0.05859375 0.08984375 1.2 ~ ~ ~ 0.1 0.1 0.1 0 6 force @a
-particle minecraft:sculk_charge 6.3 ~ ~ ~ 0.2 0.2 0.2 0 2 force
+particle dust 0 0.564 0.576 0.6 ~ ~ ~ 0.15 0.15 0.15 0 20 force @a[distance=..96]
 
-particle dust 1 1 1 0.7 ~ ~ ~ 0.15 0.15 0.15 0 3 force @a
+particle dust 1 1 1 0.4 ~ ~ ~ 0.15 0.15 0.15 0 7 force @a[distance=..96]
+
+particle minecraft:sculk_charge_pop ~ ~ ~ 0.2 0.2 0.2 0 1 force @a[distance=..96]

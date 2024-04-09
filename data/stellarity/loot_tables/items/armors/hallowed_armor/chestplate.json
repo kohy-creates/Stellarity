@@ -11,7 +11,7 @@
 							"function": "minecraft:set_name",
 							"name": {
 								"translate": "stellarity.items.armors.hallowed_armor.chestplate",
-								"fallback": "Hallowed Plate Mail",
+								"fallback": "Hallowed Chestplate",
 								"color": "#FFDD52",
 								"italic": false
 							}

@@ -117,7 +117,7 @@
 		},
 		{
 			"rolls": {
-				"min": -2,
+				"min": -3,
 				"max": 1
 			},
 			"entries": [
@@ -137,7 +137,7 @@
 		},
 		{
 			"rolls": {
-				"min": -2,
+				"min": -3,
 				"max": 1
 			},
 			"entries": [

@@ -11,7 +11,7 @@
 							"function": "minecraft:set_name",
 							"name": {
 								"translate": "stellarity.items.armors.shulker_armor.chestplate",
-								"fallback": "Shulker Breastplate",
+								"fallback": "Shulker Chestplate",
 								"color": "#976A97",
 								"italic": false
 							}
@@ -35,13 +35,13 @@
 								},
 								{
 									"translate": "stellarity.items.armors.shulker_armor.set_bonus.2",
-									"fallback": "Incoming damage reduced by 20%",
+									"fallback": "Take less damage when swarmed",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.armors.shulker_armor.set_bonus.3",
-									"fallback": "Immunity to Levitation and Wither",
+									"fallback": "Immunity to Levitation and Weakness",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -88,16 +88,16 @@
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "",
 									"id": "9F3D476D-C118-4544-8365-64846904B48E",
-									"amount": -0.04,
-									"operation": "multiply_base",
+									"amount": -0.02,
+									"operation": "multiply_total",
 									"slot": "chest"
 								},
 								{
 									"attribute": "minecraft:generic.movement_speed",
 									"name": "",
 									"id": "9F3D476D-C118-4544-8365-64846904B48E",
-									"amount": -0.04,
-									"operation": "multiply_base",
+									"amount": -0.02,
+									"operation": "multiply_total",
 									"slot": "chest"
 								}
 							]

@@ -11,7 +11,7 @@
 							"function": "minecraft:set_name",
 							"name": {
 								"translate": "stellarity.items.armors.chorus_champion_armor.chestplate",
-								"fallback": "Chorus Champion Scalemail",
+								"fallback": "Chorus Champion Chestplate",
 								"color": "#A87CC4",
 								"italic": false
 							}

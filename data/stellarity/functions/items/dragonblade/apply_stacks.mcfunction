@@ -2,6 +2,7 @@ execute unless score @s stellarity.items.dragonblade.stacks matches 3.. run scor
 scoreboard players set @s stellarity.items.dragonblade.until_stack_reset 320
 
 tag @s add stellarity.items.dragonblade.has_stacks
+tag @s add stellarity.cooldown_tickdown
 
 playsound minecraft:entity.shulker.shoot player @a[distance=0..] ~ ~ ~ 0.86 0.75
 #playsound minecraft:entity.player.attack.sweep player @a ~ ~ ~ 0.33 0.6

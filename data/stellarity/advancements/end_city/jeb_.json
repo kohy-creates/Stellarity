@@ -8,14 +8,15 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.jeb_.description",
-			"fallback": "Craft all color variants of Shulker Boxes"
+			"fallback": "Craft all color variants of Shulker Boxes",
+			"color": "dark_aqua"
 		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": true
 	},
-	"parent": "stellarity:end_city/colorful_arsenal",
+	"parent": "stellarity:end_city/color_a_shulker_box",
 	"criteria": {
 		"craft1": {
 			"trigger": "minecraft:inventory_changed",

@@ -4,12 +4,30 @@
 		"1": {
 			"trigger": "minecraft:changed_dimension",
 			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:reference",
+							"name": "stellarity:items/holding/spellbooks/return"
+						}
+					}
+				],
 				"to": "minecraft:the_end"
 			}
 		},
 		"2": {
 			"trigger": "minecraft:changed_dimension",
 			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:reference",
+							"name": "stellarity:items/holding/spellbooks/return"
+						}
+					}
+				],
 				"from": "minecraft:the_end"
 			}
 		}

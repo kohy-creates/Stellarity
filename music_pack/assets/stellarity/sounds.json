@@ -6,8 +6,7 @@
 				"stream":true,
 				"volume": 1
 			}
-		],
-		"replace":true
+		]
 	},
 	"music.boss.ender_dragon":{
 		"sounds":[
@@ -16,8 +15,7 @@
 				"stream":true,
 				"volume": 0.5
 			}
-		],
-		"replace":true
+		]
 	},
 	"music.boss.empress_of_light":{
 		"sounds":[
@@ -26,8 +24,7 @@
 				"stream":true,
 				"volume": 0.5
 			}
-		],
-		"replace":true
+		]
 	},
 	"music.kill_dragon":{
 		"sounds":[
@@ -36,8 +33,7 @@
 				"stream":true,
 				"volume": 1
 			}
-		],
-		"replace":true
+		]
 	},
 	"music.create_portal":{
 		"sounds":[
@@ -46,8 +42,7 @@
 				"stream":true,
 				"volume": 1
 			}
-		],
-		"replace":true
+		]
 	},
 	"ambient.end.heavenly.blessed":{
 		"sounds":[
@@ -56,8 +51,7 @@
 				"stream":true,
 				"volume": 0.25
 			}
-		],
-		"replace":true
+		]
 	},
 	"ambient.end.heavenly.grim":{
 		"sounds":[
@@ -66,8 +60,7 @@
 				"stream":true,
 				"volume": 0.25
 			}
-		],
-		"replace":true
+		]
 	},
 	"ambient.end.dark":{
 		"sounds":[
@@ -76,8 +69,7 @@
 				"stream":true,
 				"volume": 0.25
 			}
-		],
-		"replace":true
+		]
 	},
 	"ambient.end.dark.calm":{
 		"sounds":[
@@ -86,7 +78,6 @@
 				"stream":true,
 				"volume": 0.5
 			}
-		],
-		"replace":true
+		]
 	}
 }

@@ -11,7 +11,7 @@
 							"function": "minecraft:set_name",
 							"name": {
 								"translate": "stellarity.items.armors.hallowed_armor.leggings",
-								"fallback": "Hallowed Greaves",
+								"fallback": "Hallowed Leggings",
 								"color": "#FFDD52",
 								"italic": false
 							}

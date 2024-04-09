@@ -1,4 +1,4 @@
-team join stellarity.dragons_eye.pacified @e[type=#stellarity:ender_mobs]
+team join stellarity.dragons_eye.pacified @e[type=#stellarity:pacified_by_dragons_eye]
 team join stellarity.dragons_eye.pacified @s
 
 tag @s add stellarity.items.dragons_eye.holding

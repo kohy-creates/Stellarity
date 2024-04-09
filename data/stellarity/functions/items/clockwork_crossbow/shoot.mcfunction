@@ -38,6 +38,5 @@ playsound minecraft:item.crossbow.shoot player @a[distance=0..] ~ ~1.1 ~ 1 0.8
 execute anchored eyes positioned ^ ^-0.287 ^ run function stellarity:items/clockwork_crossbow/smoke
 
 attribute @s generic.movement_speed modifier add 3104ca38-1839-4eba-9282-48738e7443ea "stellarity.clockwork_crossbow.slowdown" -0.3 multiply
-scoreboard players set @s stellarity.items.clockwork_crossbow.slowdown_time 22
-scoreboard players set @s stellarity.items.clockwork_crossbow.cooldown 7
+scoreboard players set @s stellarity.items.clockwork_crossbow.time_since_last_shot 22
 #scoreboard players set @s stellarity.items.clockwork_crossbow.should_save 0

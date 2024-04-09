@@ -10,7 +10,7 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.absolute_devotion.description",
-			"fallback": "Upgrade your Netherite Hoe to its Shulker version. You have officialy became the master of Husbandry!"
+			"fallback": "Upgrade your Netherite Hoe to its Shulker version. At this point, it's just pure madness..."
 		},
 		"frame": "challenge",
 		"show_toast": true,
@@ -24,6 +24,6 @@
 		}
 	},
 	"rewards": {
-		"experience": 300
+		"experience": 150
 	}
 }

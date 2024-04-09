@@ -10,12 +10,13 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.rare_find.description",
-			"fallback": "Get a rare item from an Illager in the Stronghold"
+			"fallback": "Get a rare item from an Illager in the Stronghold",
+			"color": "aqua"
 		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
-		"hidden": false
+		"hidden": true
 	},
 	"parent": "minecraft:story/follow_ender_eye",
 	"criteria": {

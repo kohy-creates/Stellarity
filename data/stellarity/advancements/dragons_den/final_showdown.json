@@ -5,8 +5,7 @@
 		},
 		"title": {
 			"translate": "stellarity.advancements.final_showdown",
-			"fallback": "Final Showdown",
-			"color": "#7E00B0"
+			"fallback": "Final Showdown"
 		},
 		"description": {
 			"translate": "advancements.end.kill_dragon.description"

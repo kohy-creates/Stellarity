@@ -2,20 +2,20 @@
 	"pools": [
 		{
 			"rolls": {
-				"min": 3,
-				"max": 4
+				"min": 6,
+				"max": 8
 			},
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 25,
+					"weight": 12,
 					"name": "minecraft:sand",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 3,
-								"max": 6
+								"min": 6,
+								"max": 8
 							},
 							"add": false
 						}
@@ -23,14 +23,30 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 15,
+					"weight": 10,
 					"name": "minecraft:kelp",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 3,
-								"max": 4
+								"min": 4,
+								"max": 8
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:tag",
+					"name": "stellarity:pandoras_barrel/prismarine",
+					"expand": true,
+					"weight": 9,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5,
+								"max": 11
 							},
 							"add": false
 						}
@@ -38,14 +54,14 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 17,
+					"weight": 11,
 					"name": "minecraft:seagrass",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 4
+								"min": 4,
+								"max": 8
 							},
 							"add": false
 						}
@@ -53,13 +69,14 @@
 				},
 				{
 					"type": "minecraft:item",
+					"weight": 8,
 					"name": "minecraft:cod",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
-								"max": 2
+								"max": 3
 							},
 							"add": false
 						}
@@ -67,6 +84,7 @@
 				},
 				{
 					"type": "minecraft:item",
+					"weight": 7,
 					"name": "minecraft:tropical_fish",
 					"functions": [
 						{
@@ -81,6 +99,7 @@
 				},
 				{
 					"type": "minecraft:item",
+					"weight": 4,
 					"name": "minecraft:pufferfish",
 					"functions": [
 						{
@@ -94,47 +113,31 @@
 					]
 				},
 				{
-					"type": "minecraft:tag",
-					"name": "kohara:corals",
-					"expand": true,
-					"weight": 10,
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 3,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:tag",
-					"name": "stellarity:pandoras_barrel/prismarine",
-					"expand": true,
-					"weight": 10,
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 3,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
 					"type": "minecraft:item",
-					"name": "minecraft:sea_pickle",
-					"weight": 10,
+					"weight": 7,
+					"name": "minecraft:ink_sac",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 2,
 								"max": 4
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:tag",
+					"name": "stellarity:pandoras_barrel/coral",
+					"expand": true,
+					"weight": 7,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 5
 							},
 							"add": false
 						}

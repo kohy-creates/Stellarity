@@ -23,6 +23,6 @@
 		}
 	},
 	"rewards": {
-		"function": "stellarity:sfx/end_portal_animation/fill_end_portal_frame"
+		"function": "stellarity:sfx/end_portal/fill_end_portal_frame"
 	}
 }

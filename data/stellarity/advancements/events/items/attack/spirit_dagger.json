@@ -7,7 +7,7 @@
 				"player": [
 					{
 						"condition": "minecraft:reference",
-						"name": "stellarity:items/spirit_dagger/holding_any"
+						"name": "stellarity:items/holding/spirit_dagger/any"
 					}
 				],
 				"damage": {

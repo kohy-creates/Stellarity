@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "stellarity:items/pandoras_barrel/use"
+		"function": "stellarity:items/pandoras_barrel/place"
 	}
 }

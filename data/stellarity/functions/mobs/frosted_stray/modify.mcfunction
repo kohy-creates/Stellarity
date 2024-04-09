@@ -10,7 +10,6 @@ attribute @s minecraft:generic.knockback_resistance modifier add 46741a9f-4fbf-4
 attribute @s minecraft:generic.movement_speed modifier add ac60d56a-76b2-4e45-8321-b2c9c08303df "stellarity.movement_speed" 0.05 multiply
 attribute @s minecraft:generic.follow_range modifier add 5c71dae2-ad6e-4d51-8d18-7bb74abbdbc1 "stellarity.follow_range" 0.33 multiply
 
-data modify entity @s Health set value 22.0f
-data modify entity @s DeathLootTable set value "stellarity:mobs/frosted_stray"
+data merge entity @s {Health:22.0f,DeathLootTable:"stellarity:mobs/frosted_stray"}
 
 item replace entity @s armor.feet with leather_boots{display:{color:4355780}}

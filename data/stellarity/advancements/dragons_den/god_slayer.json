@@ -1,12 +1,12 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:netherite_axe"
+			"item": "minecraft:netherite_axe",
+			"nbt": "{CustomModelData:90000}"
 		},
 		"title": {
 			"translate": "stellarity.advancements.god_slayer",
-			"fallback": "God Slayer",
-			"color": "#D400FF"
+			"fallback": "God Slayer"
 		},
 		"description": {
 			"translate": "stellarity.advancements.god_slayer.description",

@@ -5,7 +5,7 @@ data remove storage stellarity:temp natures_wrath.spirits
 data modify storage stellarity:temp natures_wrath.spirits set from entity @s SelectedItem.tag."stellarity.spirits"
 execute store result score #upgrades stellarity.misc run data get storage stellarity:temp natures_wrath.spirits
 
-execute at @s run function stellarity:items/spellbooks/natures_wrath/wolves/spawn
+function stellarity:items/spellbooks/natures_wrath/wolves/spawn
 
 function stellarity:items/spellbooks/effects_all
 playsound minecraft:entity.evoker.cast_spell player @a[distance=0..]

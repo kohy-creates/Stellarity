@@ -1,6 +1,6 @@
-execute store result entity @s Rotation[0] float 1 run loot spawn ~ ~ ~ loot kohara:random_rotation
+execute store result entity @s Rotation[0] float 1 run random value 0..360
 
-execute unless entity @e[type=vindicator,limit=1,sort=nearest,tag=stellarity.eol.daytime] store result score @s stellarity.misc run loot spawn ~ ~ ~ loot kohara:eol/color
+execute unless entity @e[type=vindicator,limit=1,sort=nearest,tag=stellarity.eol.daytime] store result score @s stellarity.misc run random value 0..7
 
 execute if score @s stellarity.misc matches 0 run tag @s add stellarity.eol.prismatic_bolt.red
 execute if score @s stellarity.misc matches 1 run tag @s add stellarity.eol.prismatic_bolt.orange

@@ -1,5 +1,12 @@
-name: Stellarity-DP-DEV
-on: [push]
+name: Build Datapack
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'data/**'
+      - 'overlay_1_20_2/**'
+
 jobs:
   build:
     runs-on: ubuntu-latest

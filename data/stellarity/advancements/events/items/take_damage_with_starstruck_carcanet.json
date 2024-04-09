@@ -7,7 +7,7 @@
 				"player": [
 					{
 						"condition": "minecraft:reference",
-						"name": "stellarity:items/trinkets/holding_starstruck_carcanet"
+						"name": "stellarity:items/holding/trinkets/starstruck_carcanet"
 					}
 				],
 				"damage": {

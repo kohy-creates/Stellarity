@@ -8,4 +8,4 @@ scoreboard players reset @s stellarity.dot.prismatic_inferno.had_visual_fire
 
 tag @s remove stellarity.prismatic_inferno.burning
 
-function kohara:dot/stop_ticking
+function kohara:status_effect/stop_ticking

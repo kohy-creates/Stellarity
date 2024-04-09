@@ -1,8 +1,8 @@
 {
 	"replace": false,
 	"values": [
-		"#kohara:undead",
-		"#kohara:illagers",
+		"#minecraft:undead",
+		"#minecraft:illagers",
 		"#kohara:nether",
 		"minecraft:cave_spider",
 		"minecraft:creeper",

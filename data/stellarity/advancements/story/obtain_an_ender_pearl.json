@@ -9,7 +9,7 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.obtain_ender_pearl.description",
-			"fallback": "Get an Ender Pearl - a core element of your journey"
+			"fallback": "Pick up an Ender Pearl..."
 		},
 		"frame": "goal",
 		"show_toast": true,

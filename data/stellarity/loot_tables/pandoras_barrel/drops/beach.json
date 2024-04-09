@@ -2,14 +2,29 @@
 	"pools": [
 		{
 			"rolls": {
-				"min": 3,
-				"max": 4
+				"min": 6,
+				"max": 8
 			},
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 25,
+					"weight": 12,
 					"name": "minecraft:sand",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 6,
+								"max": 10
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 9,
+					"name": "minecraft:seagrass",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -23,77 +38,42 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 15,
-					"name": "minecraft:kelp",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 17,
-					"name": "minecraft:seagrass",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:cod",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:tropical_fish",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": 1,
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:pufferfish",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": 1,
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
+					"weight": 2,
 					"name": "minecraft:scute",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": 1,
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"name": "minecraft:prismarine_shard",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count":  {
+								"min": 2,
+								"max": 6
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "minecraft:prismarine_crystals",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count":  {
+								"min": 2,
+								"max": 4
+							},
 							"add": false
 						}
 					]

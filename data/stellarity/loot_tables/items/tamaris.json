@@ -36,12 +36,6 @@
 									"color": "#EEEEEE",
 									"italic": false
 								},
-								{
-									"translate": "stellarity.items.weapons.tamaris.description.3",
-									"fallback": "Hit enemies slowly decay away",
-									"color": "#EEEEEE",
-									"italic": false
-								},
 								"",
 								{
 									"translate": "stellarity.items.weapons.tamaris.flavor_text",
@@ -73,7 +67,7 @@
 										"translate": "attribute.modifier.equals.0",
 										"with": [
 											{
-												"text": "6"
+												"text": "7"
 											},
 											{
 												"translate": "attribute.name.generic.attack_damage"
@@ -89,7 +83,7 @@
 										"translate": "attribute.modifier.equals.0",
 										"with": [
 											{
-												"text": "1.4"
+												"text": "1.6"
 											},
 											{
 												"translate": "attribute.name.generic.attack_speed"
@@ -108,7 +102,7 @@
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "",
 									"id": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF",
-									"amount": 5,
+									"amount": 6,
 									"operation": "addition",
 									"slot": "mainhand"
 								},
@@ -116,7 +110,7 @@
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "",
 									"id": "FA233E1C-4180-4865-B01B-BCCE9785ACA3",
-									"amount": -2.6,
+									"amount": -2.4,
 									"operation": "addition",
 									"slot": "mainhand"
 								}

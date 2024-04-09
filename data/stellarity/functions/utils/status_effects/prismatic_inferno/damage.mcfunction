@@ -1,11 +1,14 @@
-scoreboard players operation #damage kohara.misc = @s stellarity.dot.prismatic_inferno.damage
+scoreboard players set #damage kohara.misc 15
 
-execute if entity @s[type=#kohara:undead] run scoreboard players operation #damage kohara.misc += @s stellarity.dot.prismatic_inferno.damage
+# Double damage to undead mobs
+execute if entity @s[type=#minecraft:undead] run scoreboard players operation #damage kohara.misc += #damage kohara.misc
 
 scoreboard players reset @s stellarity.dot.prismatic_inferno.progress
 
+# Particles cycle between the colors of the rainbow
+# The cycle actually resumes from where it ended
+# if the effect is reapplied
 scoreboard players add @s stellarity.dot.prismatic_inferno.particle_cycle 1
-
 execute if score @s stellarity.dot.prismatic_inferno.particle_cycle matches 1 run \
 	particle dust 0.98 0.243 0.243 1.4 ~ ~1 ~ .3 .55 .3 0 12 force @a[distance=..32]
 execute if score @s stellarity.dot.prismatic_inferno.particle_cycle matches 2 run \
@@ -29,6 +32,8 @@ scoreboard players reset @s[scores={stellarity.dot.prismatic_inferno.particle_cy
 
 playsound minecraft:block.amethyst_cluster.break neutral @a[distance=0..] ~ ~ ~
 
-tag @p add kohara.attacker
+execute unless entity @s[type=player] run tag @p add kohara.attacker
+
+data modify entity @s Fire set value 1s
 
 function kohara:damage/calculate {armor_penetration:0,damage_boost_efficiency:0,damage_type:"stellarity:dot/prismatic_inferno",tag:"stellarity.damage.dot.prismatic_inferno"}

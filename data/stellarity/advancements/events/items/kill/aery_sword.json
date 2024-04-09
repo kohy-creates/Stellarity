@@ -170,7 +170,7 @@
 					}
 				},
 				"entity": {
-					"nbt": "{Tags:[\"stellarity.boss\"]}",
+					"nbt": "{Tags:[\"kohara.boss\"]}",
 					"distance": {
 						"absolute": {
 							"max": 6.5

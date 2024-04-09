@@ -7,7 +7,7 @@ execute if score #stellarity.config stellarity.config.always_generate_egg matche
 execute if score @s stellarity.dragon.times_killed matches 1 run particle minecraft:poof ~ ~5 ~ 0 0 0 0.3 50 force
 
 # Generate End Gateways
-execute unless score #stellarity.exit_gateway_count stellarity.misc matches 20.. run function far_end:structures/exit_portal/gateway/choose_location
+function far_end:structures/exit_portal/gateway/choose_location
 
 # Disable bossbar
 bossbar set stellarity:ender_dragon players

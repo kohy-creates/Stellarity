@@ -28,31 +28,19 @@
 								"",
 								{
 									"translate": "stellarity.items.weapons.sharanga.description.1",
-									"fallback": "Converts Spectral Arrows into",
+									"fallback": "Spectral Arrows travel in a straight",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.sharanga.description.2",
-									"fallback": "Spectral Bolts which travel",
+									"fallback": "line and deal increased damage",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.sharanga.description.3",
-									"fallback": "in a straight line",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.weapons.sharanga.description.4",
-									"fallback": "25% chance to save Spectral Arrows,",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.weapons.sharanga.description.5",
-									"fallback": "doubles with Infinity enchantment",
+									"fallback": "25% chance to save Spectral Arrows",
 									"color": "#EEEEEE",
 									"italic": false
 								},

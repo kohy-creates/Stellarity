@@ -23,22 +23,8 @@
 								},
 								{
 									"translate": "stellarity.items.trinkets.ender_insignia.description.2",
-									"fallback": "Bonus starts weak and slowly increases",
+									"fallback": "Bonus starts weak and slowly increases in strength",
 									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.trinkets.ender_insignia.description.3",
-									"fallback": "Standing up or being hurt resets it",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								"",
-								{
-									"translate": "stellarity.items.trinkets.ender_insignia.description.4",
-									"fallback": "The Dragon's Power is within your hands",
-									"color": "dark_purple",
-									"font": "illageralt",
 									"italic": false
 								},
 								"",

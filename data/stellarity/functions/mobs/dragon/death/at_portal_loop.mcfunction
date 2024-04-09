@@ -1,8 +1,7 @@
-data modify entity @s Invulnerable set value 0b
 tag @s add stellarity.at_portal
 tag @s remove stellarity.to_portal
 
-data modify entity @s DragonPhase set value 6
+data merge entity @s {DragonPhase:6,Invulnerable:0b}
 
 execute rotated as @s run tp @s 0 67 0 ~ ~
 

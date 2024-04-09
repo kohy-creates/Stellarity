@@ -40,7 +40,7 @@
 								},
 								{
 									"translate": "stellarity.items.weapons.frigid_harvester.description.4",
-									"fallback": "Gets less damage the more souls it absorbs",
+									"fallback": "The more souls it absorbs, the less damage it gets",
 									"color": "#EEEEEE",
 									"italic": false
 								},

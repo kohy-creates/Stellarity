@@ -1,23 +1,22 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:chorus_flower",
-			"nbt": "{Enchantments:[{}]}"
+			"item": "minecraft:chorus_flower"
 		},
 		"title": {
-			"translate": "stellarity.advancements.plant_chorus_fruit_2",
-			"fallback": "Otherworldy Botanist"
+			"translate": "stellarity.advancements.otherwordly_botanist",
+			"fallback": "Otherwordly Botanist"
 		},
 		"description": {
-			"translate": "stellarity.advancements.plant_chorus_fruit_2.description",
-			"fallback": "Plant a Chorus Flower in every of the 3 dimensions"
+			"translate": "stellarity.advancements.otherwordly_botanist.description",
+			"fallback": "Plant a Chorus Flower in every dimension"
 		},
-		"frame": "challenge",
+		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "stellarity:husbandry/plant_chorus",
+	"parent": "minecraft:husbandry/root",
 	"criteria": {
 		"plant_chorus_fruit_overworld":  {
 			"trigger": "minecraft:placed_block",
@@ -93,8 +92,5 @@
 		[
 			"plant_chorus_fruit_nether"
 		]
-	],
-	"rewards": {
-		"experience": 50
-	}
+	]
 }

@@ -39,14 +39,9 @@ execute store result score #temp_1 stellarity.misc run data get entity @s Select
 execute store result score #temp_2 stellarity.misc run data get entity @s Inventory[{Slot:-106b}].tag.Enchantments.[{id:"minecraft:bane_of_arthropods"}].lvl 1
 scoreboard players operation #temp_1 stellarity.misc += #temp_2 stellarity.misc
 scoreboard players operation #bane stellarity.misc = #temp_1 stellarity.misc
-# Sharpness
-execute store result score #temp_1 stellarity.misc run data get entity @s SelectedItem.tag.Enchantments.[{id:"minecraft:sharpness"}].lvl 1
-execute store result score #temp_2 stellarity.misc run data get entity @s Inventory[{Slot:-106b}].tag.Enchantments.[{id:"minecraft:sharpness"}].lvl 1
-scoreboard players operation #temp_1 stellarity.misc += #temp_2 stellarity.misc
-scoreboard players operation #sharpness stellarity.misc = #temp_1 stellarity.misc
 
 # Damage
-execute as @e[type=!#kohara:invalid_targets,distance=..3.8,predicate=!stellarity:items/spirit_dagger/holding_both,predicate=!kohara:player/is_sneaking] at @s run function stellarity:items/spirit_dagger/effects/damage
+execute as @e[type=!#kohara:invalid_targets,distance=..3.8,predicate=!stellarity:items/holding/spirit_dagger/both,predicate=!kohara:player/is_sneaking] at @s run function stellarity:items/spirit_dagger/effects/damage
 
 # Teleport slash effect
 function stellarity:items/spirit_dagger/effects/teleport/slash
@@ -54,3 +49,4 @@ function stellarity:items/spirit_dagger/effects/teleport/slash
 # Kill Spirit
 kill @e[type=armor_stand,limit=1,sort=nearest,tag=stellarity.spirit_dagger.spirit]
 kill @e[type=interaction,limit=1,sort=nearest,tag=stellarity.spirit_dagger.spirit]
+kill @e[type=marker,limit=1,sort=nearest,tag=stellarity.spirit_dagger.spirit]

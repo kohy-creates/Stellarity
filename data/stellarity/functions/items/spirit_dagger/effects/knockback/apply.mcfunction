@@ -3,7 +3,7 @@ execute store result score @s stellarity.misc.motion.y1 run data get entity @s P
 execute store result score @s stellarity.misc.motion.z1 run data get entity @s Pos.[2] 1000
 
 scoreboard players reset #times stellarity.misc
-execute facing entity @p[predicate=stellarity:items/spirit_dagger/holding_both] feet rotated ~180 0 run function stellarity:items/spirit_dagger/effects/knockback/get_distance
+execute facing entity @p[predicate=stellarity:items/holding/spirit_dagger/both] feet rotated ~180 0 run function stellarity:items/spirit_dagger/effects/knockback/get_distance
 
 execute store result score @s stellarity.misc.motion.x2 run data get entity @s Pos.[0] 1000
 execute store result score @s stellarity.misc.motion.y2 run data get entity @s Pos.[1] 1000

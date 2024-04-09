@@ -19,7 +19,16 @@
 			"probability": 0.012
 		}
 	},
-	"spawners": {},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:enderman",
+				"weight": 20,
+				"minCount": 1,
+				"maxCount": 2
+			}
+		]
+	},
 	"spawn_costs": {},
 	"carvers": {
 		"air": [

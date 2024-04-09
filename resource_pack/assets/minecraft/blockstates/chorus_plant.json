@@ -224,7 +224,7 @@
 				"down": "false"
 			},
 			"apply": {
-				"model": "minecraft:block/chorus_plant/hanging_leaves"
+				"model": "stellarity:block/chorus_plant_hanging_leaves"
 			}
 		},
 		{
@@ -233,7 +233,7 @@
 				"down": "false"
 			},
 			"apply": {
-				"model": "minecraft:block/chorus_plant/hanging_leaves",
+				"model": "stellarity:block/chorus_plant_hanging_leaves",
 				"y": 90,
 				"uvlock": true
 			}
@@ -244,7 +244,7 @@
 				"down": "false"
 			},
 			"apply": {
-				"model": "minecraft:block/chorus_plant/hanging_leaves",
+				"model": "stellarity:block/chorus_plant_hanging_leaves",
 				"y": 180,
 				"uvlock": true
 			}
@@ -255,7 +255,7 @@
 				"down": "false"
 			},
 			"apply": {
-				"model": "minecraft:block/chorus_plant/hanging_leaves",
+				"model": "stellarity:block/chorus_plant_hanging_leaves",
 				"y": 270,
 				"uvlock": true
 			}

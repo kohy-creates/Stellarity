@@ -17,7 +17,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 7,
+					"weight": 5,
 					"name": "minecraft:blaze_rod",
 					"functions": [
 						{

@@ -9,7 +9,7 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.craft_ender_eye.description",
-			"fallback": "Fuse Blaze Powder with an Ender Pearl"
+			"fallback": "...and fuse it with some Blaze Powder"
 		},
 		"frame": "goal",
 		"show_toast": true,

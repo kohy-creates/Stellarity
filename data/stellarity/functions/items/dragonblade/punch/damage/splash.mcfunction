@@ -5,7 +5,7 @@ scoreboard players operation #enchant_splash stellarity.misc *= #mul stellarity.
 scoreboard players set #damage kohara.misc 40
 scoreboard players operation #damage kohara.misc += #enchant_splash stellarity.misc
 
-tag @p[predicate=stellarity:items/holding_dragonblade,predicate=kohara:player/is_sneaking] add kohara.attacker
+tag @p[predicate=stellarity:items/holding/dragonblade,predicate=kohara:player/is_sneaking] add kohara.attacker
 
 effect give @s weakness 3 0 false
 

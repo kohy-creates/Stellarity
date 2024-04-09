@@ -3,7 +3,7 @@ execute as @e[type=marker,limit=1,sort=nearest,tag=stellarity.eol.ethereal_lance
 
 scoreboard players reset #ethereal_lance.color stellarity.misc
 
-execute unless entity @e[type=vindicator,limit=1,sort=nearest,tag=stellarity.eol.daytime] store result score #ethereal_lance.color stellarity.misc run loot spawn ~ ~ ~ loot kohara:eol/color
+execute unless entity @e[type=vindicator,limit=1,sort=nearest,tag=stellarity.eol.daytime] store result score #ethereal_lance.color stellarity.misc run random value 0..7
 
 execute if score #ethereal_lance.color stellarity.misc matches 0 run tag @e[type=marker,limit=1,sort=nearest,tag=stellarity.eol.ethereal_lance] add stellarity.eol.ethereal_lance.red
 execute if score #ethereal_lance.color stellarity.misc matches 1 run tag @e[type=marker,limit=1,sort=nearest,tag=stellarity.eol.ethereal_lance] add stellarity.eol.ethereal_lance.orange

@@ -7,9 +7,8 @@ scoreboard objectives remove stellarity.items.dragonblade.stacks
 scoreboard objectives remove stellarity.items.dragonblade.until_stack_reset
 scoreboard objectives remove stellarity.items.dragonblade.punch_progress
 scoreboard objectives remove stellarity.items.dragonblade.until_punch_reset
-scoreboard objectives remove stellarity.items.dragonblade.misc_cooldown
 
-scoreboard objectives remove stellarity.items.pandoras_barrel.raycast
+scoreboard objectives remove stellarity.misc
 scoreboard objectives remove stellarity.items.pandoras_barrel.animation
 scoreboard objectives remove stellarity.items.pandoras_barrel.summon_id
 
@@ -17,9 +16,6 @@ scoreboard objectives remove stellarity.items.armors.holy_protection_cooldown
 scoreboard objectives remove stellarity.items.armors.chorus_champion_armor.combo
 scoreboard objectives remove stellarity.items.armors.chorus_champion_armor.until_combo_reset
 
-scoreboard objectives remove stellarity.items.sharanga.arrow_age
-
-scoreboard objectives remove stellarity.items.clockwork_crossbow.arrow_amount
 scoreboard objectives remove stellarity.items.clockwork_crossbow.slowdown_time
 scoreboard objectives remove stellarity.items.clockwork_crossbow.cooldown
 scoreboard objectives remove stellarity.items.clockwork_crossbow.should_save

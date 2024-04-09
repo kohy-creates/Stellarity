@@ -13,7 +13,7 @@
 				"entries": [
 					{
 						"data": {
-							"Name": "minecraft:grass"
+							"Name": "minecraft:short_grass"
 						},
 						"weight": 16
 					},
@@ -42,7 +42,7 @@
 				{
 					"type": "would_survive",
 					"state": {
-						"Name": "minecraft:grass"
+						"Name": "minecraft:short_grass"
 					}
 				}
 				]

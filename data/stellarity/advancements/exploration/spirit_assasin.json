@@ -1,8 +1,8 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:diamond_sword",
-			"nbt": "{CustomModelData:90000}"
+			"item": "minecraft:netherite_sword",
+			"nbt": "{CustomModelData:90006}"
 		},
 		"title": {
 			"translate": "stellarity.advancements.spirit_assasin",
@@ -10,7 +10,7 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.spirit_assasin.description",
-			"fallback": "Teleport over 60 blocks with a pair of Spirit Daggers"
+			"fallback": "Teleport over 60 blocks with The Beginning and The End"
 		}
 	},
 	"parent": "minecraft:end/enter_end_gateway",

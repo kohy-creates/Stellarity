@@ -1,6 +1,6 @@
 scoreboard players add @s stellarity.dot.prismatic_inferno.progress 1
 
-execute if score @s stellarity.dot.prismatic_inferno.progress = @s stellarity.dot.prismatic_inferno.delay run function stellarity:utils/status_effects/prismatic_inferno/damage
+execute if score @s stellarity.dot.prismatic_inferno.progress matches 20 run function stellarity:utils/status_effects/prismatic_inferno/damage
 
 scoreboard players remove @s stellarity.dot.prismatic_inferno.time 1
 

@@ -8,3 +8,4 @@ data merge entity @s {Item:{tag:{kohara.fireproof:1b,display:{Name:\
 
 team join stellarity.purple_glow @s
 tag @s add stellarity.boss_drop
+tag @s add stellarity.item

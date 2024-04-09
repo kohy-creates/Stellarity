@@ -99,20 +99,14 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/spirit_dagger"
+					"name": "stellarity:items/elytra/phantom_mantle"
 				}
 			],
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance_with_looting",
-					"chance": 0.065,
-					"looting_multiplier": 0.007
-				},
-				{
-					"condition": "minecraft:location_check",
-					"predicate": {
-						"dimension": "minecraft:the_end"
-					}
+					"chance": 0.025,
+					"looting_multiplier": 0.01
 				}
 			]
 		}

@@ -15,7 +15,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "minecraft:end/find_end_city",
+	"parent": "stellarity:end_city/crystal_crusher",
 	"criteria": {
 		"elytra": {
 			"trigger": "minecraft:inventory_changed",

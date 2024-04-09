@@ -2,8 +2,8 @@
 	"pools": [
 		{
 			"rolls": {
-				"min": 3,
-				"max": 4
+				"min": 6,
+				"max": 9
 			},
 			"entries": [
 				{
@@ -14,8 +14,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 5
+								"min": 3,
+								"max": 6
 							},
 							"add": false
 						}
@@ -29,8 +29,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 5
+								"min": 3,
+								"max": 6
 							},
 							"add": false
 						}
@@ -38,14 +38,14 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
+					"weight": 8,
 					"name": "minecraft:brown_mushroom_block",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 4,
-								"max": 6
+								"min": 7,
+								"max": 12
 							},
 							"add": false
 						}
@@ -53,14 +53,14 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
+					"weight": 8,
 					"name": "minecraft:red_mushroom_block",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 4,
-								"max": 6
+								"min": 7,
+								"max": 12
 							},
 							"add": false
 						}
@@ -68,14 +68,44 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
+					"weight": 8,
 					"name": "minecraft:mushroom_stem",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 4,
-								"max": 6
+								"min": 7,
+								"max": 12
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 7,
+					"name": "minecraft:mycelium",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5,
+								"max": 9
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "minecraft:dirt",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5,
+								"max": 11
 							},
 							"add": false
 						}

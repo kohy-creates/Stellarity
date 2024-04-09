@@ -6,11 +6,11 @@
 		},
 		"title": {
 			"translate": "stellarity.advancements.charge_anchor_end",
-			"fallback": "A Ship in The Sea of Eternity"
+			"fallback": "Anchored"
 		},
 		"description": {
 			"translate": "stellarity.advancements.charge_anchor_end.description",
-			"fallback": "Fully charge a Respawn Anchor in The End. You can use it to set your respawn point there just like in The Nether"
+			"fallback": "Charge a Respawn Anchor in The End. You can use it to set your respawn point there just like in The Nether"
 		},
 		"frame": "task",
 		"show_toast": true,
@@ -30,10 +30,7 @@
 							"block": {
 								"blocks": [
 									"minecraft:respawn_anchor"
-								],
-								"state": {
-									"charges": "4"
-								}
+								]
 							}
 						}
 					},

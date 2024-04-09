@@ -6,7 +6,7 @@
 				"player": [
 					{
 						"condition": "minecraft:reference",
-						"name": "stellarity:items/trinkets/holding_flesh"
+						"name": "stellarity:items/holding/trinkets/flesh"
 					}
 				],
 				"damage": {

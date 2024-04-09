@@ -4,8 +4,6 @@ attribute @s minecraft:generic.armor modifier add 0d9d2682-dc1f-45c6-afcc-1a517b
 attribute @s minecraft:generic.knockback_resistance modifier add 46741a9f-4fbf-49ed-8d82-4abc27db6a67 "stellarity.knockback_resistance" 0.2 add
 attribute @s minecraft:generic.follow_range modifier add 5c71dae2-ad6e-4d51-8d18-7bb74abbdbc1 "stellarity.follow_range" 0.33 multiply
 
-data modify entity @s Health set value 24.0f
-data modify entity @s Size set value 1
-data modify entity @s DeathLootTable set value "stellarity:mobs/buffed/phantom"
+data merge entity @s {Health:24.0f,Size:1,DeathLootTable:"stellarity:mobs/buffed/phantom"}
 
 team join stellarity.phantom_glow @s

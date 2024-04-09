@@ -1,78 +1,13 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:light_blue_wool"
+			"item": "minecraft:amethyst_cluster",
+			"nbt": "{Enchantments:[]}"
 		},
-		"title": [
-			{
-				"text": "H",
-				"color": "red"
-			},
-			{
-				"text": "a",
-				"color": "#eb7139"
-			},
-			{
-				"text": "l",
-				"color": "gold"
-			},
-			{
-				"text": "l",
-				"color": "#ebd039"
-			},
-			{
-				"text": "o",
-				"color": "yellow"
-			},
-			{
-				"text": "w",
-				"color": "#9efe3f"
-			},
-			{
-				"text": "e",
-				"color": "green"
-			},
-			{
-				"text": "d ",
-				"color": "#1fde7e"
-			},
-			{
-				"text": "B",
-				"color": "dark_aqua"
-			},
-			{
-				"text": "e ",
-				"color": "#1fdede"
-			},
-			{
-				"text": "T",
-				"color": "aqua"
-			},
-			{
-				"text": "h",
-				"color": "#3f9efe"
-			},
-			{
-				"text": "y ",
-				"color": "blue"
-			},
-			{
-				"text": "N",
-				"color": "#9e3ffe"
-			},
-			{
-				"text": "a",
-				"color": "light_purple"
-			},
-			{
-				"text": "m",
-				"color": "#de1fde"
-			},
-			{
-				"text": "e",
-				"color": "dark_purple"
-			}
-		],
+		"title": {
+			"translate": "stellarity.advancements.enter_hallow",
+			"fallback": "Hallowed Be Thy Name"
+		},
 		"description": [
 			{
 				"text": "'",
@@ -345,12 +280,12 @@
 				"italic": true
 			}
 		],
-		"frame": "goal",
+		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": true
 	},
-	"parent": "stellarity:exploration/ender_adventurer",
+	"parent": "minecraft:end/enter_end_gateway",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:location",

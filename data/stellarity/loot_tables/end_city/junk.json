@@ -4,9 +4,8 @@
 		{
 			"rolls": {
 				"min": 4,
-				"max": 7
+				"max": 6
 			},
-			"bonus_rolls": 0,
 			"entries": [
 				{
 					"type": "minecraft:item",
@@ -42,7 +41,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
+					"weight": 7,
 					"name": "minecraft:stick",
 					"functions": [
 						{
@@ -57,7 +56,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
+					"weight": 6,
 					"name": "minecraft:dead_bush",
 					"functions": [
 						{
@@ -72,7 +71,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 4,
+					"weight": 5,
 					"name": "minecraft:beetroot_seeds",
 					"functions": [
 						{
@@ -88,7 +87,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
+					"weight": 5,
 					"name": "minecraft:chorus_fruit",
 					"functions": [
 						{
@@ -104,7 +103,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
+					"weight": 4,
 					"name": "minecraft:obsidian",
 					"functions": [
 						{
@@ -119,7 +118,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
+					"weight": 4,
 					"quality": 1,
 					"name": "minecraft:crying_obsidian",
 					"functions": [
@@ -135,7 +134,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
+					"weight": 6,
 					"name": "minecraft:purpur_block",
 					"functions": [
 						{
@@ -150,8 +149,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 6,
-					"quality": -1,
+					"weight": 7,
 					"name": "minecraft:end_stone",
 					"functions": [
 						{
@@ -170,8 +168,13 @@
 					"name": "minecraft:wither_rose"
 				},
 				{
+					"type": "minecraft:loot_table",
+					"quality": 1,
+					"name": "stellarity:items/materials/enderite_shard"
+				},
+				{
 					"type": "minecraft:item",
-					"weight": 2,
+					"weight": 4,
 					"name": "minecraft:amethyst_shard"
 				}
 			]

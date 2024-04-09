@@ -6,7 +6,7 @@ issueTrackerURL = "https://discord.kohara.xyz/"
 
 [[mods]]
 modId = "stellarity" 
-version = "2.1b"
+version = "2.2.1"
 displayName = "Stellarity"
 displayURL = "https://modrinth.com/datapack/stellarity"
 description = '''
@@ -22,6 +22,6 @@ authors = "kohara"
 [[dependencies.stellarity]]
 	modId="minecraft"
 	mandatory=true
-	versionRange="[1.20,2.20.2]"
+	versionRange="[1.20.2,1.20.4]"
 	ordering="AFTER"
 	side="BOTH"

@@ -6,8 +6,7 @@
 		},
 		"title": {
 			"translate": "stellarity.advancements.cursed_crafting",
-			"fallback": "Cursed Crafting",
-            "color": "#A700F0"
+			"fallback": "Cursed Crafting"
 		},
 		"description": [
 			{

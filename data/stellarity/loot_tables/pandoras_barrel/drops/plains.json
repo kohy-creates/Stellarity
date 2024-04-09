@@ -2,20 +2,20 @@
 	"pools": [
 		{
 			"rolls": {
-				"min": 3,
-				"max": 4
+				"min": 6,
+				"max": 8
 			},
 			"entries": [
 				{
 					"type": "minecraft:item",
 					"weight": 8,
-					"name": "minecraft:grass",
+					"name": "minecraft:short_grass",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 4
+								"min": 4,
+								"max": 9
 							},
 							"add": false
 						}
@@ -26,7 +26,7 @@
 					"children": [
 						{
 							"type": "minecraft:tag",
-							"weight": 10,
+							"weight": 8,
 							"name": "stellarity:pandoras_barrel/flowers/plains",
 							"expand": true,
 							"functions": [
@@ -93,28 +93,10 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 4
+								"min": 3,
+								"max": 6
 							},
 							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:bee_spawn_egg",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": 1,
-							"add": false,
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.1
-								}
-							]
 						}
 					]
 				}

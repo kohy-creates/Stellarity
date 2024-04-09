@@ -339,7 +339,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.head_id:16,stellarity.special_item:\"treasure_head\",SkullOwner:\"Bush__Lord\"}"
+							"tag": "{stellarity.head_id:16,stellarity.special_item:\"treasure_head\",SkullOwner:\"Bush_Lord\"}"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -2415,7 +2415,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.head_id:110,stellarity.special_item:\"treasure_head\",SkullOwner:\"Bush__Lord\"}"
+							"tag": "{stellarity.head_id:110,stellarity.special_item:\"treasure_head\",SkullOwner:\"Bush_Lord\"}"
 						},
 						{
 							"function": "minecraft:set_lore",

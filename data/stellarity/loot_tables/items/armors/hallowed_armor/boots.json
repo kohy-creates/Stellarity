@@ -11,7 +11,7 @@
 							"function": "minecraft:set_name",
 							"name": {
 								"translate": "stellarity.items.armors.hallowed_armor.boots",
-								"fallback": "Hallowed Treads",
+								"fallback": "Hallowed Boots",
 								"color": "#FFDD52",
 								"italic": false
 							}

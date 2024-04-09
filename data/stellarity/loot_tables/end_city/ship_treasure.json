@@ -2,7 +2,7 @@
 	"type": "minecraft:chest",
 	"pools": [
 		{
-			"rolls": 3,
+			"rolls": 4,
 			"bonus_rolls": 0,
 			"entries": [
 				{
@@ -89,8 +89,8 @@
 		},
 		{
 			"rolls": {
-				"min": 2,
-				"max": 3
+				"min": 3,
+				"max": 4
 			},
 			"bonus_rolls": 0,
 			"entries": [

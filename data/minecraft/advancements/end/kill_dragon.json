@@ -1,11 +1,11 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:netherite_sword"
+			"item": "minecraft:netherite_sword",
+			"nbt": "{CustomModelData:90001}"
 		},
 		"title": {
-			"translate": "advancements.end.kill_dragon.title",
-			"color": "#D400FF"
+			"translate": "advancements.end.kill_dragon.title"
 		},
 		"description": {
 			"translate": "stellarity.advancements.kill_dragon.description",

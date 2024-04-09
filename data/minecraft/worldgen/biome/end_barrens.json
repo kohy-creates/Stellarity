@@ -33,9 +33,15 @@
 		"monster": [
 			{
 				"type": "minecraft:silverfish",
-				"weight": 40,
-				"minCount": 4,
-				"maxCount": 4
+				"weight": 20,
+				"minCount": 3,
+				"maxCount": 3
+			},
+			{
+				"type": "minecraft:phantom",
+				"weight": 5,
+				"minCount": 1,
+				"maxCount": 2
 			},
 			{
 				"type": "minecraft:enderman",

@@ -11,7 +11,7 @@
 							"function": "minecraft:set_name",
 							"name": {
 								"translate": "stellarity.items.armors.chorus_champion_armor.helmet",
-								"fallback": "Chorus Champion Helm",
+								"fallback": "Chorus Champion Helmet",
 								"color": "#A87CC4",
 								"italic": false
 							}

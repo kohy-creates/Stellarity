@@ -9,7 +9,7 @@
 						"condition": "minecraft:inverted",
 						"term": {
 							"condition": "minecraft:reference",
-							"name": "stellarity:items/wearing_full_shulker_armor"
+							"name": "stellarity:items/armor/wearing_full_shulker_armor"
 						}
 					}
 				],

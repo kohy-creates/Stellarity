@@ -12,7 +12,7 @@ particle minecraft:sweep_attack ~-1.25 ~ ~-1.25 0 0.2 0 0 1 force @a[distance=..
 particle explosion ~ ~ ~
 particle flash ~ ~ ~
 particle end_rod ~ ~ ~ 0 0 0 0.1 10
-particle soul_fire_flame ~ ~ ~ 0 0 0 0.1 16
+particle dragon_breath ~ ~ ~ 0 0 0 0.1 16
 
 function stellarity:items/spirit_dagger/effects/teleport/wave
 

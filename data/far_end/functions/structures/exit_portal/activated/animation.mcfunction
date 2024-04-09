@@ -1,7 +1,7 @@
 ### Timer ###
 scoreboard players add @s stellarity.dragon.respawn_animation_progress 1
 
-stopsound @a[predicate=stellarity:locations/in_dragons_den] music
+stopsound @a[predicate=stellarity:locations/dragons_den/in_biome] music
 
 # - bossbar disable
 execute if score @s stellarity.dragon.respawn_animation_progress matches 1 run bossbar set stellarity:crystal_count players

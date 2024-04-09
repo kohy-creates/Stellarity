@@ -1,4 +1,6 @@
-particle dust 1 0.467 0.812 1.2 ~ ~ ~ 0.1 0.1 0.1 0 6 force @a
-particle minecraft:splash ~ ~ ~ 0.2 0.2 0.2 0 4 force
+particle dust 0.275 1 0.878 0.6 ~ ~ ~ 0.15 0.15 0.15 0 6 force @a[distance=..96]
+particle dust 0.204 0.839 1 0.6 ~ ~ ~ 0.15 0.15 0.15 0 14 force @a[distance=..96]
 
-particle dust 1 1 1 0.7 ~ ~ ~ 0.15 0.15 0.15 0 3 force @a
+particle dust 1 1 1 0.4 ~ ~ ~ 0.15 0.15 0.15 0 7 force @a[distance=..96]
+
+particle minecraft:splash ~ ~ ~ 0 0 0 0.01 1 force @a[distance=..96]

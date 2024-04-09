@@ -8,6 +8,6 @@ execute store result entity @s Fire short 1 run scoreboard players get #fire ste
 scoreboard players set #damage kohara.misc 80
 scoreboard players operation #damage kohara.misc += #charge stellarity.misc
 
-tag @p[predicate=stellarity:items/holding_kaleidoscope] add kohara.attacker
+tag @p[predicate=stellarity:items/holding/kaleidoscope] add kohara.attacker
 
 function kohara:damage/calculate {armor_penetration:25,damage_boost_efficiency:50,damage_type:"stellarity:kaleidoscope",tag:"stellarity.damage.kaleidoscope"}

@@ -137,13 +137,13 @@
 		"sounds":[
 			"stellarity:item/tamaris/execute"
 		],
-		"subtitle":"Tamaris executes"
+		"subtitle":"subtitles.entity.player.teleport"
 	},
 	"item.tamaris.execute_special":{
 		"sounds":[
 			"stellarity:item/tamaris/execute_special"
 		],
-		"subtitle":"kohy slays"
+		"subtitle":"subtitles.entity.player.teleport"
 	},
 	"item.tamaris.execute_bg":{
 		"sounds":[
@@ -164,7 +164,7 @@
 		"sounds":[
 			"stellarity:item/spirit_dagger/slash"
 		],
-		"subtitle": "Spirit Dagger teleports"
+		"subtitle": "subtitles.entity.player.teleport"
 	},
 	"item.spirit_dagger.charge_kohara":{
 		"sounds":[
@@ -175,7 +175,7 @@
 		"sounds":[
 			"stellarity:item/spirit_dagger/kohara_slash"
 		],
-		"subtitle": "kohara warps"
+		"subtitle": "subtitles.entity.player.teleport"
 	},
 	"block.end_portal.create":{
 		"sounds":[

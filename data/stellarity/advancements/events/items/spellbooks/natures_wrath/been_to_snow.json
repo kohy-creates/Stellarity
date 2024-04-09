@@ -21,7 +21,7 @@
 					},
 					{
 						"condition": "minecraft:reference",
-						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+						"name": "stellarity:items/holding/spellbooks/natures_wrath"
 					},
 					{
 						"condition": "minecraft:location_check",
@@ -52,7 +52,7 @@
 					},
 					{
 						"condition": "minecraft:reference",
-						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+						"name": "stellarity:items/holding/spellbooks/natures_wrath"
 					},
 					{
 						"condition": "minecraft:location_check",
@@ -83,7 +83,7 @@
 					},
 					{
 						"condition": "minecraft:reference",
-						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+						"name": "stellarity:items/holding/spellbooks/natures_wrath"
 					},
 					{
 						"condition": "minecraft:location_check",
@@ -114,7 +114,7 @@
 					},
 					{
 						"condition": "minecraft:reference",
-						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+						"name": "stellarity:items/holding/spellbooks/natures_wrath"
 					},
 					{
 						"condition": "minecraft:location_check",
@@ -145,7 +145,7 @@
 					},
 					{
 						"condition": "minecraft:reference",
-						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+						"name": "stellarity:items/holding/spellbooks/natures_wrath"
 					},
 					{
 						"condition": "minecraft:location_check",
@@ -176,7 +176,7 @@
 					},
 					{
 						"condition": "minecraft:reference",
-						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+						"name": "stellarity:items/holding/spellbooks/natures_wrath"
 					},
 					{
 						"condition": "minecraft:location_check",
@@ -207,7 +207,7 @@
 					},
 					{
 						"condition": "minecraft:reference",
-						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+						"name": "stellarity:items/holding/spellbooks/natures_wrath"
 					},
 					{
 						"condition": "minecraft:location_check",
@@ -238,7 +238,7 @@
 					},
 					{
 						"condition": "minecraft:reference",
-						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+						"name": "stellarity:items/holding/spellbooks/natures_wrath"
 					},
 					{
 						"condition": "minecraft:location_check",
@@ -269,7 +269,7 @@
 					},
 					{
 						"condition": "minecraft:reference",
-						"name": "stellarity:items/spellbooks/holding_natures_wrath"
+						"name": "stellarity:items/holding/spellbooks/natures_wrath"
 					},
 					{
 						"condition": "minecraft:location_check",

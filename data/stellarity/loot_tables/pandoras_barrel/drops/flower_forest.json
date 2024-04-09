@@ -2,8 +2,8 @@
 	"pools": [
 		{
 			"rolls": {
-				"min": 3,
-				"max": 4
+				"min": 6,
+				"max": 8
 			},
 			"entries": [
 				{
@@ -14,8 +14,23 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 4
+								"min": 4,
+								"max": 7
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 7,
+					"name": "minecraft:stripped_oak_log",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 5
 							},
 							"add": false
 						}
@@ -29,8 +44,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 5
+								"min": 5,
+								"max": 11
 							},
 							"add": false
 						}
@@ -60,7 +75,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
-								"max": 2
+								"max": 3
 							},
 							"add": false
 						}
@@ -74,6 +89,20 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
+								"min": 4,
+								"max": 6
+							},
+							"add": false
+						}
+					]
+				},{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:stripped_birch_log",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
 								"min": 2,
 								"max": 3
 							},
@@ -83,62 +112,34 @@
 				},
 				{
 					"type": "minecraft:item",
+					"weight": 7,
 					"name": "minecraft:birch_leaves",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 5
+								"min": 5,
+								"max": 9
 							},
 							"add": false
 						}
 					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 4,
-					"name": "minecraft:tall_grass",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 2,
-								"max": 4
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:bee_spawn_egg",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": 1,
-							"add": false,
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.15
-								}
-							]
-						}
-					]
-				},
+				}
+			]
+		},
+		{
+			"rolls": 5,
+			"entries": [
 				{
 					"type": "minecraft:tag",
-					"weight": 4,
 					"name": "stellarity:pandoras_barrel/flowers/flower_forest",
 					"expand": true,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 4
+								"min": 1,
+								"max": 3
 							},
 							"add": false
 						}

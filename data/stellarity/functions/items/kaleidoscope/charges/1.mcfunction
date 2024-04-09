@@ -16,5 +16,5 @@ execute positioned ^ ^ ^ run function stellarity:items/kaleidoscope/charges/1_wa
 
 execute unless entity @s[advancements={stellarity:events/items/kill/kaleidoscope=true}] run function stellarity:items/kaleidoscope/charges/damage/1
 
-scoreboard players reset @p[predicate=stellarity:items/holding_kaleidoscope] stellarity.items.kaleidoscope.charge_progress
-scoreboard players reset @p[predicate=stellarity:items/holding_kaleidoscope] stellarity.items.kaleidoscope.charge
+scoreboard players reset @p[predicate=stellarity:items/holding/kaleidoscope] stellarity.items.kaleidoscope.charge_progress
+scoreboard players reset @p[predicate=stellarity:items/holding/kaleidoscope] stellarity.items.kaleidoscope.charge

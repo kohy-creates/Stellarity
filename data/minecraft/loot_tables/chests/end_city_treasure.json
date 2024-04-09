@@ -3,14 +3,13 @@
 	"pools": [
 		{
 			"rolls": {
-				"min": 1,
+				"min": 0,
 				"max": 2
 			},
 			"bonus_rolls": 0,
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 2,
 					"quality": 1,
 					"name": "minecraft:diamond"
 				},
@@ -55,7 +54,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
-								"max": 3
+								"max": 2
 							},
 							"add": false
 						}
@@ -65,7 +64,7 @@
 		},
 		{
 			"rolls": {
-				"min": 0,
+				"min": -1,
 				"max": 1
 			},
 			"entries": [
@@ -80,34 +79,8 @@
 					"name": "minecraft:diamond_boots",
 					"functions": [
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Trim:{material:\"minecraft:gold\",pattern:\"minecraft:spire\"}}",
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.2
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Trim:{material:\"minecraft:diamond\",pattern:\"minecraft:spire\"}}",
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.2
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Trim:{material:\"minecraft:amethyst\",pattern:\"minecraft:spire\"}}",
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.2
-								}
-							]
+							"function": "minecraft:reference",
+							"name": "stellarity:end_city_armor_trim"
 						}
 					]
 				},
@@ -117,34 +90,8 @@
 					"name": "minecraft:diamond_chestplate",
 					"functions": [
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Trim:{material:\"minecraft:gold\",pattern:\"minecraft:spire\"}}",
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.2
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Trim:{material:\"minecraft:diamond\",pattern:\"minecraft:spire\"}}",
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.2
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Trim:{material:\"minecraft:amethyst\",pattern:\"minecraft:spire\"}}",
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.2
-								}
-							]
+							"function": "minecraft:reference",
+							"name": "stellarity:end_city_armor_trim"
 						}
 					]
 				},
@@ -154,34 +101,8 @@
 					"name": "minecraft:diamond_leggings",
 					"functions": [
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Trim:{material:\"minecraft:gold\",pattern:\"minecraft:spire\"}}",
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.2
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Trim:{material:\"minecraft:diamond\",pattern:\"minecraft:spire\"}}",
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.2
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Trim:{material:\"minecraft:amethyst\",pattern:\"minecraft:spire\"}}",
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.2
-								}
-							]
+							"function": "minecraft:reference",
+							"name": "stellarity:end_city_armor_trim"
 						}
 					]
 				},
@@ -191,34 +112,8 @@
 					"name": "minecraft:diamond_helmet",
 					"functions": [
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Trim:{material:\"minecraft:gold\",pattern:\"minecraft:spire\"}}",
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.2
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Trim:{material:\"minecraft:diamond\",pattern:\"minecraft:spire\"}}",
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.2
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Trim:{material:\"minecraft:amethyst\",pattern:\"minecraft:spire\"}}",
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.2
-								}
-							]
+							"function": "minecraft:reference",
+							"name": "stellarity:end_city_armor_trim"
 						}
 					]
 				},
@@ -352,7 +247,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 7,
+					"weight": 5,
 					"name": "minecraft:end_crystal"
 				},
 				{
@@ -387,7 +282,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
+					"weight": 4,
 					"name": "minecraft:shulker_shell",
 					"functions": [
 						{
@@ -417,7 +312,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 8,
+					"weight": 6,
 					"name": "minecraft:chorus_fruit",
 					"functions": [
 						{
@@ -432,7 +327,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
+					"weight": 1,
+					"quality": 1,
 					"name": "minecraft:book",
 					"functions": [
 						{
@@ -447,7 +343,7 @@
 				},
 				{
 					"type": "minecraft:empty",
-					"weight": 2
+					"weight": 3
 				},
 				{
 					"type": "minecraft:item",
@@ -470,7 +366,7 @@
 			"entries": [
 				{
 					"type": "minecraft:empty",
-					"weight": 4
+					"weight": 5
 				},
 				{
 					"type": "minecraft:item",
@@ -484,12 +380,37 @@
 				{
 					"type": "minecraft:loot_table",
 					"name": "stellarity:items/chorus_dagger"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/the_beginning_and_the_end"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/starless_scythe"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/spellbooks/jinx"
 				}
 			],
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance",
-					"chance": 0.10
+					"chance": 0.15
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 9
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/materials/enderite_smithing_template"
 				}
 			]
 		}

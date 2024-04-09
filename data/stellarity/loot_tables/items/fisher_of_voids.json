@@ -26,20 +26,8 @@
 							"lore": [
 								"",
 								{
-									"translate": "stellarity.items.fisher_of_voids.description.1",
-									"fallback": "Its hook is covered in weird mucus,",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.fisher_of_voids.description.2",
-									"fallback": "fish from the Void",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.fisher_of_voids.description.3",
-									"fallback": "seem really attracted to it",
+									"translate": "stellarity.items.fisher_of_voids.description",
+									"fallback": "Void Fishing is slightly quicker",
 									"color": "#EEEEEE",
 									"italic": false
 								},

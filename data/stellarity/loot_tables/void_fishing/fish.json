@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"weight": 17,
+					"weight": 15,
 					"name": "stellarity:items/fish/ender_koi",
 					"functions": [
 						{
@@ -18,7 +18,7 @@
 							"conditions": [
 								{
 									"condition": "minecraft:random_chance",
-									"chance": 0.04
+									"chance": 0.06
 								}
 							]
 						}

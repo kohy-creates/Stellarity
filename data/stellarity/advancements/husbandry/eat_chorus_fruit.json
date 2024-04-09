@@ -4,11 +4,11 @@
 			"item": "minecraft:chorus_fruit"
 		},
 		"title": {
-			"translate": "stellarity.advancements.confusing_fruit",
-			"fallback": "Confusing Fruit"
+			"translate": "stellarity.advancements.eat_chorus_fruit",
+			"fallback": "Unstable"
 		},
 		"description": {
-			"translate": "stellarity.advancements.confusing_fruit.description",
+			"translate": "stellarity.advancements.eat_chorus_fruit.description",
 			"fallback": "Eat a Chorus Fruit"
 		},
 		"frame": "task",

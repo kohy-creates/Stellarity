@@ -1,8 +1,8 @@
 scoreboard players set @s stellarity.items.clockwork_crossbow.should_save 0
 
-execute if predicate stellarity:items/clockwork_crossbow/holding_unloaded_mainhand run \
+execute if predicate stellarity:items/holding/clockwork_crossbow/unloaded_mainhand run \
 	item modify entity @s weapon.mainhand stellarity:load_clockwork_crossbow
-execute if predicate stellarity:items/clockwork_crossbow/holding_unloaded_offhand run \
+execute if predicate stellarity:items/holding/clockwork_crossbow/unloaded_offhand run \
 	item modify entity @s weapon.offhand stellarity:load_clockwork_crossbow
 
 # Ammo conservation

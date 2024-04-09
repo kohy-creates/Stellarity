@@ -35,13 +35,13 @@
 								},
 								{
 									"translate": "stellarity.items.armors.shulker_armor.set_bonus.2",
-									"fallback": "Incoming damage reduced by 20%",
+									"fallback": "Take less damage when swarmed",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.armors.shulker_armor.set_bonus.3",
-									"fallback": "Immunity to Levitation and Wither",
+									"fallback": "Immunity to Levitation and Weakness",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -88,16 +88,16 @@
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "",
 									"id": "845DB27C-C624-495F-8C9F-6020A9A58B6B",
-									"amount": -0.04,
-									"operation": "multiply_base",
+									"amount": -0.02,
+									"operation": "multiply_total",
 									"slot": "feet"
 								},
 								{
 									"attribute": "minecraft:generic.movement_speed",
 									"name": "",
 									"id": "845DB27C-C624-495F-8C9F-6020A9A58B6B",
-									"amount": -0.04,
-									"operation": "multiply_base",
+									"amount": -0.02,
+									"operation": "multiply_total",
 									"slot": "feet"
 								}
 							]

@@ -13,11 +13,14 @@ scoreboard players operation @s stellarity.items.spellbook.natures_wrath.cooldow
 
 execute anchored eyes positioned ^ ^ ^ anchored feet run function stellarity:items/spellbooks/natures_wrath/spirit/raycast/start_ray
 
-execute anchored eyes positioned ^ ^ ^ rotated as @s summon marker run function stellarity:items/spellbooks/natures_wrath/spirit/choose_property
+execute anchored eyes positioned ^ ^ ^ summon marker run function stellarity:items/spellbooks/natures_wrath/spirit/choose_property
 
 #function stellarity:items/spellbooks/effects_all
 
 playsound minecraft:item.book.page_turn player @a[distance=0..] ~ ~1 ~ 1 1
+playsound minecraft:item.book.page_turn player @a[distance=0..] ~ ~1 ~ 1 0.7
 particle enchant ~ ~1 ~ .4 .55 .4 0 30 normal
 
-playsound minecraft:entity.shulker.shoot player @a[distance=0..] ~ ~ ~ 1 1
+playsound minecraft:item.book.page_turn player @a[distance=0..] ~ ~1 ~ 1 1
+playsound minecraft:block.enchantment_table.use player @a[distance=0..] ~ ~ ~ 0.2 1
+#playsound minecraft:entity.ender_eye.launch player @a[distance=0..] ~ ~ ~ 1 1

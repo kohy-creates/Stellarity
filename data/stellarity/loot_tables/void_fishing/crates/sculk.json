@@ -73,46 +73,6 @@
 		},
 		{
 			"rolls": {
-				"min": -2,
-				"max": 1
-			},
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:book",
-					"functions": [
-						{
-							"function": "minecraft:enchant_randomly",
-							"enchantments": [
-								"minecraft:swift_sneak"
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"rolls": {
-				"min": -2,
-				"max": 1
-			},
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:book",
-					"functions": [
-						{
-							"function": "minecraft:enchant_randomly",
-							"enchantments": [
-								"minecraft:mending"
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"rolls": {
 				"min": 0,
 				"max": 1
 			},
@@ -145,6 +105,46 @@
 						"min": 1,
 						"max": 2
 					}
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": -3,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"enchantments": [
+								"minecraft:swift_sneak"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": -3,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"enchantments": [
+								"minecraft:mending"
+							]
+						}
+					]
 				}
 			]
 		}

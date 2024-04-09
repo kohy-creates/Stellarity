@@ -1,6 +1,5 @@
 # Age
 scoreboard players add @s stellarity.misc 1
-execute if score @s stellarity.misc matches 61.. run kill @s
 
 tp @s ^ ^ ^0.7
 
@@ -10,3 +9,5 @@ execute unless block ^ ^ ^1 #kohara:non_solid run function stellarity:items/spel
 
 particle dragon_breath ^ ^ ^ .14 .14 .14 0.00106 2 force @a[distance=..64]
 particle dust_color_transition 0.898 0.122 1 1.3 0.435 0 1 ^ ^ ^ .1 .1 .1 0 3 force @a[distance=..64]
+
+execute if score @s stellarity.misc matches 60.. run kill @s

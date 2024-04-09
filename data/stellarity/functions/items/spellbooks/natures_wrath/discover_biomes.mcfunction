@@ -11,31 +11,31 @@ execute unless data storage stellarity:temp natures_wrath.book_spirits run data 
 
 execute if entity \
 	@s[advancements={stellarity:events/items/spellbooks/natures_wrath/been_to_forest=true}] run \
-	data modify storage stellarity:temp natures_wrath.book_spirits append value "forest"
+	function stellarity:items/spellbooks/natures_wrath/discover/forest
 execute if entity \
 	@s[advancements={stellarity:events/items/spellbooks/natures_wrath/been_to_nether=true}] run \
-	data modify storage stellarity:temp natures_wrath.book_spirits append value "fire"
+	function stellarity:items/spellbooks/natures_wrath/discover/fire
 execute if entity \
 	@s[advancements={stellarity:events/items/spellbooks/natures_wrath/been_to_ocean=true}] run \
-	data modify storage stellarity:temp natures_wrath.book_spirits append value "ocean"
+	function stellarity:items/spellbooks/natures_wrath/discover/ocean
 execute if entity \
 	@s[advancements={stellarity:events/items/spellbooks/natures_wrath/been_to_mountains=true}] run \
-	data modify storage stellarity:temp natures_wrath.book_spirits append value "mountain"
+	function stellarity:items/spellbooks/natures_wrath/discover/mountain
 execute if entity \
 	@s[advancements={stellarity:events/items/spellbooks/natures_wrath/been_to_jungle=true}] run \
-	data modify storage stellarity:temp natures_wrath.book_spirits append value "jungle"
+	function stellarity:items/spellbooks/natures_wrath/discover/jungle
 execute if entity \
 	@s[advancements={stellarity:events/items/spellbooks/natures_wrath/been_to_snow=true}] run \
-	data modify storage stellarity:temp natures_wrath.book_spirits append value "snow"
+	function stellarity:items/spellbooks/natures_wrath/discover/snow
 execute if entity \
 	@s[advancements={stellarity:events/items/spellbooks/natures_wrath/been_to_sculk=true}] run \
-	data modify storage stellarity:temp natures_wrath.book_spirits append value "sculk"
+	function stellarity:items/spellbooks/natures_wrath/discover/sculk
 execute if entity \
 	@s[advancements={stellarity:events/items/spellbooks/natures_wrath/been_to_hallow=true}] run \
-	data modify storage stellarity:temp natures_wrath.book_spirits append value "hallowed"
+	function stellarity:items/spellbooks/natures_wrath/discover/hallowed
 execute if entity \
 	@s[advancements={stellarity:events/items/spellbooks/natures_wrath/been_to_swamp=true}] run \
-	data modify storage stellarity:temp natures_wrath.book_spirits append value "swamp"
+	function stellarity:items/spellbooks/natures_wrath/discover/swamp
 
 advancement revoke @s from stellarity:events/items/spellbooks/natures_wrath/root
 

@@ -10,4 +10,4 @@ execute if predicate stellarity:mobs/eol/is_daytime if score #difficulty stellar
 
 tag @e[type=marker,limit=1,sort=nearest] add kohara.attacker
 
-function kohara:damage/calculate {armor_penetration:0,damage_boost_efficiency:0,damage_type:"stellarity:eol/projectile",tag:"stellarity.damage.eol.prismatic_bolts"}
+function kohara:damage/calculate {armor_penetration:0,damage_boost_efficiency:0,damage_type:"stellarity:empress_of_light/projectile",tag:"stellarity.damage.eol.prismatic_bolts"}

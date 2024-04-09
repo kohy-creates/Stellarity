@@ -16,7 +16,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "stellarity:exploration/ender_adventurer",
+	"parent": "minecraft:end/enter_end_gateway",
 	"criteria": {
 		"keep_warm": {
 			"trigger": "minecraft:location",

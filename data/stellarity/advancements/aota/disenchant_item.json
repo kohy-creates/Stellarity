@@ -10,7 +10,7 @@
 		"description": [
 			{
 				"translate": "stellarity.advancements.disenchant_item.description",
-				"fallback": "Unbind enchantments from an item by throwing it onto the Altar with an unenchanted book"
+				"fallback": "Unbind enchantments from an item by combining it with an unenchanted book on the Altar"
 			}
 		],
 		"frame": "task",

@@ -22,13 +22,13 @@
 								"",
 								{
 									"translate": "stellarity.items.weapons.starless_scythe.description.1",
-									"fallback": "Slowly leaches life from attacked mobs",
+									"fallback": "Part of dealt damage is converted into healing",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.starless_scythe.description.2",
-									"fallback": "Enchant with Efficiency for increased effect",
+									"fallback": "Can damage multiple mobs in one swing",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -50,7 +50,7 @@
 										"translate": "attribute.modifier.equals.0",
 										"with": [
 											{
-												"text": "8"
+												"text": "10"
 											},
 											{
 												"translate": "attribute.name.generic.attack_damage"
@@ -85,7 +85,7 @@
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "",
 									"id": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF",
-									"amount": 7,
+									"amount": 9,
 									"operation": "addition",
 									"slot": "mainhand"
 								},

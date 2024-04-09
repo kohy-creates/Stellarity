@@ -24,20 +24,14 @@
 								"",
 								{
 									"translate": "stellarity.items.pandoras_barrel.description.1",
-									"fallback": "Summons mobs and drops loot depending on the biome",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.pandoras_barrel.description.2",
-									"fallback": "Much friendlier mobs spawn while in a lit up area",
+									"fallback": "You never know what's inside!",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								" ",
 								{
 									"translate": "stellarity.items.pandoras_barrel.flavor_text",
-									"fallback": "'Get it? Because it is a barrel and not a box?'",
+									"fallback": "'...unless you check the wiki'",
 									"color": "#EEEEEE",
 									"italic": true
 								},

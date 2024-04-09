@@ -64,19 +64,13 @@
 								"",
 								{
 									"translate": "stellarity.items.trinkets.crest_of_the_end.description.1",
-									"fallback": "Blocking damage adds extra",
+									"fallback": "Blocking damage adds extra force",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.trinkets.crest_of_the_end.description.2",
-									"fallback": "force to your next attack",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.trinkets.crest_of_the_end.description.3",
-									"fallback": "in retaliation",
+									"fallback": "to your next attack in retaliation",
 									"color": "#EEEEEE",
 									"italic": false
 								},

@@ -15,6 +15,6 @@ scoreboard players operation #damage kohara.misc += #charge stellarity.misc
 # 70% of discharge damage
 function kohara:reduce_by_percent {percent:30,holder:"#damage",score:"stellarity.misc"}
 
-tag @p[predicate=stellarity:items/holding_kaleidoscope] add kohara.attacker
+tag @p[predicate=stellarity:items/holding/kaleidoscope] add kohara.attacker
 
-function stellarity:utils/damage/calculate {armor_penetration:25,damage_boost_efficiency:50,damage_type:"stellarity:kaleidoscope",tag:"stellarity.damage.kaleidoscope"}
+function kohara:damage/calculate {armor_penetration:25,damage_boost_efficiency:50,damage_type:"stellarity:kaleidoscope",tag:"stellarity.damage.kaleidoscope"}

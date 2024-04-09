@@ -6,8 +6,7 @@
 		},
 		"title": {
 			"translate": "stellarity.advancements.i_am_titanium",
-			"fallback": "I am Titanium!",
-			"color": "#B533FF"
+			"fallback": "I am Titanium!"
 		},
 		"description": [
 			{

@@ -3,7 +3,7 @@
 	"quilt_loader":{
 		"group":"xyz.kohara",
 		"id":"stellarity",
-		"version":"2.1b",
+		"version":"2.2.1",
 		"metadata":{
 			"name":"Stellarity",
 			"description":"Extreme rehaul and expansion of The End!\n'We have End Update at home.'",
@@ -12,7 +12,7 @@
 				"Hex": "Original Creator",
 				"misode": "",
 				"Bush_King": "Builder",
-				"Brokenemp": "Texture Contributor",
+				"Brokenemp": "Texture Artist",
 				"Phoenix": ""
 			},
 			"contact":{

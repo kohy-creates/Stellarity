@@ -5,12 +5,12 @@
 		},
 		"title": {
 			"translate": "stellarity.advancements.third_times_the_charm",
-			"fallback": "Third Time's the Charm",
-			"color": "#D400FF"
+			"fallback": "Third Time's the Charm"
 		},
 		"description": {
 			"translate": "stellarity.advancements.third_times_the_charm.description",
-			"fallback": "Summon the Ender Dragon a third time"
+			"fallback": "Summon the Ender Dragon for the third time",
+			"color": "aqua"
 		},
 		"frame": "task",
 		"show_toast": true,

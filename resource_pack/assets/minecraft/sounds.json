@@ -133,6 +133,15 @@
 		"subtitle":"subtitles.entity.shulker_bullet.hurt",
 		"replace":true
 	},
+	"entity.ender_dragon.ambient": {
+		"sounds": [
+			"mob/enderdragon/idle1",
+			"mob/enderdragon/idle2",
+			"mob/enderdragon/idle3",
+			"mob/enderdragon/idle4"
+		],
+		"replace": true
+	},
 	"block.glass.place":{
 		"sounds":[
 			"step/stone1",
@@ -143,5 +152,19 @@
 		],
 		"subtitle":"subtitles.block.generic.place",
 		"replace":true
+	},
+	"entity.ender_pearl.throw": {
+		"replace": true,
+		"sounds": [
+			{
+				"name": "entity/endereye/endereye_launch1",
+				"volume": 1.3
+			},
+			{
+				"name": "entity/endereye/endereye_launch2",
+				"volume": 1.3
+			}
+		],
+		"subtitle": "subtitles.entity.ender_pearl.throw"
 	}
 }

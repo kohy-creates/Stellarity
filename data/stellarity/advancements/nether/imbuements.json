@@ -10,7 +10,7 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.imbuements.description",
-			"fallback": "...and use it to brew Lingering Potions!"
+			"fallback": "Use Dragon's Breath to brew a Lingering Potion"
 		},
 		"frame": "task",
 		"show_toast": true,
