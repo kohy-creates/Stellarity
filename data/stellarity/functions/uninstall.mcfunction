@@ -1,5 +1,6 @@
 scoreboard objectives remove stellarity.config.join_message
 scoreboard objectives remove stellarity.config.always_generate_egg
+scoreboard objectives remove stellarity.config.enable_end_crystal_drop
 scoreboard objectives remove stellarity.config.dragon_health
 
 scoreboard objectives remove stellarity.items.dragonblade.cooldown
