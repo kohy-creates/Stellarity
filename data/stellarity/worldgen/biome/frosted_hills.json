@@ -26,10 +26,8 @@
 		},
 		"particle": {
 			"options": {
-				"type": "falling_dust",
-				"value": {
-					"Name": "snow_block"
-				}
+				"type": "minecraft:falling_dust",
+				"block_state": "minecraft:snow_block"
 			},
 			"probability": 0.0033
 		}
@@ -53,8 +51,7 @@
 	"spawn_costs": {},
 	"carvers": {
 		"air": [
-			 
- 			"stellarity:ravine",
+			"stellarity:ravine",
 			"stellarity:crack"
 		]
 	},

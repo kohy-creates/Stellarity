@@ -1,12 +1,10 @@
 {
-  "type": "minecraft:sea_pickle",
-  "config": {
-    "count": {
-      "type": "minecraft:uniform",
-      "value": {
-        "min_inclusive": 1,
-        "max_inclusive": 4
-      }
+    "type": "minecraft:sea_pickle",
+    "config": {
+        "count": {
+            "type": "minecraft:uniform",
+            "min_inclusive": 1,
+            "max_inclusive": 4
+        }
     }
-  }
 }

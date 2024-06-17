@@ -58,10 +58,8 @@
 								},
 								"trunk_offset_y": {
 									"type": "minecraft:uniform",
-									"value": {
-										"min_inclusive": 0,
-										"max_inclusive": 5
-									}
+									"min_inclusive": 0,
+									"max_inclusive": 5
 								},
 								"above_root_placement": {
 									"above_root_provider": {
@@ -93,56 +91,52 @@
 								}
 							},
 							"trunk_placer": {
-                "type": "minecraft:cherry_trunk_placer",
-                "base_height": 5,
-                "branch_count": {
-                  "type": "minecraft:weighted_list",
-                  "distribution": [
-                    {
-                      "data": 1,
-                      "weight": 1
-                    },
-                    {
-                      "data": 2,
-                      "weight": 1
-                    },
-                    {
-                      "data": 3,
-                      "weight": 1
-                    }
-                  ]
-                },
-                "branch_end_offset_from_top": {
-                  "type": "minecraft:uniform",
-                  "value": {
-                    "max_inclusive": 0,
-                    "min_inclusive": -1
-                  }
-                },
-                "branch_horizontal_length": {
-                  "type": "minecraft:uniform",
-                  "value": {
-                    "max_inclusive": 5,
-                    "min_inclusive": 3
-                  }
-                },
-                "branch_start_offset_from_top": {
-                  "max_inclusive": -3,
-                  "min_inclusive": -4
-                },
-                "height_rand_a": 3,
-                "height_rand_b": 6
-              },
+								"type": "minecraft:cherry_trunk_placer",
+								"base_height": 5,
+								"height_rand_a": 3,
+								"height_rand_b": 6,
+								"branch_count": {
+									"type": "minecraft:weighted_list",
+									"distribution": [
+										{
+											"weight": 1,
+											"data": 1
+										},
+										{
+											"weight": 1,
+											"data": 2
+										},
+										{
+											"weight": 1,
+											"data": 3
+										}
+									]
+								},
+								"branch_horizontal_length": {
+									"type": "minecraft:uniform",
+									"min_inclusive": 3,
+									"max_inclusive": 5
+								},
+								"branch_start_offset_from_top": {
+									"min_inclusive": -4,
+									"max_inclusive": -3
+								},
+								"branch_end_offset_from_top": {
+									"type": "minecraft:uniform",
+									"min_inclusive": -1,
+									"max_inclusive": 0
+								}
+							},
 							"foliage_placer": {
-                "type": "minecraft:cherry_foliage_placer",
-                "corner_hole_chance": 0.25,
-                "hanging_leaves_chance": 0.16666667,
-                "hanging_leaves_extension_chance": 0.33333334,
-                "height": 5,
-                "offset": 0,
-                "radius": 4,
-                "wide_bottom_layer_hole_chance": 0.25
-              },
+								"type": "minecraft:cherry_foliage_placer",
+								"radius": 4,
+								"offset": 0,
+								"height": 5,
+								"wide_bottom_layer_hole_chance": 0.25,
+								"corner_hole_chance": 0.25,
+								"hanging_leaves_chance": 0.16666667,
+								"hanging_leaves_extension_chance": 0.33333334
+							},
 							"decorators": [
 								{
 									"type": "minecraft:leave_vine",

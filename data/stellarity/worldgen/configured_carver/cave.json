@@ -13,10 +13,8 @@
 		},
 		"yScale": {
 			"type": "minecraft:uniform",
-			"value": {
-				"min_inclusive": 0.4,
-				"max_exclusive": 1.5
-			}
+			"min_inclusive": 0.4,
+			"max_exclusive": 1.5
 		},
 		"lava_level": {
 			"absolute": 0
@@ -44,24 +42,18 @@
 		},
 		"horizontal_radius_multiplier": {
 			"type": "minecraft:uniform",
-			"value": {
-				"min_inclusive": 1,
-				"max_exclusive": 2.2
-			}
+			"min_inclusive": 1,
+			"max_exclusive": 2.2
 		},
 		"vertical_radius_multiplier": {
 			"type": "minecraft:uniform",
-			"value": {
-				"min_inclusive": 1,
-				"max_exclusive": 2.2
-			}
+			"min_inclusive": 1,
+			"max_exclusive": 2.2
 		},
 		"floor_level": {
 			"type": "minecraft:uniform",
-			"value": {
-				"min_inclusive": -1,
-				"max_exclusive": -0.4
-			}
+			"min_inclusive": -1,
+			"max_exclusive": -0.4
 		}
 	}
 }
