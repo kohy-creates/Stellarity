@@ -9,8 +9,8 @@ effect give @s minecraft:resistance infinite 100 true
 ## SFX
 # Particles
 particle minecraft:electric_spark ~ ~1.1 ~ 0.25 0.5 0.25 0.5 12 normal
-particle minecraft:dust 0.957 0.957 0.957 1 ~ ~1.1 ~ 0.25 0.5 0.25 0.5 8 force @a[distance=..32]
-particle minecraft:dust 0.302 0.765 1 1 ~ ~1.1 ~ 0.25 0.5 0.25 0.5 8 force @a[distance=..32]
+particle minecraft:dust{color:[0.957, 0.957, 0.957], scale:1.0} ~ ~1.1 ~ 0.25 0.5 0.25 0.5 8 force @a[distance=..32]
+particle minecraft:dust{color:[0.302, 0.765, 1.0], scale:1.0} ~ ~1.1 ~ 0.25 0.5 0.25 0.5 8 force @a[distance=..32]
 # Sounds
 execute if score @s stellarity.items.elektra_shield.animation matches 1 run playsound minecraft:entity.lightning_bolt.thunder player @a[distance=0..] ~ ~ ~ 0.88 2
 execute if score @s stellarity.items.elektra_shield.animation matches 1 run playsound minecraft:entity.illusioner.mirror_move player @a[distance=0..] ~ ~ ~ 1 1

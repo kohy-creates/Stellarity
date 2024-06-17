@@ -11,5 +11,5 @@ playsound minecraft:block.glass.break block @a[distance=0..] ~ ~1.2 ~ 1 0.8
 playsound minecraft:block.amethyst_block.break block @a[distance=0..] ~ ~1.2 ~ 1 0
 
 # Mixing particles, because why not?
-particle item end_crystal ~ ~1.2 ~ 0 0 0 0.14 22
-particle block glass ~ ~1.2 ~ 0 0 0 0.22 22
+particle minecraft:item{item:{id:"end_crystal"}} ~ ~1.2 ~ 0 0 0 0.14 22
+particle block{block_state: 'minecraft:glass'} ~ ~1.2 ~ 0 0 0 0.22 22

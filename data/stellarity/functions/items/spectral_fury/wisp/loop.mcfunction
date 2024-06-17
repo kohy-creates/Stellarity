@@ -1,7 +1,7 @@
 scoreboard players add @s stellarity.misc 1
 
 particle end_rod ^ ^ ^ 0.06 0.06 0.06 0.01 2 force @a[distance=..128]
-particle minecraft:dust 0.749 0.929 1 1 ^ ^ ^ 0.08 0.08 0.08 1 2 force @a[distance=..128]
+particle minecraft:dust{color:[0.749, 0.929, 1.0], scale:1.0} ^ ^ ^ 0.08 0.08 0.08 1 2 force @a[distance=..128]
 
 scoreboard players set #homing stellarity.misc 0
 execute if entity @e[type=!#kohara:invalid_targets_with_player,distance=..16] run scoreboard players set #homing stellarity.misc 1

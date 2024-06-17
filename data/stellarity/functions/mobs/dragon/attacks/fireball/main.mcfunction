@@ -7,9 +7,9 @@ function stellarity:mobs/dragon/attacks/fireball/move with storage stellarity:te
 scoreboard players add @s[scores={stellarity.misc=..80}] stellarity.misc 2
 
 # Debug
-#particle block_marker barrier ~ ~ ~ 0 0 0 0 1 force
+#particle block_marker{block_state: 'minecraft:barrier'} ~ ~ ~ 0 0 0 0 1 force
 
-particle dust_color_transition 0.671 0 0.757 3 0.271 0 0.353 ~ ~ ~ .1 .1 .1 1 1 force @a[distance=..128]
+particle minecraft:dust_color_transition{from_color: [0.671, 0.0, 0.757], scale: 3.0, to_color: [0.271, 0.0, 0.353]} ~ ~ ~ .1 .1 .1 1 1 force @a[distance=..128]
 particle dragon_breath ~ ~ ~ .1 .1 .1 .03 1 force @a[distance=..128]
 
 scoreboard players add @s stellarity.misc2 1

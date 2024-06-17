@@ -1,5 +1,5 @@
 particle end_rod ~ ~1.22 ~ .3 .55 .3 0.02 11 normal @s
-particle dust 0.78 0.18 1 1 ~ ~1 ~ .3 .55 .3 0 40 normal @s
+particle minecraft:dust{color:[0.78, 0.18, 1.0], scale:1.0} ~ ~1 ~ .3 .55 .3 0 40 normal @s
 
 playsound minecraft:item.bottle.fill_dragonbreath player @s ~ ~ ~ 0.2 0.75
 playsound minecraft:item.book.page_turn player @s

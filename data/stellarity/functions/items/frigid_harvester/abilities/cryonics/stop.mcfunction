@@ -1,7 +1,7 @@
 execute as @e[type=block_display,tag=stellarity.cryonics,limit=1,sort=nearest] on passengers as @s run kill @s
 kill @e[type=block_display,tag=stellarity.cryonics,limit=1,sort=nearest]
 
-particle minecraft:block ice ~ ~0.5 ~ 0.5 0.7 0.5 1 40
+particle minecraft:block{block_state: 'minecraft:ice'} ~ ~0.5 ~ 0.5 0.7 0.5 1 40
 particle flash ~ ~1 ~
 
 playsound minecraft:block.glass.break player @a ~ ~ ~ 1 0.6

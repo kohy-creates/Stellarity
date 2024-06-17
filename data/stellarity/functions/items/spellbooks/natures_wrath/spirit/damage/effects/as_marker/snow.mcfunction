@@ -1,5 +1,5 @@
-particle block snow_block ~ ~ ~ 0 0 0 1 8 normal
-particle block ice ~ ~ ~ 0 0 0 1 7 normal
+particle block{block_state: 'minecraft:snow_block'} ~ ~ ~ 0 0 0 1 8 normal
+particle block{block_state: 'minecraft:ice'} ~ ~ ~ 0 0 0 1 7 normal
 
 playsound minecraft:block.snow.break neutral @a[distance=0..] ~ ~ ~ 1 0.9
 playsound minecraft:block.glass.break neutral @a[distance=0..] ~ ~ ~ 1 0.8

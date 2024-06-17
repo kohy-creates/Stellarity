@@ -5,4 +5,4 @@ function kohara:damage/calculate {armor_penetration:30,damage_boost_efficiency:0
 
 playsound block.glass.break master @a[distance=0..] ~ ~ ~ 0.5 1.3
 
-particle minecraft:block ice ~ ~1.2 ~ 0.25 0.5 0.25 0 3
+particle minecraft:block{block_state: 'minecraft:ice'} ~ ~1.2 ~ 0.25 0.5 0.25 0 3
