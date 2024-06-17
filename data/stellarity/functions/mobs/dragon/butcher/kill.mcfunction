@@ -1,6 +1,6 @@
 # Add support for multiverse plugin and other similar mods, to generate chest and altar.
 # Also, exclude the default end dimension so as not to generate structures twice.
-execute at @s unless dimension minecraft:the_end run function stellarity:post_gen/initialize
+execute at @s unless dimension minecraft:the_end at @e[type=minecraft:ender_dragon,tag=!fe.boss,tag=!fe.ender_dragon,tag=!fe.init,tag=!fe.mob,predicate=stellarity:locations/dragons_den/in_biome] run function stellarity:post_gen/initialize
 
 kill @s
 
