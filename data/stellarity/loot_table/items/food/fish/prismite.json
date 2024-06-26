@@ -25,7 +25,7 @@
 										{
 											"effect": {
 												"id": "minecraft:nausea",
-												"duration": 16,
+												"duration": 320,
 												"ambient": false,
 												"show_particles": true,
 												"show_icon": true
@@ -34,7 +34,7 @@
 										{
 											"effect": {
 												"id": "minecraft:regeneration",
-												"duration": 16,
+												"duration": 320,
 												"ambient": false,
 												"show_particles": true,
 												"show_icon": true

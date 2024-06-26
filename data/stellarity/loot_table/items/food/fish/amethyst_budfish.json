@@ -25,7 +25,7 @@
 										{
 											"effect": {
 												"id": "minecraft:weakness",
-												"duration": 38,
+												"duration": 760,
 												"ambient": false,
 												"show_particles": true,
 												"show_icon": true

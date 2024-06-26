@@ -18,8 +18,8 @@ execute rotated ~240 0 run particle minecraft:dust{color:[1.0, 0.867, 0.0], scal
 execute as @e[type=marker,limit=1,sort=nearest,tag=stellarity.book_of_light.aura_2] at @s run function stellarity:items/spellbooks/light/aura_secondary_loop
 
 # Area particles
-particle minecraft:firework ^ ^ ^ 3 0.3 3 0 1 normal
-particle minecraft:dust{color:[1.0, 0.867, 0.0], scale:1.0} ^ ^ ^ 3 0.3 3 0 3 normal
+particle minecraft:dust{color:[1.0, 0.867, 0.0], scale:0.8} ^ ^ ^ 3 0.3 3 0 3 normal
+particle minecraft:trial_spawner_detection ^ ^-0.5 ^ 3 0 3 0 1 normal
 
 # Ambient sounds
 execute if score @s stellarity.misc matches 40 run playsound minecraft:block.beacon.ambient player @a[distance=0..] ~ ~.92 ~ 1 1

@@ -1,6 +1,3 @@
-# Shulker Tools
-execute if entity @s[predicate=stellarity:items/holding/any_shulker_tool] run effect give @s haste 2 0 true
-
 # Duskberry Night Vision
 execute if entity @s[predicate=stellarity:items/holding/trinkets/duskberry] run effect give @s night_vision 12 0 true
 

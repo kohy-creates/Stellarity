@@ -11,4 +11,4 @@ scoreboard players reset @s kohara.detect.thrown_trident
 scoreboard players reset @s kohara.detect.used_firework
 
 # Respawn detection
-execute if score @s kohara.respawn_detection matches 1.. run function kohara:respawn_detection/on_respawn
+execute if score @s kohara.respawn_detection matches 1 run function #kohara:on_respawn

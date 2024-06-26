@@ -25,7 +25,7 @@
 										{
 											"effect": {
 												"id": "minecraft:hunger",
-												"duration": 32,
+												"duration": 640,
 												"ambient": false,
 												"show_particles": true,
 												"show_icon": true
@@ -34,7 +34,7 @@
 										{
 											"effect": {
 												"id": "minecraft:poison",
-												"duration": 32,
+												"duration": 640,
 												"ambient": false,
 												"show_particles": true,
 												"show_icon": true

@@ -10,7 +10,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_model_data": 90000,
+								"minecraft:custom_model_data": 90004,
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"fried_chorus_fruit\"}",
 								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.fried_chorus_fruit\",\"fallback\":\"Fried Chorus Fruit\",\"color\":\"white\"}",
 								"minecraft:food": {

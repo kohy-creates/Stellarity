@@ -12,7 +12,7 @@
 							"components": {
 								"minecraft:custom_model_data": 90001,
 								"minecraft:custom_data": {
-									"stellarity.special_item": "grilled_chorus_fruit"
+									"stellarity.special_item": "grilled_enderman_flesh"
 								},
 								"minecraft:food": {
 									"nutrition": 8,
@@ -21,7 +21,7 @@
 									"eat_seconds": 1.5,
 									"effects": []
 								},
-								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.grilled_chorus_fruit\",\"fallback\":\"Grilled Chorus Fruit\",\"color\":\"white\"}"
+								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.grilled_enderman_flesh\",\"fallback\":\"Grilled Enderman Flesh\",\"color\":\"white\"}"
 							}
 						},
 						{

@@ -66,6 +66,7 @@ scoreboard objectives add stellarity.items.spellbook.natures_wrath.order dummy
 scoreboard objectives add stellarity.items.spellbook.jinx.cooldown dummy
 scoreboard objectives add stellarity.items.spellbook.return.cooldown dummy
 scoreboard objectives add stellarity.items.spellbook.return.progress dummy
+scoreboard objectives add stellarity.items.spellbook.give_back.hand dummy
 
 # Empress Wings
 scoreboard objectives add stellarity.items.empress_wings.particles dummy

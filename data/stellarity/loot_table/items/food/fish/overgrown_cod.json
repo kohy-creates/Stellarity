@@ -25,7 +25,7 @@
 										{
 											"effect": {
 												"id": "minecraft:slowness",
-												"duration": 4,
+												"duration": 80,
 												"amplifier": 3,
 												"ambient": false,
 												"show_particles": true,

@@ -14,5 +14,3 @@ function stellarity:sfx/enter_leave_end_wave
 
 tag @s remove stellarity.book_of_return.in_animation
 tag @s remove stellarity.book_of_return.teleport
-
-scoreboard players set @s stellarity.items.spellbook.return.cooldown 180

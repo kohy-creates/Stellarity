@@ -3,10 +3,11 @@ advancement revoke @s only stellarity:events/items/use_elektra_shield_while_snea
 tag @s add stellarity.items.elektra_shield.using
 
 # Will get removed literally a tick later
-effect give @s levitation infinite 255 true
+effect give @s levitation infinite 0 true
 
 # Immunity to knockback
 attribute @s generic.knockback_resistance modifier add stellarity:elektra_shield 1000 add_value
+attribute @s generic.gravity modifier add stellarity:elektra_shield -1 add_multiplied_total
 
 function stellarity:items/elektra_shield/dash/spawn_marker
 
