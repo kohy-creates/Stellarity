@@ -11,7 +11,7 @@
 							"condition": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"nbt": "{Tags:[\"stellarity.perm_buffs.rageroot\"]}"
+								"nbt":"{Tags:[\"stellarity.perm_buffs.rageroot\"]}"
 							}
 						}
 					}
@@ -20,7 +20,9 @@
 					"items": [
 						"minecraft:beetroot"
 					],
-					"nbt": "{stellarity.special_item:\"rageroot\"}"
+					"components": {
+						"minecraft:custom_data": "{stellarity.special_item:\"rageroot\"}"
+					}
 				}
 			}
 		}

@@ -5,6 +5,6 @@ execute if predicate kohara:chance/25percent run item replace entity @s weapon.o
 
 tag @s add stellarity.stronghold.buffed
 
-attribute @s generic.movement_speed modifier add 65b0c631-0e11-4c4e-9111-281843d92f1b "stellarity.stronghold_speed_buff" 0.1 multiply_base
+attribute @s generic.movement_speed modifier add stellarity:stronghold.speed_buff 0.1 add_multiplied_base
 
 execute if predicate kohara:chance/15percent run function stellarity:mobs/stronghold/buff/vindicator_elektra_shield

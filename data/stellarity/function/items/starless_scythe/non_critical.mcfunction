@@ -1,6 +1,6 @@
 # Get attack damage multiplier from attack speed
 function kohara:attack_speed/calculate_damage_multiplier
-# Multiply it by the damage multiplier
+# add_multiplied_total it by the damage multiplier
 # So in other words - reduce or keep the same
 scoreboard players operation #damage stellarity.misc *= #multiplier kohara.misc
 scoreboard players operation #damage stellarity.misc /= #100 stellarity.misc

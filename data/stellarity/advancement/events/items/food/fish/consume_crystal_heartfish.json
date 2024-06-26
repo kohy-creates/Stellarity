@@ -8,7 +8,9 @@
 					"items": [
 						"minecraft:cooked_cod"
 					],
-					"nbt": "{stellarity.special_item:\"crystal_heartfish\"}"
+					"components": {
+						"minecraft:custom_data": "{stellarity.special_item:\"crystal_heartfish\"}"
+					}
 				}
 			}
 		}

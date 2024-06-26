@@ -1,6 +1,6 @@
 {
 	"condition": "minecraft:location_check",
 	"predicate": {
-		"structure": "minecraft:stronghold"
+		"structures": "minecraft:stronghold"
 	}
 }

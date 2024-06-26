@@ -1,6 +1,6 @@
 {
 	"condition": "minecraft:location_check",
 	"predicate": {
-		"biome": "far_end:the_nest"
+		"biomes": "far_end:the_nest"
 	}
 }

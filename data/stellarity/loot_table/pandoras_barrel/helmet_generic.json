@@ -15,9 +15,9 @@
 									"modifiers": [
 										{
 											"attribute": "minecraft:generic.max_health",
-											"name": "stellarity.pandoras_barrel_biome",
+											"id": "stellarity:pandoras_barrel_biome",
 											"amount": -3,
-											"operation": "addition",
+											"operation": "add_value",
 											"slot": "mainhand"
 										}
 									]
@@ -41,9 +41,9 @@
 									"modifiers": [
 										{
 											"attribute": "minecraft:generic.max_health",
-											"name": "stellarity.pandoras_barrel_biome",
+											"id": "stellarity:pandoras_barrel_biome",
 											"amount": -2,
-											"operation": "addition",
+											"operation": "add_value",
 											"slot": "mainhand"
 										}
 									]
@@ -67,9 +67,9 @@
 									"modifiers": [
 										{
 											"attribute": "minecraft:generic.max_health",
-											"name": "stellarity.pandoras_barrel_biome",
+											"id": "stellarity:pandoras_barrel_biome",
 											"amount": -1,
-											"operation": "addition",
+											"operation": "add_value",
 											"slot": "mainhand"
 										}
 									]
@@ -93,9 +93,9 @@
 									"modifiers": [
 										{
 											"attribute": "minecraft:generic.max_health",
-											"name": "stellarity.pandoras_barrel_biome",
+											"id": "stellarity:pandoras_barrel_biome",
 											"amount": -1,
-											"operation": "addition",
+											"operation": "add_value",
 											"slot": "mainhand"
 										}
 									]

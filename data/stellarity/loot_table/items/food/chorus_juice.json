@@ -18,61 +18,36 @@
 							}
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"chorus_juice\",Potion:\"minecraft:empty\",HideFlags:32,CustomPotionColor:6494569}"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 90003,
+								"minecraft:custom_data": "{\"stellarity.special_item\": \"chorus_juice\"}",
+								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.chorus_juice\",\"fallback\":\"Chorus Juice\",\"color\":\"white\"}",
+								"minecraft:potion_contents": {
+									"potion": "minecraft:water",
+									"custom_color": 6494569,
+									"custom_effects": [
+										{
+											"id": "minecraft:speed",
+											"duration": 1500,
+											"ambient": false,
+											"show_particles": true,
+											"show_icon": true
+										},
+										{
+											"id": "minecraft:jump_boost",
+											"duration": 1500,
+											"ambient": false,
+											"show_particles": true,
+											"show_icon": true
+										}
+									]
+								}
+							}
 						},
 						{
 							"function": "minecraft:set_lore",
 							"lore": [
-								[
-									{
-										"text": "1",
-										"color": "#EEEEEE",
-										"italic": false
-									},
-									{
-										"text": " 🍖",
-										"color": "#B88458",
-										"italic": false
-									},
-									" ",
-									{
-										"text": "2",
-										"color": "#EEEEEE",
-										"italic": false
-									},
-									{
-										"text": " 🍖",
-										"color": "#FFDE4C",
-										"italic": false
-									}
-								],
-								[
-									{
-										"translate": "effect.minecraft.speed",
-										"color": "blue",
-										"italic": false
-									},
-									" ",
-									{
-										"text": "(0:18)",
-										"color": "blue",
-										"italic": false
-									}
-								],
-								[
-									{
-										"translate": "effect.minecraft.jump_boost",
-										"color": "blue",
-										"italic": false
-									},
-									" ",
-									{
-										"text": "(0:18)",
-										"color": "blue",
-										"italic": false
-									}
-								],
 								"",
 								{
 									"text": "'Juu-u-uuuice, lalala lala la'",
@@ -85,7 +60,8 @@
 									"color": "#CC26FF",
 									"italic": true
 								}
-							]
+							],
+							"mode": "replace_all"
 						}
 					]
 				}

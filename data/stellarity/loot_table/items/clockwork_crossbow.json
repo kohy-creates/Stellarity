@@ -8,21 +8,18 @@
 					"name": "minecraft:crossbow",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate":  "stellarity.items.weapons.clockwork_crossbow",
-								"fallback": "Clockwork Crossbow",
-								"color": "#873600",
-								"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 90000,
+								"minecraft:custom_data": {
+									"stellarity.special_item": "clockwork_crossbow"
+								},
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.clockwork_crossbow\",\"fallback\": \"Clockwork Crossbow\",\"color\": \"#873600\",\"italic\": false}"
 							}
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,stellarity.special_item:\"clockwork_crossbow\",Charged:0b}"
-						},
-						{
-							"function": "minecraft:set_lore",
+							"function": "minecraft:set_lore",	
+							"mode": "replace_all",
 							"entity": "this",
 							"lore": [
 								"",

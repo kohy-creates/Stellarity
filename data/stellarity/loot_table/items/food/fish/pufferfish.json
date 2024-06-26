@@ -8,59 +8,19 @@
 					"name": "minecraft:pufferfish",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"name": [
-								{
-									"text": "P",
-									"color": "#f9f9f9",
-									"italic": false
-								},
-								{
-									"text": "u",
-									"color": "#f9f1e1",
-									"italic": false
-								},
-								{
-									"text": "f",
-									"color": "#faeaca",
-									"italic": false
-								},
-								{
-									"text": "f",
-									"color": "#fbe3b2",
-									"italic": false
-								},
-								{
-									"text": "e",
-									"color": "#fbdc9b",
-									"italic": false
-								},
-								{
-									"text": "r",
-									"color": "#fcd483",
-									"italic": false
-								},
-								{
-									"text": "f",
-									"color": "#fdcd6c",
-									"italic": false
-								},
-								{
-									"text": "i",
-									"color": "#fdc654",
-									"italic": false
-								},
-								{
-									"text": "s",
-									"color": "#febf3d",
-									"italic": false
-								},
-								{
-									"text": "h",
-									"color": "#ffb826",
-									"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 90001,
+								"minecraft:custom_data": "{\"stellarity.special_item\":\"overgrown_cod\"}",
+								"minecraft:enchantment_glint_override": true,
+								"minecraft:item_name": "[{\"text\":\"P\",\"color\":\"#f9f9f9\",\"italic\":false},{\"text\":\"u\",\"color\":\"#f9f1e1\",\"italic\":false},{\"text\":\"f\",\"color\":\"#faeaca\",\"italic\":false},{\"text\":\"f\",\"color\":\"#fbe3b2\",\"italic\":false},{\"text\":\"e\",\"color\":\"#fbdc9b\",\"italic\":false},{\"text\":\"r\",\"color\":\"#fcd483\",\"italic\":false},{\"text\":\"f\",\"color\":\"#fdcd6c\",\"italic\":false},{\"text\":\"i\",\"color\":\"#fdc654\",\"italic\":false},{\"text\":\"s\",\"color\":\"#febf3d\",\"italic\":false},{\"text\":\"h\",\"color\":\"#ffb826\",\"italic\":false}]",
+								"minecraft:food": {
+									"nutrition": 1,
+									"saturation": 0,
+									"can_always_eat": true,
+									"eat_seconds": 5
 								}
-							]
+							}
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -92,11 +52,8 @@
 									"color": "#CC26FF",
 									"italic": true
 								}
-							]
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Enchantments:[{id:\"aqua_affinity\",lvl:1}],HideFlags:1,stellarity.special_item:\"pufferfish\",kohara.fireproof:1b}"
+							],
+							"mode": "replace_all"
 						}
 					]
 				}

@@ -18,11 +18,26 @@
 							}
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,stellarity.special_item:\"golden_chorus_fruit\",Enchantments:[{}]}"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:enchantment_glint_override": true,
+								"minecraft:custom_model_data": 90000,
+								"minecraft:custom_data": {
+									"stellarity.special_item": "golden_chorus_fruit"
+								},
+								"minecraft:food": {
+									"nutrition": 6,
+									"saturation": 14.4,
+									"can_always_eat": true,
+									"eat_seconds": 3.5,
+									"effects": []
+								},
+								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.golden_chorus_fruit\",\"fallback\":\"Golden Chorus Fruit\",\"color\":\"light_purple\"}"
+							}
 						},
 						{
-							"function": "minecraft:set_lore",
+							"function": "minecraft:set_lore",	
+							"mode": "replace_all",
 							"lore": [
 								[
 									{
@@ -37,7 +52,7 @@
 									},
 									" ",
 									{
-										"text": "6.4",
+										"text": "14.4",
 										"color": "#EEEEEE",
 										"italic": false
 									},

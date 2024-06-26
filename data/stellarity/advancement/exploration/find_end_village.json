@@ -1,8 +1,11 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:amethyst_shard",
-			"nbt": "{CustomModelData:90001,Enchantments:[{}]}"
+			"id": "minecraft:amethyst_shard",
+			"components": {
+				"minecraft:enchantment_glint_override": true,
+				"minecraft:custom_model_data": 90001
+			}
 		},
 		"title": {
 			"translate": "stellarity.advancements.find_end_village",
@@ -24,7 +27,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"structure": "stellarity:village"
+						"structures": "stellarity:village"
 					}
 				}
 			}

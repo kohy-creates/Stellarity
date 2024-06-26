@@ -1,5 +1,5 @@
 loot spawn ~ ~ ~ loot stellarity:mobs/eol/daytime_drops
-loot spawn ~ ~ ~ loot stellarity:mobs/dragon/extra_drops/day
+loot spawn ~ ~ ~ loot stellarity:mobs/eol/extra_drops/day
 
 execute as @e[type=item,distance=..1] run data modify entity @s Glowing set value 1b
 execute as @e[type=item,distance=..1] run team join stellarity.eol.day_glow @s

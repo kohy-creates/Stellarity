@@ -1,8 +1,54 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:shield",
-			"nbt": "{BlockEntityTag:{id:\"minecraft:banner\",Patterns:[{Pattern:\"b\",Color:1},{Pattern:\"cr\",Color:4}, {Pattern:\"gra\",Color:1},{Pattern:\"gru\",Color:1},{Pattern:\"bo\",Color:4},{Pattern:\"bo\",Color: 1}, {Pattern:\"flo\",Color:4},{Pattern:\"flo\",Color:1},{Pattern:\"cbo\",Color:4},{Pattern:\"cbo\",Color: 1}]}}"
+			"id": "minecraft:shield",
+			"components": {
+				"minecraft:banner_patterns": [
+					{
+						"color": "orange",
+						"pattern": "base"
+					},
+					{
+						"color": "yellow",
+						"pattern": "cross"
+					},
+					{
+						"color": "orange",
+						"pattern": "gradient"
+					},
+					{
+						"color": "orange",
+						"pattern": "gradient_up"
+					},
+					{
+						"color": "yellow",
+						"pattern": "border"
+					},
+					{
+						"color": "orange",
+						"pattern": "border"
+					},
+					{
+						"color": "yellow",
+						"pattern": "flower"
+					},
+					{
+						"color": "orange",
+						"pattern": "flower"
+					},
+					{
+						"color": "yellow",
+						"pattern": "curly_border"
+					},
+					{
+						"color": "orange",
+						"pattern": "curly_border"
+					}
+				],
+				"minecraft:block_entity_data": {
+				  "id": "minecraft:banner"
+				}
+			}
 		},
 		"title": {
 			"translate": "stellarity.advancements.electrified",

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:pink_shulker_box"
+			"id": "minecraft:pink_shulker_box"
 		},
 		"title": {
 			"text": "jeb_"

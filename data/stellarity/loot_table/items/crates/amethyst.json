@@ -14,17 +14,14 @@
 							"name": "stellarity:void_fishing/crates/amethyst"
 						},
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "stellarity.items.crates.amethyst",
-								"fallback": "Amethyst Crate",
-								"color": "#B63FFF",
-								"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.crates.amethyst\",\"fallback\": \"Amethyst Crate\",\"color\": \"#B63FFF\",\"italic\": false}"
 							}
 						},
 						{
-							"function": "minecraft:set_lore",
+							"function": "minecraft:set_lore",	
+							"mode": "replace_all",
 							"entity": "this",
 							"lore": [
 								"",

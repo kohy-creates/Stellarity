@@ -13,7 +13,9 @@
 							"predicate": {
 								"equipment": {
 									"mainhand": {
-										"nbt": "{stellarity.spirits:[\"swamp\"]}"
+										"components": { 
+											"minecraft:custom_data":"{stellarity.spirits:[\"swamp\"]}"
+										}
 									}
 								}
 							}
@@ -26,7 +28,7 @@
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"biome": "minecraft:swamp"
+							"biomes": "minecraft:swamp"
 						}
 					}
 				]
@@ -44,7 +46,9 @@
 							"predicate": {
 								"equipment": {
 									"mainhand": {
-										"nbt": "{stellarity.spirits:[\"swamp\"]}"
+										"components": { 
+											"minecraft:custom_data":"{stellarity.spirits:[\"swamp\"]}"
+										}
 									}
 								}
 							}
@@ -57,7 +61,7 @@
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"biome": "minecraft:mangrove_swamp"
+							"biomes": "minecraft:mangrove_swamp"
 						}
 					}
 				]
@@ -75,7 +79,9 @@
 							"predicate": {
 								"equipment": {
 									"mainhand": {
-										"nbt": "{stellarity.spirits:[\"swamp\"]}"
+										"components": { 
+											"minecraft:custom_data":"{stellarity.spirits:[\"swamp\"]}"
+										}
 									}
 								}
 							}
@@ -88,7 +94,7 @@
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"biome": "far_end:warped_marsh"
+							"biomes": "far_end:warped_marsh"
 						}
 					}
 				]

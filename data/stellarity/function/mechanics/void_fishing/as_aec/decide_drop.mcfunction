@@ -16,7 +16,7 @@ execute if predicate kohara:chance/1percent run scoreboard players set #catch.pu
 # Drop regular loot if both variables are 0
 execute if score #catch.fisher_of_voids stellarity.misc matches 0 if score #catch.pufferfish stellarity.misc matches 0 run loot spawn ~ ~ ~ loot stellarity:void_fishing/fish_event
 # Drop Fisher of Voids if its var is set to 1, but not the Pufferfish one
-execute if score #catch.fisher_of_voids stellarity.misc matches 1 if score #catch.pufferfish stellarity.misc matches 0 run loot spawn ~ ~ ~ loot stellarity:void_fishing/tools/fisher_of_voids
+execute if score #catch.fisher_of_voids stellarity.misc matches 1 if score #catch.pufferfish stellarity.misc matches 0 run loot spawn ~ ~ ~ loot stellarity:items/tools/fisher_of_voids
 # Drop Pufferfish if its var is set to 1, but not the Fisher of Voids one
 execute if score #catch.fisher_of_voids stellarity.misc matches 0 if score #catch.pufferfish stellarity.misc matches 1 run loot spawn ~ ~ ~ loot stellarity:items/food/fish/pufferfish
 # And finally, use treasure loot pool instead of regular one if the very rare 0.03% chance occurs

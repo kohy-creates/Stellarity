@@ -1,8 +1,11 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:apple",
-			"nbt": "{CustomModelData:90000,Enchantments:[{}]}"
+			"id": "minecraft:apple",
+			"components": {
+				"minecraft:enchantment_glint_override": true,
+				"minecraft:custom_model_data": 90000
+			}
 		},
 		"title": {
 			"translate": "stellarity.advancements.power_overdrive",
@@ -26,7 +29,9 @@
 					"items": [
 						"minecraft:baked_potato"
 					],
-					"nbt": "{stellarity.special_item:\"cleansing_potato\"}"
+					"components": {
+						"minecraft:custom_data": "{stellarity.special_item:\"cleansing_potato\"}"
+					}
 				}
 			}
 		},
@@ -37,7 +42,9 @@
 					"items": [
 						"minecraft:rabbit_stew"
 					],
-					"nbt": "{stellarity.special_item:\"endurance_brew\"}"
+					"components": {
+						"minecraft:custom_data": "{stellarity.special_item:\"endurance_brew\"}"
+					}
 				}
 			}
 		},
@@ -48,7 +55,9 @@
 					"items": [
 						"minecraft:chorus_fruit"
 					],
-					"nbt": "{stellarity.special_item:\"energizing_fruit\"}"
+					"components": {
+						"minecraft:custom_data": "{stellarity.special_item:\"energizing_fruit\"}"
+					}
 				}
 			}
 		},
@@ -59,7 +68,9 @@
 					"items": [
 						"minecraft:sweet_berries"
 					],
-					"nbt": "{stellarity.special_item:\"fury_berries\"}"
+					"components": {
+						"minecraft:custom_data": "{stellarity.special_item:\"fury_berries\"}"
+					}
 				}
 			}
 		},
@@ -70,7 +81,9 @@
 					"items": [
 						"minecraft:golden_carrot"
 					],
-					"nbt": "{stellarity.special_item:\"lucky_carrot\"}"
+					"components": {
+						"minecraft:custom_data": "{stellarity.special_item:\"lucky_carrot\"}"
+					}
 				}
 			}
 		},
@@ -81,7 +94,9 @@
 					"items": [
 						"minecraft:apple"
 					],
-					"nbt": "{stellarity.special_item:\"miracle_fruit\"}"
+					"components": {
+						"minecraft:custom_data": "{stellarity.special_item:\"miracle_fruit\"}"
+					}
 				}
 			}
 		},
@@ -92,7 +107,9 @@
 					"items": [
 						"minecraft:beetroot"
 					],
-					"nbt": "{stellarity.special_item:\"rageroot\"}"
+					"components": {
+						"minecraft:custom_data": "{stellarity.special_item:\"rageroot\"}"
+					}
 				}
 			}
 		}

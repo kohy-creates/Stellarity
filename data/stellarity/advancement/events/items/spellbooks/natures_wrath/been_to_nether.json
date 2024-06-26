@@ -13,7 +13,9 @@
 							"predicate": {
 								"equipment": {
 									"mainhand": {
-										"nbt": "{stellarity.spirits:[\"fire\"]}"
+										"components": { 
+											"minecraft:custom_data":"{stellarity.spirits:[\"fire\"]}"
+										}
 									}
 								}
 							}

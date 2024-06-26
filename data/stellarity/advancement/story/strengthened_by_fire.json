@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:blaze_powder"
+			"id": "minecraft:blaze_powder"
 		},
 		"title": {
 			"translate": "stellarity.advancements.craft_ender_eye",

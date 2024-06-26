@@ -379,19 +379,19 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/chorus_dagger"
+					"value": "stellarity:items/chorus_dagger"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/the_beginning_and_the_end"
+					"value": "stellarity:items/the_beginning_and_the_end"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/starless_scythe"
+					"value": "stellarity:items/starless_scythe"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/spellbooks/jinx"
+					"value": "stellarity:items/spellbooks/jinx"
 				}
 			],
 			"conditions": [
@@ -410,7 +410,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/materials/enderite_smithing_template"
+					"value": "stellarity:items/materials/enderite_smithing_template"
 				}
 			]
 		}

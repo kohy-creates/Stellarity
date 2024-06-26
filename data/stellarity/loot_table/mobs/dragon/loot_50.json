@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/trinkets/crest_of_the_end",
+					"value": "stellarity:items/trinkets/crest_of_the_end",
 					"conditions": [
 						{
 							"condition": "minecraft:random_chance",
@@ -20,7 +20,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/tamaris",
+					"value": "stellarity:items/tamaris",
 					"conditions": [
 						{
 							"condition": "minecraft:random_chance",
@@ -35,7 +35,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/trinkets/ender_insignia",
+					"value": "stellarity:items/trinkets/ender_insignia",
 					"conditions": [
 						{
 							"condition": "minecraft:random_chance",
@@ -50,7 +50,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/trinkets/dragons_eye",
+					"value": "stellarity:items/trinkets/dragons_eye",
 					"conditions": [
 						{
 							"condition": "minecraft:random_chance",

@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bow",
-			"nbt": "{CustomModelData:90000}"
+			"id": "minecraft:bow",
+			"components": {
+				"minecraft:custom_model_data": 90000
+			}
 		},
 		"title": {
 			"translate": "stellarity.advancements.rare_find",
@@ -28,7 +30,9 @@
 						"items": [
 							"minecraft:bow"
 						],
-						"nbt": "{stellarity.special_item:\"sharanga\"}"
+						"components": { 
+							"minecraft:custom_data":"{stellarity.special_item:\"sharanga\"}"
+						}
 					}
 				]
 			}
@@ -41,7 +45,9 @@
 						"items": [
 							"minecraft:crossbow"
 						],
-						"nbt": "{stellarity.special_item:\"clockwork_crossbow\"}"
+						"components": { 
+							"minecraft:custom_data":"{stellarity.special_item:\"clockwork_crossbow\"}"
+						}
 					}
 				]
 			}
@@ -54,7 +60,9 @@
 						"items": [
 							"minecraft:knowledge_book"
 						],
-						"nbt": "{stellarity.special_item:\"book_of_conveyance\"}"
+						"components": { 
+							"minecraft:custom_data":"{stellarity.special_item:\"book_of_conveyance\"}"
+						}
 					}
 				]
 			}
@@ -67,7 +75,9 @@
 						"items": [
 							"minecraft:knowledge_book"
 						],
-						"nbt": "{stellarity.special_item:\"book_of_updraft\"}"
+						"components": { 
+							"minecraft:custom_data":"{stellarity.special_item:\"book_of_updraft\"}"
+						}
 					}
 				]
 			}
@@ -80,7 +90,24 @@
 						"items": [
 							"minecraft:knowledge_book"
 						],
-						"nbt": "{stellarity.special_item:\"book_of_light\"}"
+						"components": { 
+							"minecraft:custom_data":"{stellarity.special_item:\"book_of_light\"}"
+						}
+					}
+				]
+			}
+		},
+		"drop6": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:knowledge_book"
+						],
+						"components": { 
+							"minecraft:custom_data":"{stellarity.special_item:\"copper_elektra_shield\"}"
+						}
 					}
 				]
 			}
@@ -92,7 +119,8 @@
 			"drop2",
 			"drop3",
 			"drop4",
-			"drop5"
+			"drop5",
+			"drop6"
 		]
 	]
 }

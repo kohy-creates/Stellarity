@@ -1,11 +1,11 @@
 kill @s[type=marker]
 
 # Cloud
-execute align y run summon area_effect_cloud ~ ~ ~ {Radius:1f,RadiusPerTick:0.009f,Duration:300,effects:[{id:"minecraft:instant_damage",amplifier:0b,duration:1,show_particles:0b}],ReapplicationDelay:12,RadiusOnUse:0f,Particle:"minecraft:dragon_breath",Tags:["stellarity.dragon_breath","stellarity.aec"]}
+execute align y run summon area_effect_cloud ~ ~ ~ {Radius:1f,RadiusPerTick:0.009f,Duration:300,potion_contents:{effects:[{id:"minecraft:instant_damage",amplifier:0b,duration:1,show_particles:0b}]},ReapplicationDelay:12,RadiusOnUse:0f,Particle:"minecraft:dragon_breath",Tags:["stellarity.dragon_breath","stellarity.aec"]}
 data modify entity @e[type=area_effect_cloud,limit=1,sort=nearest,tag=stellarity.dragon_breath] Owner set from entity @e[type=ender_dragon,limit=1,sort=nearest] UUID
 
 # Small explosion
-execute align y run summon firework_rocket ~ ~ ~ {Silent:1b,LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",Count:1b,tag:{Fireworks:{Explosions:[{Type:0,Trail:0,Flicker:0,Colors:[I;14876888,13697223,12779705,14156003]}],Flight:1}}},Tags:["stellarity.dragon_breath"]}
+execute align y run summon firework_rocket ~ ~ ~ {Silent:1b,LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;14876888,13697223,12779705,14156003],has_trail:0,has_twinkle:0}],flight_duration:1}}},Tags:["stellarity.dragon_breath"]}
 data modify entity @e[type=firework_rocket,limit=1,sort=nearest,tag=stellarity.dragon_breath] Owner set from entity @e[type=ender_dragon,limit=1,sort=nearest] UUID
 
 playsound minecraft:entity.dragon_fireball.explode hostile @a[distance=0..] ~ ~ ~ 1 1

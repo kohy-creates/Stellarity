@@ -5,7 +5,11 @@
 			"trigger": "minecraft:shot_crossbow",
 			"conditions": {
 				"item": {
-					"nbt": "{stellarity.special_item:\"clockwork_crossbow\"}"
+					"components":{
+						"minecraft:custom_data": {
+							"stellarity.special_item": "clockwork_crossbow"
+						}
+					}
 				}
 			}
 		}

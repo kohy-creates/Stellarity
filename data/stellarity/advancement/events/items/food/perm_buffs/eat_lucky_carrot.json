@@ -11,7 +11,7 @@
 							"condition": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"nbt": "{Tags:[\"stellarity.perm_buffs.lucky_carrot\"]}"
+								"nbt":"{Tags:[\"stellarity.perm_buffs.lucky_carrot\"]}"
 							}
 						}
 					}
@@ -20,7 +20,9 @@
 					"items": [
 						"minecraft:golden_carrot"
 					],
-					"nbt": "{stellarity.special_item:\"lucky_carrot\"}"
+					"components": {
+						"minecraft:custom_data": "{stellarity.special_item:\"lucky_carrot\"}"
+					}
 				}
 			}
 		}

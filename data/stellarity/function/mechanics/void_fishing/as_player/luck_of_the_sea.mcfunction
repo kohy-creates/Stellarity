@@ -1,2 +1,2 @@
-execute if score #mainhand stellarity.misc matches 1 store result score #luck_of_the_sea stellarity.misc run data get entity @s SelectedItem.tag.Enchantments.[{id:"minecraft:luck_of_the_sea"}].lvl 1
-execute if score #offhand stellarity.misc matches 1 store result score #luck_of_the_sea stellarity.misc run data get entity @s Inventory.[{Slot:-106b}].tag.Enchantments.[{id:"minecraft:luck_of_the_sea"}].lvl 1
+execute if score #mainhand stellarity.misc matches 1 store result score #luck_of_the_sea stellarity.misc run data get entity @s SelectedItem.components."minecraft:enchantments".levels."minecraft:luck_of_the_sea" 1
+execute if score #offhand stellarity.misc matches 1 store result score #luck_of_the_sea stellarity.misc run data get entity @s Inventory.[{Slot:-106b}].components."minecraft:enchantments".levels."minecraft:luck_of_the_sea" 1

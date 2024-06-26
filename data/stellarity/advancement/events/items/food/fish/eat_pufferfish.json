@@ -8,7 +8,9 @@
 					"items": [
 						"minecraft:pufferfish"
 					],
-					"nbt": "{stellarity.special_item:\"pufferfish\"}"
+					"components": {
+						"minecraft:custom_data": "{stellarity.special_item:\"pufferfish\"}"
+					}
 				}
 			}
 		}

@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/elytra/empress_wings"
+					"value": "stellarity:items/elytra/empress_wings"
 				}
 			],
 			"conditions": [
@@ -21,7 +21,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/trinkets/soaring_insignia"
+					"value": "stellarity:items/trinkets/soaring_insignia"
 				}
 			],
 			"conditions": [

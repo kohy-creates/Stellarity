@@ -1,8 +1,13 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:leather_boots",
-			"nbt": "{display:{color:7078047},Enchantments:[{id:\"soul_speed\"}]}"
+			"id": "minecraft:leather_boots",
+			"components": {
+				"minecraft:enchantments": {
+					"soul_speed": 1
+				},
+				"minecraft:dyed_color": 7078047
+			}
 		},
 		"title": {
 			"translate": "stellarity.advancements.discover_all_biomes",
@@ -23,7 +28,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biome": "far_end:amethyst_forest"
+						"biomes": "far_end:amethyst_forest"
 					}
 				}
 			}
@@ -33,7 +38,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biome": "far_end:ashfall_delta"
+						"biomes": "far_end:ashfall_delta"
 					}
 				}
 			}
@@ -43,7 +48,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biome": "far_end:end_wilds"
+						"biomes": "far_end:end_wilds"
 					}
 				}
 			}
@@ -53,7 +58,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biome": "far_end:ender_waste"
+						"biomes": "far_end:ender_waste"
 					}
 				}
 			}
@@ -63,7 +68,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biome": "far_end:flesh_tundra"
+						"biomes": "far_end:flesh_tundra"
 					}
 				}
 			}
@@ -73,7 +78,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biome": "far_end:the_nest"
+						"biomes": "far_end:the_nest"
 					}
 				}
 			}
@@ -83,7 +88,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biome": "stellarity:blazing_dunes"
+						"biomes": "stellarity:blazing_dunes"
 					}
 				}
 			}
@@ -93,7 +98,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biome": "stellarity:prismarine_forest"
+						"biomes": "stellarity:prismarine_forest"
 					}
 				}
 			}
@@ -103,7 +108,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biome": "minecraft:end_highlands"
+						"biomes": "minecraft:end_highlands"
 					}
 				}
 			}
@@ -113,7 +118,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biome": "minecraft:end_barrens"
+						"biomes": "minecraft:end_barrens"
 					}
 				}
 			}
@@ -123,7 +128,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biome": "minecraft:end_midlands"
+						"biomes": "minecraft:end_midlands"
 					}
 				}
 			}
@@ -133,7 +138,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biome": "minecraft:small_end_islands"
+						"biomes": "minecraft:small_end_islands"
 					}
 				}
 			}
@@ -143,7 +148,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biome": "stellarity:the_hallow"
+						"biomes": "stellarity:the_hallow"
 					}
 				}
 			}
@@ -153,7 +158,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biome": "stellarity:frosted_hills"
+						"biomes": "stellarity:frosted_hills"
 					}
 				}
 			}
@@ -163,7 +168,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biome": "far_end:warped_marsh"
+						"biomes": "far_end:warped_marsh"
 					}
 				}
 			}
@@ -174,7 +179,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biome": "far_end:void"
+						"biomes": "far_end:void"
 					}
 				}
 			}
@@ -184,7 +189,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biome": "stellarity:crystal_crags"
+						"biomes": "stellarity:crystal_crags"
 					}
 				}
 			}

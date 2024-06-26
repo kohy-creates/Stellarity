@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/prismember"
+					"value": "stellarity:items/prismember"
 				}
 			],
 			"conditions": [
@@ -20,7 +20,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/prismatic_pearl",
+					"value": "stellarity:items/prismatic_pearl",
 					"conditions": [
 						{
 							"condition": "minecraft:random_chance",
@@ -35,7 +35,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/prismatic_punch"
+					"value": "stellarity:items/prismatic_punch"
 				}
 			],
 			"conditions": [
@@ -50,7 +50,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/trinkets/starstruck_carcanet",
+					"value": "stellarity:items/trinkets/starstruck_carcanet",
 					"conditions": [
 						{
 							"condition": "minecraft:random_chance",

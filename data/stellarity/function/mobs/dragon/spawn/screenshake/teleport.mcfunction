@@ -1,1 +1,1 @@
-$teleport @s[nbt=!{abilities:{flying:1b}}] ~ ~$(screenshake) ~ ~ ~
+$teleport @s[nbt=!{abilities:{flying:1}}] ~ ~$(screenshake) ~ ~ ~

@@ -26,7 +26,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 2,
-					"name": "stellarity:items/materials/enderite_shard",
+					"value": "stellarity:items/materials/enderite_shard",
 					"functions": [
 						{
 							"function": "set_count",
@@ -85,7 +85,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/materials/hallowed_ingot",
+					"value": "stellarity:items/materials/hallowed_ingot",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -98,7 +98,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/materials/chorus_plating",
+					"value": "stellarity:items/materials/chorus_plating",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -116,7 +116,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:treasure_heads"
+					"value": "stellarity:treasure_heads"
 				}
 			],
 			"conditions": [

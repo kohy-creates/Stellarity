@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/kaleidoscope"
+					"value": "stellarity:items/kaleidoscope"
 				}
 			]
 		},
@@ -15,7 +15,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/trinkets/soaring_insignia"
+					"value": "stellarity:items/trinkets/soaring_insignia"
 				}
 			]
 		}

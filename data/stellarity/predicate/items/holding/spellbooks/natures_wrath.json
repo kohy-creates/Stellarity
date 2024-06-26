@@ -7,7 +7,7 @@
 				"items": [
 					"minecraft:knowledge_book"
 				],
-				"nbt": "{stellarity.special_item:\"natures_wrath\"}"
+				"components":{ "minecraft:custom_data": "{stellarity.special_item:\"natures_wrath\"}"}
 			}
 		}
 	}

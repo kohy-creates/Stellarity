@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sculk_catalyst"
+			"id": "minecraft:sculk_catalyst"
 		},
 		"title": {
 			"translate": "stellarity.advancements.kill_la_kill",

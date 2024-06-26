@@ -11,4 +11,4 @@ function stellarity:mechanics/altar_of_accursed/crafting/global_effects_wave
 
 advancement grant @p only stellarity:aota/dye_elytra
 
-execute as @e[type=item,tag=stellarity.aota.elytra,distance=..1.5,limit=1] unless data entity @s Item.tag."stellarity.elytra_color" run data modify entity @s Item.tag.display.Lore insert 0 value '{"translate":"item.dyed","color":"gray","italic":true}'
+execute as @e[type=item,tag=stellarity.aota.elytra,distance=..1.5,limit=1] unless data entity @s Item.components."minecraft:custom_data"."stellarity.elytra_color" run data modify entity @s Item.components."minecraft:lore" insert 0 value '{"translate":"item.dyed","color":"gray","italic":true}'

@@ -9,17 +9,8 @@
 					"name": "minecraft:barrel",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "stellarity.items.pandoras_barrel",
-								"fallback": "Pandora's Barrel",
-								"color": "#934C00",
-								"italic": false
-							}
-						},
-						{
-							"function": "minecraft:set_lore",
+							"function": "minecraft:set_lore",	
+							"mode": "replace_all",
 							"lore": [
 								"",
 								{
@@ -50,8 +41,14 @@
 							]
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,stellarity.special_item:\"pandoras_barrel\"}"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 90000,
+								"minecraft:custom_data": {
+									"stellarity.special_item": "pandoras_barrel"
+								}
+							},
+							"minecraft:item_name": "{\"translate\":  \"stellarity.items.pandoras_barrel\",\"fallback\": \"Pandora's Barrel\",\"color\": \"#934C00\",\"italic\": false}"
 						}
 					]
 				}

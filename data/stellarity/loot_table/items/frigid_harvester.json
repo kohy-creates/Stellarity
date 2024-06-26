@@ -8,16 +8,22 @@
 					"name": "minecraft:diamond_sword",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"name": {
-								"translate": "stellarity.items.weapons.frigid_harvester",
-								"fallback": "Frigid Harvester",
-								"color": "#4BC6FF",
-								"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 90031,
+								"minecraft:custom_data": {
+									"stellarity.special_item": "frigid_harvester",
+									"stellarity.aery_sword": {
+										"damage": 0,
+										"abilities": []
+									}
+								},
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.frigid_harvester\",\"fallback\": \"Frigid Harvester\",\"color\": \"#4BC6FF\",\"italic\": false}"
 							}
 						},
 						{
-							"function": "minecraft:set_lore",
+							"function": "minecraft:set_lore",	
+							"mode": "replace_all",
 							"lore": [
 								"",
 								{
@@ -61,61 +67,7 @@
 									"translate": "Stellarity",
 									"color": "#CC26FF",
 									"italic": true
-								},
-								"",
-								{
-									"translate": "item.modifiers.mainhand",
-									"color": "gray",
-									"italic": false
-								},
-								[
-									" ",
-									{
-										"translate": "attribute.modifier.equals.0",
-										"with": [
-											{
-												"text": "4"
-											},
-											{
-												"translate": "attribute.name.generic.attack_damage"
-											}
-										],
-										"color": "dark_green",
-										"italic": false
-									}
-								],
-								[
-									" ",
-									{
-										"translate": "attribute.modifier.equals.0",
-										"with": [
-											{
-												"text": "0.85"
-											},
-											{
-												"translate": "attribute.name.generic.attack_speed"
-											}
-										],
-										"color": "dark_green",
-										"italic": false
-									}
-								],
-								[
-									" ",
-									{
-										"translate": "attribute.modifier.take.1",
-										"with": [
-											{
-												"text": "15"
-											},
-											{
-												"translate": "attribute.name.generic.movement_speed"
-											}
-										],
-										"color": "dark_green",
-										"italic": false
-									}
-								]
+								} 
 							]
 						},
 						{
@@ -123,40 +75,26 @@
 							"modifiers": [
 								{
 									"attribute": "minecraft:generic.attack_damage",
-									"name": "",
-									"id": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF",
+									"id": "minecraft:base_attack_damage",
 									"amount": 3,
-									"operation": "addition",
+									"operation": "add_value",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
-									"name": "",
-									"id": "FA233E1C-4180-4865-B01B-BCCE9785ACA3",
+									"id": "minecraft:base_attack_speed",
 									"amount": -3.15,
-									"operation": "addition",
+									"operation": "add_value",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.movement_speed",
-									"name": "",
-									"amount": -0.15,
-									"operation": "multiply_total",
-									"slot": "mainhand"
-								},
-								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "stellarity.aery_sword",
-									"id": "3fbfa2df-672d-4218-827d-afc14c72bb7c",
 									"amount": 0,
-									"operation": "addition",
+									"id": "minecraft:base_attack_damage",
+									"operation": "add_multiplied_total",
 									"slot": "mainhand"
 								}
 							]
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90031,stellarity.special_item:\"frigid_harvester\",HideFlags:6,stellarity.aery_sword:{damage:0d,abilities:[]},kohara.fireproof:0b}"
 						}
 					]
 				}

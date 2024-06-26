@@ -10,7 +10,9 @@
 							"items": [
 								"minecraft:diamond_sword"
 							],
-							"nbt": "{stellarity.special_item:\"frigid_harvester\",stellarity.aery_sword:{abilities:[\"cryonics\"]}}"
+							"components": {
+								"minecraft:custom_data": "{stellarity.special_item:\"frigid_harvester\",stellarity.aery_sword:{abilities:[\"cryonics\"]}}"
+							}
 						}
 					}
 				}

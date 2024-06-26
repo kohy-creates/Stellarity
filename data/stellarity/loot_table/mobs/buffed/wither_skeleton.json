@@ -19,7 +19,8 @@
 							"add": false
 						},
 						{
-							"function": "minecraft:looting_enchant",
+							"function": "minecraft:enchanted_count_increase",
+							"enchantment": "minecraft:looting",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 0,
@@ -48,7 +49,8 @@
 							"add": false
 						},
 						{
-							"function": "minecraft:looting_enchant",
+							"function": "minecraft:enchanted_count_increase",
+							"enchantment": "minecraft:looting",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 0,
@@ -73,9 +75,10 @@
 					"condition": "minecraft:killed_by_player"
 				},
 				{
-					"condition": "minecraft:random_chance_with_looting",
-					"chance": 0.008,
-					"looting_multiplier": 0.011
+					"condition": "minecraft:random_chance_with_enchanted_bonus",
+					"enchantment": "minecraft:looting",
+					"unenchanted_chance": 0.008,
+					"enchanted_chance": 0.011
 				}
 			]
 		},
@@ -94,7 +97,8 @@
 							}
 						},
 						{
-							"function": "minecraft:looting_enchant",
+							"function": "minecraft:enchanted_count_increase",
+							"enchantment": "minecraft:looting",
 							"count": {
 								"min": 0,
 								"max": 1

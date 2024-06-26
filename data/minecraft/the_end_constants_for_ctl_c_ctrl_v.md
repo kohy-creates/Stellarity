@@ -3,7 +3,7 @@
 
 <hr>
 
-**Dragon's Den** biome always generates at <u>hardcoded minimum erosion and continents noise values</u> to prevent it from generating outside of main island. These values are forced to -2 around X:0 Z:0.
+**Dragon's Den**, AKA **The End** biome always generates at <u>hardcoded minimum erosion and continents noise values</u> to prevent it from generating outside of main island. These values are forced to -2 around X:0 Z:0.
 
 For more info look into `stellarity/worldgen/density_function/end/erosion.json` and `./continents.json` files.
 
@@ -17,7 +17,7 @@ For more info look into `stellarity/worldgen/density_function/end/depth.json` fi
 
 ```json
 {
-    "biome": "stellarity:dragons_den",
+    "biome": "minecraft:the_end",
     "parameters": {
         "temperature": 0,
         "humidity": 0,

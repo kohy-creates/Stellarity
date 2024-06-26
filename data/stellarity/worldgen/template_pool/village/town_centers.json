@@ -6,6 +6,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
+				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:village/town_center_1",
 				"processors": "minecraft:empty"
 			}
@@ -15,6 +16,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
+				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:village/town_center_2",
 				"processors": "minecraft:empty"
 			}
@@ -24,6 +26,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
+				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:village/town_center_3",
 				"processors": "minecraft:empty"
 			}

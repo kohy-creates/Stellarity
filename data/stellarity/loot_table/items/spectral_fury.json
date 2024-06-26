@@ -8,21 +8,19 @@
 					"name": "minecraft:bow",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "stellarity.items.weapons.spectral_fury",
-								"fallback": "Spectral Fury",
-								"color": "#BDF1FF",
-								"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 90001,
+								"minecraft:custom_data": {
+									"stellarity.special_item": "spectral_fury"
+								},
+								"minecraft:max_damage": 636,
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.spectral_fury\",\"fallback\": \"Spectral Fury\",\"color\": \"#BDF1FF\",\"italic\": false}"
 							}
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90001,stellarity.special_item:\"spectral_fury\",kohara.durability:{enabled:1b,max_dur:636}}"
-						},
-						{
-							"function": "minecraft:set_lore",
+							"function": "minecraft:set_lore",	
+							"mode": "replace_all",
 							"entity": "this",
 							"lore": [
 								"",

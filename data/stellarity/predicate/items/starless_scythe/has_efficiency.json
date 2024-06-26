@@ -4,11 +4,13 @@
 	"predicate": {
 		"equipment": {
 			"mainhand": {
-				"enchantments": [
-					{
-						"enchantment": "minecraft:efficiency"
-					}
-				]
+				"predicates": {
+					"minecraft:enchantments": [
+						{
+							"enchantments": "minecraft:efficiency"
+						}
+					]
+				}
 			}
 		}
 	}

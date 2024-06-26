@@ -14,17 +14,14 @@
 							"name": "stellarity:void_fishing/crates/hellfire"
 						},
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "stellarity.items.crates.hellfire",
-								"fallback": "Hellfire Crate",
-								"color": "#E14514",
-								"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.crates.hellfire\",\"fallback\": \"Hellfire Crate\",\"color\": \"#E14514\",\"italic\": false}"
 							}
 						},
 						{
-							"function": "minecraft:set_lore",
+							"function": "minecraft:set_lore",	
+							"mode": "replace_all",
 							"entity": "this",
 							"lore": [
 								"",

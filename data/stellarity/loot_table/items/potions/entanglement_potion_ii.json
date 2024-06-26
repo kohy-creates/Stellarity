@@ -8,21 +8,28 @@
 					"name": "minecraft:splash_potion",
 					"functions": [
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Potion:\"minecraft:water\",custom_potion_effects:[{id:\"minecraft:slowness\",amplifier:5,duration:160}],CustomPotionColor:8463733,stellarity.special_item:\"entanglement_potion_ii\"}"
-						},
-						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "stellarity.items.potions.entanglement_potion",
-								"fallback": "Entanglement Potion",
-								"color": "white",
-								"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:potion_contents": {
+									"potion": "minecraft:water",
+									"custom_color": 8463733,
+									"custom_effects": [
+										{
+											"id": "minecraft:slowness",
+											"amplifier": 5,
+											"duration": 160
+										}
+									]
+								},
+								"minecraft:custom_data": {
+									"stellarity.special_item": "entanglement_potion_ii"
+								},
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.potions.entanglement_potion\",\"fallback\": \"Entanglement Potion\",\"color\": \"white\",\"italic\": false}"
 							}
 						},
 						{
-							"function": "minecraft:set_lore",
+							"function": "minecraft:set_lore",	
+							"mode": "replace_all",
 							"lore": [
 								"",
 								{

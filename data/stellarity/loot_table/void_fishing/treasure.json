@@ -63,7 +63,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 10,
-					"name": "stellarity:items/materials/enderite_smithing_template"
+					"value": "stellarity:items/materials/enderite_smithing_template"
 				},
 				{
 					"type": "minecraft:item",
@@ -114,7 +114,7 @@
 						{
 							"type": "minecraft:loot_table",
 							"weight": 13,
-							"name": "stellarity:items/crates/amethyst",
+							"value": "stellarity:items/crates/amethyst",
 							"conditions": [
 								{
 									"condition": "minecraft:any_of",
@@ -138,7 +138,7 @@
 						{
 							"type": "minecraft:loot_table",
 							"weight": 13,
-							"name": "stellarity:items/crates/frozen",
+							"value": "stellarity:items/crates/frozen",
 							"conditions": [
 								{
 									"condition": "minecraft:any_of",
@@ -156,7 +156,7 @@
 						{
 							"type": "minecraft:loot_table",
 							"weight": 13,
-							"name": "stellarity:items/crates/hallowed",
+							"value": "stellarity:items/crates/hallowed",
 							"conditions": [
 								{
 									"condition": "minecraft:any_of",
@@ -174,7 +174,7 @@
 						{
 							"type": "minecraft:loot_table",
 							"weight": 13,
-							"name": "stellarity:items/crates/hematic",
+							"value": "stellarity:items/crates/hematic",
 							"conditions": [
 								{
 									"condition": "minecraft:any_of",
@@ -192,7 +192,7 @@
 						{
 							"type": "minecraft:loot_table",
 							"weight": 13,
-							"name": "stellarity:items/crates/prismarine",
+							"value": "stellarity:items/crates/prismarine",
 							"conditions": [
 								{
 									"condition": "minecraft:any_of",
@@ -210,7 +210,7 @@
 						{
 							"type": "minecraft:loot_table",
 							"weight": 13,
-							"name": "stellarity:items/crates/hellfire",
+							"value": "stellarity:items/crates/hellfire",
 							"conditions": [
 								{
 									"condition": "minecraft:any_of",
@@ -228,7 +228,7 @@
 						{
 							"type": "minecraft:loot_table",
 							"weight": 13,
-							"name": "stellarity:items/crates/ender"
+							"value": "stellarity:items/crates/ender"
 						}
 					]
 				}

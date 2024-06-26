@@ -8,7 +8,9 @@
 					"items": [
 						"minecraft:cooked_beef"
 					],
-					"nbt": "{stellarity.special_item:\"frozen_carpaccio\"}"
+					"components": {
+						"minecraft:custom_data": "{stellarity.special_item:\"frozen_carpaccio\"}"
+					}
 				}
 			}
 		}

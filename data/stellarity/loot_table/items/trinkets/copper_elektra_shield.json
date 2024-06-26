@@ -54,16 +54,14 @@
 							"append": false
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"copper_elektra_shield\",CustomModelData:90001,HideFlags:32}"
-						},
-						{
-							"function": "minecraft:set_name",
-							"name": {
-								"translate": "stellarity.items.trinkets.copper_elektra_shield",
-								"fallback": "Copper Elektra Shield",
-								"color": "#E0976B",
-								"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 90001,
+								"minecraft:hide_additional_tooltip": {},
+								"minecraft:custom_data": {
+									"stellarity.special_item": "copper_elektra_shield"
+								},
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.copper_elektra_shield\",\"fallback\": \"Copper Elektra Shield\",\"color\": \"#E0976B\",\"italic\": false}"
 							}
 						},
 						{
@@ -94,7 +92,8 @@
 									"color": "#CC26FF",
 									"italic": true
 								}
-							]
+							],
+							"mode": "replace_all"
 						}
 					]
 				}

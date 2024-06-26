@@ -17,7 +17,7 @@
 				}
 			}
 		},
-        {
+		{
 			"condition": "minecraft:location_check",
 			"offsetX": 0,
 			"offsetY": -2,
@@ -33,7 +33,7 @@
 				}
 			}
 		},
-        {
+		{
 			"condition": "minecraft:location_check",
 			"offsetX": 1,
 			"offsetY": -2,
@@ -49,7 +49,7 @@
 				}
 			}
 		},
-        {
+		{
 			"condition": "minecraft:location_check",
 			"offsetX": 2,
 			"offsetY": -2,
@@ -65,7 +65,7 @@
 				}
 			}
 		},
-        {
+		{
 			"condition": "minecraft:location_check",
 			"offsetX": 2,
 			"offsetY": -2,
@@ -81,7 +81,7 @@
 				}
 			}
 		},
-        {
+		{
 			"condition": "minecraft:location_check",
 			"offsetX": 2,
 			"offsetY": -2,
@@ -97,7 +97,7 @@
 				}
 			}
 		},
-        {
+		{
 			"condition": "minecraft:location_check",
 			"offsetX": 1,
 			"offsetY": -2,
@@ -113,7 +113,7 @@
 				}
 			}
 		},
-        {
+		{
 			"condition": "minecraft:location_check",
 			"offsetX": 0,
 			"offsetY": -2,
@@ -129,7 +129,7 @@
 				}
 			}
 		},
-        {
+		{
 			"condition": "minecraft:location_check",
 			"offsetX": -1,
 			"offsetY": -2,
@@ -145,7 +145,7 @@
 				}
 			}
 		},
-        {
+		{
 			"condition": "minecraft:location_check",
 			"offsetX": -2,
 			"offsetY": -2,
@@ -161,7 +161,7 @@
 				}
 			}
 		},
-        {
+		{
 			"condition": "minecraft:location_check",
 			"offsetX": -2,
 			"offsetY": -2,
@@ -177,7 +177,7 @@
 				}
 			}
 		},
-        {
+		{
 			"condition": "minecraft:location_check",
 			"offsetX": -2,
 			"offsetY": -2,

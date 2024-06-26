@@ -1,8 +1,11 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:chorus_fruit",
-			"nbt": "{Enchantments:[{}],CustomModelData:90000}"
+			"id": "minecraft:chorus_fruit",
+			"components": {
+				"minecraft:enchantment_glint_override": true,
+				"minecraft:custom_model_data": 90000
+			}
 		},
 		"title": {
 			"translate": "stellarity.advancements.eat_golden_chorus_fruit",
@@ -25,7 +28,11 @@
 					"items": [
 						"minecraft:chorus_fruit"
 					],
-					"nbt": "{stellarity.special_item:\"golden_chorus_fruit\"}"
+					"components": {
+						"minecraft:custom_data": {
+							"stellarity.special_item": "golden_chorus_fruit"
+						}
+					}
 				}
 			}
 		}

@@ -1,7 +1,7 @@
 # This should hopefully fix glithes with some claim plugins
 execute if score @s stellarity.misc matches 1 unless block ~ ~ ~ barrel run kill @s
 
-kill @e[type=item,distance=..0.5,nbt={Item:{id:"minecraft:barrel",Count:1b}}]
+kill @e[type=item,distance=..0.5,nbt={Item:{id:"minecraft:barrel",count:1}}]
 
 execute if score @s stellarity.misc matches 1..2 run setblock ~ ~ ~ barrel[facing=up,open=false]{Lock:"kohy likes to kiss boys",CustomName:""} replace
 execute if score @s stellarity.misc matches 3 run playsound block.barrel.open block @a[distance=0..]

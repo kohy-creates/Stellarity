@@ -8,21 +8,33 @@
 					"name": "minecraft:potion",
 					"functions": [
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Potion:\"minecraft:water\",custom_potion_effects:[{id:\"minecraft:night_vision\",amplifier:0,duration:1800},{id:\"minecraft:haste\",amplifier:1,duration:1800}],CustomPotionColor:16767232,stellarity.special_item:\"spelunker_potion_ii\"}"
-						},
-						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "stellarity.items.potions.spelunker_potion",
-								"fallback": "Spelunker Potion",
-								"color": "white",
-								"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:potion_contents": {
+									"potion": "minecraft:water",
+									"custom_color": 16767232,
+									"custom_effects": [
+										{
+											"id": "minecraft:night_vision",
+											"amplifier": 0,
+											"duration": 1800
+										},
+										{
+											"id": "minecraft:haste",
+											"amplifier": 1,
+											"duration": 1800
+										}
+									]
+								},
+								"minecraft:custom_data": {
+									"stellarity.special_item": "spelunker_potion_ii"
+								},
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.potions.spelunker_potion\",\"fallback\": \"Spelunker Potion\",\"color\": \"white\",\"italic\": false}"
 							}
 						},
 						{
-							"function": "minecraft:set_lore",
+							"function": "minecraft:set_lore",	
+							"mode": "replace_all",
 							"lore": [
 								"",
 								{

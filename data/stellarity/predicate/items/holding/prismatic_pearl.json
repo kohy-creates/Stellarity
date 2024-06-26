@@ -10,7 +10,7 @@
 						"items": [
 							"minecraft:ender_pearl"
 						],
-						"nbt": "{stellarity.special_item:\"prismatic_pearl\"}"
+						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"prismatic_pearl\"}"}
 					}
 				}
 			}
@@ -24,7 +24,7 @@
 						"items": [
 							"minecraft:ender_pearl"
 						],
-						"nbt": "{stellarity.special_item:\"prismatic_pearl\"}"
+						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"prismatic_pearl\"}"}
 					}
 				}
 			}

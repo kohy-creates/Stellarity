@@ -4,11 +4,13 @@
 	"predicate": {
 		"equipment": {
 			"mainhand": {
-				"enchantments": [
-					{
-						"enchantment": "minecraft:silk_touch"
-					}
-				]
+				"predicates": {
+					"minecraft:enchantments": [
+						{
+							"enchantments": "minecraft:silk_touch"
+						}
+					]
+				}
 			}
 		}
 	}

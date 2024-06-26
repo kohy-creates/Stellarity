@@ -9,21 +9,36 @@
 					"name": "minecraft:cooked_cod",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "stellarity.items.fish.overgrown_cod",
-								"fallback": "Overgrown Cod",
-								"color": "#A24AFF",
-								"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 90003,
+								"minecraft:custom_data": {
+									"stellarity.special_item": "overgrown_cod"
+								},
+								"minecraft:item_name": "{\"translate\":\"stellarity.items.fish.overgrown_cod\",\"fallback\":\"Overgrown Cod\"}",
+								"food": {
+									"nutrition": 3,
+									"saturation": 0.6,
+									"can_always_eat": false,
+									"eat_seconds": 1.5,
+									"effects": [
+										{
+											"effect": {
+												"id": "minecraft:slowness",
+												"duration": 4,
+												"amplifier": 3,
+												"ambient": false,
+												"show_particles": true,
+												"show_icon": true
+											}
+										}
+									]
+								}
 							}
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90003,stellarity.special_item:\"overgrown_cod\"}"
-						},
-						{
-							"function": "minecraft:set_lore",
+							"function": "minecraft:set_lore",	
+							"mode": "replace_all",
 							"lore": [
 								"",
 								{

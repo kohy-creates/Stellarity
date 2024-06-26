@@ -9,7 +9,11 @@
 					"items": [
 						"minecraft:crossbow"
 					],
-					"nbt": "{stellarity.special_item:\"prismatic_punch\"}"
+					"components":{
+						"minecraft:custom_data": {
+							"stellarity.special_item": "prismatic_punch"
+						}
+					}
 				}
 			}
 		}

@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:leather_chestplate",
-			"nbt": "{display:{color:12582912}}"
+			"id": "minecraft:leather_chestplate",
+			"components": {
+				"minecraft:dyed_color": 12582912
+			}
 		},
 		"title": {
 			"translate": "stellarity.advancements.keep_warm",
@@ -53,7 +55,7 @@
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"biome": "stellarity:frosted_hills"
+							"biomes": "stellarity:frosted_hills"
 						}
 					}
 				]

@@ -13,7 +13,7 @@
 		}
 	},
 	"result": {
-		"item": "minecraft:end_rod",
+		"id": "minecraft:end_rod",
 		"count": 6
 	}
 }

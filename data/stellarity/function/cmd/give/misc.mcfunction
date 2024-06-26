@@ -11,7 +11,6 @@ loot give @s loot stellarity:items/crates/hallowed
 loot give @s loot stellarity:items/crates/hellfire
 loot give @s loot stellarity:items/crates/hematic
 loot give @s loot stellarity:items/crates/prismarine
-loot give @s loot stellarity:items/crates/sculk
 
 loot give @s loot stellarity:items/explorer_maps/end_city
 loot give @s loot stellarity:items/explorer_maps/village

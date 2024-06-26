@@ -8,20 +8,18 @@
 					"name": "minecraft:ender_pearl",
 					"functions": [
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"prismatic_pearl\",CustomModelData:90000}"
-						},
-						{
-							"function": "minecraft:set_name",
-							"name": {
-								"translate": "stellarity.items.prismatic_pearl",
-								"fallback": "Prismatic Pearl",
-								"color": "#FF76D0",
-								"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 90000,
+								"minecraft:custom_data": {
+									"stellarity.special_item": "prismatic_pearl"
+								},
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.prismatic_pearl\",\"fallback\": \"Prismatic Pearl\",\"color\": \"#FF76D0\",\"italic\": false}"
 							}
 						},
 						{
-							"function": "minecraft:set_lore",
+							"function": "minecraft:set_lore",	
+							"mode": "replace_all",
 							"lore": [
 								"",
 								{

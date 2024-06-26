@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/materials/pixie_dust",
+					"value": "stellarity:items/materials/pixie_dust",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -17,7 +17,8 @@
 							"add": false
 						},
 						{
-							"function": "minecraft:looting_enchant",
+							"function": "minecraft:enchanted_count_increase",
+							"enchantment": "minecraft:looting",
 							"count": {
 								"min": 0,
 								"max": 1
@@ -35,8 +36,19 @@
 					"name": "minecraft:structure_void",
 					"functions": [
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{kohara.mob_death_sound:1b,kohara.mob_death_sound_id:\"pixie\"}"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": "{kohara.mob_death_sound:1b,kohara.mob_death_sound_id:\"pixie\"}"
+							}
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type": "minecraft:vex"
+							}
 						}
 					]
 				}

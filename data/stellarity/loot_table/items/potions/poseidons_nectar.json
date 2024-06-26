@@ -8,21 +8,37 @@
 					"name": "minecraft:potion",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "stellarity.items.potions.poseidons_nectar",
-								"fallback": "Poseidon's Nectar",
-								"color": "yellow",
-								"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:potion_contents": {
+									"custom_color": 4695807,
+									"custom_effects": [
+										{
+											"id": "minecraft:conduit_power",
+											"amplifier": 0,
+											"duration": 7800
+										},
+										{
+											"id": "minecraft:absorption",
+											"amplifier": 0,
+											"duration": 7800
+										},
+										{
+											"id": "minecraft:dolphins_grace",
+											"amplifier": 0,
+											"duration": 7800
+										}
+									]
+								},
+								"minecraft:custom_data": {
+									"stellarity.special_item": "poseidons_nectar"
+								},
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.potions.poseidons_nectar\",\"fallback\": \"Poseidon's Nectar\",\"color\": \"yellow\",\"italic\": false}"
 							}
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{custom_potion_effects:[{id:\"minecraft:conduit_power\",amplifier:0b,duration:7800},{id:\"minecraft:absorption\",amplifier:0b,duration:7800},{id:\"minecraft:dolphins_grace\",amplifier:0b,duration:7800}],CustomPotionColor:4695807,stellarity.special_item:\"poseidons_nectar\"}"
-						},
-						{
-							"function": "minecraft:set_lore",
+							"function": "minecraft:set_lore",	
+							"mode": "replace_all",
 							"entity": "this",
 							"lore": [
 								"",

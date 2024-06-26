@@ -130,8 +130,20 @@
 					"name": "minecraft:firework_star",
 					"functions": [
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Explosion:{Colors:[I;8073150], FadeColors:[I;12801229], Trail:1b, Flicker:1b, Type:0b}}"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:firework_explosion": {
+									"shape": "small_ball",
+									"colors": [
+										8073150
+									],
+									"fade_colors": [
+										12801229
+									],
+									"has_trail": false,
+									"has_twinkle": false
+								}
+							}
 						}
 					]
 				},
@@ -140,8 +152,20 @@
 					"name": "minecraft:firework_star",
 					"functions": [
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Explosion:{Colors:[I;8073150], FadeColors:[I;12801229], Trail:0b, Flicker:1b, Type:0b}}"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:firework_explosion": {
+									"shape": "small_ball",
+									"colors": [
+										8073150
+									],
+									"fade_colors": [
+										12801229
+									],
+									"has_trail": false,
+									"has_twinkle": true
+								}
+							}
 						}
 					]
 				},
@@ -150,9 +174,21 @@
 					"name": "minecraft:firework_star",
 					"functions": [
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Explosion:{Colors:[I;12801229], FadeColors:[I;8073150], Trail:1b, Flicker:0b, Type:0b}}"
-						}
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:firework_explosion": {
+									"shape": "small_ball",
+									"colors": [
+										12801229
+									],
+									"fade_colors": [
+										8073150
+									],
+									"has_trail": true,
+									"has_twinkle": false
+								}
+							}
+						}	
 					]
 				},
 				{

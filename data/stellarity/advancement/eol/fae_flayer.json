@@ -1,8 +1,11 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:chiseled_quartz_block",
-			"nbt": "{Enchantments:[{}],CustomModelData:90000}"
+			"id": "minecraft:chiseled_quartz_block",
+			"components": {
+				"minecraft:enchantment_glint_override": true,
+				"minecraft:custom_model_data": 90000
+			}
 		},
 		"title": {
 			"translate": "stellarity.advancements.fae_flayer",

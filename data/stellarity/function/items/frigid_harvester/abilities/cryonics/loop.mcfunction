@@ -9,6 +9,6 @@ effect give @s blindness infinite 0 true
 effect give @s resistance infinite 250 true
 effect give @s fire_resistance infinite 250 true
 
-attribute @s generic.knockback_resistance modifier add b0e535e5-1645-47ed-8a3c-0f7e6450ec71 "stellarity.cryonics" 100 add
+attribute @s generic.knockback_resistance modifier add stellarity:cryonics 1000 add_value
 
 execute if score @s stellarity.items.aery_sword.cryonics.duration matches 0 run function stellarity:items/frigid_harvester/abilities/cryonics/stop

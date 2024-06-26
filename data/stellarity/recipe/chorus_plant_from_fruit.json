@@ -11,7 +11,7 @@
 		}
 	},
 	"result": {
-		"item": "minecraft:chorus_plant",
+		"id": "minecraft:chorus_plant",
 		"count": 4
 	}
 }

@@ -8,25 +8,27 @@
 					"name": "minecraft:cooked_beef",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "stellarity.items.food.frozen_carpaccio",
-								"fallback": "Frozen Carpaccio",
-								"color": "white",
-								"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 90000,
+								"minecraft:custom_data": "{\"stellarity.special_item\": \"frozen_carpaccio\"}",
+								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.frozen_carpaccio\",\"fallback\":\"Frozen Carpaccio\",\"color\":\"white\"}",
+								"minecraft:food": {
+									"nutrition": 6,
+									"saturation": 7.2,
+									"can_always_eat": true,
+									"eat_seconds": 1.5,
+									"effects": []
+								}
 							}
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,stellarity.special_item:\"frozen_carpaccio\"}"
-						},
-						{
-							"function": "minecraft:set_lore",
+							"function": "minecraft:set_lore",	
+							"mode": "replace_all",
 							"lore": [
 								[
 									{
-										"text": "8",
+										"text": "6",
 										"color": "#EEEEEE",
 										"italic": false
 									},
@@ -37,7 +39,7 @@
 									},
 									" ",
 									{
-										"text": "12.8",
+										"text": "7.2",
 										"color": "#EEEEEE",
 										"italic": false
 									},

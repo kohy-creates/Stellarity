@@ -8,20 +8,21 @@
 					"name": "minecraft:rotten_flesh",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"name": {
-								"translate": "stellarity.items.trinkets.living_flesh",
-								"fallback": "Living Flesh",
-								"color": "#E53F3F",
-								"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:enchantment_glint_override": true,
+								"minecraft:custom_model_data": 90000,
+								"minecraft:custom_data": {
+									"stellarity.special_item": "living_flesh"
+								},
+								"minecraft:fire_resistant": {},
+								"minecraft:max_stack_size": 1,
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.living_flesh\",\"fallback\": \"Living Flesh\",\"color\": \"#E53F3F\",\"italic\": false}"
 							}
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"living_flesh\",CustomModelData:90000,Enchantments:[{}],HideFlags:2,kohara.fireproof:1b}"
-						},
-						{
-							"function": "minecraft:set_lore",
+							"function": "minecraft:set_lore",	
+							"mode": "replace_all",
 							"lore": [
 								"",
 								{
@@ -50,18 +51,6 @@
 								}
 							],
 							"replace": false
-						},
-						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.max_health",
-									"name": "",
-									"amount": 0,
-									"operation": "addition",
-									"slot": "mainhand"
-								}
-							]
 						}
 					]
 				}

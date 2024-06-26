@@ -8,7 +8,7 @@ tag @s add stellarity.cooldown_tickdown
 function stellarity:items/dragonblade/reset_stacks
 
 # Get punch direction and distance
-execute store result score #enchant stellarity.misc run data get entity @p[predicate=stellarity:items/holding/dragonblade,predicate=kohara:player/is_sneaking] SelectedItem.tag.Enchantments.[{id:"minecraft:knockback"}].lvl 1
+execute store result score #enchant stellarity.misc run data get entity @p[predicate=stellarity:items/holding/dragonblade,predicate=kohara:player/is_sneaking] SelectedItem.components."minecraft:enchantments".levels."minecraft:knockback" 1
 
 # Punch distance gets reduced by half of knockback resistance
 scoreboard players set #2 stellarity.misc 2

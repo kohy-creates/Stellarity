@@ -197,7 +197,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/materials/enderite_shard",
+					"value": "stellarity:items/materials/enderite_shard",
 					"quality": 1
 				},
 				{

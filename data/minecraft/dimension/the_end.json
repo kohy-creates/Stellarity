@@ -18877,7 +18877,7 @@
 					}
 				},
 				{
-					"biome": "stellarity:dragons_den",
+					"biome": "minecraft:the_end",
 					"parameters": {
 						"temperature": 0,
 						"humidity": 0,

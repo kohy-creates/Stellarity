@@ -13,7 +13,9 @@
 							"predicate": {
 								"equipment": {
 									"mainhand": {
-										"nbt": "{stellarity.spirits:[\"mountain\"]}"
+										"components": { 
+											"minecraft:custom_data": "{stellarity.spirits:[\"mountain\"]}"
+										}
 									}
 								}
 							}
@@ -26,7 +28,7 @@
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"biome": "minecraft:windswept_forest"
+							"biomes": "minecraft:windswept_forest"
 						}
 					}
 				]
@@ -44,7 +46,9 @@
 							"predicate": {
 								"equipment": {
 									"mainhand": {
-										"nbt": "{stellarity.spirits:[\"mountain\"]}"
+										"components": { 
+											"minecraft:custom_data": "{stellarity.spirits:[\"mountain\"]}"
+										}
 									}
 								}
 							}
@@ -57,7 +61,7 @@
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"biome": "minecraft:windswept_hills"
+							"biomes": "minecraft:windswept_hills"
 						}
 					}
 				]
@@ -75,7 +79,9 @@
 							"predicate": {
 								"equipment": {
 									"mainhand": {
-										"nbt": "{stellarity.spirits:[\"mountain\"]}"
+										"components": { 
+											"minecraft:custom_data": "{stellarity.spirits:[\"mountain\"]}"
+										}
 									}
 								}
 							}
@@ -88,7 +94,7 @@
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"biome": "minecraft:windswept_hills"
+							"biomes": "minecraft:windswept_hills"
 						}
 					}
 				]
@@ -106,7 +112,9 @@
 							"predicate": {
 								"equipment": {
 									"mainhand": {
-										"nbt": "{stellarity.spirits:[\"mountain\"]}"
+										"components": { 
+											"minecraft:custom_data": "{stellarity.spirits:[\"mountain\"]}"
+										}
 									}
 								}
 							}
@@ -119,7 +127,7 @@
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"biome": "minecraft:stony_peaks"
+							"biomes": "minecraft:stony_peaks"
 						}
 					}
 				]
@@ -137,7 +145,9 @@
 							"predicate": {
 								"equipment": {
 									"mainhand": {
-										"nbt": "{stellarity.spirits:[\"mountain\"]}"
+										"components": { 
+											"minecraft:custom_data": "{stellarity.spirits:[\"mountain\"]}"
+										}
 									}
 								}
 							}
@@ -150,7 +160,7 @@
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"biome": "minecraft:stony_shore"
+							"biomes": "minecraft:stony_shore"
 						}
 					}
 				]
@@ -168,7 +178,9 @@
 							"predicate": {
 								"equipment": {
 									"mainhand": {
-										"nbt": "{stellarity.spirits:[\"mountain\"]}"
+										"components": { 
+											"minecraft:custom_data": "{stellarity.spirits:[\"mountain\"]}"
+										}
 									}
 								}
 							}
@@ -181,7 +193,7 @@
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"biome": "minecraft:cherry_grove"
+							"biomes": "minecraft:cherry_grove"
 						}
 					}
 				]

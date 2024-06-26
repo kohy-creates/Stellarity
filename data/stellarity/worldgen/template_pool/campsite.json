@@ -6,6 +6,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
+				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:campsite/1",
 				"processors": "stellarity:campsite"
 			}
@@ -15,6 +16,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
+				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:campsite/2",
 				"processors": "stellarity:campsite"
 			}
@@ -24,6 +26,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
+				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:campsite/tower",
 				"processors": "stellarity:campsite"
 			}

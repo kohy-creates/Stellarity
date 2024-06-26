@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cauldron"
+			"id": "minecraft:cauldron"
 		},
 		"title": {
 			"translate": "stellarity.advancements.dilute_breath",
@@ -15,19 +15,11 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-
 	"parent": "minecraft:end/dragon_breath",
 	"criteria": {
 		"dilute_breath": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"item": {
-					"items": [
-						"minecraft:chorus_fruit"
-					],
-					"nbt": "{stellarity.special_item:\"golden_chorus_fruit\"}"
-				}
-			}
+			"trigger": "minecraft:impossible",
+			"conditions": {}
 		}
 	},
 	"requirements": [

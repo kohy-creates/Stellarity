@@ -15,7 +15,7 @@ effect clear @s blindness
 effect clear @s resistance
 effect clear @s fire_resistance
 
-attribute @s generic.knockback_resistance modifier remove b0e535e5-1645-47ed-8a3c-0f7e6450ec71
+attribute @s generic.knockback_resistance modifier remove stellarity:cryonics
 
 effect give @s absorption 12 3 true
 effect give @s resistance 12 2 true

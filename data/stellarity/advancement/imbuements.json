@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:lingering_potion",
-			"nbt": "{Potion:\"minecraft:strength\"}"
+			"id": "minecraft:lingering_potion",
+			"components": {
+				"minecraft:potion_contents": "minecraft:strength"
+			}
 		},
 		"title": {
 			"translate": "stellarity.advancements.imbuements",

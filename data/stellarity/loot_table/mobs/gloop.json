@@ -9,18 +9,11 @@
 					"name": "minecraft:slime_ball",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "stellarity.items.memory_of_gloop",
-								"fallback": "In The Loving Memory of Gloop",
-								"color": "#7BC664",
-								"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.memory_of_gloop\",\"fallback\": \"In The Loving Memory of Gloop\",\"color\": \"#7BC664\",\"italic\": false}",
+								"minecraft:enchantment_glint_override": true
 							}
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Enchantments:[]}"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -44,7 +37,8 @@
 										"italic": false
 									}
 								]
-							]
+							],
+							"mode": "replace_all"
 						}
 					]
 				}

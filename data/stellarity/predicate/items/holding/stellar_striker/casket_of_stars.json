@@ -7,7 +7,7 @@
 				"items": [
 					"minecraft:popped_chorus_fruit"
 				],
-				"nbt": "{stellarity.special_item:\"casket_of_stars\"}"
+				"components":{ "minecraft:custom_data": "{stellarity.special_item:\"casket_of_stars\"}"}
 			}
 		}
 	}

@@ -4,7 +4,7 @@
 	"predicate": {
 		"equipment": {
 			"head": {
-				"nbt": "{stellarity.special_item:\"floral_armor\"}"
+				"components":{ "minecraft:custom_data": "{stellarity.special_item:\"floral_armor\"}"}
 			}
 		}
 	}

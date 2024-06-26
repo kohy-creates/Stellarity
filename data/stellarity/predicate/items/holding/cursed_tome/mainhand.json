@@ -7,7 +7,7 @@
 				"items": [
 					"minecraft:written_book"
 				],
-				"nbt": "{stellarity.special_item:\"cursed_tome\"}"
+				"components":{ "minecraft:custom_data": "{stellarity.special_item:\"cursed_tome\"}"}
 			}
 		}
 	}

@@ -10,7 +10,7 @@
 						"items": [
 							"minecraft:shield"
 						],
-						"nbt": "{stellarity.special_item:\"crest_of_the_end\"}"
+						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"crest_of_the_end\"}"}
 					}
 				}
 			}
@@ -24,7 +24,7 @@
 						"items": [
 							"minecraft:shield"
 						],
-						"nbt": "{stellarity.special_item:\"crest_of_the_end\"}"
+						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"crest_of_the_end\"}"}
 					}
 				}
 			}

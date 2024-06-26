@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:end_crystal"
+			"id": "minecraft:end_crystal"
 		},
 		"title": {
 			"translate": "stellarity.advancements.sacrificial_ritual",

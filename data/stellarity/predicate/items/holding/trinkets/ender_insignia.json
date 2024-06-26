@@ -10,7 +10,7 @@
 						"items": [
 							"minecraft:amethyst_shard"
 						],
-						"nbt": "{stellarity.special_item:\"ender_insignia\"}"
+						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"ender_insignia\"}"}
 					}
 				}
 			}
@@ -24,7 +24,7 @@
 						"items": [
 							"minecraft:amethyst_shard"
 						],
-						"nbt": "{stellarity.special_item:\"ender_insignia\"}"
+						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"ender_insignia\"}"}
 					}
 				}
 			}

@@ -6,6 +6,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
+				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:obsidian_spikes/1",
 				"processors": "stellarity:obsidian_spikes"
 			}
@@ -15,6 +16,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
+				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:obsidian_spikes/2",
 				"processors": "stellarity:obsidian_spikes"
 			}
@@ -24,6 +26,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
+				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:obsidian_spikes/3",
 				"processors": "stellarity:obsidian_spikes"
 			}
@@ -33,6 +36,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
+				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:obsidian_spikes/4",
 				"processors": "stellarity:obsidian_spikes"
 			}
@@ -42,6 +46,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
+				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:obsidian_spikes/5",
 				"processors": "stellarity:obsidian_spikes"
 			}

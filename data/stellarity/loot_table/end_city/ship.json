@@ -14,7 +14,7 @@
 						{
 							"type": "minecraft:loot_table",
 							"weight": 5,
-							"name": "stellarity:items/materials/pixie_dust",
+							"value": "stellarity:items/materials/pixie_dust",
 							"functions": [
 								{
 									"function": "minecraft:set_count",
@@ -185,7 +185,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:treasure_heads"
+					"value": "stellarity:treasure_heads"
 				}
 			],
 			"conditions": [
@@ -200,7 +200,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/trinkets/duskberry"
+					"value": "stellarity:items/trinkets/duskberry"
 				}
 			],
 			"conditions": [

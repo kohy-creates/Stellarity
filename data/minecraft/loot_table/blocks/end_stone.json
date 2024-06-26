@@ -28,7 +28,7 @@
 					"type": "minecraft:loot_table",
 					"weight": 2,
 					"quality": 1,
-					"name": "stellarity:items/materials/enderite_shard"
+					"value": "stellarity:items/materials/enderite_shard"
 				}
 			],
 			"conditions": [
@@ -68,7 +68,9 @@
 				{
 					"condition": "minecraft:match_tool",
 					"predicate": {
-						"nbt": "{stellarity.special_item:\"hematic_pickaxe\"}"
+						"components": {
+							"minecraft:custom_data": "{stellarity.special_item:\"hematic_pickaxe\"}"
+						}
 					}
 				}
 			]

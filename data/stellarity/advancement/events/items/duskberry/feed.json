@@ -8,7 +8,9 @@
 					"items": [
 						"minecraft:sweet_berries"
 					],
-					"nbt": "{stellarity.special_item:\"duskberry\"}"
+					"components": {
+						"minecraft:custom_data": "{stellarity.special_item:\"duskberry\"}"
+					}
 				},
 				"entity": {
 					"type": "fox"

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:barrel"
+			"id": "minecraft:barrel"
 		},
 		"title": {
 			"translate": "stellarity.advancements.pandoras_barrel_place",

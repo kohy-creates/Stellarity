@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dragon_breath"
+			"id": "minecraft:dragon_breath"
 		},
 		"title": {
 			"translate": "advancements.end.dragon_breath.title"

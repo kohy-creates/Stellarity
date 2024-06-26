@@ -6,17 +6,17 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/food/fish/prismite",
+					"value": "stellarity:items/food/fish/prismite",
 					"weight": 25
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/food/fish/crystal_heartfish",
+					"value": "stellarity:items/food/fish/crystal_heartfish",
 					"weight": 18
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/materials/pixie_dust",
+					"value": "stellarity:items/materials/pixie_dust",
 					"weight": 9,
 					"functions": [
 						{

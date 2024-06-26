@@ -179,32 +179,50 @@
 							"treasure": true
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Trim:{material:\"minecraft:gold\",pattern:\"minecraft:eye\"}}",
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:gold",
+									"pattern": "minecraft:eye",
+									"show_in_tooltip": true
+								}
+							},
 							"conditions": [
 								{
 									"condition": "minecraft:random_chance",
-									"chance": 0.2
+									"chance": 0.3333
 								}
 							]
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Trim:{material:\"minecraft:diamond\",pattern:\"minecraft:eye\"}}",
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:diamond",
+									"pattern": "minecraft:eye",
+									"show_in_tooltip": true
+								}
+							},
 							"conditions": [
 								{
 									"condition": "minecraft:random_chance",
-									"chance": 0.2
+									"chance": 0.3333
 								}
 							]
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:eye\"}}",
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:emerald",
+									"pattern": "minecraft:eye",
+									"show_in_tooltip": true
+								}
+							},
 							"conditions": [
 								{
 									"condition": "minecraft:random_chance",
-									"chance": 0.2
+									"chance": 0.3333
 								}
 							]
 						}
@@ -223,32 +241,50 @@
 							"treasure": true
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Trim:{material:\"minecraft:gold\",pattern:\"minecraft:eye\"}}",
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:gold",
+									"pattern": "minecraft:eye",
+									"show_in_tooltip": true
+								}
+							},
 							"conditions": [
 								{
 									"condition": "minecraft:random_chance",
-									"chance": 0.2
+									"chance": 0.3333
 								}
 							]
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Trim:{material:\"minecraft:diamond\",pattern:\"minecraft:eye\"}}",
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:diamond",
+									"pattern": "minecraft:eye",
+									"show_in_tooltip": true
+								}
+							},
 							"conditions": [
 								{
 									"condition": "minecraft:random_chance",
-									"chance": 0.2
+									"chance": 0.3333
 								}
 							]
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:eye\"}}",
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:emerald",
+									"pattern": "minecraft:eye",
+									"show_in_tooltip": true
+								}
+							},
 							"conditions": [
 								{
 									"condition": "minecraft:random_chance",
-									"chance": 0.2
+									"chance": 0.3333
 								}
 							]
 						}
@@ -267,32 +303,50 @@
 							"treasure": true
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Trim:{material:\"minecraft:gold\",pattern:\"minecraft:eye\"}}",
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:gold",
+									"pattern": "minecraft:eye",
+									"show_in_tooltip": true
+								}
+							},
 							"conditions": [
 								{
 									"condition": "minecraft:random_chance",
-									"chance": 0.2
+									"chance": 0.3333
 								}
 							]
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Trim:{material:\"minecraft:diamond\",pattern:\"minecraft:eye\"}}",
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:diamond",
+									"pattern": "minecraft:eye",
+									"show_in_tooltip": true
+								}
+							},
 							"conditions": [
 								{
 									"condition": "minecraft:random_chance",
-									"chance": 0.2
+									"chance": 0.3333
 								}
 							]
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:eye\"}}",
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:emerald",
+									"pattern": "minecraft:eye",
+									"show_in_tooltip": true
+								}
+							},
 							"conditions": [
 								{
 									"condition": "minecraft:random_chance",
-									"chance": 0.2
+									"chance": 0.3333
 								}
 							]
 						}
@@ -311,32 +365,50 @@
 							"treasure": true
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Trim:{material:\"minecraft:gold\",pattern:\"minecraft:eye\"}}",
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:gold",
+									"pattern": "minecraft:eye",
+									"show_in_tooltip": true
+								}
+							},
 							"conditions": [
 								{
 									"condition": "minecraft:random_chance",
-									"chance": 0.2
+									"chance": 0.3333
 								}
 							]
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Trim:{material:\"minecraft:diamond\",pattern:\"minecraft:eye\"}}",
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:diamond",
+									"pattern": "minecraft:eye",
+									"show_in_tooltip": true
+								}
+							},
 							"conditions": [
 								{
 									"condition": "minecraft:random_chance",
-									"chance": 0.2
+									"chance": 0.3333
 								}
 							]
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:eye\"}}",
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:emerald",
+									"pattern": "minecraft:eye",
+									"show_in_tooltip": true
+								}
+							},
 							"conditions": [
 								{
 									"condition": "minecraft:random_chance",
-									"chance": 0.2
+									"chance": 0.3333
 								}
 							]
 						}

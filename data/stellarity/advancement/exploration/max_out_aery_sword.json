@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:diamond_sword",
-			"nbt": "{CustomModelData:90034}"
+			"id": "minecraft:diamond_sword",
+			"components": {
+				"minecraft:custom_model_data": 90034
+			}
 		},
 		"title": {
 			"translate": "stellarity.advancements.max_out_aery_sword",

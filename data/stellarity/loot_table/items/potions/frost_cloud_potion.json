@@ -8,21 +8,29 @@
 					"name": "minecraft:lingering_potion",
 					"functions": [
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Potion:\"minecraft:water\",custom_potion_effects:[{id:\"minecraft:slowness\",amplifier:99,duration:30}],CustomPotionColor:8297656,stellarity.special_item:\"frost_cloud_potion\",HideFlags:32}"
-						},
-						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "stellarity.items.potions.frost_cloud_potion",
-								"fallback": "Frost Cloud Potion",
-								"color": "white",
-								"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:potion_contents": {
+									"potion": "minecraft:water",
+									"custom_color": 8297656,
+									"custom_effects": [
+										{
+											"id": "minecraft:slowness",
+											"amplifier": 99,
+											"duration": 6
+										}
+									]
+								},
+								"minecraft:hide_additional_tooltip": {},
+								"minecraft:custom_data": {
+									"stellarity.special_item": "frost_cloud_potion"
+								},
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.potions.frost_cloud_potion\",\"fallback\": \"Frost Cloud Potion\",\"color\": \"white\",\"italic\": false}"
 							}
 						},
 						{
-							"function": "minecraft:set_lore",
+							"function": "minecraft:set_lore",	
+							"mode": "replace_all",
 							"lore": [
 								"",
 								{

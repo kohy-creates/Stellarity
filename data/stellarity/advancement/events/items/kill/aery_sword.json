@@ -10,7 +10,9 @@
 							"items": [
 								"minecraft:diamond_sword"
 							],
-							"nbt": "{stellarity.special_item:\"frigid_harvester\"}"
+							"components": {
+								"minecraft:custom_data": "{stellarity.special_item:\"frigid_harvester\"}"
+							}
 						}
 					}
 				},
@@ -41,7 +43,9 @@
 							"items": [
 								"minecraft:diamond_sword"
 							],
-							"nbt": "{stellarity.special_item:\"frigid_harvester\"}"
+							"components": {
+								"minecraft:custom_data": "{stellarity.special_item:\"frigid_harvester\"}"
+							}
 						}
 					}
 				},
@@ -72,7 +76,9 @@
 							"items": [
 								"minecraft:diamond_sword"
 							],
-							"nbt": "{stellarity.special_item:\"frigid_harvester\"}"
+							"components": {
+								"minecraft:custom_data": "{stellarity.special_item:\"frigid_harvester\"}"
+							}
 						}
 					}
 				},
@@ -103,7 +109,9 @@
 							"items": [
 								"minecraft:diamond_sword"
 							],
-							"nbt": "{stellarity.special_item:\"frigid_harvester\"}"
+							"components": {
+								"minecraft:custom_data": "{stellarity.special_item:\"frigid_harvester\"}"
+							}
 						}
 					}
 				},
@@ -134,7 +142,9 @@
 							"items": [
 								"minecraft:diamond_sword"
 							],
-							"nbt": "{stellarity.special_item:\"frigid_harvester\"}"
+							"components": {
+								"minecraft:custom_data": "{stellarity.special_item:\"frigid_harvester\"}"
+							}
 						}
 					}
 				},
@@ -165,7 +175,9 @@
 							"items": [
 								"minecraft:diamond_sword"
 							],
-							"nbt": "{stellarity.special_item:\"frigid_harvester\"}"
+							"components": {
+								"minecraft:custom_data": "{stellarity.special_item:\"frigid_harvester\"}"
+							}
 						}
 					}
 				},

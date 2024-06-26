@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:light_blue_shulker_box"
+			"id": "minecraft:light_blue_shulker_box"
 		},
 		"title": {
 			"translate": "stellarity.advancements.color_a_shulker_box",

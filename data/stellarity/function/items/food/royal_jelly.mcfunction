@@ -1,5 +1,4 @@
-effect give @s[advancements={stellarity:events/items/food/drink_royal_jelly={1=true}}] absorption 60 0 false
-effect give @s[advancements={stellarity:events/items/food/drink_royal_jelly={2=true}}] absorption 30 1 false
+advancement revoke @s only stellarity:events/items/food/drink_royal_jelly
 
 effect clear @s wither
 effect clear @s weakness
@@ -12,5 +11,3 @@ effect clear @s glowing
 effect clear @s unluck
 effect clear @s nausea
 effect clear @s mining_fatigue
-
-advancement revoke @s only stellarity:events/items/food/drink_royal_jelly

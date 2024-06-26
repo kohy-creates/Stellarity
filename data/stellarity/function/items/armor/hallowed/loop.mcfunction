@@ -13,4 +13,4 @@ effect give @s[tag=stellarity.holy_protection] resistance infinite 100 true
 
 # Remove knockback resistance
 execute if score @s stellarity.items.armors.holy_protection_cooldown matches 401..479 run particle minecraft:poof ~ ~1 ~ 0.3 0.5 0.3 0 1
-execute if score @s stellarity.items.armors.holy_protection_cooldown matches 400 run attribute @s generic.knockback_resistance modifier remove e0fa9c52-78be-411d-b416-8920c9afd3fd
+execute if score @s stellarity.items.armors.holy_protection_cooldown matches 400 run attribute @s generic.knockback_resistance modifier remove stellarity:hallowed_armor.holy_protection

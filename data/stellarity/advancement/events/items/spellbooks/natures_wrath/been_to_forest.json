@@ -13,7 +13,9 @@
 							"predicate": {
 								"equipment": {
 									"mainhand": {
-										"nbt": "{stellarity.spirits:[\"forest\"]}"
+										"components":{ 
+											"minecraft:custom_data": "{stellarity.spirits:[\"forest\"]}"
+										}
 									}
 								}
 							}
@@ -26,7 +28,7 @@
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"biome": "minecraft:forest"
+							"biomes": "minecraft:forest"
 						}
 					}
 				]
@@ -44,7 +46,9 @@
 							"predicate": {
 								"equipment": {
 									"mainhand": {
-										"nbt": "{stellarity.spirits:[\"forest\"]}"
+										"components":{ 
+											"minecraft:custom_data": "{stellarity.spirits:[\"forest\"]}"
+										}
 									}
 								}
 							}
@@ -57,7 +61,7 @@
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"biome": "minecraft:flower_forest"
+							"biomes": "minecraft:flower_forest"
 						}
 					}
 				]
@@ -75,7 +79,9 @@
 							"predicate": {
 								"equipment": {
 									"mainhand": {
-										"nbt": "{stellarity.spirits:[\"forest\"]}"
+										"components": { 
+											"minecraft:custom_data": "{stellarity.spirits:[\"forest\"]}"
+										}
 									}
 								}
 							}
@@ -88,7 +94,7 @@
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"biome": "minecraft:birch_forest"
+							"biomes": "minecraft:birch_forest"
 						}
 					}
 				]
@@ -106,7 +112,9 @@
 							"predicate": {
 								"equipment": {
 									"mainhand": {
-										"nbt": "{stellarity.spirits:[\"forest\"]}"
+										"components":{ 
+											"minecraft:custom_data": "{stellarity.spirits:[\"forest\"]}"
+										}
 									}
 								}
 							}
@@ -119,7 +127,7 @@
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"biome": "minecraft:old_growth_birch_forest"
+							"biomes": "minecraft:old_growth_birch_forest"
 						}
 					}
 				]

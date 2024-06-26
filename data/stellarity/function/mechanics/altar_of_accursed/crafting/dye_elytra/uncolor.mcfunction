@@ -1,5 +1,5 @@
-execute as @e[type=item,tag=stellarity.aota.elytra,distance=..1.5,limit=1] run data remove entity @s Item.tag.display.Lore[0]
-execute as @e[type=item,tag=stellarity.aota.elytra,distance=..1.5,limit=1] run data remove entity @s Item.tag."stellarity.elytra_color"
+execute as @e[type=item,tag=stellarity.aota.elytra,distance=..1.5,limit=1] run data remove entity @s Item.components."minecraft:lore".[0]
+execute as @e[type=item,tag=stellarity.aota.elytra,distance=..1.5,limit=1] run data remove entity @s Item.components."minecraft:custom_data"."stellarity.elytra_color"
 
 data modify entity @e[type=item,limit=1,sort=nearest,distance=..1.5,tag=stellarity.aota.water_bucket] Item.id set value "minecraft:bucket"
 

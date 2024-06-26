@@ -1,7 +1,6 @@
 {
 	"condition": "minecraft:location_check",
 	"predicate": {
-		"biome": "stellarity:dragons_den",
 		"position": {
 			"x": {
 				"min": -200,
@@ -11,6 +10,10 @@
 				"min": -200,
 				"max": 200
 			}
-		}
+		},
+		"biomes": [
+			"stellarity:dragons_den",
+			"minecraft:the_end"
+		]
 	}
 }

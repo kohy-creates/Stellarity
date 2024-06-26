@@ -1,22 +1,4 @@
 {
-	"attributes_add_in_1_20_5": [
-		{
-			"attribute": "minecraft:generic.gravity",
-			"name": "",
-			"id": "9F3D476D-C118-4544-8365-64846904B48E",
-			"amount": -0.1,
-			"operation": "multiply_total",
-			"slot": "chest"
-		},
-		{
-			"attribute": "minecraft:generic.fall_damage_multiplier‌",
-			"name": "",
-			"id": "9F3D476D-C118-4544-8365-64846904B48E",
-			"amount": -1,
-			"operation": "multiply_total",
-			"slot": "chest"
-		}
-	],
 	"pools": [
 		{
 			"rolls": 1,
@@ -25,15 +7,6 @@
 					"type": "minecraft:item",
 					"name": "minecraft:elytra",
 					"functions": [
-						{
-							"function": "minecraft:set_name",
-							"name": {
-								"translate": "stellarity.items.elytra.empress_wings",
-								"fallback": "Empress Wings",
-								"color": "#FF76D0",
-								"italic": false
-							}
-						},
 						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
@@ -57,29 +30,47 @@
 									"color": "#CC26FF",
 									"italic": true
 								}
-							]
+							],
+							"mode": "replace_all"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,stellarity.special_item:\"empress_wings\",kohara.fireproof:1b}"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 90001,
+								"minecraft:custom_data": "{\"stellarity.special_item\": \"empress_wings\"}",
+								"minecraft:fire_resistant": {},
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.elytra.empress_wings\",\"fallback\": \"Empress Wings\",\"color\": \"#FF76D0\",\"italic\": false}"
+							}
 						},
 						{
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
+									"id": "minecraft:armor.chestplate",
 									"attribute": "minecraft:generic.armor",
-									"name": "",
-									"id": "9F3D476D-C118-4544-8365-64846904B48E",
 									"amount": -1,
-									"operation": "addition",
+									"operation": "add_value",
 									"slot": "chest"
 								},
 								{
+									"id": "minecraft:armor.chestplate",
 									"attribute": "minecraft:generic.movement_speed",
-									"name": "",
-									"id": "9F3D476D-C118-4544-8365-64846904B48E",
 									"amount": 0.12,
-									"operation": "multiply_base",
+									"operation": "add_multiplied_base",
+									"slot": "chest"
+								},
+								{
+									"id": "minecraft:armor.chestplate",
+									"attribute": "minecraft:generic.gravity",
+									"amount": -0.1,
+									"operation": "add_multiplied_total",
+									"slot": "chest"
+								},
+								{
+									"id": "minecraft:armor.chestplate",
+									"attribute": "minecraft:generic.fall_damage_multiplier",
+									"amount": -1,
+									"operation": "add_multiplied_total",
 									"slot": "chest"
 								}
 							]

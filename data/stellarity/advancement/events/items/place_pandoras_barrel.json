@@ -11,7 +11,11 @@
 							"items": [
 								"minecraft:barrel"
 							],
-							"nbt": "{stellarity.special_item:\"pandoras_barrel\"}"
+							"components":{
+								"minecraft:custom_data": {
+									"stellarity.special_item": "pandoras_barrel"
+								}
+							}
 						}
 					}
 				]

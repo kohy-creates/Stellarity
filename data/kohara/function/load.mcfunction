@@ -19,7 +19,7 @@ scoreboard objectives add kohara.level level
 scoreboard objectives add kohara.custom_particle.despawn dummy
 scoreboard objectives add kohara.custom_particle.display dummy
 
-scoreboard objectives add kohara.respawn_detection minecraft.custom:minecraft.deaths
+scoreboard objectives add kohara.respawn_detection minecraft.custom:minecraft.time_since_death
 
 scoreboard objectives add kohara.health_reset dummy
 

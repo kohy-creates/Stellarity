@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cherry_leaves"
+			"id": "minecraft:cherry_leaves"
 		},
 		"title": {
 			"translate": "stellarity.advancements.enter_chapel",
@@ -23,7 +23,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"structure": "stellarity:chapel_of_light"
+						"structures": "stellarity:chapel_of_light"
 					}
 				}
 			}

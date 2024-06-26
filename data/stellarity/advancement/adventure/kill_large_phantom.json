@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:phantom_spawn_egg"
+			"id": "minecraft:phantom_spawn_egg"
 		},
 		"title": {
 			"translate": "stellarity.advancements.kill_large_phantom",

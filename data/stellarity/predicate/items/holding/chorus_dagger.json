@@ -7,7 +7,7 @@
 				"items": [
 					"minecraft:iron_sword"
 				],
-				"nbt": "{stellarity.special_item:\"chorus_dagger\"}"
+				"components":{ "minecraft:custom_data": "{stellarity.special_item:\"chorus_dagger\"}"}
 			}
 		}
 	}

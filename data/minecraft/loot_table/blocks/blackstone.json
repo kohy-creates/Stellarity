@@ -25,9 +25,9 @@
 				},
 				{
 					"type": "minecraft:item",
+					"name": "minecraft:gold_nugget",
 					"weight": 3,
 					"quality": 1,
-					"name": "minecraft:gold_nugget",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -40,20 +40,22 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 6,
-					"name": "minecraft:gunpowder"
+					"name": "minecraft:gunpowder",
+					"weight": 6
 				},
 				{
 					"type": "minecraft:item",
-					"quality": 1,
-					"name": "minecraft:magma_cream"
+					"name": "minecraft:magma_cream",
+					"quality": 1
 				}
 			],
 			"conditions": [
 				{
 					"condition": "minecraft:match_tool",
 					"predicate": {
-						"nbt": "{stellarity.special_item:\"hematic_pickaxe\"}"
+						"components": {
+							"minecraft:custom_data": "{stellarity.special_item:\"hematic_pickaxe\"}"
+						}
 					}
 				}
 			]

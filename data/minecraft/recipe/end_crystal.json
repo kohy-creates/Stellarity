@@ -22,6 +22,6 @@
 		]
 	},
 	"result": {
-		"item": "minecraft:end_crystal"
+		"id": "minecraft:end_crystal"
 	}
 }

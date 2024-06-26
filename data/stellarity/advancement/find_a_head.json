@@ -1,8 +1,12 @@
 {
 	"display": {
 		"icon": {
-			"item": "player_head",
-			"nbt": "{SkullOwner:\"Bush_Lord\"}"
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "Bush_Lord"
+				}
+			}
 		},
 		"title": {
 			"translate": "stellarity.advancements.find_a_head",
@@ -28,7 +32,9 @@
 						"items": [
 							"minecraft:player_head"
 						],
-						"nbt": "{stellarity.special_item:\"treasure_head\"}"
+						"components": {
+							"minecraft:custom_data": "{stellarity.special_item:\"treasure_head\"}"
+						}
 					}
 				]
 			}

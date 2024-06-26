@@ -11,7 +11,7 @@
 		}
 	},
 	"result": {
-		"item": "minecraft:structure_void"
+		"id": "minecraft:structure_void"
 	},
 	"show_notification": false
 }

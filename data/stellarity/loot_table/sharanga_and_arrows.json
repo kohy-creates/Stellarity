@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/sharanga"
+					"value": "stellarity:items/sharanga"
 				}
 			]
 		},

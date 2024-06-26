@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:mossy_stone_bricks"
+			"id": "minecraft:mossy_stone_bricks"
 		},
 		"title": {
 			"translate": "advancements.story.follow_ender_eye.title"
@@ -31,7 +31,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"structure": "minecraft:stronghold"
+								"structures": "minecraft:stronghold"
 							}
 						}
 					}

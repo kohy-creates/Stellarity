@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dragon_head"
+			"id": "minecraft:dragon_head"
 		},
 		"title": {
 			"translate": "stellarity.advancements.final_showdown",

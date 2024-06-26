@@ -10,7 +10,11 @@
 							"items": [
 								"minecraft:netherite_hoe"
 							],
-							"nbt": "{stellarity.special_item:\"starless_scythe\"}"
+							"components":{
+								"minecraft:custom_data": {
+									"stellarity.special_item": "starless_scythe"
+								}
+							}
 						}
 					}
 				},
@@ -36,7 +40,11 @@
 							"items": [
 								"minecraft:netherite_hoe"
 							],
-							"nbt": "{stellarity.special_item:\"starless_scythe\"}"
+							"components":{
+								"minecraft:custom_data": {
+									"stellarity.special_item": "starless_scythe"
+								}
+							}
 						}
 					}
 				},

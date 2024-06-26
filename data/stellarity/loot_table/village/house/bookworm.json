@@ -24,7 +24,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:village/house/common"
+					"value": "stellarity:village/house/common"
 				}
 			]
 		}

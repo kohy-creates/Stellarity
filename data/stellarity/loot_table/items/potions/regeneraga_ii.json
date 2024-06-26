@@ -8,21 +8,32 @@
 					"name": "minecraft:potion",
 					"functions": [
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{custom_potion_effects:[{id:\"minecraft:instant_health\",duration:1,amplifier:1},{id:\"minecraft:regeneration\",amplifier:4b,duration:70}],CustomPotionColor:16121975,stellarity.special_item:\"regeneraga_ii\"}"
-						},
-						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "stellarity.items.potions.regeneraga",
-								"fallback": "Regeneraga",
-								"color": "yellow",
-								"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:potion_contents": {
+									"custom_color": 16121975,
+									"custom_effects": [
+										{
+											"id": "minecraft:instant_health",
+											"duration": 1,
+											"amplifier": 1
+										},
+										{
+											"id": "minecraft:regeneration",
+											"amplifier": 4,
+											"duration": 70
+										}
+									]
+								},
+								"minecraft:custom_data": {
+									"stellarity.special_item": "regeneraga_ii"
+								},
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.potions.regeneraga\",\"fallback\": \"Regeneraga\",\"color\": \"yellow\",\"italic\": false}"
 							}
 						},
 						{
-							"function": "minecraft:set_lore",
+							"function": "minecraft:set_lore",	
+							"mode": "replace_all",
 							"lore": [
 								"",
 								{

@@ -24,8 +24,6 @@ function stellarity:utils/tellraw/config {title:"Dragon Max Health",description:
 
 function stellarity:utils/tellraw/config {title:"Empress of Light Max Health",description:"Changes maximum health of the Empress of Light. Max: 1024",default:'{"text":"500","color":"#EEEEEE"}',score:"eol_health",numerical:1,suggested_value:500}
 
-function stellarity:utils/tellraw/config {title:"Enable Disenchanting",description:"Makes Altar of The Accursed able to unbind enchantments from an enchanted item by combining it with a normal book. Could be considered a bit overpowered.",default:'{"translate":"stellarity.config.enabled","fallback":"Enabled","color":"#91FF7B"}',score:"allow_disenchanting",numerical:0,suggested_value:1}
-
 function stellarity:utils/tellraw/config {title:"Enable Treasure Heads",description:"Makes Treasure Heads randomly generate inside of some loot chests (The End). They serve as some funny little collectibles.",default:'{"translate":"stellarity.config.enabled","fallback":"Enabled","color":"#91FF7B"}',score:"enable_treasure_heads",numerical:0,suggested_value:1}
 
 function stellarity:utils/tellraw/config {title:"Dragon Music Loop Delay",description:"Number of ticks Dragon's boss theme is going to loop after. Only edit if you actually have a reason to.",default:'{"text":"4230","color":"#EEEEEE"}',score:"track_loop_delay.dragon",numerical:1,suggested_value:4230}

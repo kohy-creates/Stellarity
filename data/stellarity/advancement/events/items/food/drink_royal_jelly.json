@@ -8,7 +8,9 @@
 					"items": [
 						"minecraft:honey_bottle"
 					],
-					"nbt": "{stellarity.special_item:\"royal_jelly\"}"
+					"components": {
+						"minecraft:custom_data": "{stellarity.special_item:\"royal_jelly\"}"
+					}
 				}
 			}
 		},
@@ -19,7 +21,9 @@
 					"items": [
 						"minecraft:honey_bottle"
 					],
-					"nbt": "{stellarity.special_item:\"royal_jelly_ii\"}"
+					"components": {
+						"minecraft:custom_data": "{stellarity.special_item:\"royal_jelly_ii\"}"
+					}
 				}
 			}
 		}

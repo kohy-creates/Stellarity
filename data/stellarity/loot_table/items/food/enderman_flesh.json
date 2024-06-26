@@ -8,18 +8,34 @@
 					"name": "minecraft:rotten_flesh",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "stellarity.items.food.enderman_flesh",
-								"fallback": "Enderman Flesh",
-								"color": "white",
-								"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 90001,
+								"minecraft:custom_data": "{\"stellarity.special_item\": \"enderman_flesh\"}",
+								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.enderman_flesh\",\"fallback\":\"Enderman Flesh\",\"color\":\"white\"}",
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation": 0.8,
+									"can_always_eat": false,
+									"eat_seconds": 1.5,
+									"effects": [
+										{
+											"effect": {
+												"id": "minecraft:nausea",
+												"duration": 840
+											},
+											"probability": 0.5
+										},
+										{
+											"effect": {
+												"id": "minecraft:hunger",
+												"amplifier": 840
+											},
+											"probability": 0.8
+										}
+									]
+								}
 							}
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90001,stellarity.special_item:\"enderman_flesh\"}"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -53,7 +69,8 @@
 									"color": "#CC26FF",
 									"italic": true
 								}
-							]
+							],
+							"mode": "replace_all"
 						}
 					]
 				}

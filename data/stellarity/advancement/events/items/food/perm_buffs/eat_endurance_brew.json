@@ -11,7 +11,7 @@
 							"condition": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"nbt": "{Tags:[\"stellarity.perm_buffs.endurance_brew\"]}"
+								"nbt":"{Tags:[\"stellarity.perm_buffs.endurance_brew\"]}"
 							}
 						}
 					}
@@ -20,7 +20,9 @@
 					"items": [
 						"minecraft:rabbit_stew"
 					],
-					"nbt": "{stellarity.special_item:\"endurance_brew\"}"
+					"components": {
+						"minecraft:custom_data": "{stellarity.special_item:\"endurance_brew\"}"
+					}
 				}
 			}
 		}

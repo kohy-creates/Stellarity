@@ -113,32 +113,50 @@
 					}
 				},
 				{
-					"function": "minecraft:set_nbt",
-					"tag": "{Trim:{material:\"minecraft:iron\",pattern:\"minecraft:vex\"}}",
+					"function": "minecraft:set_components",
+					"components": {
+						"minecraft:trim": {
+							"material": "minecraft:iron",
+							"pattern": "minecraft:vex",
+							"show_in_tooltip": true
+						}
+					},
 					"conditions": [
 						{
 							"condition": "minecraft:random_chance",
-							"chance": 0.2
+							"chance": 0.3333
 						}
 					]
 				},
 				{
-					"function": "minecraft:set_nbt",
-					"tag": "{Trim:{material:\"minecraft:gold\",pattern:\"minecraft:vex\"}}",
+					"function": "minecraft:set_components",
+					"components": {
+						"minecraft:trim": {
+							"material": "minecraft:gold",
+							"pattern": "minecraft:vex",
+							"show_in_tooltip": true
+						}
+					},
 					"conditions": [
 						{
 							"condition": "minecraft:random_chance",
-							"chance": 0.2
+							"chance": 0.3333
 						}
 					]
 				},
 				{
-					"function": "minecraft:set_nbt",
-					"tag": "{Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:vex\"}}",
+					"function": "minecraft:set_components",
+					"components": {
+						"minecraft:trim": {
+							"material": "minecraft:emerald",
+							"pattern": "minecraft:vex",
+							"show_in_tooltip": true
+						}
+					},
 					"conditions": [
 						{
 							"condition": "minecraft:random_chance",
-							"chance": 0.2
+							"chance": 0.3333
 						}
 					]
 				}
@@ -149,7 +167,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/explorer_maps/village"
+					"value": "stellarity:items/explorer_maps/village"
 				}
 			]
 		},

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:ender_dragon_spawn_egg"
+			"id": "minecraft:ender_dragon_spawn_egg"
 		},
 		"title": {
 			"translate": "stellarity.advancements.third_times_the_charm",

@@ -1,6 +1,6 @@
 {
 	"condition": "minecraft:location_check",
 	"predicate": {
-		"biome": "far_end:ashfall_delta"
+		"biomes": "far_end:ashfall_delta"
 	}
 }

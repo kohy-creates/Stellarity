@@ -1,8 +1,11 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:leather_chestplate",
-			"nbt": "{CustomModelData:90002,display:{color:11041988}}"
+			"id": "minecraft:leather_chestplate",
+			"components": {
+				"minecraft:dyed_color": 11041988,
+				"minecraft:custom_model_data": 90002
+			}
 		},
 		"title": {
 			"translate": "stellarity.advancements.i_am_titanium",

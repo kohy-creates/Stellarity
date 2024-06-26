@@ -9,14 +9,14 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
+					"name": "minecraft:diamond",
 					"weight": 2,
-					"quality": 1,
-					"name": "minecraft:diamond"
+					"quality": 1
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 12,
 					"name": "minecraft:iron_ingot",
+					"weight": 12,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -31,8 +31,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 9,
 					"name": "minecraft:gold_ingot",
+					"weight": 9,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -47,8 +47,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 7,
 					"name": "minecraft:emerald",
+					"weight": 7,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -59,25 +59,6 @@
 							"add": false
 						}
 					]
-				},
-				{
-					"type": "minecraft:loot_table",
-					"weight": 8,
-					"name": "stellarity:items/materials/hallowed_ingot",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:loot_table",
-					"weight": 8,
-					"name": "stellarity:items/materials/chorus_plating"
 				}
 			]
 		},
@@ -86,8 +67,8 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 6,
 					"name": "minecraft:purpur_block",
+					"weight": 6,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -101,8 +82,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 6,
 					"name": "minecraft:end_stone",
+					"weight": 6,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -119,8 +100,8 @@
 					"children": [
 						{
 							"type": "minecraft:item",
-							"weight": 3,
 							"name": "minecraft:crying_obsidian",
+							"weight": 3,
 							"functions": [
 								{
 									"function": "minecraft:set_count",
@@ -139,8 +120,8 @@
 						},
 						{
 							"type": "minecraft:item",
-							"weight": 3,
 							"name": "minecraft:obsidian",
+							"weight": 3,
 							"functions": [
 								{
 									"function": "minecraft:set_count",
@@ -160,13 +141,13 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 7,
-					"name": "minecraft:end_crystal"
+					"name": "minecraft:end_crystal",
+					"weight": 7
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 6,
 					"name": "minecraft:ender_pearl",
+					"weight": 6,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -180,8 +161,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 6,
 					"name": "minecraft:amethyst_shard",
+					"weight": 6,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -195,8 +176,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 6,
 					"name": "minecraft:phantom_membrane",
+					"weight": 6,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -209,8 +190,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 8,
 					"name": "minecraft:chorus_fruit",
+					"weight": 8,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -223,16 +204,15 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
 					"name": "minecraft:book",
+					"weight": 5,
 					"functions": [
 						{
 							"function": "minecraft:enchant_with_levels",
 							"levels": {
 								"min": 25,
 								"max": 35
-							},
-							"treasure": true
+							}
 						}
 					]
 				},
@@ -242,8 +222,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
 					"name": "minecraft:ender_eye",
+					"weight": 3,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -278,7 +258,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/materials/enderite_smithing_template"
+					"value": "stellarity:items/materials/enderite_smithing_template"
 				}
 			]
 		},
@@ -287,7 +267,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/the_beginning_and_the_end"
+					"value": "stellarity:items/the_beginning_and_the_end"
 				}
 			],
 			"conditions": [

@@ -5,7 +5,7 @@ scoreboard players add @s stellarity.items.ender_insignia.hold_duration 1
 execute if score @s stellarity.items.ender_insignia.hold_duration matches 1 run playsound minecraft:block.beacon.activate player @a[distance=0..] ~ ~ ~
 
 # Reduce momevemt speed
-execute if score @s stellarity.items.ender_insignia.hold_duration matches 1 run attribute @s generic.movement_speed modifier add 401458ce-37e6-408f-9b4d-0ec9a6e65947 "stellarity.ender_insignia" -0.3 multiply
+execute if score @s stellarity.items.ender_insignia.hold_duration matches 1 run attribute @s generic.movement_speed modifier add stellarity:ender_insignia.slowdown -0.3 add_multiplied_total
 
 # Tier 1
 execute if score @s stellarity.items.ender_insignia.hold_duration matches 20 run function stellarity:items/ender_insignia/effects/1

@@ -8,16 +8,8 @@
 					"name": "minecraft:leather_helmet",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"name": {
-								"translate": "stellarity.items.armors.floral_armor.helmet",
-								"fallback": "Floral Hood",
-								"color": "#FC92D3",
-								"italic": false
-							}
-						},
-						{
-							"function": "minecraft:set_lore",
+							"function": "minecraft:set_lore",	
+							"mode": "replace_all",
 							"entity": "this",
 							"lore": [
 								"",
@@ -54,42 +46,50 @@
 							]
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90003,stellarity.special_item:\"floral_armor\",display:{color:16552659},HideFlags:64,kohara.durability:{enabled:1b,max_dur:407},kohara.fireproof:1b}"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:dyed_color": {
+									"rgb": 16552659,
+									"show_in_tooltip": false
+								},
+								"minecraft:custom_model_data": 90003,
+								"minecraft:custom_data": {
+									"stellarity.special_item": "floral_armor"
+								},
+								"minecraft:fire_resistant": {},
+								"minecraft:max_damage": 407,
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.armors.floral_armor.helmet\",\"fallback\": \"Floral Helmet\",\"color\": \"#FC92D3\",\"italic\": false}"
+							}
 						},
 						{
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
 									"attribute": "minecraft:generic.armor",
-									"name": "",
-									"id": "2AD3F246-FEE1-4E67-B886-69FD380BB150",
+									"id": "minecraft:armor.helmet",
 									"amount": 3,
-									"operation": "addition",
+									"operation": "add_value",
 									"slot": "head"
 								},
 								{
 									"attribute": "minecraft:generic.attack_damage",
-									"name": "",
-									"id": "2AD3F246-FEE1-4E67-B886-69FD380BB150",
+									"id": "minecraft:armor.helmet",
 									"amount": -0.05,
-									"operation": "multiply_base",
+									"operation": "add_multiplied_base",
 									"slot": "head"
 								},
 								{
 									"attribute": "minecraft:generic.armor_toughness",
-									"name": "",
-									"id": "2AD3F246-FEE1-4E67-B886-69FD380BB150",
+									"id": "minecraft:armor.helmet",
 									"amount": 3,
-									"operation": "addition",
+									"operation": "add_value",
 									"slot": "head"
 								},
 								{
 									"attribute": "minecraft:generic.knockback_resistance",
-									"name": "",
-									"id": "2AD3F246-FEE1-4E67-B886-69FD380BB150",
+									"id": "minecraft:armor.helmet",
 									"amount": 0.1,
-									"operation": "addition",
+									"operation": "add_value",
 									"slot": "head"
 								}
 							]

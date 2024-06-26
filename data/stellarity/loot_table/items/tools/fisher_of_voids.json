@@ -8,20 +8,20 @@
 					"name": "minecraft:fishing_rod",
 					"functions": [
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,kohara.durability:{enabled:1b,max_dur:256},stellarity.special_item:\"fisher_of_voids\",kohara.fireproof:1b}"
-						},
-						{
-							"function": "minecraft:set_name",
-							"name": {
-								"translate": "stellarity.items.fisher_of_voids",
-								"fallback": "Fisher of Voids",
-								"color": "#8865AF",
-								"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 90000,
+								"minecraft:custom_data": {
+									"stellarity.special_item": "fisher_of_voids"
+								},
+								"minecraft:fire_resistant": {},
+								"minecraft:max_damage": 264,
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.fisher_of_voids\",\"fallback\": \"Fisher of Voids\",\"color\": \"#8865AF\",\"italic\": false}"
 							}
 						},
 						{
-							"function": "minecraft:set_lore",
+							"function": "minecraft:set_lore",	
+							"mode": "replace_all",
 							"entity": "this",
 							"lore": [
 								"",

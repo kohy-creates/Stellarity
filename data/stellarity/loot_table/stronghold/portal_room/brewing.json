@@ -85,7 +85,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:stronghold/random_potion"
+					"value": "stellarity:stronghold/random_potion"
 				}
 			]
 		}

@@ -3,7 +3,7 @@ advancement revoke @s only stellarity:events/items/food/eat_frozen_carpaccio
 execute store result score #random stellarity.misc run random value 1..10
 
 # 1 - 5 do nothing
-# Essentially a 50% chance for a random effect
+# Essentially a 50% chance for a random effect for 30 seconds
 
 execute if score #random stellarity.misc matches 5 run effect give @s absorption
 execute if score #random stellarity.misc matches 6 run effect give @s strength

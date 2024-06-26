@@ -8,18 +8,15 @@
 					"name": "minecraft:chiseled_quartz_block",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "stellarity.items.altar_of_light",
-								"fallback": "Altar of The Sacred",
-								"color": "#FFD655",
-								"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": "{stellarity.special_item:\"altar_of_light\"}",
+								"minecraft:custom_model_data": 90000,
+								"minecraft:fire_resistant": {},
+								"minecraft:enchantment_glint_override": true,
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.altar_of_light\",\"fallback\": \"Altar of The Sacred\",\"color\": \"#FFD655\"}",
+								"minecraft:max_stack_size": 1
 							}
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Enchantments:[{}],stellarity.special_item:\"altar_of_light\",CustomModelData:90000,kohara.fireproof:1b}"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -41,8 +38,6 @@
 								{
 									"translate": "stellarity.items.altar_of_light.description.3",
 									"fallback": "Sacrificing %s will be",
-									"color": "gray",
-									"italic": false,
 									"with": [
 										{
 											"translate": "stellarity.items.materials.pixie_dust",
@@ -50,7 +45,9 @@
 											"color": "#FFD655",
 											"italic": false
 										}
-									]
+									],
+									"color": "gray",
+									"italic": false
 								},
 								{
 									"translate": "stellarity.items.altar_of_light.description.4",
@@ -71,7 +68,8 @@
 									"color": "#CC26FF",
 									"italic": true
 								}
-							]		
+							],
+							"mode": "replace_all"
 						}
 					]
 				}

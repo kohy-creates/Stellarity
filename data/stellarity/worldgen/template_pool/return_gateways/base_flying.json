@@ -6,6 +6,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
+				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:return_gateway/default/purpur",
 				"processors": "stellarity:return_gateways"
 			}
@@ -15,6 +16,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
+				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:return_gateway/default/crimson",
 				"processors": "stellarity:return_gateways"
 			}
@@ -24,6 +26,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
+				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:return_gateway/default/warped",
 				"processors": "stellarity:return_gateways"
 			}
@@ -33,6 +36,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
+				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:return_gateway/default/mangrove",
 				"processors": "stellarity:return_gateways"
 			}
@@ -42,6 +46,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
+				"override_liquid_settings": "ignore_waterlogging",
 				"location": "stellarity:return_gateway/default/blackstone",
 				"processors": "stellarity:return_gateways"
 			}

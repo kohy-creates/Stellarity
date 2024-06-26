@@ -8,7 +8,11 @@
 					"items": [
 						"minecraft:bow"
 					],
-					"nbt": "{stellarity.special_item:\"spectral_fury\"}"
+					"components":{
+						"minecraft:custom_data": {
+							"stellarity.special_item": "spectral_fury"
+						}
+					}
 				}
 			}
 		}

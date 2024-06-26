@@ -9,21 +9,44 @@
 					"name": "minecraft:cooked_cod",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "stellarity.items.fish.fleshy_piranha",
-								"fallback": "Fleshy Piranha",
-								"color": "#C24747",
-								"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 90005,
+								"minecraft:custom_data": {
+									"stellarity.special_item": "fleshy_piranha"
+								},
+								"minecraft:item_name": "{\"translate\":\"stellarity.items.fish.fleshy_piranha\",\"fallback\":\"Fleshy Piranha\"}",
+								"food": {
+									"nutrition": 2,
+									"saturation": 0.4,
+									"can_always_eat": false,
+									"eat_seconds": 1.5,
+									"effects": [
+										{
+											"effect": {
+												"id": "minecraft:hunger",
+												"duration": 32,
+												"ambient": false,
+												"show_particles": true,
+												"show_icon": true
+											}
+										},
+										{
+											"effect": {
+												"id": "minecraft:poison",
+												"duration": 32,
+												"ambient": false,
+												"show_particles": true,
+												"show_icon": true
+											}
+										}
+									]
+								}
 							}
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90005,stellarity.special_item:\"fleshy_piranha\"}"
-						},
-						{
-							"function": "minecraft:set_lore",
+							"function": "minecraft:set_lore",	
+							"mode": "replace_all",
 							"lore": [
 								"",
 								{

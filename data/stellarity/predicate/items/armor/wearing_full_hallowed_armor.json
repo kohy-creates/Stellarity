@@ -4,16 +4,16 @@
 	"predicate": {
 		"equipment": {
 			"head": {
-				"nbt": "{stellarity.special_item:\"hallowed_armor\"}"
+				"components":{ "minecraft:custom_data": "{stellarity.special_item:\"hallowed_armor\"}"}
 			},
 			"chest": {
-				"nbt": "{stellarity.special_item:\"hallowed_armor\"}"
+				"components":{ "minecraft:custom_data": "{stellarity.special_item:\"hallowed_armor\"}"}
 			},
 			"legs": {
-				"nbt": "{stellarity.special_item:\"hallowed_armor\"}"
+				"components":{ "minecraft:custom_data": "{stellarity.special_item:\"hallowed_armor\"}"}
 			},
 			"feet": {
-				"nbt": "{stellarity.special_item:\"hallowed_armor\"}"
+				"components":{ "minecraft:custom_data": "{stellarity.special_item:\"hallowed_armor\"}"}
 			}
 		}
 	}

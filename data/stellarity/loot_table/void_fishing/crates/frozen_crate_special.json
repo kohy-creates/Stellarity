@@ -55,7 +55,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/frigid_harvester"
+					"value": "stellarity:items/frigid_harvester"
 				}
 			]
 		},

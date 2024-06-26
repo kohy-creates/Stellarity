@@ -7,7 +7,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 15,
-					"name": "stellarity:items/food/fish/ender_koi",
+					"value": "stellarity:items/food/fish/ender_koi",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -27,7 +27,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 30,
-					"name": "stellarity:void_fishing/drops/the_hallow",
+					"value": "stellarity:void_fishing/drops/the_hallow",
 					"conditions": [
 						{
 							"condition": "minecraft:reference",
@@ -38,7 +38,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 30,
-					"name": "stellarity:void_fishing/drops/flesh_tundra",
+					"value": "stellarity:void_fishing/drops/flesh_tundra",
 					"conditions": [
 						{
 							"condition": "minecraft:reference",
@@ -49,7 +49,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 30,
-					"name": "stellarity:void_fishing/drops/frosted_hills",
+					"value": "stellarity:void_fishing/drops/frosted_hills",
 					"conditions": [
 						{
 							"condition": "minecraft:reference",
@@ -60,7 +60,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 30,
-					"name": "stellarity:void_fishing/drops/original_biomes",
+					"value": "stellarity:void_fishing/drops/original_biomes",
 					"conditions": [
 						{
 							"condition": "minecraft:any_of",
@@ -88,7 +88,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 30,
-					"name": "stellarity:void_fishing/drops/blazing_dunes",
+					"value": "stellarity:void_fishing/drops/blazing_dunes",
 					"conditions": [
 						{
 							"condition": "minecraft:reference",
@@ -99,7 +99,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 30,
-					"name": "stellarity:void_fishing/drops/amethyst",
+					"value": "stellarity:void_fishing/drops/amethyst",
 					"conditions": [
 						{
 							"condition": "minecraft:any_of",
@@ -119,7 +119,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 30,
-					"name": "stellarity:void_fishing/drops/prismarine",
+					"value": "stellarity:void_fishing/drops/prismarine",
 					"conditions": [
 						{
 							"condition": "minecraft:reference",

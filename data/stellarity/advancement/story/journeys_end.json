@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:end_portal_frame"
+			"id": "minecraft:end_portal_frame"
 		},
 		"title": {
 			"translate": "stellarity.advancements.journeys_end",

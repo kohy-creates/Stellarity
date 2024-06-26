@@ -11,7 +11,7 @@
 							"condition": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"nbt": "{Tags:[\"stellarity.perm_buffs.energizing_fruit\"]}"
+								"nbt":"{Tags:[\"stellarity.perm_buffs.energizing_fruit\"]}"
 							}
 						}
 					}
@@ -20,7 +20,9 @@
 					"items": [
 						"minecraft:chorus_fruit"
 					],
-					"nbt": "{stellarity.special_item:\"energizing_fruit\"}"
+					"components": {
+						"minecraft:custom_data": "{stellarity.special_item:\"energizing_fruit\"}"
+					}
 				}
 			}
 		}

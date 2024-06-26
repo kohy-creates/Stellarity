@@ -3,6 +3,7 @@
 		[
 			"#stellarity:biomes/regular",
 			"#stellarity:biomes/bottom",
-			"stellarity:dragons_den"
+			"stellarity:dragons_den",
+			"minecraft:the_end"
 		]
 }

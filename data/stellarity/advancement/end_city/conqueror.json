@@ -1,8 +1,20 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:magenta_banner",
-			 "nbt": "{Enchantments:[{}],BlockEntityTag:{Patterns:[{Color:15,Pattern:\"bt\"},{Color:15,Pattern:\"tt\"}]}}"
+			"id": "minecraft:magenta_banner",
+			"components": {
+				"minecraft:enchantment_glint_override": true,
+				"minecraft:banner_patterns": [
+					{
+						"color": "black",
+						"pattern": "triangle_bottom"
+					},
+					{
+						"color": "black",
+						"pattern": "triangle_top"
+					}
+				]
+			}
 		},
 		"title": {
 			"translate": "stellarity.advancements.conqueror",

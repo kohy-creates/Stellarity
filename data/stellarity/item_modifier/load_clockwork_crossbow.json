@@ -1,7 +1,14 @@
 [
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Charged:1b,ChargedProjectiles:[{id:\"minecraft:arrow\",Count:1b}]}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:charged_projectiles": [
+				{
+					"id": "minecraft:arrow",
+					"count": 1
+				}
+			]
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:inverted",
@@ -27,8 +34,23 @@
 		]
 	},
 	{
-		"function": "minecraft:set_nbt",
-		"tag": "{Charged:1b,ChargedProjectiles:[{id:\"minecraft:arrow\",Count:1b},{id:\"minecraft:arrow\",Count:1b},{id:\"minecraft:arrow\",Count:1b}]}",
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:charged_projectiles": [
+				{
+					"id": "minecraft:arrow",
+					"count": 1
+				},
+				{
+					"id": "minecraft:arrow",
+					"count": 1
+				},
+				{
+					"id": "minecraft:arrow",
+					"count": 1
+				}
+			]
+		},
 		"conditions": [
 			{
 				"condition": "minecraft:entity_properties",

@@ -1,6 +1,6 @@
 {
 	"condition": "minecraft:location_check",
 	"predicate": {
-		"biome": "stellarity:crystal_crags"
+		"biomes": "stellarity:crystal_crags"
 	}
 }

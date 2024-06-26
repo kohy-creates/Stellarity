@@ -11,7 +11,7 @@
 		}
 	],
 	"result": {
-		"item": "minecraft:glass",
+		"id": "minecraft:glass",
 		"count": 3
 	}
 }

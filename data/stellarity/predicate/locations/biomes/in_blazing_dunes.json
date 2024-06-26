@@ -1,6 +1,6 @@
 {
 	"condition": "minecraft:location_check",
 	"predicate": {
-		"biome": "stellarity:blazing_dunes"
+		"biomes": "stellarity:blazing_dunes"
 	}
 }

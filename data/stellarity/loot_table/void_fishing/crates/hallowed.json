@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:void_fishing/crates/global/treasure"
+					"value": "stellarity:void_fishing/crates/global/treasure"
 				}
 			]
 		},
@@ -15,7 +15,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:void_fishing/crates/global/useful"
+					"value": "stellarity:void_fishing/crates/global/useful"
 				}
 			]
 		},
@@ -27,7 +27,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/materials/pixie_dust",
+					"value": "stellarity:items/materials/pixie_dust",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -235,7 +235,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/trinkets/duskberry"
+					"value": "stellarity:items/trinkets/duskberry"
 				}
 			],
 			"conditions": [
@@ -290,7 +290,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/spellbooks/natures_wrath"
+					"value": "stellarity:items/spellbooks/natures_wrath"
 				}
 			],
 			"conditions": [

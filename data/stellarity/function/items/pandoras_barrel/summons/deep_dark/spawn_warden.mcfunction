@@ -1,10 +1,10 @@
 summon warden ~ ~ ~ {Brain:{memories:{"minecraft:dig_cooldown":{ttl:1200L,value:{}},"minecraft:is_emerging":{ttl:134L,value:{}}}}}
 
-particle minecraft:shriek 6 ~ ~ ~
-particle minecraft:shriek 12 ~ ~ ~
-particle minecraft:shriek 18 ~ ~ ~
-particle minecraft:shriek 23 ~ ~ ~
-particle minecraft:shriek 30 ~ ~ ~
+particle minecraft:shriek{delay:6} ~ ~ ~
+particle minecraft:shriek{delay:12} ~ ~ ~
+particle minecraft:shriek{delay:18} ~ ~ ~
+particle minecraft:shriek{delay:23} ~ ~ ~
+particle minecraft:shriek{delay:30} ~ ~ ~
 
 effect give @a[distance=..24] darkness 30 0 true
 

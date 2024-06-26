@@ -13,7 +13,9 @@
 							"predicate": {
 								"equipment": {
 									"mainhand": {
-										"nbt": "{stellarity.spirits:[\"snow\"]}"
+										"components": { 
+											"minecraft:custom_data":"{stellarity.spirits:[\"snow\"]}"
+										}
 									}
 								}
 							}
@@ -26,7 +28,7 @@
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"biome": "minecraft:grove"
+							"biomes": "minecraft:grove"
 						}
 					}
 				]
@@ -44,7 +46,9 @@
 							"predicate": {
 								"equipment": {
 									"mainhand": {
-										"nbt": "{stellarity.spirits:[\"snow\"]}"
+										"components": { 
+											"minecraft:custom_data":"{stellarity.spirits:[\"snow\"]}"
+										}
 									}
 								}
 							}
@@ -57,7 +61,7 @@
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"biome": "minecraft:snowy_beach"
+							"biomes": "minecraft:snowy_beach"
 						}
 					}
 				]
@@ -75,7 +79,9 @@
 							"predicate": {
 								"equipment": {
 									"mainhand": {
-										"nbt": "{stellarity.spirits:[\"snow\"]}"
+										"components": { 
+											"minecraft:custom_data":"{stellarity.spirits:[\"snow\"]}"
+										}
 									}
 								}
 							}
@@ -88,7 +94,7 @@
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"biome": "minecraft:snowy_plains"
+							"biomes": "minecraft:snowy_plains"
 						}
 					}
 				]
@@ -106,7 +112,9 @@
 							"predicate": {
 								"equipment": {
 									"mainhand": {
-										"nbt": "{stellarity.spirits:[\"snow\"]}"
+										"components": { 
+											"minecraft:custom_data":"{stellarity.spirits:[\"snow\"]}"
+										}
 									}
 								}
 							}
@@ -119,7 +127,7 @@
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"biome": "minecraft:snowy_taiga"
+							"biomes": "minecraft:snowy_taiga"
 						}
 					}
 				]
@@ -137,7 +145,9 @@
 							"predicate": {
 								"equipment": {
 									"mainhand": {
-										"nbt": "{stellarity.spirits:[\"snow\"]}"
+										"components": { 
+											"minecraft:custom_data":"{stellarity.spirits:[\"snow\"]}"
+										}
 									}
 								}
 							}
@@ -150,7 +160,7 @@
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"biome": "minecraft:snowy_slopes"
+							"biomes": "minecraft:snowy_slopes"
 						}
 					}
 				]
@@ -168,7 +178,9 @@
 							"predicate": {
 								"equipment": {
 									"mainhand": {
-										"nbt": "{stellarity.spirits:[\"snow\"]}"
+										"components": { 
+											"minecraft:custom_data":"{stellarity.spirits:[\"snow\"]}"
+										}
 									}
 								}
 							}
@@ -181,7 +193,7 @@
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"biome": "minecraft:frozen_peaks"
+							"biomes": "minecraft:frozen_peaks"
 						}
 					}
 				]
@@ -199,7 +211,9 @@
 							"predicate": {
 								"equipment": {
 									"mainhand": {
-										"nbt": "{stellarity.spirits:[\"snow\"]}"
+										"components": { 
+											"minecraft:custom_data":"{stellarity.spirits:[\"snow\"]}"
+										}
 									}
 								}
 							}
@@ -212,7 +226,7 @@
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"biome": "minecraft:frozen_river"
+							"biomes": "minecraft:frozen_river"
 						}
 					}
 				]
@@ -230,7 +244,9 @@
 							"predicate": {
 								"equipment": {
 									"mainhand": {
-										"nbt": "{stellarity.spirits:[\"snow\"]}"
+										"components": { 
+											"minecraft:custom_data":"{stellarity.spirits:[\"snow\"]}"
+										}
 									}
 								}
 							}
@@ -243,7 +259,7 @@
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"biome": "minecraft:ice_spikes"
+							"biomes": "minecraft:ice_spikes"
 						}
 					}
 				]
@@ -261,7 +277,9 @@
 							"predicate": {
 								"equipment": {
 									"mainhand": {
-										"nbt": "{stellarity.spirits:[\"snow\"]}"
+										"components": { 
+											"minecraft:custom_data":"{stellarity.spirits:[\"snow\"]}"
+										}
 									}
 								}
 							}
@@ -274,7 +292,7 @@
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"biome": "stellarity:frosted_hills"
+							"biomes": "stellarity:frosted_hills"
 						}
 					}
 				]

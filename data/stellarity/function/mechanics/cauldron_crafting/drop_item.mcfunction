@@ -1,4 +1,4 @@
-$summon item ~ ~ ~ {Item:{id:"$(id)",Count:$(Count)b,tag:$(tag)}}
+$summon item ~ ~ ~ {Item:{id:"$(id)",count:$(Count),tag:$(tag)}}
 
 kill @s
 kill @e[type=item_display,limit=1,sort=nearest,tag=stellarity.brewing.display]

@@ -1,8 +1,11 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sweet_berries",
-			"nbt": "{Enchantments:[{}],CustomModelData:90000}"
+			"id": "minecraft:sweet_berries",
+			"components": {
+				"minecraft:enchantment_glint_override": true,
+				"minecraft:custom_model_data": 90000
+			}
 		},
 		"title": {
 			"translate": "stellarity.advancements.poor_life_choices",
@@ -26,7 +29,11 @@
 					"items": [
 						"minecraft:sweet_berries"
 					],
-					"nbt": "{stellarity.special_item:\"duskberry\"}"
+					"components": {
+						"minecraft:custom_data": {
+							"stellarity.special_item": "duskberry"
+						}
+					}
 				}
 			}
 		},
@@ -37,7 +44,11 @@
 					"items": [
 						"minecraft:sweet_berries"
 					],
-					"nbt": "{stellarity.special_item:\"duskberry\"}"
+					"components": {
+						"minecraft:custom_data": {
+							"stellarity.special_item": "duskberry"
+						}
+					}
 				},
 				"entity": {
 					"type": "fox"
@@ -54,7 +65,11 @@
 							"items": [
 								"minecraft:sweet_berries"
 							],
-							"nbt": "{stellarity.special_item:\"duskberry\"}"
+							"components": {
+						"minecraft:custom_data": {
+							"stellarity.special_item": "duskberry"
+						}
+					}
 						}
 					}
 				]

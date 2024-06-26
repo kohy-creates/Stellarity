@@ -11,7 +11,7 @@
 							"condition": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"nbt": "{Tags:[\"stellarity.perm_buffs.miracle_fruit\"]}"
+								"nbt":"{Tags:[\"stellarity.perm_buffs.miracle_fruit\"]}"
 							}
 						}
 					}
@@ -20,7 +20,9 @@
 					"items": [
 						"minecraft:apple"
 					],
-					"nbt": "{stellarity.special_item:\"miracle_fruit\"}"
+					"components": {
+						"minecraft:custom_data": "{stellarity.special_item:\"miracle_fruit\"}"
+					}
 				}
 			}
 		}

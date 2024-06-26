@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sculk_shrieker"
+			"id": "minecraft:sculk_shrieker"
 		},
 		"title": {
 			"translate": "stellarity.advancements.pandoras_barrel_open_in_deep_dark",

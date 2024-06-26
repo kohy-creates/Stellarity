@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:jukebox"
+			"id": "minecraft:jukebox"
 		},
 		"title": {
 			"translate": "stellarity.advancements.champions_ballad",
@@ -37,7 +37,7 @@
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"biome": "stellarity:dragons_den"
+							"biomes": "stellarity:dragons_den"
 						}
 					}
 				]

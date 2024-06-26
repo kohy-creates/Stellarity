@@ -1,5 +1,5 @@
 # get max health and current health
-attribute @s minecraft:generic.max_health modifier remove 019-1193-66-723-69420
+attribute @s minecraft:generic.max_health modifier remove kohara:heal
 execute store result score #max_health kohara.misc run attribute @s minecraft:generic.max_health get 1000
 execute store result score #current_health kohara.misc run data get entity @s Health 1000
 

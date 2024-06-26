@@ -13,7 +13,7 @@ execute if score @s stellarity.mechanics.cauldron_crafting.breath_left matches 5
 	particle dragon_breath ~ ~0.55 ~ 0.25 0.05 0.25 0.00577 5 force @a[distance=..32]
 
 execute unless score @s stellarity.mechanics.cauldron_crafting.items_inside matches 6 \
-	if entity @e[type=item,distance=..0.5,tag=!stellarity.brewing.ignore,nbt={Item:{Count:1b}}] run \
+	if entity @e[type=item,distance=..0.5,tag=!stellarity.brewing.ignore,nbt={Item:{count:1}}] run \
 	function stellarity:mechanics/cauldron_crafting/add_item
 
 execute as @e[type=interaction,distance=..1.1,tag=stellarity.brewing.interaction] if data entity @s interaction at @s run function stellarity:mechanics/cauldron_crafting/drop_item with entity @e[type=item_display,limit=1,sort=nearest,tag=stellarity.brewing.display] item

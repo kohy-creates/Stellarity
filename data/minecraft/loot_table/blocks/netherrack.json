@@ -102,7 +102,9 @@
 				{
 					"condition": "minecraft:match_tool",
 					"predicate": {
-						"nbt": "{stellarity.special_item:\"hematic_pickaxe\"}"
+						"components": {
+							"minecraft:custom_data": "{stellarity.special_item:\"hematic_pickaxe\"}"
+						}
 					}
 				}
 			]

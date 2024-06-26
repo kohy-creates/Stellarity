@@ -1,8 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:amethyst_cluster",
-			"nbt": "{Enchantments:[]}"
+			"id": "minecraft:amethyst_cluster"
 		},
 		"title": {
 			"translate": "stellarity.advancements.enter_hallow",
@@ -292,7 +291,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biome": "stellarity:the_hallow"
+						"biomes": "stellarity:the_hallow"
 					}
 				}
 			}

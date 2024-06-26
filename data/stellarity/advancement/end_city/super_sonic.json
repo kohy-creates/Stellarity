@@ -1,8 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:elytra",
-			"nbt": "{Damage:431}"
+			"id": "minecraft:elytra",
+			"components": {
+				"minecraft:damage": 431
+			}
 		},
 		"title": {
 			"translate": "stellarity.advancements.super_sonic",

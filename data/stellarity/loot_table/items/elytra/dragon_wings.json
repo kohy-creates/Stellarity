@@ -1,22 +1,4 @@
 {
-	"attributes_add_in_1_20_5": [
-		{
-			"attribute": "minecraft:generic.jump_speed",
-			"name": "",
-			"id": "9F3D476D-C118-4544-8365-64846904B48E",
-			"amount": 0.15,
-			"operation": "multiply_total",
-			"slot": "chest"
-		},
-		{
-			"attribute": "minecraft:generic.fall_damage_multiplier‌",
-			"name": "",
-			"id": "9F3D476D-C118-4544-8365-64846904B48E",
-			"amount": 0.10,
-			"operation": "multiply_base",
-			"slot": "chest"
-		}
-	],
 	"pools": [
 		{
 			"rolls": 1,
@@ -26,16 +8,8 @@
 					"name": "minecraft:elytra",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"name": {
-								"translate": "stellarity.items.elytra.dragon_wings",
-								"fallback": "Dragon Wings",
-								"color": "#9936D6",
-								"italic": false
-							}
-						},
-						{
-							"function": "minecraft:set_lore",
+							"function": "minecraft:set_lore",	
+							"mode": "replace_all",
 							"entity": "this",
 							"lore": [
 								"",
@@ -60,34 +34,51 @@
 							]
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,stellarity.special_item:\"dragon_wings\",kohara.fireproof:1b,kohara.durability:{enabled:1b,max_dur:482}}"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 90000,
+								"minecraft:custom_data": "{\"stellarity.special_item\": \"dragon_wings\"}",
+								"minecraft:fire_resistant": {},
+								"minecraft:max_damage": 424,
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.elytra.dragon_wings\",\"fallback\": \"Dragon Wings\",\"color\": \"#9936D6\",\"italic\": false}"
+							}
 						},
 						{
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
 									"attribute": "minecraft:generic.armor",
-									"name": "",
-									"id": "9F3D476D-C118-4544-8365-64846904B48E",
+									"id": "minecraft:armor.chestplate",
 									"amount": 6,
-									"operation": "addition",
+									"operation": "add_value",
 									"slot": "chest"
 								},
 								{
 									"attribute": "minecraft:generic.armor_toughness",
-									"name": "",
-									"id": "9F3D476D-C118-4544-8365-64846904B48E",
+									"id": "minecraft:armor.chestplate",
 									"amount": 2,
-									"operation": "addition",
+									"operation": "add_value",
 									"slot": "chest"
 								},
 								{
 									"attribute": "minecraft:generic.movement_speed",
-									"name": "",
-									"id": "9F3D476D-C118-4544-8365-64846904B48E",
+									"id": "minecraft:armor.chestplate",
 									"amount": -0.08,
-									"operation": "multiply_base",
+									"operation": "add_multiplied_base",
+									"slot": "chest"
+								},
+								{
+									"attribute": "minecraft:generic.jump_strength",
+									"id": "minecraft:armor.chestplate",
+									"amount": 0.15,
+									"operation": "add_multiplied_total",
+									"slot": "chest"
+								},
+								{
+									"attribute": "minecraft:generic.fall_damage_multiplier",
+									"id": "minecraft:armor.chestplate",
+									"amount": 0.10,
+									"operation": "add_multiplied_base",
 									"slot": "chest"
 								}
 							]

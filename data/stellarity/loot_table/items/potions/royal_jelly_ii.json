@@ -8,17 +8,32 @@
 					"name": "minecraft:honey_bottle",
 					"functions": [
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"royal_jelly_ii\",HideFlags:2}"
-						},
-						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "stellarity.items.potions.royal_jelly",
-								"fallback": "Royal Jelly",
-								"color": "yellow",
-								"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": "{\"stellarity.special_item\": \"royal_jelly_ii\"}",
+								"minecraft:max_stack_size": 1,
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.potions.royal_jelly\",\"fallback\": \"Royal Jelly\",\"color\": \"yellow\",\"italic\": false}",
+								"minecraft:food": {
+									"nutrition": 6,
+									"saturation": 3.6,
+									"can_always_eat": true,
+									"eat_seconds": 1.5,
+									"using_converts_to": {
+										"id": "minecraft:glass_bottle"
+									},
+									"effects": [
+										{
+											"effect": {
+												"id": "minecraft:absorption",
+												"amplifier": 1,
+												"duration": 30,
+												"ambient": false,
+												"show_particles": true,
+												"show_icon": true
+											}
+										}
+									]
+								}
 							}
 						},
 						{
@@ -56,19 +71,8 @@
 									"color": "#CC26FF",
 									"italic": true
 								}
-							]
-						},
-						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.max_health",
-									"name": "",
-									"amount": 0,
-									"operation": "addition",
-									"slot": "mainhand"
-								}
-							]
+							],
+							"mode": "replace_all"
 						}
 					]
 				}

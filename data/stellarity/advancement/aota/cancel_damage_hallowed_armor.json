@@ -1,8 +1,11 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:leather_chestplate",
-			"nbt": "{CustomModelData:90001,display:{color:16768338}}"
+			"id": "minecraft:leather_chestplate",
+			"components": {
+				"minecraft:dyed_color": 16768338,
+				"minecraft:custom_model_data": 90001
+			}
 		},
 		"title": {
 			"translate": "stellarity.advancements.hallelujah",

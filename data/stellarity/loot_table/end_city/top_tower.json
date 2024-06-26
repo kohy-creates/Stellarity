@@ -93,7 +93,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:treasure_heads"
+					"value": "stellarity:treasure_heads"
 				}
 			],
 			"conditions": [
@@ -112,7 +112,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/materials/hallowed_ingot",
+					"value": "stellarity:items/materials/hallowed_ingot",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -125,7 +125,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/materials/chorus_plating",
+					"value": "stellarity:items/materials/chorus_plating",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -287,19 +287,19 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/chorus_dagger"
+					"value": "stellarity:items/chorus_dagger"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/the_beginning_and_the_end"
+					"value": "stellarity:items/the_beginning_and_the_end"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/starless_scythe"
+					"value": "stellarity:items/starless_scythe"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/spellbooks/jinx"
+					"value": "stellarity:items/spellbooks/jinx"
 				}
 			],
 			"conditions": [
@@ -314,7 +314,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/spellbooks/return"
+					"value": "stellarity:items/spellbooks/return"
 				}
 			],
 			"conditions": [
@@ -346,7 +346,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/materials/enderite_smithing_template"
+					"value": "stellarity:items/materials/enderite_smithing_template"
 				}
 			]
 		}

@@ -77,7 +77,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:treasure_heads"
+					"value": "stellarity:treasure_heads"
 				}
 			],
 			"conditions": [

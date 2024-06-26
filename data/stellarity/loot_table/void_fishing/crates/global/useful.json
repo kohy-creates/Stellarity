@@ -238,7 +238,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/spellbooks/return"
+					"value": "stellarity:items/spellbooks/return"
 				}
 			],
 			"conditions": [

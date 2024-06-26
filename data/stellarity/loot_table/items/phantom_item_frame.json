@@ -8,17 +8,8 @@
 					"name": "minecraft:item_frame",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "stellarity.items.phantom_item_frame",
-								"fallback": "Phantom Item Frame",
-								"color": "yellow",
-								"italic": false
-							}
-						},
-						{
-							"function": "minecraft:set_lore",
+							"function": "minecraft:set_lore",	
+							"mode": "replace_all",
 							"entity": "this",
 							"lore": [
 								{
@@ -39,8 +30,18 @@
 							]
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"phantom_item_frame\",EntityTag:{Tags:[\"stellarity.phantom_item_frame\"]},CustomModelData:90000}"
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 90000,
+								"minecraft:entity_data": {
+									"id": "minecraft:item_frame",
+									"Tags": [
+										"stellarity.phantom_item_frame"
+									]
+								},
+								"minecraft:custom_data": "{\"stellarity.special_item\": \"phantom_item_frame\"}",
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.phantom_item_frame\",\"fallback\": \"Phantom Item Frame\",\"color\": \"yellow\",\"italic\": false}"
+							}
 						}
 					]
 				}

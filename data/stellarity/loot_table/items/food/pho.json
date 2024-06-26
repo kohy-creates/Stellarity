@@ -8,18 +8,47 @@
 					"name": "minecraft:mushroom_stew",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "stellarity.items.food.pho",
-								"fallback": "Pho",
-								"color": "yellow",
-								"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 90001,
+								"minecraft:custom_data": "{\"stellarity.special_item\": \"pho\"}",
+								"minecraft:food": {
+									"nutrition": 10,
+									"saturation": 16,
+									"can_always_eat": true,
+									"eat_seconds": 3.5,
+									"effects": [
+										{
+											"effect": {
+												"id": "minecraft:regeneration",
+												"duration": 560,
+												"ambient": false,
+												"show_particles": true,
+												"show_icon": true
+											}
+										},
+										{
+											"effect": {
+												"id": "minecraft:strength",
+												"duration": 2400,
+												"ambient": false,
+												"show_particles": true,
+												"show_icon": true
+											}
+										},
+										{
+											"effect": {
+												"id": "minecraft:absorption",
+												"duration": 2400,
+												"ambient": false,
+												"show_particles": true,
+												"show_icon": true
+											}
+										}
+									]
+								},
+								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.pho\",\"fallback\":\"Pho\",\"color\":\"yellow\"}"
 							}
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90001,stellarity.special_item:\"pho\"}"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -37,7 +66,7 @@
 									},
 									" ",
 									{
-										"text": "15.2",
+										"text": "16",
 										"color": "#EEEEEE",
 										"italic": false
 									},
@@ -92,7 +121,8 @@
 									"color": "#CC26FF",
 									"italic": true
 								}
-							]
+							],
+							"mode": "replace_all"
 						}
 					]
 				}

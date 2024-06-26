@@ -1,6 +1,6 @@
 {
 	"condition": "minecraft:location_check",
 	"predicate": {
-		"biome": "stellarity:prismarine_forest"
+		"biomes": "stellarity:prismarine_forest"
 	}
 }

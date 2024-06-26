@@ -8,21 +8,19 @@
 					"name": "minecraft:crossbow",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "stellarity.items.weapons.prismatic_punch",
-								"fallback": "Prismatic Punch",
-								"color": "#FF76D0",
-								"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": 90001,
+								"minecraft:custom_data": {
+									"stellarity.special_item": "prismatic_punch"
+								},
+								"minecraft:fire_resistant": {},
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.prismatic_punch\",\"fallback\": \"Prismatic Punch\",\"color\": \"#FF76D0\",\"italic\": false}"
 							}
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90001,stellarity.special_item:\"prismatic_punch\",Charged:0b,kohara.fireproof:1b}"
-						},
-						{
-							"function": "minecraft:set_lore",
+							"function": "minecraft:set_lore",	
+							"mode": "replace_all",
 							"entity": "this",
 							"lore": [
 								"",

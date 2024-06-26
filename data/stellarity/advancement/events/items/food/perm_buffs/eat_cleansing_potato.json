@@ -11,7 +11,7 @@
 							"condition": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"nbt": "{Tags:[\"stellarity.perm_buffs.cleansing_potato\"]}"
+								"nbt":"{Tags:[\"stellarity.perm_buffs.cleansing_potato\"]}"
 							}
 						}
 					}
@@ -20,7 +20,9 @@
 					"items": [
 						"minecraft:baked_potato"
 					],
-					"nbt": "{stellarity.special_item:\"cleansing_potato\"}"
+					"components": {
+						"minecraft:custom_data": "{stellarity.special_item:\"cleansing_potato\"}"
+					}
 				}
 			}
 		}

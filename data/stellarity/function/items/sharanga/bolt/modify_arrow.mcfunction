@@ -1,6 +1,6 @@
 execute if entity @p[gamemode=!spectator,gamemode=!creative] as @p run function stellarity:items/sharanga/ammo_conservation/trigger
 
-data merge entity @s {PierceLevel:3b,Tags:["stellarity.spectral_bolt","stellarity.arrow"],NoGravity:1b,Duration:200,Silent:0b,pickup:0b,SoundEvent:"minecraft:block.amethyst_cluster.break"}
+data merge entity @s {PierceLevel:3,tags:["stellarity.spectral_bolt","stellarity.arrow"],NoGravity:1b,Duration:200,Silent:0b,pickup:0b,SoundEvent:"minecraft:block.amethyst_cluster.break"}
 
 execute store result score #velocity.x stellarity.misc run data get entity @s Motion[0] 10000
 execute store result score #velocity.y stellarity.misc run data get entity @s Motion[1] 10000
