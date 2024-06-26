@@ -8,7 +8,7 @@ data modify storage stellarity:temp book_of_return.dimension set from storage st
 data remove storage stellarity:temp book_of_return.player_data
 
 tag @p[predicate=stellarity:items/holding/spellbooks/return] add stellarity.book_of_return.teleport
-scoreboard players set @p[predicate=stellarity:items/holding/spellbooks/return] stellarity.items.spellbook.return.cooldown 180
+scoreboard players set @p[predicate=stellarity:items/holding/spellbooks/return] stellarity.items.spellbook.return.cooldown 120
 
 execute if data storage stellarity:temp book_of_return.dimension run function stellarity:items/spellbooks/return/teleport/summon_marker with storage stellarity:temp book_of_return
 execute unless data storage stellarity:temp book_of_return.dimension run schedule function stellarity:items/spellbooks/return/teleport/locate_world_spawn 1t append
