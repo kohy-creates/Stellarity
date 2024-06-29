@@ -20,7 +20,7 @@
 					"items": [
 						"minecraft:apple"
 					],
-					"components": {
+					"predicates": {
 						"minecraft:custom_data": "{stellarity.special_item:\"miracle_fruit\"}"
 					}
 				}

@@ -2,9 +2,9 @@
 	"replace": false,
 	"values": [
 		"#minecraft:undead",
-		"#minecraft:illagers",
+		"#minecraft:arthropod",
+		"#minecraft:illager",
 		"#kohara:nether",
-		"minecraft:cave_spider",
 		"minecraft:creeper",
 		"minecraft:elder_guardian",
 		"minecraft:enderman",
@@ -12,11 +12,10 @@
 		"minecraft:piglin",
 		"minecraft:piglin_brute",
 		"minecraft:shulker",
-		"minecraft:silverfish",
 		"minecraft:slime",
-		"minecraft:spider",
 		"minecraft:vex",
 		"minecraft:witch",
-		"minecraft:wither"
+		"minecraft:wither",
+		"minecraft:breeze"
 	]
 }

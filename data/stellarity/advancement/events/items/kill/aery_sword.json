@@ -10,8 +10,8 @@
 							"items": [
 								"minecraft:diamond_sword"
 							],
-							"components": {
-								"minecraft:custom_data": "{stellarity.special_item:\"frigid_harvester\"}"
+							"predicates": {
+								"minecraft:custom_data": {"stellarity.special_item":"frigid_harvester"}
 							}
 						}
 					}
@@ -23,14 +23,6 @@
 							"max": 6.5
 						}
 					}
-				},
-				"killing_blow": {
-					"tags": [
-						{
-							"id": "stellarity:melee",
-							"expected": true
-						}
-					]
 				}
 			}
 		},
@@ -43,8 +35,8 @@
 							"items": [
 								"minecraft:diamond_sword"
 							],
-							"components": {
-								"minecraft:custom_data": "{stellarity.special_item:\"frigid_harvester\"}"
+							"predicates": {
+								"minecraft:custom_data": {"stellarity.special_item":"frigid_harvester"}
 							}
 						}
 					}
@@ -56,14 +48,6 @@
 							"max": 6.5
 						}
 					}
-				},
-				"killing_blow": {
-					"tags": [
-						{
-							"id": "stellarity:melee",
-							"expected": true
-						}
-					]
 				}
 			}
 		},
@@ -76,8 +60,8 @@
 							"items": [
 								"minecraft:diamond_sword"
 							],
-							"components": {
-								"minecraft:custom_data": "{stellarity.special_item:\"frigid_harvester\"}"
+							"predicates": {
+								"minecraft:custom_data": {"stellarity.special_item":"frigid_harvester"}
 							}
 						}
 					}
@@ -89,14 +73,6 @@
 							"max": 6.5
 						}
 					}
-				},
-				"killing_blow": {
-					"tags": [
-						{
-							"id": "stellarity:melee",
-							"expected": true
-						}
-					]
 				}
 			}
 		},
@@ -109,8 +85,8 @@
 							"items": [
 								"minecraft:diamond_sword"
 							],
-							"components": {
-								"minecraft:custom_data": "{stellarity.special_item:\"frigid_harvester\"}"
+							"predicates": {
+								"minecraft:custom_data": {"stellarity.special_item":"frigid_harvester"}
 							}
 						}
 					}
@@ -122,14 +98,6 @@
 							"max": 6.5
 						}
 					}
-				},
-				"killing_blow": {
-					"tags": [
-						{
-							"id": "stellarity:melee",
-							"expected": true
-						}
-					]
 				}
 			}
 		},
@@ -142,8 +110,8 @@
 							"items": [
 								"minecraft:diamond_sword"
 							],
-							"components": {
-								"minecraft:custom_data": "{stellarity.special_item:\"frigid_harvester\"}"
+							"predicates": {
+								"minecraft:custom_data": {"stellarity.special_item":"frigid_harvester"}
 							}
 						}
 					}
@@ -155,14 +123,6 @@
 							"max": 6.5
 						}
 					}
-				},
-				"killing_blow": {
-					"tags": [
-						{
-							"id": "stellarity:melee",
-							"expected": true
-						}
-					]
 				}
 			}
 		},
@@ -175,8 +135,8 @@
 							"items": [
 								"minecraft:diamond_sword"
 							],
-							"components": {
-								"minecraft:custom_data": "{stellarity.special_item:\"frigid_harvester\"}"
+							"predicates": {
+								"minecraft:custom_data": {"stellarity.special_item":"frigid_harvester"}
 							}
 						}
 					}
@@ -188,14 +148,6 @@
 							"max": 6.5
 						}
 					}
-				},
-				"killing_blow": {
-					"tags": [
-						{
-							"id": "stellarity:melee",
-							"expected": true
-						}
-					]
 				}
 			}
 		}

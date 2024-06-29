@@ -20,7 +20,7 @@
 					"items": [
 						"minecraft:baked_potato"
 					],
-					"components": {
+					"predicates": {
 						"minecraft:custom_data": "{stellarity.special_item:\"cleansing_potato\"}"
 					}
 				}

@@ -20,7 +20,7 @@
 					"items": [
 						"minecraft:golden_carrot"
 					],
-					"components": {
+					"predicates": {
 						"minecraft:custom_data": "{stellarity.special_item:\"lucky_carrot\"}"
 					}
 				}

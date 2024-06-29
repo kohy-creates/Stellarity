@@ -7,22 +7,22 @@
 				"player": {
 					"equipment": {
 						"head": {
-							"components": {
+							"predicates": {
 								"minecraft:custom_data": "{stellarity.special_item:\"hallowed_armor\"}"
 							}
 						},
 						"chest": {
-							"components": {
+							"predicates": {
 								"minecraft:custom_data": "{stellarity.special_item:\"hallowed_armor\"}"
 							}
 						},
 						"legs": {
-							"components": {
+							"predicates": {
 								"minecraft:custom_data": "{stellarity.special_item:\"hallowed_armor\"}"
 							}
 						},
 						"feet": {
-							"components": {
+							"predicates": {
 								"minecraft:custom_data": "{stellarity.special_item:\"hallowed_armor\"}"
 							}
 						}

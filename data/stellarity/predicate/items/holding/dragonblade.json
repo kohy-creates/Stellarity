@@ -10,7 +10,7 @@
 						"items": [
 							"minecraft:netherite_sword"
 						],
-						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"dragonblade\"}"}
+						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"dragonblade\"}"}
 					}
 				}
 			}
@@ -24,7 +24,7 @@
 						"items": [
 							"minecraft:netherite_sword"
 						],
-						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"dragonblade\"}"}
+						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"dragonblade\"}"}
 					}
 				}
 			}

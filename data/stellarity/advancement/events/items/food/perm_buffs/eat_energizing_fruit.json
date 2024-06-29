@@ -20,7 +20,7 @@
 					"items": [
 						"minecraft:chorus_fruit"
 					],
-					"components": {
+					"predicates": {
 						"minecraft:custom_data": "{stellarity.special_item:\"energizing_fruit\"}"
 					}
 				}

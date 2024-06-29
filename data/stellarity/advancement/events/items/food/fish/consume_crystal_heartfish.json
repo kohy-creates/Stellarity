@@ -8,7 +8,7 @@
 					"items": [
 						"minecraft:cooked_cod"
 					],
-					"components": {
+					"predicates": {
 						"minecraft:custom_data": "{stellarity.special_item:\"crystal_heartfish\"}"
 					}
 				}

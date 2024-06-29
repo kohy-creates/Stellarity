@@ -7,7 +7,7 @@
 				"items": [
 					"minecraft:popped_chorus_fruit"
 				],
-				"components":{ "minecraft:custom_data": "{stellarity.special_item:\"casket_of_stars\"}"}
+				"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"casket_of_stars\"}"}
 			}
 		}
 	}

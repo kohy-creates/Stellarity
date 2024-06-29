@@ -4,7 +4,7 @@
 	"predicate": {
 		"equipment": {
 			"chest": {
-				"components":{ "minecraft:custom_data": "{stellarity.special_item:\"shulker_armor\"}"}
+				"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"shulker_armor\"}"}
 			}
 		}
 	}

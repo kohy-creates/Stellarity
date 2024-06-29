@@ -20,7 +20,7 @@
 					"items": [
 						"minecraft:beetroot"
 					],
-					"components": {
+					"predicates": {
 						"minecraft:custom_data": "{stellarity.special_item:\"rageroot\"}"
 					}
 				}

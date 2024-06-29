@@ -10,7 +10,7 @@
 							"items": [
 								"minecraft:diamond_sword"
 							],
-							"components": {
+							"predicates": {
 								"minecraft:custom_data": "{stellarity.special_item:\"frigid_harvester\"}"
 							}
 						}

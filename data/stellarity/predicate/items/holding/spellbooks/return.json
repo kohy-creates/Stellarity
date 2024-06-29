@@ -10,7 +10,7 @@
 						"items": [
 							"minecraft:knowledge_book"
 						],
-						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"book_of_return\"}"}
+						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"book_of_return\"}"}
 					}
 				}
 			}
@@ -24,7 +24,7 @@
 						"items": [
 							"minecraft:knowledge_book"
 						],
-						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"book_of_return\"}"}
+						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"book_of_return\"}"}
 					}
 				}
 			}

@@ -264,5 +264,3 @@ schedule function stellarity:loops/timed/5_second 5s append
 execute store result score #difficulty stellarity.misc run difficulty
 
 execute unless score #stellarity.config stellarity.config.join_message matches 0 run schedule function stellarity:tellraw/schedule 5t
-
-data modify storage stellarity:temp spellbook_fix set value 1b

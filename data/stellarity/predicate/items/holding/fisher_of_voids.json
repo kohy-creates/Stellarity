@@ -10,7 +10,7 @@
 						"items": [
 							"minecraft:fishing_rod"
 						],
-						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"fisher_of_voids\"}"}
+						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"fisher_of_voids\"}"}
 					}
 				}
 			}
@@ -24,7 +24,7 @@
 						"items": [
 							"minecraft:fishing_rod"
 						],
-						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"fisher_of_voids\"}"}
+						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"fisher_of_voids\"}"}
 					}
 				}
 			}

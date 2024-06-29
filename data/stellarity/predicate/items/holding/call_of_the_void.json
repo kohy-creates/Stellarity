@@ -10,7 +10,7 @@
 						"items": [
 							"minecraft:bow"
 						],
-						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"call_of_the_void\"}"}
+						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"call_of_the_void\"}"}
 					}
 				}
 			}
@@ -24,7 +24,7 @@
 						"items": [
 							"minecraft:bow"
 						],
-						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"call_of_the_void\"}"}
+						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"call_of_the_void\"}"}
 					}
 				}
 			}

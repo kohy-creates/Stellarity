@@ -45,6 +45,7 @@
 		"minecraft:snowball",
 		"minecraft:spawner_minecart",
 		"minecraft:spectral_arrow",
-		"minecraft:wither_skull"
+		"minecraft:wither_skull",
+		"minecraft:wind_charge"
 	]
 }

@@ -7,7 +7,7 @@
 				"items": [
 					"minecraft:netherite_sword"
 				],
-				"components":{ "minecraft:custom_data": "{stellarity.special_item:\"prismember\"}"}
+				"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"prismember\"}"}
 			}
 		}
 	}

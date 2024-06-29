@@ -10,7 +10,7 @@
 						"items": [
 							"minecraft:netherite_axe"
 						],
-						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"kaleidoscope\"}"}
+						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"kaleidoscope\"}"}
 					}
 				}
 			}
@@ -24,7 +24,7 @@
 						"items": [
 							"minecraft:netherite_axe"
 						],
-						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"kaleidoscope\"}"}
+						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"kaleidoscope\"}"}
 					}
 				}
 			}

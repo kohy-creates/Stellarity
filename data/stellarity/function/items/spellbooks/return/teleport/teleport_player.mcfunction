@@ -12,5 +12,7 @@ particle dragon_breath ~ ~1 ~ 0 0 0 .06 15 normal
 
 function stellarity:sfx/enter_leave_end_wave
 
-tag @s remove stellarity.book_of_return.in_animation
-tag @s remove stellarity.book_of_return.teleport
+tag @p[predicate=stellarity:items/holding/spellbooks/return] remove stellarity.book_of_return.in_animation
+tag @p[predicate=stellarity:items/holding/spellbooks/return] remove stellarity.book_of_return.teleport
+
+scoreboard players set @s stellarity.items.spellbook.return.cooldown 120

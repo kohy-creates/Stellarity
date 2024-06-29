@@ -1,7 +1,7 @@
 advancement revoke @s only stellarity:events/items/attack/upgraded_aery_sword
 
 data remove storage stellarity:temp aery_sword.item
-data modify storage stellarity:temp aery_sword.item set from entity @s SelectedItem.tag
+data modify storage stellarity:temp aery_sword.item set from entity @s SelectedItem.components."minecraft:custom_data"
 
 # Frostburn
 execute if data storage stellarity:temp {aery_sword:{item:{stellarity.aery_sword:{abilities:["frostburn"]}}}} as @e[type=!#kohara:invalid_targets,nbt={HurtTime:10s},limit=1,sort=nearest] run function stellarity:items/frigid_harvester/abilities/frostburn/apply

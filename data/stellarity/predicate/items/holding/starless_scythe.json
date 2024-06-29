@@ -7,7 +7,7 @@
 				"items": [
 					"minecraft:netherite_hoe"
 				],
-				"components":{ "minecraft:custom_data": "{stellarity.special_item:\"starless_scythe\"}"}
+				"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"starless_scythe\"}"}
 			}
 		}
 	}

@@ -6,3 +6,7 @@ playsound minecraft:item.book.page_turn player @s
 particle enchant ~ ~1 ~ .4 .55 .4 0 30 normal
 
 title @s actionbar {"translate":"stellarity.items.spellbooks.notification","fallback": "Your %s is ready to be used again","color":"dark_purple","with":[{"translate":"stellarity.items.spellbooks.return","fallback":"Tome of Return"}]}
+
+# Failsafe
+tag @s remove stellarity.book_of_return.in_animation
+tag @s remove stellarity.book_of_return.teleport

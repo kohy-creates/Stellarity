@@ -7,7 +7,12 @@
 				"items": [
 					"minecraft:crossbow"
 				],
-				"nbt": "{Charged:0b,stellarity.special_item:\"clockwork_crossbow\"}"}
+				"components": {
+					"minecraft:custom_data": {
+						"stellarity.special_item": "clockwork_crossbow"
+					},
+					"minecraft:charged_projectiles":[]
+				}
 			}
 		}
 	}

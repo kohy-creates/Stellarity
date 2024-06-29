@@ -20,7 +20,7 @@
 					"items": [
 						"minecraft:rabbit_stew"
 					],
-					"components": {
+					"predicates": {
 						"minecraft:custom_data": "{stellarity.special_item:\"endurance_brew\"}"
 					}
 				}

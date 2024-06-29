@@ -10,7 +10,7 @@
 						"items": [
 							"minecraft:bow"
 						],
-						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"sharanga\"}"}
+						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"sharanga\"}"}
 					}
 				}
 			}
@@ -24,7 +24,7 @@
 						"items": [
 							"minecraft:bow"
 						],
-						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"sharanga\"}"}
+						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"sharanga\"}"}
 					}
 				}
 			}

@@ -11,19 +11,88 @@
 		},
 		"conditions": [
 			{
-				"condition": "minecraft:inverted",
-				"term": {
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"equipment": {
-							"mainhand": {
-								"items": [
-									"minecraft:crossbow"
-								],
-								"enchantments": [
+				"condition": "minecraft:all_of",
+				"terms": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type_specific": {
+								"type": "minecraft:player",
+								"gamemode": [
+									"survival",
+									"adventure"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"slots": {
+								"weapon.mainhand": {
+									"items": "minecraft:crossbow",
+									"predicates": {
+										"minecraft:enchantments": [
+											{
+												"enchantments": "minecraft:multishot"
+											}
+										]
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:charged_projectiles": [
+				{
+					"id": "minecraft:arrow",
+					"count": 1
+				},
+				{
+					"id": "minecraft:arrow",
+					"count": 1,
+					"components": {
+						"minecraft:intangible_projectile": {}
+					}
+				},
+				{
+					"id": "minecraft:arrow",
+					"count": 1,
+					"components": {
+						"minecraft:intangible_projectile": {}
+					}
+				}
+			]
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"gamemode": [
+							"survival",
+							"adventure"
+						]
+					},
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:crossbow"
+							],
+							"predicates": {
+								"minecraft:enchantments": [
 									{
-										"enchantment": "minecraft:multishot"
+										"enchantments": "minecraft:multishot"
 									}
 								]
 							}
@@ -39,15 +108,75 @@
 			"minecraft:charged_projectiles": [
 				{
 					"id": "minecraft:arrow",
-					"count": 1
+					"count": 1,
+					"components": {
+						"minecraft:intangible_projectile": {}
+					}
+				}
+			]
+		},
+		"conditions": [
+			{
+				"condition": "minecraft:all_of",
+				"terms": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type_specific": {
+								"type": "minecraft:player",
+								"gamemode": [
+									"creative"
+								]
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"slots": {
+								"weapon.mainhand": {
+									"items": "minecraft:crossbow",
+									"predicates": {
+										"minecraft:enchantments": [
+											{
+												"enchantments": "minecraft:multishot"
+											}
+										]
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:charged_projectiles": [
+				{
+					"id": "minecraft:arrow",
+					"count": 1,
+					"components": {
+						"minecraft:intangible_projectile": {}
+					}
 				},
 				{
 					"id": "minecraft:arrow",
-					"count": 1
+					"count": 1,
+					"components": {
+						"minecraft:intangible_projectile": {}
+					}
 				},
 				{
 					"id": "minecraft:arrow",
-					"count": 1
+					"count": 1,
+					"components": {
+						"minecraft:intangible_projectile": {}
+					}
 				}
 			]
 		},
@@ -56,16 +185,24 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"gamemode": [
+							"creative"
+						]
+					},
 					"equipment": {
 						"mainhand": {
 							"items": [
 								"minecraft:crossbow"
 							],
-							"enchantments": [
-								{
-									"enchantment": "minecraft:multishot"
-								}
-							]
+							"predicates": {
+								"minecraft:enchantments": [
+									{
+										"enchantments": "minecraft:multishot"
+									}
+								]
+							}
 						}
 					}
 				}

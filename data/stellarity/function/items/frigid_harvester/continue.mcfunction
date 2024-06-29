@@ -3,6 +3,9 @@ scoreboard players operation #damage stellarity.misc += #damage_extra stellarity
 # But also cap it at 14
 execute if score #damage stellarity.misc matches 1200.. run scoreboard players set #damage stellarity.misc 1200
 
+data modify storage stellarity:temp aery_sword.custom_data set from storage stellarity:temp aery_sword.item."minecraft:custom_data"
+data modify storage stellarity:temp aery_sword.attributes set from storage stellarity:temp aery_sword.item."minecraft:attribute_modifiers"
+
 # Visual and sound effects
 execute anchored eyes positioned ^ ^ ^2.5 run function stellarity:items/frigid_harvester/effects/souls
 execute unless score #damage stellarity.misc matches 1200.. run \
@@ -10,10 +13,10 @@ execute unless score #damage stellarity.misc matches 1200.. run \
 
 ## Item modifier part thingy
 # Make the sword fireproof after reaching 6 extra damage (10 total)
-data modify storage stellarity:temp aery_sword.fireproof set value 0b
-execute if score #damage stellarity.misc matches 600.. run data modify storage stellarity:temp aery_sword.fireproof set value 1b
+data modify storage stellarity:temp aery_sword.fire_resistant set value ""
+execute if score #damage stellarity.misc matches 600.. run data modify storage stellarity:temp aery_sword.fire_resistant set value "\"minecraft:fire_resistant\": {},"
 # Custom model data depending on extra damage
-# Levlel 0 (Base)
+# Level 0 (Base)
 execute if score #damage stellarity.misc matches 0..299 run \
 	data modify storage stellarity:temp aery_sword.cmd set value 90031
 # Level 1
@@ -28,53 +31,59 @@ execute if score #damage stellarity.misc matches 900..1199 run \
 # Level 4 (Maxed)
 execute if score #damage stellarity.misc matches 1200.. run \
 	data modify storage stellarity:temp aery_sword.cmd set value 90035
-# Probably one of the least efficient ways to make the number after the coma
-# Rounding
-scoreboard players operation #temp stellarity.misc = #damage stellarity.misc
-scoreboard players operation #temp stellarity.misc /= #100 stellarity.misc
-scoreboard players operation #temp stellarity.misc *= #100 stellarity.misc
-scoreboard players operation #temp2 stellarity.misc = #damage stellarity.misc
-scoreboard players operation #temp2 stellarity.misc -= #temp stellarity.misc
-# Choosing
-execute if score #temp2 stellarity.misc matches 0..9 run \
-	data modify storage stellarity:temp aery_sword.damage_round set value ""
-execute if score #temp2 stellarity.misc matches 10..19 run \
-	data modify storage stellarity:temp aery_sword.damage_round set value ".1"
-execute if score #temp2 stellarity.misc matches 20..29 run \
-	data modify storage stellarity:temp aery_sword.damage_round set value ".2"
-execute if score #temp2 stellarity.misc matches 30..39 run \ 
-	data modify storage stellarity:temp aery_sword.damage_round set value ".3"
-execute if score #temp2 stellarity.misc matches 40..49 run \
-	data modify storage stellarity:temp aery_sword.damage_round set value ".4"
-execute if score #temp2 stellarity.misc matches 50..59 run \
-	data modify storage stellarity:temp aery_sword.damage_round set value ".5"
-execute if score #temp2 stellarity.misc matches 60..69 run \
-	data modify storage stellarity:temp aery_sword.damage_round set value ".6"
-execute if score #temp2 stellarity.misc matches 70..79 run \
-	data modify storage stellarity:temp aery_sword.damage_round set value ".7"
-execute if score #temp2 stellarity.misc matches 80..89 run \
-	data modify storage stellarity:temp aery_sword.damage_round set value ".8"
-execute if score #temp2 stellarity.misc matches 90..99 run \
-	data modify storage stellarity:temp aery_sword.damage_round set value ".9"
-# Add 4 to the damage display (for base damage)
-scoreboard players operation #damage_int stellarity.misc = #damage stellarity.misc
-scoreboard players set #4 stellarity.misc 400
-scoreboard players operation #damage_int stellarity.misc += #4 stellarity.misc
+# Movement Speed reduction
+# Level 0 (Base)
+execute if score #damage stellarity.misc matches 0..299 run \
+	data modify storage stellarity:temp aery_sword.speed set value 0.0d
+# Level 1
+execute if score #damage stellarity.misc matches 300..599 run \
+	data modify storage stellarity:temp aery_sword.speed set value -0.05d
+# Level 2
+execute if score #damage stellarity.misc matches 600..899 run \
+	data modify storage stellarity:temp aery_sword.speed set value -0.1d
+# Level 3
+execute if score #damage stellarity.misc matches 900..1199 run \
+	data modify storage stellarity:temp aery_sword.speed set value -0.15d
+# Level 4 (Maxed)
+execute if score #damage stellarity.misc matches 1200.. run \
+	data modify storage stellarity:temp aery_sword.speed set value -0.2d
+# Attack Speed
+# Level 0 (Base)
+execute if score #damage stellarity.misc matches 0..299 run \
+	data modify storage stellarity:temp aery_sword.atk_speed set value -3d
+# Level 1
+execute if score #damage stellarity.misc matches 300..599 run \
+	data modify storage stellarity:temp aery_sword.atk_speed set value -3.05d
+# Level 2
+execute if score #damage stellarity.misc matches 600..899 run \
+	data modify storage stellarity:temp aery_sword.atk_speed set value -3.1d
+# Level 3
+execute if score #damage stellarity.misc matches 900..1199 run \
+	data modify storage stellarity:temp aery_sword.atk_speed set value -3.2d
+# Level 4 (Maxed)
+execute if score #damage stellarity.misc matches 1200.. run \
+	data modify storage stellarity:temp aery_sword.atk_speed set value -3.25d
+# Add 3 to the damage (for base damage increase)
+scoreboard players operation #damage_inc stellarity.misc = #damage stellarity.misc
+scoreboard players set #3 stellarity.misc 300
+scoreboard players operation #damage_inc stellarity.misc += #3 stellarity.misc
 # Translate it into the storage
-# 'aery_sword.damage_int' is the number before the coma in the damage display
+# 'aery_sword.damage_inc' is the damage value that includes the 4 base damage
 # 'aery_sword.damage' is the actual extra damage stat used in the item NBT
-execute store result storage stellarity:temp aery_sword.damage_int int 0.01 run \
-	scoreboard players get #damage_int stellarity.misc
+execute store result storage stellarity:temp aery_sword.damage_inc double 0.01 run \
+	scoreboard players get #damage_inc stellarity.misc
 execute store result storage stellarity:temp aery_sword.damage double 0.01 run \
 	scoreboard players get #damage stellarity.misc
-# Edit lore (damage part)
-# The 3 last lines are added back directly by the item modifier
-data modify storage stellarity:temp aery_sword.lore set from storage stellarity:temp aery_sword.item.display.Lore
-data remove storage stellarity:temp aery_sword.lore[-1]
-data remove storage stellarity:temp aery_sword.lore[-1]
-data remove storage stellarity:temp aery_sword.lore[-1]
 
-item modify entity @s weapon.mainhand stellarity:aery_sword_increase_damage
+data modify storage stellarity:temp aery_sword.custom_data."stellarity.aery_sword".damage set from storage stellarity:temp aery_sword.damage
+data modify storage stellarity:temp aery_sword.attributes.modifiers[{type:"minecraft:generic.attack_damage"}].amount set from storage stellarity:temp aery_sword.damage_inc
+data modify storage stellarity:temp aery_sword.attributes.modifiers[{type:"minecraft:generic.movement_speed"}].amount set from storage stellarity:temp aery_sword.speed
+data modify storage stellarity:temp aery_sword.attributes.modifiers[{type:"minecraft:generic.attack_speed"}].amount set from storage stellarity:temp aery_sword.atk_speed
+
+data modify storage stellarity:temp aery_sword.custom_data set string storage stellarity:temp aery_sword.custom_data
+data modify storage stellarity:temp aery_sword.attributes set string storage stellarity:temp aery_sword.custom_data
+
+function stellarity:items/frigid_harvester/item_modifier/aery_sword_increase_damage with storage stellarity:temp aery_sword
 
 # Advancement for getting +9 damage
 execute if score #damage stellarity.misc matches 900.. run \

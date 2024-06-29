@@ -4,11 +4,11 @@ loot replace entity @s weapon.mainhand loot stellarity:stronghold/mobs/buff/pill
 
 execute store result score #arrow stellarity.misc run random value 1..10
 execute if score #arrow stellarity.misc matches 5..7 run \
-	item replace entity @s weapon.offhand with tipped_arrow{Potion:"slowness"} 64
+	item replace entity @s weapon.offhand with tipped_arrow[potion_contents="slowness"] 64
 execute if score #arrow stellarity.misc matches 8..9 run \
-	item replace entity @s weapon.offhand with tipped_arrow{Potion:"poison"} 64
+	item replace entity @s weapon.offhand with tipped_arrow[potion_contents="poison"] 64
 execute if score #arrow stellarity.misc matches 10 run \
-	item replace entity @s weapon.offhand with tipped_arrow{Potion:"weakness"} 64
+	item replace entity @s weapon.offhand with tipped_arrow[potion_contents="weakness"] 64
 
 tag @s add stellarity.stronghold.buffed
 

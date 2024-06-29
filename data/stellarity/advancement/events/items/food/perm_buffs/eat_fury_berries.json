@@ -20,7 +20,7 @@
 					"items": [
 						"minecraft:sweet_berries"
 					],
-					"components": {
+					"predicates": {
 						"minecraft:custom_data": "{stellarity.special_item:\"fury_berries\"}"
 					}
 				}

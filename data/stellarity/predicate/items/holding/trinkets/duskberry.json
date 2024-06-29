@@ -10,7 +10,7 @@
 						"items": [
 							"minecraft:sweet_berries"
 						],
-						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"duskberry\"}"}
+						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"duskberry\"}"}
 					}
 				}
 			}
@@ -24,7 +24,7 @@
 						"items": [
 							"minecraft:sweet_berries"
 						],
-						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"duskberry\"}"}
+						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"duskberry\"}"}
 					}
 				}
 			}

@@ -10,7 +10,7 @@
 						"items": [
 							"minecraft:gold_nugget"
 						],
-						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"soaring_insignia\"}"}
+						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"soaring_insignia\"}"}
 					}
 				}
 			}
@@ -24,7 +24,7 @@
 						"items": [
 							"minecraft:gold_nugget"
 						],
-						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"soaring_insignia\"}"}
+						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"soaring_insignia\"}"}
 					}
 				}
 			}

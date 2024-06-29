@@ -10,7 +10,7 @@
 						"items": [
 							"minecraft:crossbow"
 						],
-						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"clockwork_crossbow\"}"}
+						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"clockwork_crossbow\"}"}
 					}
 				}
 			}
@@ -24,7 +24,7 @@
 						"items": [
 							"minecraft:crossbow"
 						],
-						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"clockwork_crossbow\"}"}
+						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"clockwork_crossbow\"}"}
 					}
 				}
 			}

@@ -10,7 +10,7 @@
 						"items": [
 							"minecraft:crossbow"
 						],
-						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"prismatic_punch\"}"}
+						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"prismatic_punch\"}"}
 					}
 				}
 			}
@@ -24,7 +24,7 @@
 						"items": [
 							"minecraft:crossbow"
 						],
-						"components":{ "minecraft:custom_data": "{stellarity.special_item:\"prismatic_punch\"}"}
+						"predicates":{ "minecraft:custom_data": "{stellarity.special_item:\"prismatic_punch\"}"}
 					}
 				}
 			}
