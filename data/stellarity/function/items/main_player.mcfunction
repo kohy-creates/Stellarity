@@ -26,7 +26,7 @@ execute if entity @s[predicate=stellarity:items/holding/tamaris] if entity @e[ty
 
 # Soaring Insignia
 execute if entity @s[predicate=stellarity:items/holding/trinkets/soaring_insignia] run function stellarity:items/soaring_insignia/loop
-execute if entity @s[tag=stellarity.insignia.flying,predicate=!stellarity:items/holding/trinkets/soaring_insignia] run function stellarity:items/soaring_insignia/force_stop
+execute if entity @s[tag=stellarity.insignia.flying,predicate=!stellarity:items/holding/trinkets/soaring_insignia] run function stellarity:items/soaring_insignia/stop_flight
 
 # Kaleidoscope
 execute if entity @s[predicate=stellarity:items/holding/kaleidoscope] at @s run function stellarity:items/kaleidoscope/loop
