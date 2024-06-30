@@ -1,7 +1,7 @@
 scoreboard players reset @s stellarity.status_effects.creative_shock.time
 
 gamemode survival @s[gamemode=adventure]
-effect clear @s mining_fatigue
+attribute @s minecraft:player.block_break_speed modifier remove stellarity:creative_shock
 
 tag @s remove stellarity.creative_shock
 
