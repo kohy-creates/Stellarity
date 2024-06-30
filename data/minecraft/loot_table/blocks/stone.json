@@ -15,14 +15,16 @@
 								{
 									"condition": "minecraft:match_tool",
 									"predicate": {
-										"enchantments": [
-											{
-												"enchantment": "minecraft:silk_touch",
-												"levels": {
-													"min": 1
+										"predicates": {
+											"minecraft:enchantments": [
+												{
+													"enchantments": "minecraft:silk_touch",
+													"levels": {
+														"min": 1
+													}
 												}
-											}
-										]
+											]
+										}
 									}
 								}
 							]
@@ -49,22 +51,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 4,
 					"name": "minecraft:gold_nugget",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
 					"weight": 4,
-					"name": "minecraft:iron_nugget",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -77,13 +65,27 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
-					"name": "minecraft:raw_copper"
+					"name": "minecraft:iron_nugget",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",
-					"quality": 1,
+					"name": "minecraft:raw_copper",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
 					"name": "minecraft:redstone",
+					"quality": 1,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -96,8 +98,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"quality": 1,
 					"name": "minecraft:lapis_lazuli",
+					"quality": 1,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -110,23 +112,23 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 7,
-					"name": "minecraft:bone"
+					"name": "minecraft:bone",
+					"weight": 7
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 6,
-					"name": "minecraft:gunpowder"
+					"name": "minecraft:gunpowder",
+					"weight": 6
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
-					"name": "minecraft:coal"
+					"name": "minecraft:coal",
+					"weight": 2
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 4,
-					"name": "minecraft:flint"
+					"name": "minecraft:flint",
+					"weight": 4
 				}
 			],
 			"conditions": [
