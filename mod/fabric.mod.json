@@ -1,23 +1,23 @@
 {
 	"schemaVersion":1,
 	"id":"stellarity",
-	"version":"2.3.0+mod",
+	"version":"3.0.0",
 	"name":"Stellarity",
 	"description":"Extreme rehaul and expansion of The End! 'We have End Update at home.'",
 	"authors":[
 		"kohara"
 	],
 	"contributors": [
-		"Hex (Original Creator, 1.17)",
-		"misode",
 		"Bush_King (Builder)",
 		"Brokenemp (Artist)",
-		"Phoenix"
+		"Phoenix",
+		"misode",
+		"Hex"
 	],
 	"contact":{
 		"homepage":"https://modrinth.com/datapack/stellarity",
 		"sources":"https://github.com/kohy-creates/Stellarity",
-		"issues": "https://discord.kohara.xyz/"
+		"issues": "https://discord.gg/kohara"
 	},
 	"license":"LicenseRef-Custom",
 	"icon":"pack.png",
@@ -25,12 +25,12 @@
 	"depends":{
 		"fabricloader": ">=0.12.7",
         "fabric-api-base": "*",
-        "minecraft": ">=1.20.3"
+        "minecraft": ">=1.21.1"
 	},
 	"custom": {
 		"modmenu": {
 			"links": {
-				"modmenu.discord": "https://discord.kohara.xyz/"
+				"modmenu.discord": "https://discord.gg/kohara"
 			},
 			"update_checker": true
 		}

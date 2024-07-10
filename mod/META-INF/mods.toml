@@ -6,7 +6,7 @@ issueTrackerURL = "https://discord.kohara.xyz/"
 
 [[mods]]
 	modId = "stellarity" 
-	version = "2.3.0+mod"
+	version = "3.0.0"
 	displayName = "Stellarity"
 	displayURL = "https://modrinth.com/datapack/stellarity"
 	description = '''
@@ -16,7 +16,7 @@ issueTrackerURL = "https://discord.kohara.xyz/"
 	logoFile = "pack.png"
 	logoBlur = false
 	updateJSONURL = "https://api.modrinth.com/updates/bZgeDzN8/forge_updates.json"
-	credits="Hex, misode, Bush_King, Brokenemp, Phoenix"
+	credits="misode, Bush_King, Brokenemp, Phoenix, Hex"
 	authors = "kohara"
 
 [[dependencies.stellarity]]
@@ -34,6 +34,6 @@ issueTrackerURL = "https://discord.kohara.xyz/"
 [[dependencies.stellarity]]
 	modId="minecraft"
 	mandatory=true
-	versionRange="[1.20.3,1.21)"
+	versionRange="[1.21,1.21]"
 	ordering="NONE"
 	side="BOTH"

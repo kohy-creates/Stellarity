@@ -3,17 +3,17 @@
 	"quilt_loader":{
 		"group":"xyz.kohara",
 		"id":"stellarity",
-		"version":"2.3.0+mod",
+		"version":"3.0.0",
 		"metadata":{
 			"name":"Stellarity",
 			"description":"Extreme rehaul and expansion of The End!\n'We have End Update at home.'",
 			"contributors":{
 				"kohara":"Owner",
-				"Hex": "Original Creator (1.17)",
-				"misode": "",
 				"Bush_King": "Builder",
 				"Brokenemp": "Texture Artist",
-				"Phoenix": ""
+				"Phoenix": "",
+				"misode": "",
+				"Hex": ""
 			},
 			"contact":{
 				"homepage":"https://modrinth.com/datapack/stellarity",
@@ -41,7 +41,7 @@
 		"depends":[
 			{
                 "id": "minecraft",
-                "versions": ">=1.20.3"
+                "versions": ">=1.21"
             },
             {
                 "id": "quilt_resource_loader",

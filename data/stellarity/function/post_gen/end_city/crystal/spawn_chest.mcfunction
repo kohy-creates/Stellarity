@@ -1,6 +1,6 @@
 kill @s
-kill @e[type=interaction,limit=1,sort=nearest,tag=stellarity.end_city.crystal]
-kill @e[type=marker,limit=1,sort=nearest,tag=stellarity.end_city.crystal]
+kill @n[type=interaction,tag=stellarity.end_city.crystal]
+kill @n[type=marker,tag=stellarity.end_city.crystal]
 
 execute if entity @s[tag=stellarity.end_city.crystal_small_tower] run setblock ~ ~-1 ~ barrel[facing=up]{LootTable:"stellarity:end_city/small_tower"} replace
 

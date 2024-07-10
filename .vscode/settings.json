@@ -1,3 +1,6 @@
 {
-	"workbench.iconTheme": "mc-dp-icons"
+	"workbench.iconTheme": "mc-dp-icons",
+	"[mcfunction]": {
+		"editor.inlayHints.enabled": "off"
+	}
 }
