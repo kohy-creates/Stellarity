@@ -1,6 +1,6 @@
 # Ticked from 'loops/player_main'
 
-data modify storage stellarity:temp elytra_trail.item set from entity @s Inventory[{Slot:102b}].tag
+data modify storage stellarity:temp elytra_trail.item set from entity @s Inventory[{Slot:102b}].components."minecraft:custom_data"
 
 data modify storage stellarity:temp elytra_trail.color set from storage stellarity:temp elytra_trail.item."stellarity.elytra_color"
 data modify storage stellarity:temp elytra_trail.special set from storage stellarity:temp elytra_trail.item."stellarity.special_item"
