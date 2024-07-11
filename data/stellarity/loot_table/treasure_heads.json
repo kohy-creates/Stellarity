@@ -11,7 +11,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "ApolloDev"
+									"id": [2076954665,1510165184,-1089779501,1499102850]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:1,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -38,7 +38,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "kohara_"
+									"id": [-1313431234,2047230377,-2121722025,-2028170220]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:2,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -65,7 +65,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "kohara_"
+									"id": [-1313431234,2047230377,-2121722025,-2028170220]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:3,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -92,7 +92,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "kohara_"
+									"id": [-1313431234,2047230377,-2121722025,-2028170220]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:4,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -119,7 +119,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "ArubikU"
+									"id": [1985842340,981747697,-1289223725,1472412245]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:5,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -146,7 +146,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "ArubikU"
+									"id": [1985842340,981747697,-1289223725,1472412245]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:6,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -173,7 +173,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "ArubikU"
+									"id": [1985842340,981747697,-1289223725,1472412245]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:7,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -200,7 +200,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Jeany"
+									"id": [1831104287,1488276097,-1646165425,-1099341297]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:8,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -227,7 +227,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Devilcasters"
+									"id": [1418856398,-1074311744,-1695587380,-243238180]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:9,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -254,7 +254,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "purejosh"
+									"id": [-1984703440,-451983247,-1567658340,1709217839]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:10,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -291,7 +291,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "LinerRider"
+									"id": [1071643049,-470269724,-1901616494,1327148590]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:11,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -318,7 +318,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Jxsh_xx11"
+									"id": [490380363,185421267,-1837786030,-1016322435]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:12,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -467,7 +467,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Bush_Lord"
+									"id": [-1514151116,-33274049,-2113059766,408883235]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:16,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -538,7 +538,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "p_yt"
+									"id": [1773018925,-2085992341,-1678241017,1254221489]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:18,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -565,7 +565,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "p_yt"
+									"id": [1773018925,-2085992341,-1678241017,1254221489]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:19,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -597,7 +597,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "p_yt"
+									"id": [1773018925,-2085992341,-1678241017,1254221489]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:20,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -629,7 +629,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "trikop"
+									"id": [-822270032,1387481391,-1598385178,-829337475]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:21,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -656,7 +656,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "TheRedmc_"
+									"id": [-1771639307,-2069870588,-1335722705,-172152650]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:22,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -683,7 +683,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "css_scripter"
+									"id": [1605857588,-1916187019,-2051450908,133269005]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:23,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -751,7 +751,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "IEatPotatoes_"
+									"id": [1262085315,-2099098530,-1476700181,1874014043]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:24,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -778,7 +778,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "cclack"
+									"id": [1921529111,886591201,-1495187563,-759695032]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:25,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -805,7 +805,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Hierol"
+									"id": [1350710636,1086801834,-1248234019,931194374]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:26,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -832,7 +832,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Mizuuwa"
+									"id": [1047941353,668289402,-1753397556,-2136982113]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:27,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -859,7 +859,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "SadlyBorger"
+									"id": [785659605,-1845539269,-2080030700,756770445]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:28,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -886,7 +886,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "MidasDaEpik"
+									"id": [-1048890711,1621967450,-2092030330,-135318509]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:29,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -913,7 +913,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "MidasDaEpik"
+									"id": [-1048890711,1621967450,-2092030330,-135318509]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:30,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -940,7 +940,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "_Quamsy"
+									"id": [-1754367889,2130594789,-2129434983,-1076049898]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:31,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -967,7 +967,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Sylixa"
+									"id": [-1177379290,1181499464,-2106505694,-795241956]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:32,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -994,7 +994,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Moood"
+									"id": [757388458,1336951803,-1439718450,820754583]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:33,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1021,7 +1021,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "INQIZZO"
+									"id": [1275617254,962807087,-1390721421,988990418]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:34,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1048,7 +1048,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "potato10l"
+									"id": [456247000,-967553737,-1922894388,1615594237]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:35,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1075,7 +1075,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "IEatPotatoes_"
+									"id": [1262085315,-2099098530,-1476700181,1874014043]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:36,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1102,7 +1102,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Pailomots"
+									"id": [-897854470,-2029368221,-1286401686,-1080398791]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:37,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1129,7 +1129,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "catter1"
+									"id": [878634451,-1711521176,-1206461733,-589616880]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:38,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1156,7 +1156,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "boyjob"
+									"id": [1878813788,-1982247806,-1111361317,934736369]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:39,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1188,7 +1188,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "MugLoved"
+									"id": [-1935456390,-522370194,-1702456745,2132382011]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:40,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1220,7 +1220,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "DuckyDev_"
+									"id": [-530793137,11946769,-2112860618,1372333876]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:41,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1247,7 +1247,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "INQIZZO"
+									"id": [1275617254,962807087,-1390721421,988990418]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:42,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1274,7 +1274,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "TheRedmc_"
+									"id": [-1771639307,-2069870588,-1335722705,-172152650]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:43,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1301,7 +1301,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "jhens_"
+									"id": [1119143745,-455391805,-1707941946,-1676815555]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:44,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1328,7 +1328,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "MoonLuna"
+									"id": [-1376212211,1434667242,-1482771414,-439277367]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:45,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1355,7 +1355,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "KrunchyTaco"
+									"id": [-320120691,-1509734218,-1250684242,917166180]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:46,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1382,7 +1382,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "IEatPotatoes_"
+									"id": [1262085315,-2099098530,-1476700181,1874014043]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:47,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1409,7 +1409,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Azrotho"
+									"id": [740647338,1334591643,-2141247812,590630202]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:48,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1436,7 +1436,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Portal2001"
+									"id": [969246851,-397915261,-1852593129,-1645118024]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:49,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1468,7 +1468,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "MrBoopkins"
+									"id": [2143710296,-827178058,-1597426359,-405455572]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:50,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1495,7 +1495,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "GreyTree06"
+									"id": [628162307,1268993094,-1869678083,621855618]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:51,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1522,7 +1522,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "_Demi"
+									"id": [1144216711,-1904524262,-1122823433,-1583122999]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:52,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1549,7 +1549,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "ArubikU"
+									"id": [1985842340,981747697,-1289223725,1472412245]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:53,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1580,7 +1580,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "boyjob"
+									"id": [1878813788,-1982247806,-1111361317,934736369]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:56,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1612,7 +1612,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Angeloidd"
+									"id": [153916217,16205141,-1801413960,-862109692]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:57,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1639,7 +1639,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "EasternStory"
+									"id": [1500983584,-1064153426,-1317038080,2109361924]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:58,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1671,7 +1671,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "zKelek"
+									"id": [-1702146087,536954692,-1952414040,-1469792748]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:59,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1698,7 +1698,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Jitter_"
+									"id": [-2014188133,700466739,-1386335048,1323076027]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:60,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1725,7 +1725,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "dieudeschoux"
+									"id": [-117819894,1250315322,-1868098398,1220268862]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:61,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1752,7 +1752,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "MugLoved"
+									"id": [-1935456390,-522370194,-1702456745,2132382011]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:62,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1789,7 +1789,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Pailomots"
+									"id": [-897854470,-2029368221,-1286401686,-1080398791]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:63,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1816,7 +1816,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "boyjob"
+									"id": [1878813788,-1982247806,-1111361317,934736369]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:64,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1843,7 +1843,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "HavocStudio"
+									"id": [2124919326,1164987867,-1806190655,316067441]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:65,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1870,7 +1870,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Tamara1001"
+									"id": [1358126602,-1050524923,-1290636308,-319729000]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:66,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1897,7 +1897,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Brokenemp"
+									"id": [-1904476661,612779697,-1870474750,-811084918]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:67,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1924,7 +1924,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "ApolloDev"
+									"id": [2076954665,1510165184,-1089779501,1499102850]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:68,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1951,7 +1951,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "almos_hitori"
+									"id": [-127051782,-1456583074,-1442757071,-601713192]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:69,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -1983,7 +1983,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Ji3en1"
+									"id": [-1292303162,1938768512,-1819206189,1051328611]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:70,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2010,7 +2010,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Budling"
+									"id": [-1804886142,32981108,-2100628128,1125455813]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:71,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2042,7 +2042,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "ThePancakeGoblin"
+									"id": [-373279135,-829994854,-1601090200,-1493153895]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:72,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2069,7 +2069,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Cool_Are_Turtles"
+									"id": [77859875,-715632775,-1413582474,362170782]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:73,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2135,7 +2135,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "boyjob"
+									"id": [1878813788,-1982247806,-1111361317,934736369]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:75,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2162,7 +2162,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Sotetseg"
+									"id": [932355465,-550745335,-1578198253,1211137221]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:76,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2189,7 +2189,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Twix_09"
+									"id": [-1773819598,989876000,-1724103350,-1858851019]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:77,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2216,7 +2216,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "SandaTrikeArt"
+									"id": [-1009070107,-245086496,-1573952849,972857190]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:78,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2243,7 +2243,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Streetezor"
+									"id": [-723959229,-295613272,-1113664862,-1420912952]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:79,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2270,7 +2270,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "atn2k"
+									"id": [-174482193,-530365993,-1693332401,-1303179728]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:80,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2297,7 +2297,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "PernathanPershin"
+									"id": [-80691458,369836907,-1162101914,894250980]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:81,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2324,7 +2324,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Fuegote"
+									"id": [-2037128071,298274095,-1494415340,-1783305049]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:82,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2356,7 +2356,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "naomieow_dev"
+									"id": [971697034,1594245880,-1084677508,-1020447676]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:83,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2383,7 +2383,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "billyp673"
+									"id": [-1548073974,1969439033,-1506540264,-1894128230]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:84,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2410,7 +2410,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "AikoBoss"
+									"id": [-689664651,-2091890480,-1935302422,755192641]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:85,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2437,7 +2437,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "ffaxsi"
+									"id": [-1985856675,1794785535,-1988501656,-1435282787]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:86,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2464,7 +2464,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "BurMC"
+									"id": [803197683,-737852741,-2043390875,-1435763765]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:87,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2491,7 +2491,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Gabibag_"
+									"id": [-1575532623,1518160063,-2112801723,-909080186]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:88,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2518,7 +2518,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "LucaGMB"
+									"id": [2059822993,1227505980,-2096506416,-48156943]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:89,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2545,7 +2545,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "TheWolfJ"
+									"id": [-1618746484,-637514926,-2113043953,-256104719]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:90,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2572,7 +2572,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "YaGirlGiulles"
+									"id": [1626812677,-467580307,-1227508234,1706950574]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:91,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2599,7 +2599,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Sp71ng"
+									"id": [-1865127409,22298892,-1619505166,-925861878]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:92,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2626,7 +2626,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Senjuukotentaiho"
+									"id": [-1149110378,1900432901,-2121605043,1821138809]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:93,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2682,7 +2682,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "The3ThirdT"
+									"id": [817692190,468927973,-1519820047,545655437]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:94,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2709,7 +2709,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Niponkers"
+									"id": [1985875473,-515552800,-1754550741,1335528901]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:95,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2741,7 +2741,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "meiaburron"
+									"id": [-534436372,1894270822,-1956072296,-1809642356]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:96,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2768,7 +2768,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "TheFishGoesMoo"
+									"id": [-1965732525,1518226575,-1698811986,578227151]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:97,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2795,7 +2795,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "_Demi"
+									"id": [1144216711,-1904524262,-1122823433,-1583122999]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:98,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2822,7 +2822,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "UnlikeAlamo"
+									"id": [-1533747814,-149404096,-2137280171,1313655403]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:99,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2849,7 +2849,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "ACertifiedClown"
+									"id": [-376014619,-1961474719,-1807842406,-1284268560]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:100,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2876,7 +2876,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "p_yt"
+									"id": [1773018925,-2085992341,-1678241017,1254221489]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:101,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2903,7 +2903,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Creeperkiller2_O"
+									"id": [801077454,1748254902,-1384227610,-645278338]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:102,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2930,7 +2930,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Pantahalassan"
+									"id": [1048230116,739919111,-1725426996,-1383741556]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:103,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2957,7 +2957,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Interstellar_One"
+									"id": [1071643049,-470269724,-1901616494,1327148590]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:104,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -2984,7 +2984,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Lil1thh"
+									"id": [-144895690,-565883507,-1782624086,-1108750344]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:105,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3011,7 +3011,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Skylene_"
+									"id": [-1104600955,-1020573609,-1986344396,453649394]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:106,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3038,7 +3038,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "LightGems"
+									"id": [1373693692,785337570,-1517218128,1358434870]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:107,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3065,7 +3065,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Portal2001"
+									"id": [969246851,-397915261,-1852593129,-1645118024]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:108,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3092,7 +3092,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Sirak"
+									"id": [-1724464031,-765899860,-1227801016,-1955283697]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:109,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3119,7 +3119,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Bush_Lord"
+									"id": [-1514151116,-33274049,-2113059766,408883235]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:110,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3146,7 +3146,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Joshhhhhhhhhhhh"
+									"id": [-10103758,-2027339176,-1211861403,-2061094822]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:111,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3173,7 +3173,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "css_scripter"
+									"id": [1605857588,-1916187019,-2051450908,133269005]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:112,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3205,7 +3205,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Thorn_123"
+									"id": [2086710860,-1647358714,-1154235477,1502053215]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:113,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3232,7 +3232,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Rowan"
+									"id": [-1166307880,-244692331,-1298604618,1821835066]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:114,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3259,7 +3259,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Kotoriza"
+									"id": [192287289,-2091499493,-1358339575,-1793741182]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:115,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3286,7 +3286,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Zeta_V"
+									"id": [2082433709,729958486,-1083284223,-1287037745]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:116,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3313,7 +3313,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "ItsJustAWildKid"
+									"id": [1281986702,831737635,-2060381647,-1040682201]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:117,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3340,7 +3340,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Rio_69_"
+									"id": [-1073755820,789008108,-1673640641,74177136]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:118,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3367,7 +3367,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "J9GG"
+									"id": [1294655980,546129303,-1161471052,1597151803]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:119,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3394,7 +3394,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "RazoBlast"
+									"id": [-485006507,760040334,-2060835928,-1247416221]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:120,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3421,7 +3421,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Modsynite"
+									"id": [-1933345170,762661628,-1576695219,-1627778889]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:121,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3448,7 +3448,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Rennen_Rig"
+									"id": [-633386051,-1277869246,-2005652547,1550339938]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:122,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3475,7 +3475,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Foxyfox75"
+									"id": [-1664014342,1455311862,-1637101016,274516605]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:123,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3502,7 +3502,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "talksick"
+									"id": [370778760,1334133975,-1677106250,-879212063]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:124,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3539,7 +3539,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "ISkizzlesI"
+									"id": [-693654995,-650361736,-1101470718,-143243853]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:125,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3571,7 +3571,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Vaculth"
+									"id": [715959551,-628668664,-1542623181,221284560]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:126,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3669,7 +3669,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "KinfOfTheBushes"
+									"id": [-1303161534,809780857,-1890740801,-1694355331]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:129,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3706,7 +3706,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Scorpios2024"
+									"id": [696031710,-958510687,-1453211506,1924461304]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:130,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3733,7 +3733,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Makonede"
+									"id": [27155384,511984526,-1569466387,1879062001]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:131,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3760,7 +3760,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "GodHatesFarmers"
+									"id": [700547327,286541905,-1894942150,-493060903]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:132,stellarity.special_item:\"treasure_head\"}"
 							}
@@ -3787,7 +3787,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Sherrif_1001"
+									"id": [20582662,1174882752,-2025190138,-88168550]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:133,stellarity.special_item:\"treasure_head\"}"
 							}

@@ -11,7 +11,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:profile": {
-									"name": "Zichee"
+									"id": [-1642200877,1053835863,-1691368959,1864103193]
 								},
 								"minecraft:custom_data": "{stellarity.head_id:54,stellarity.special_item:\"treasure_head\"}"
 							}
