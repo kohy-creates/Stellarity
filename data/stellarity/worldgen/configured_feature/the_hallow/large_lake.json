@@ -1,36 +1,20 @@
 {
-	"type": "minecraft:random_patch",
+	"type": "minecraft:lake",
 	"config": {
-		"tries": 24,
-		"xz_spread": 2,
-		"y_spread": 4,
-		"feature": {
-			"feature": {
-				"type": "minecraft:lake",
-				"config": {
-					"fluid": {
-						"type": "minecraft:simple_state_provider",
-						"state": {
-							"Name": "minecraft:water",
-							"Properties": {
-								"level": "0"
-							}
-						}
-					},
-					"barrier": {
-						"type": "minecraft:simple_state_provider",
-						"state": {
-							"Name": "minecraft:calcite"
-						}
-					}
+		"fluid": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:water",
+				"Properties": {
+					"level": "0"
 				}
-			},
-			"placement": [
-				{
-					"type": "minecraft:heightmap",
-					"heightmap": "OCEAN_FLOOR"
-				}
-			]
+			}
+		},
+		"barrier": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:calcite"
+			}
 		}
 	}
 }

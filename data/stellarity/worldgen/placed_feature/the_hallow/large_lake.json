@@ -3,10 +3,7 @@
 	"placement": [
 		{
 			"type": "minecraft:rarity_filter",
-			"chance": 16
-		},
-		{
-			"type": "minecraft:in_square"
+			"chance": 10
 		},
 		{
 			"type": "minecraft:height_range",
