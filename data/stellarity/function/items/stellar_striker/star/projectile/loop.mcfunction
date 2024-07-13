@@ -5,7 +5,7 @@ function stellarity:items/stellar_striker/star/projectile/move_macro with storag
 
 function stellarity:items/stellar_striker/star/projectile/particles
 
-execute if score @s stellarity.misc matches 3.. if entity @e[type=!#kohara:invalid_targets,dx=0,limit=1,sort=nearest] run function stellarity:items/stellar_striker/star/projectile/detonate
+execute if score @s stellarity.misc matches 3.. if entity @n[type=!#kohara:invalid_targets,dx=0,sort=nearest] run function stellarity:items/stellar_striker/star/projectile/detonate
 
 execute if score @s stellarity.misc matches 100.. run function stellarity:items/stellar_striker/star/projectile/detonate
 

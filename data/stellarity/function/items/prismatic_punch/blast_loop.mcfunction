@@ -4,8 +4,8 @@ scoreboard players add @s stellarity.misc 1
 scoreboard players remove @s stellarity.items.prismatic_punch.piercing_cooldown 1
 
 # Detonation
-execute unless score @s stellarity.items.prismatic_punch.piercing_cooldown matches 1.. anchored eyes if entity @e[type=!#kohara:invalid_targets,dx=0,limit=1,sort=nearest,predicate=!stellarity:items/holding/prismatic_punch] run function stellarity:items/prismatic_punch/detonate/start
-execute unless score #exploded stellarity.misc matches 1 unless score @s stellarity.items.prismatic_punch.piercing_cooldown matches 1.. anchored eyes if entity @e[type=!#kohara:invalid_targets,distance=..2.5,limit=1,sort=nearest,predicate=!stellarity:items/holding/prismatic_punch] run function stellarity:items/prismatic_punch/detonate/start
+execute unless score @s stellarity.items.prismatic_punch.piercing_cooldown matches 1.. anchored eyes if entity @n[type=!#kohara:invalid_targets,dx=0,sort=nearest,predicate=!stellarity:items/holding/prismatic_punch] run function stellarity:items/prismatic_punch/detonate/start
+execute unless score #exploded stellarity.misc matches 1 unless score @s stellarity.items.prismatic_punch.piercing_cooldown matches 1.. anchored eyes if entity @n[type=!#kohara:invalid_targets,distance=..2.5,sort=nearest,predicate=!stellarity:items/holding/prismatic_punch] run function stellarity:items/prismatic_punch/detonate/start
 
 # Accelerating projectile
 # Starting velocity: 16 blocks/second

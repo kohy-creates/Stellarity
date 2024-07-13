@@ -1,7 +1,7 @@
 kill @e[type=item,tag=stellarity.aota.enchanted_book,distance=..1.5,limit=1]
 
 loot spawn ~ ~.1 ~ loot stellarity:items/cursed_tome
-tag @e[type=item,limit=1,sort=nearest] add stellarity.aota.skip
+tag @n[type=item,sort=nearest] add stellarity.aota.skip
 
 particle minecraft:happy_villager ~ ~-.4 ~ .2 .2 .2 0 15 normal
 

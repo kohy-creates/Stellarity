@@ -1,4 +1,4 @@
-execute as @e[type=interaction,limit=1,sort=nearest,tag=stellarity.aota.sword_hitbox] run function stellarity:mechanics/altar_of_accursed/main_interaction
+execute as @n[type=interaction,sort=nearest,tag=stellarity.aota.sword_hitbox] run function stellarity:mechanics/altar_of_accursed/main_interaction
 
 function stellarity:mechanics/altar_of_accursed/sfx/loop
 

@@ -1,3 +1,3 @@
-#damage @s 5 minecraft:mob_projectile by @e[type=shulker,limit=1,sort=nearest]
+#damage @s 5 minecraft:mob_projectile by @n[type=shulker,sort=nearest]
 
 effect give @s weakness 2 0 false

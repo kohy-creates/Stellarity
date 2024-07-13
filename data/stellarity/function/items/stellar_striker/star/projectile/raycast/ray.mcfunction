@@ -1,7 +1,7 @@
 #Check if an entity was detected.
 
 execute if score #hit stellarity.misc matches 0 positioned ~-0.05 ~-0.05 ~-0.05 as @e[type=!#kohara:invalid_targets,tag=!vdvray,dx=0,sort=nearest] run function stellarity:items/stellar_striker/star/projectile/raycast/check_hit_entity
-execute if score #hit stellarity.misc matches 0 positioned ~-0.05 ~-0.05 ~-0.05 as @e[type=!#kohara:invalid_targets,tag=!vdvray,distance=..2,limit=1,sort=nearest] at @s run function stellarity:items/stellar_striker/star/projectile/raycast/hit_entity
+execute if score #hit stellarity.misc matches 0 positioned ~-0.05 ~-0.05 ~-0.05 as @n[type=!#kohara:invalid_targets,tag=!vdvray,distance=..2,sort=nearest] at @s run function stellarity:items/stellar_striker/star/projectile/raycast/hit_entity
 
 #Run a function if a block was successfully detected.
 

@@ -1,7 +1,7 @@
 # Teleport model AS to the hitbox vindicator
-execute unless entity @s[tag=stellarity.eol.no_rotate] rotated as @s run tp @e[type=armor_stand,limit=1,sort=nearest,tag=stellarity.eol.as] ~ ~ ~ ~ ~
-execute if entity @s[tag=stellarity.eol.no_rotate] run tp @e[type=armor_stand,limit=1,sort=nearest,tag=stellarity.eol.as] ~ ~ ~
-execute if entity @s[tag=stellarity.eol.face_player] as @e[type=armor_stand,limit=1,sort=nearest,tag=stellarity.eol.as] at @s facing entity @p eyes run tp @s ~ ~ ~ ~ ~
+execute unless entity @s[tag=stellarity.eol.no_rotate] rotated as @s run tp @n[type=armor_stand,sort=nearest,tag=stellarity.eol.as] ~ ~ ~ ~ ~
+execute if entity @s[tag=stellarity.eol.no_rotate] run tp @n[type=armor_stand,sort=nearest,tag=stellarity.eol.as] ~ ~ ~
+execute if entity @s[tag=stellarity.eol.face_player] as @n[type=armor_stand,sort=nearest,tag=stellarity.eol.as] at @s facing entity @p eyes run tp @s ~ ~ ~ ~ ~
 
 # Ambient particles
 particle portal ~ ~1.2 ~ 0 0 0 1.2 2
@@ -12,7 +12,7 @@ execute unless predicate stellarity:mobs/eol/is_daytime run function stellarity:
 execute if predicate stellarity:mobs/eol/is_daytime run function stellarity:mobs/eol/core/loop_day
 
 # Wing animation
-execute as @e[type=armor_stand,limit=1,sort=nearest,tag=stellarity.eol.as] at @s rotated ~ 0 positioned ^ ^.95 ^-0.175 run function stellarity:mobs/eol/animations/wings/flap
+execute as @n[type=armor_stand,sort=nearest,tag=stellarity.eol.as] at @s rotated ~ 0 positioned ^ ^.95 ^-0.175 run function stellarity:mobs/eol/animations/wings/flap
 
 # Bossbar
 data modify storage stellarity:temp eol.entity set from entity @s

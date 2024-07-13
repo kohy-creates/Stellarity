@@ -1,7 +1,7 @@
 # Spin animation
 # Handled in 'items/marker_loop'
 summon marker ~ ~ ~ {Tags:["stellarity.marker","stellarity.prismember"]}
-execute rotated as @s as @e[type=marker,limit=1,sort=nearest,tag=stellarity.prismember] run tp @s ~ ~ ~ ~ 0
+execute rotated as @s as @n[type=marker,sort=nearest,tag=stellarity.prismember] run tp @s ~ ~ ~ ~ 0
 
 # Apply cooldown
 scoreboard players set @s stellarity.items.prismember.cooldown 20

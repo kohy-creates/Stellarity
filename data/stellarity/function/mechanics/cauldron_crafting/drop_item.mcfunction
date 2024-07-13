@@ -1,6 +1,6 @@
 $summon item ~ ~ ~ {Item:{id:"$(id)",count:$(Count),tag:$(tag)}}
 
 kill @s
-kill @e[type=item_display,limit=1,sort=nearest,tag=stellarity.brewing.display]
+kill @n[type=item_display,sort=nearest,tag=stellarity.brewing.display]
 
-scoreboard players remove @e[type=marker,limit=1,sort=nearest,tag=stellarity.cauldron_crafting] stellarity.mechanics.cauldron_crafting.items_inside 1
+scoreboard players remove @n[type=marker,sort=nearest,tag=stellarity.cauldron_crafting] stellarity.mechanics.cauldron_crafting.items_inside 1

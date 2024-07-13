@@ -47,6 +47,6 @@ execute as @e[type=!#kohara:invalid_targets,distance=..3.8,predicate=!stellarity
 function stellarity:items/spirit_dagger/effects/teleport/slash
 
 # Kill Spirit
-kill @e[type=armor_stand,limit=1,sort=nearest,tag=stellarity.spirit_dagger.spirit]
-kill @e[type=interaction,limit=1,sort=nearest,tag=stellarity.spirit_dagger.spirit]
-kill @e[type=marker,limit=1,sort=nearest,tag=stellarity.spirit_dagger.spirit]
+kill @n[type=armor_stand,sort=nearest,tag=stellarity.spirit_dagger.spirit]
+kill @n[type=interaction,sort=nearest,tag=stellarity.spirit_dagger.spirit]
+kill @n[type=marker,sort=nearest,tag=stellarity.spirit_dagger.spirit]

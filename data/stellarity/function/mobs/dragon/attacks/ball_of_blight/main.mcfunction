@@ -2,7 +2,7 @@
 
 execute facing entity @p feet anchored eyes positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^5 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ^ ^ ^0.15 ~ ~
 
-damage @p[distance=..1.5] 10 mob_attack by @e[type=ender_dragon,limit=1,sort=nearest]
+damage @p[distance=..1.5] 10 mob_attack by @n[type=ender_dragon,sort=nearest]
 
 # Debug
 #particle block_marker{block_state: 'minecraft:barrier'} ~ ~ ~ 0 0 0 0 1 force

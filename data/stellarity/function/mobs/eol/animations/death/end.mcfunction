@@ -7,7 +7,7 @@ playsound minecraft:block.respawn_anchor.deplete hostile @a[distance=0..] ~ ~ ~ 
 
 execute as @e[type=block_display,limit=2,sort=nearest,tag=stellarity.eol.wing] on passengers run kill @s
 kill @e[type=block_display,limit=2,sort=nearest,tag=stellarity.eol.wing]
-kill @e[type=armor_stand,limit=1,sort=nearest,tag=stellarity.eol.as]
+kill @n[type=armor_stand,sort=nearest,tag=stellarity.eol.as]
 kill @s
 
 scoreboard players set #eol.is_alive stellarity.misc 0

@@ -12,7 +12,7 @@ execute if score @s stellarity.items.clockwork_crossbow.should_save matches 0 \
 # Regular arrow
 execute if score @s stellarity.items.clockwork_crossbow.should_save matches 0 \
 	anchored eyes positioned ^ ^ ^ \
-	as @e[type=arrow,limit=1,sort=nearest,distance=..1,tag=!stellarity.aware,nbt={pickup:1b}] run \
+	as @n[type=arrow,sort=nearest,distance=..1,tag=!stellarity.aware,nbt={pickup:1b}] run \
 	data merge entity @s {damage:1d,pickup:1b,crit:0b,life:600}
 
 ## Conserved arrow (critical)
@@ -25,7 +25,7 @@ execute if score @s stellarity.items.clockwork_crossbow.should_save matches 1 \
 # Regular arrow
 execute if score @s stellarity.items.clockwork_crossbow.should_save matches 1 \
 	anchored eyes positioned ^ ^ ^ \
-	as @e[type=arrow,limit=1,sort=nearest,distance=..1,tag=!stellarity.aware,nbt={pickup:1b}] run \
+	as @n[type=arrow,sort=nearest,distance=..1,tag=!stellarity.aware,nbt={pickup:1b}] run \
 	data merge entity @s {damage:1d,pickup:2b,crit:1b,life:600}
 
 #tellraw @a {"score":{"name": "@s","objective": "stellarity.items.clockwork_crossbow.should_save"},"color":"red"}

@@ -8,6 +8,6 @@ execute as @p[predicate=stellarity:void_fishing/holding_fishing_rod/any] run fun
 
 execute positioned ~ ~.5 ~ run function stellarity:mechanics/void_fishing/as_aec/decide_drop
 
-execute as @e[type=item,limit=1,sort=nearest] run function stellarity:mechanics/void_fishing/as_item/motion
+execute as @n[type=item,sort=nearest] run function stellarity:mechanics/void_fishing/as_item/motion
 
 function stellarity:mechanics/void_fishing/as_aec/wave

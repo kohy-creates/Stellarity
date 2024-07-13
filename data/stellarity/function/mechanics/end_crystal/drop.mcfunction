@@ -1,4 +1,4 @@
-kill @e[type=end_crystal,limit=1,sort=nearest,tag=stellarity.end_crystal,distance=..0.001]
+kill @n[type=end_crystal,sort=nearest,tag=stellarity.end_crystal,distance=..0.001]
 
 # /fill >> /setblock
 fill ~ ~ ~ ~ ~ ~ air replace #fire

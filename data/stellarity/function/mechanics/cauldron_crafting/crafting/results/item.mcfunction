@@ -1,4 +1,4 @@
-$scoreboard players remove @e[type=marker,tag=stellarity.cauldron_crafting,limit=1,sort=nearest] stellarity.mechanics.cauldron_crafting.breath_left $(breath)
+$scoreboard players remove @n[type=marker,tag=stellarity.cauldron_crafting,sort=nearest] stellarity.mechanics.cauldron_crafting.breath_left $(breath)
 
 $data modify storage stellarity:temp cauldron_crafting.result.item set value {id:"$(item)",count:1b}
 

@@ -22,7 +22,7 @@ execute if entity @s[predicate=stellarity:items/holding/trinkets/ender_insignia]
 execute if entity @s[tag=stellarity.ender_insignia.active,predicate=!stellarity:items/holding/trinkets/ender_insignia] run function stellarity:items/ender_insignia/stop
 
 # Tamaris
-execute if entity @s[predicate=stellarity:items/holding/tamaris] if entity @e[type=!#kohara:invalid_targets,distance=0.01..10,limit=1,sort=nearest,tag=stellarity.items.tamaris.executable] run function stellarity:items/tamaris/holding_loop
+execute if entity @s[predicate=stellarity:items/holding/tamaris] if entity @n[type=!#kohara:invalid_targets,distance=0.01..10,sort=nearest,tag=stellarity.items.tamaris.executable] run function stellarity:items/tamaris/holding_loop
 
 # Soaring Insignia
 execute if entity @s[predicate=stellarity:items/holding/trinkets/soaring_insignia] run function stellarity:items/soaring_insignia/loop

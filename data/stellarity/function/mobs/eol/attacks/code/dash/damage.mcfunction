@@ -8,6 +8,6 @@ execute if predicate stellarity:mobs/eol/is_daytime if score #difficulty stellar
 execute if predicate stellarity:mobs/eol/is_daytime if score #difficulty stellarity.misc matches 2 run scoreboard players set #damage kohara.misc 290
 execute if predicate stellarity:mobs/eol/is_daytime if score #difficulty stellarity.misc matches 3 run scoreboard players set #damage kohara.misc 330
 
-tag @e[type=vindicator,limit=1,sort=nearest] add kohara.attacker
+tag @n[type=vindicator,sort=nearest] add kohara.attacker
 
 function kohara:damage/calculate {armor_penetration:0,damage_boost_efficiency:0,ap_damage_type:"kohara:armor_piercing",damage_type:"stellarity:empress_of_light/dash",tag:"stellarity.damage.eol.dash"}

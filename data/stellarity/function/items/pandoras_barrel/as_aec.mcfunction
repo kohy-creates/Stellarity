@@ -1,4 +1,4 @@
-scoreboard players operation @s stellarity.misc = @e[type=armor_stand,limit=1,sort=nearest,tag=stellarity.pandoras_barrel.armor_stand] stellarity.items.pandoras_barrel.animation
+scoreboard players operation @s stellarity.misc = @n[type=armor_stand,sort=nearest,tag=stellarity.pandoras_barrel.armor_stand] stellarity.items.pandoras_barrel.animation
 
 kill @e[type=item,distance=..0.5]
 

@@ -1,5 +1,5 @@
-execute unless entity @e[type=marker,limit=1,sort=nearest,tag=stellarity.aota.2] run summon marker ~ ~ ~ {Tags:[stellarity.aota.2]}
-execute as @e[type=marker,limit=1,sort=nearest,tag=stellarity.aota.2] at @s run function stellarity:mechanics/altar_of_accursed/sfx/loop_2
+execute unless entity @n[type=marker,sort=nearest,tag=stellarity.aota.2] run summon marker ~ ~ ~ {Tags:[stellarity.aota.2]}
+execute as @n[type=marker,sort=nearest,tag=stellarity.aota.2] at @s run function stellarity:mechanics/altar_of_accursed/sfx/loop_2
 
 tp @s ~ ~ ~ ~5 ~
 

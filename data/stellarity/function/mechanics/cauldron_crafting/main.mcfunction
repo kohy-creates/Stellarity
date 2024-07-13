@@ -16,7 +16,7 @@ execute unless score @s stellarity.mechanics.cauldron_crafting.items_inside matc
 	if entity @e[type=item,distance=..0.5,tag=!stellarity.brewing.ignore,nbt={Item:{count:1}}] run \
 	function stellarity:mechanics/cauldron_crafting/add_item
 
-execute as @e[type=interaction,distance=..1.1,tag=stellarity.brewing.interaction] if data entity @s interaction at @s run function stellarity:mechanics/cauldron_crafting/drop_item with entity @e[type=item_display,limit=1,sort=nearest,tag=stellarity.brewing.display] item
+execute as @e[type=interaction,distance=..1.1,tag=stellarity.brewing.interaction] if data entity @s interaction at @s run function stellarity:mechanics/cauldron_crafting/drop_item with entity @n[type=item_display,tag=stellarity.brewing.display] item
 
 data merge storage stellarity:temp {cauldron_crafting:{item:{},ingredients:[],result:{}}}
 execute as @e[type=item_display,distance=..1.1,tag=stellarity.brewing.display] run function stellarity:mechanics/cauldron_crafting/list_insides/list

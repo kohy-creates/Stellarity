@@ -1,2 +1,2 @@
-tag @e[type=item_display,limit=1,sort=nearest,tag=stellarity.brewing.display,tag=!stellarity.brewing.skip] add stellarity.brewing.3
-tag @e[type=item_display,limit=1,sort=nearest,tag=stellarity.brewing.display] add stellarity.brewing.skip
+tag @n[type=item_display,sort=nearest,tag=stellarity.brewing.display,tag=!stellarity.brewing.skip] add stellarity.brewing.3
+tag @n[type=item_display,sort=nearest,tag=stellarity.brewing.display] add stellarity.brewing.skip
