@@ -13,4 +13,4 @@ execute if predicate stellarity:items/holding/slayer_crossbow run \
 execute if predicate stellarity:items/holding/clockwork_crossbow/any run \
 	data merge storage stellarity:temp {floral_armor:{bloom:{damage_base:10,damage_stack:5,duration_base:60,duration_stack:5}}}
 
-execute as @n[type=!#kohara:invalid_targets,sort=nearest,nbt={HurtTime:10s}] at @s run function stellarity:utils/status_effects/bloom/apply with storage stellarity:temp floral_armor.bloom
+execute as @n[type=!#kohara:invalid_targets,nbt={HurtTime:10s}] at @s run function stellarity:utils/status_effects/bloom/apply with storage stellarity:temp floral_armor.bloom

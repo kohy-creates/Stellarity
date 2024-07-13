@@ -1,8 +1,8 @@
 scoreboard players add @s stellarity.mechanics.cauldron_crafting.items_inside 1
 
 summon item_display ~ ~ ~ {item_display:"ground",teleport_duration:1,Tags:["stellarity.brewing.display"],billboard:"vertical"}
-data modify entity @n[type=item_display,sort=nearest,tag=stellarity.brewing.display] item set from entity @n[type=item,distance=..0.5,sort=nearest,nbt={Item:{count:1}}] Item
-execute unless data entity @n[type=item_display,sort=nearest,tag=stellarity.brewing.display] item.tag run data modify entity @n[type=item_display,sort=nearest,tag=stellarity.brewing.display] item.tag set value {}
+data modify entity @n[type=item_display,tag=stellarity.brewing.display] item set from entity @n[type=item,distance=..0.5,nbt={Item:{count:1}}] Item
+execute unless data entity @n[type=item_display,tag=stellarity.brewing.display] item.tag run data modify entity @n[type=item_display,tag=stellarity.brewing.display] item.tag set value {}
 
 execute unless entity @e[type=item_display,distance=..1.1,tag=stellarity.brewing.1] run \
 	function stellarity:mechanics/cauldron_crafting/item/add_tag_1
@@ -32,7 +32,7 @@ execute unless entity @e[type=interaction,distance=..1.1,tag=stellarity.brewing.
 execute unless entity @e[type=interaction,distance=..1.1,tag=stellarity.brewing.6] run \
 	function stellarity:mechanics/cauldron_crafting/interaction/add_tag_6
 
-kill @n[type=item,distance=..0.5,tag=!stellarity.brewing.ignore,sort=nearest,nbt={Item:{count:1}}]
+kill @n[type=item,distance=..0.5,tag=!stellarity.brewing.ignore,nbt={Item:{count:1}}]
 
 particle minecraft:dust_plume ~ ~.5 ~ 0 0 0 0.01 10
 particle minecraft:splash ~ ~.5 ~ 0.2 0 0.2 0 13

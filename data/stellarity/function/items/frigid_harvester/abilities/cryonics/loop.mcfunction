@@ -1,4 +1,4 @@
-tp @n[type=block_display,tag=stellarity.cryonics,sort=nearest] ~-0.5 ~ ~-0.5
+tp @n[type=block_display,tag=stellarity.cryonics] ~-0.5 ~ ~-0.5
 
 scoreboard players remove @s stellarity.items.aery_sword.cryonics.duration 1
 

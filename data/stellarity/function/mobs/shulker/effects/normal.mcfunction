@@ -1,1 +1,1 @@
-damage @s 7 minecraft:mob_projectile by @n[type=shulker,sort=nearest]
+damage @s 7 minecraft:mob_projectile by @n[type=shulker]

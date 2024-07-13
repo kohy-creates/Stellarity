@@ -1,7 +1,7 @@
 execute store result score #fabric stellarity.misc run loot spawn ~ ~ ~ loot stellarity:waystone_compatibility/fabric
 execute store result score #forge stellarity.misc run loot spawn ~ ~ ~ loot stellarity:waystone_compatibility/forge
 
-kill @n[type=item,sort=nearest]
+kill @n[type=item]
 
 scoreboard players set #double stellarity.misc 0
 execute if score #fabric stellarity.misc matches 1 run scoreboard players set #double stellarity.misc 1

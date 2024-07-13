@@ -1,6 +1,6 @@
 kill @e[type=item,tag=stellarity.aota.dye.brown,distance=..1.5,limit=1]
 
-tag @n[type=item,sort=nearest,tag=stellarity.aota.] add stellarity.aota.skip
+tag @n[type=item,tag=stellarity.aota.] add stellarity.aota.skip
 
 particle minecraft:dust{color:[0.506, 0.271, 0.0], scale:1.0} ~ ~-.4 ~ .33 .33 .33 0 24 normal
 function stellarity:mechanics/altar_of_accursed/crafting/dye_elytra/effects

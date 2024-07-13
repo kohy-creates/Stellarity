@@ -2,7 +2,7 @@
 scoreboard players add @s stellarity.misc 1
 
 execute if score @s stellarity.misc matches 10 run tag @s add stellarity.spirit_dagger.spirit_ready
-execute if score @s stellarity.misc matches 10 run tag @n[type=interaction,sort=nearest] add stellarity.spirit_dagger.spirit_ready
+execute if score @s stellarity.misc matches 10 run tag @n[type=interaction] add stellarity.spirit_dagger.spirit_ready
 
 # 15 seconds of lifespan
 execute if score @s stellarity.misc matches 301.. run function stellarity:items/spirit_dagger/spirit/timeout

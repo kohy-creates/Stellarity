@@ -11,9 +11,9 @@ scoreboard players set #has_attacker kohara.misc 0
 execute if entity @e[tag=kohara.attacker] run scoreboard players set #has_attacker kohara.misc 1
 # If yes, then the damage instance will also deal small knockback!
 data modify storage kohara:temp damage.attacker set value ""
-execute if score #has_attacker kohara.misc matches 1 run data modify storage kohara:temp damage.attacker set value " by @n[sort=nearest,tag=kohara.attacker]"
+execute if score #has_attacker kohara.misc matches 1 run data modify storage kohara:temp damage.attacker set value " by @n[tag=kohara.attacker]"
 
-execute if score #has_attacker kohara.misc matches 1 unless score #damage_boost_efficiency kohara.misc matches 0 as @n[tag=kohara.attacker,sort=nearest] run function kohara:damage/bonus_damage
+execute if score #has_attacker kohara.misc matches 1 unless score #damage_boost_efficiency kohara.misc matches 0 as @n[tag=kohara.attacker] run function kohara:damage/bonus_damage
 
 execute store result storage kohara:temp damage.armor_penetration int 1 run scoreboard players get #armor_penetration kohara.misc
 execute unless score #armor_penetration kohara.misc matches 0 run function kohara:damage/armor_penetration with storage kohara:temp damage

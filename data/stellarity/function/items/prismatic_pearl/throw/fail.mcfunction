@@ -1,5 +1,5 @@
 stopsound @a neutral minecraft:entity.ender_pearl.throw
-kill @n[type=ender_pearl,sort=nearest]
+kill @n[type=ender_pearl]
 
 loot give @s[gamemode=!creative] loot stellarity:items/prismatic_pearl
 

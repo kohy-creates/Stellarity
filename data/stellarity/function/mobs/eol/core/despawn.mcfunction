@@ -1,7 +1,7 @@
 particle flash ~ ~ ~ 0 0 0 0 1 force
 particle explosion_emitter ~ ~ ~ 0 0 0 0 1 force
 
-kill @n[type=armor_stand,sort=nearest,tag=stellarity.eol.as]
+kill @n[type=armor_stand,tag=stellarity.eol.as]
 tp @s ~ -2000 ~
 kill @s
 

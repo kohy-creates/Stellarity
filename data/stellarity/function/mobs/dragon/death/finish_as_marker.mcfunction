@@ -20,7 +20,7 @@ loot spawn ~ ~ ~ loot stellarity:mobs/dragon/extra_drops
 
 execute as @e[type=item,distance=..1] run data merge entity @s {Motion:[0.0d,-0.61d,0.0d],NoGravity:1b,Glowing:1b}
 execute as @e[type=item,distance=..1] run team join stellarity.purple_glow @s
-execute as @n[type=item,distance=..1,sort=nearest] run tag @s add stellarity.boss_drop
-execute as @n[type=item,distance=..1,sort=nearest] run tag @s add stellarity.item
+execute as @n[type=item,distance=..1] run tag @s add stellarity.boss_drop
+execute as @n[type=item,distance=..1] run tag @s add stellarity.item
 
 kill @s

@@ -1,8 +1,8 @@
 kill @e[type=item_display,distance=..1.1]
 kill @e[type=interaction,distance=..1.1]
 
-scoreboard players reset @n[type=marker,tag=stellarity.cauldron_crafting,sort=nearest] stellarity.mechanics.cauldron_crafting.items_inside
-execute as @n[type=marker,tag=stellarity.cauldron_crafting,sort=nearest,scores={stellarity.mechanics.cauldron_crafting.breath_left=..0}] run kill @s
+scoreboard players reset @n[type=marker,tag=stellarity.cauldron_crafting] stellarity.mechanics.cauldron_crafting.items_inside
+execute as @n[type=marker,tag=stellarity.cauldron_crafting,scores={stellarity.mechanics.cauldron_crafting.breath_left=..0}] run kill @s
 
 execute store result storage stellarity:temp cauldron_crafting.result.x double 0.001 run random value -130..130
 execute store result storage stellarity:temp cauldron_crafting.result.z double 0.001 run random value -130..130

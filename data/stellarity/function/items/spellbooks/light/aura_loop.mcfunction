@@ -15,7 +15,7 @@ execute rotated ~240 0 run particle end_rod ^ ^ ^4.5 0 0 0 0 1 normal
 execute rotated ~240 0 run particle minecraft:dust{color:[1.0, 0.867, 0.0], scale:1.25} ^ ^ ^4.5 0.1 0.1 0.1 0 2 force @a[distance=..32]
 
 # 2nd particle circle
-execute as @n[type=marker,sort=nearest,tag=stellarity.book_of_light.aura_2] at @s run function stellarity:items/spellbooks/light/aura_secondary_loop
+execute as @n[type=marker,tag=stellarity.book_of_light.aura_2] at @s run function stellarity:items/spellbooks/light/aura_secondary_loop
 
 # Area particles
 particle minecraft:dust{color:[1.0, 0.867, 0.0], scale:0.8} ^ ^ ^ 3 0.3 3 0 3 normal

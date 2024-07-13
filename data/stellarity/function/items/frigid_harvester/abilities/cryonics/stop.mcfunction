@@ -1,5 +1,5 @@
-execute as @n[type=block_display,tag=stellarity.cryonics,sort=nearest] on passengers as @s run kill @s
-kill @n[type=block_display,tag=stellarity.cryonics,sort=nearest]
+execute as @n[type=block_display,tag=stellarity.cryonics] on passengers as @s run kill @s
+kill @n[type=block_display,tag=stellarity.cryonics]
 
 particle minecraft:block{block_state: 'minecraft:ice'} ~ ~0.5 ~ 0.5 0.7 0.5 1 40
 particle flash ~ ~1 ~

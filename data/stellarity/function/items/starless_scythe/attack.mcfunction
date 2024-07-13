@@ -38,7 +38,7 @@ scoreboard players set #cripple_duration stellarity.misc 0
 execute if predicate stellarity:items/starless_scythe/has_efficiency run function stellarity:items/starless_scythe/enchant_interactions/cripple/get_duration
 execute if score #cripple_duration stellarity.misc matches 1.. \
 	if entity @s[advancements={stellarity:events/items/deal_damage_with_starless_scythe={attack=true}}] \
-	as @n[type=!#kohara:invalid_targets,sort=nearest,nbt={HurtTime:10s}] at @s run \
+	as @n[type=!#kohara:invalid_targets,nbt={HurtTime:10s}] at @s run \
 	function stellarity:items/starless_scythe/enchant_interactions/cripple/apply_slowdown
 
 # Heal

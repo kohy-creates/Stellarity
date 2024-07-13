@@ -6,4 +6,4 @@ particle minecraft:end_rod ~ ~1.25 ~ 0.5 0.5 0.5 0.03 17
 
 playsound block.trial_spawner.spawn_mob hostile @a[distance=0..] ~ ~ ~ 
 
-team join stellarity.dragon.pacify_others @n[type=shulker,sort=nearest]
+team join stellarity.dragon.pacify_others @n[type=shulker]

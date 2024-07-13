@@ -1,4 +1,4 @@
-damage @s 5 minecraft:mob_projectile by @n[type=shulker,sort=nearest,tag=stellarity.end_city.blue_shulker]
+damage @s 5 minecraft:mob_projectile by @n[type=shulker,tag=stellarity.end_city.blue_shulker]
 
 scoreboard players set #dot.time stellarity.misc 80
 function stellarity:utils/status_effects/frostburn/apply

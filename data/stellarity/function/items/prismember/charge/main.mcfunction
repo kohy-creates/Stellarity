@@ -14,4 +14,4 @@ execute if score @s stellarity.items.prismember.charge matches 7 run playsound m
 
 execute if score @s[tag=!stellarity.items.prismember.ready] stellarity.items.prismember.charge matches 8 run function stellarity:items/prismember/charge/ready
 
-execute if entity @s[tag=stellarity.items.prismember.ready] anchored eyes positioned ^ ^ ^ run tp @n[type=interaction,tag=stellarity.prismember,sort=nearest] ~ ~-.35 ~
+execute if entity @s[tag=stellarity.items.prismember.ready] anchored eyes positioned ^ ^ ^ run tp @n[type=interaction,tag=stellarity.prismember] ~ ~-.35 ~

@@ -1,4 +1,4 @@
-execute as @n[type=!#kohara:invalid_targets,dx=0,sort=nearest] at @s run function stellarity:items/stellar_striker/star/projectile/damage/direct_hit
+execute as @n[type=!#kohara:invalid_targets,dx=0] at @s run function stellarity:items/stellar_striker/star/projectile/damage/direct_hit
 execute as @e[type=!#kohara:invalid_targets,distance=..3,tag=!stellarity.stellar_striker.no_splash] at @s run function stellarity:items/stellar_striker/star/projectile/damage/splash
 
 tag @e[type=!#kohara:invalid_targets,tag=stellarity.stellar_striker.no_splash] remove stellarity.stellar_striker.no_splash
