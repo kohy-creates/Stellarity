@@ -55,7 +55,7 @@
 								"min": 19,
 								"max": 35
 							},
-							"treasure": true,
+							"options": "#minecraft:on_random_loot",
 							"conditions": [
 								{
 									"condition": "minecraft:random_chance",
@@ -79,7 +79,7 @@
 					"functions": [
 						{
 							"function": "minecraft:enchant_randomly",
-							"enchantments": [
+							"options": [
 								"minecraft:lure",
 								"minecraft:luck_of_the_sea"
 							]

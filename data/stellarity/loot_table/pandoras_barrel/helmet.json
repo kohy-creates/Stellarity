@@ -27,19 +27,11 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:badlands"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:eroded_badlands"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:wooded_badlands"
+										"biomes": [
+											"minecraft:badlands",
+											"minecraft:eroded_badlands",
+											"minecraft:wooded_badlands"
+										]
 									}
 								}
 							]
@@ -70,7 +62,9 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:desert"
+										"biomes": [
+											"minecraft:desert"
+										]
 									}
 								}
 							]
@@ -101,7 +95,9 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:forest"
+										"biomes": [
+											"minecraft:forest"
+										]
 									}
 								}
 							]
@@ -132,19 +128,11 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:taiga"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:old_growth_pine_taiga"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:old_growth_spruce_taiga"
+										"biomes": [
+											"minecraft:taiga",
+											"minecraft:old_growth_pine_taiga",
+											"minecraft:old_growth_spruce_taiga"
+										]
 									}
 								}
 							]
@@ -175,7 +163,9 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:mushroom_fields"
+										"biomes": [
+											"minecraft:mushroom_fields"
+										]
 									}
 								}
 							]
@@ -206,43 +196,15 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:cold_ocean"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:deep_cold_ocean"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:ocean"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:deep_ocean"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:frozen_ocean"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:deep_frozen_ocean"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:river"
+										"biomes": [
+											"minecraft:cold_ocean",
+											"minecraft:deep_cold_ocean",
+											"minecraft:ocean",
+											"minecraft:deep_ocean",
+											"minecraft:frozen_ocean",
+											"minecraft:deep_frozen_ocean",
+											"minecraft:river"
+										]
 									}
 								}
 							]
@@ -273,19 +235,11 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:lukewarm_ocean"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:deep_lukewarm_ocean"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:warm_ocean"
+										"biomes": [
+											"minecraft:lukewarm_ocean",
+											"minecraft:deep_lukewarm_ocean",
+											"minecraft:warm_ocean"
+										]
 									}
 								}
 							]
@@ -316,19 +270,11 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:savanna"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:savanna_plateau"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:windswept_savanna"
+										"biomes": [
+											"minecraft:savanna",
+											"minecraft:savanna_plateau",
+											"minecraft:windswept_savanna"
+										]
 									}
 								}
 							]
@@ -359,31 +305,13 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:windswept_hills"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:windswept_forest"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:windswept_gravelly_hills"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:stony_shore"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:stony_peaks"
+										"biomes": [
+											"minecraft:windswept_hills",
+											"minecraft:windswept_forest",
+											"minecraft:windswept_gravelly_hills",
+											"minecraft:stony_shore",
+											"minecraft:stony_peaks"
+										]
 									}
 								}
 							]
@@ -414,49 +342,16 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:frozen_peaks"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:frozen_river"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:snowy_plains"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:ice_spikes"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:snowy_taiga"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:jagged_peaks"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:snowy_slopes"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:grove"
+										"biomes": [
+											"minecraft:frozen_peaks",
+											"minecraft:frozen_river",
+											"minecraft:snowy_plains",
+											"minecraft:ice_spikes",
+											"minecraft:snowy_taiga",
+											"minecraft:jagged_peaks",
+											"minecraft:snowy_slopes",
+											"minecraft:grove"
+										]
 									}
 								}
 							]
@@ -487,7 +382,9 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:dripstone_caves"
+										"biomes": [
+											"minecraft:dripstone_caves"
+										]
 									}
 								}
 							]
@@ -518,7 +415,9 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:lush_caves"
+										"biomes": [
+											"minecraft:lush_caves"
+										]
 									}
 								}
 							]
@@ -549,19 +448,11 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:meadow"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:plains"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:sunflower_plains"
+										"biomes": [
+											"minecraft:meadow",
+											"minecraft:plains",
+											"minecraft:sunflower_plains"
+										]
 									}
 								}
 							]
@@ -592,7 +483,9 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:flower_forest"
+										"biomes": [
+											"minecraft:flower_forest"
+										]
 									}
 								}
 							]
@@ -623,19 +516,11 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:jungle"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:bamboo_jungle"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:sparse_jungle"
+										"biomes": [
+											"minecraft:jungle",
+											"minecraft:bamboo_jungle",
+											"minecraft:sparse_jungle"
+										]
 									}
 								}
 							]
@@ -666,13 +551,10 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:birch_forest"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:old_growth_birch_forest"
+										"biomes": [
+											"minecraft:birch_forest",
+											"minecraft:old_growth_birch_forest"
+										]
 									}
 								}
 							]
@@ -703,7 +585,9 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:beach"
+										"biomes": [
+											"minecraft:beach"
+										]
 									}
 								}
 							]
@@ -734,13 +618,10 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:swamp"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:mangrove_swamp"
+										"biomes": [
+											"minecraft:swamp",
+											"minecraft:mangrove_swamp"
+										]
 									}
 								}
 							]
@@ -771,7 +652,9 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:deep_dark"
+										"biomes": [
+											"minecraft:deep_dark"
+										]
 									}
 								}
 							]
@@ -802,7 +685,9 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:cherry_grove"
+										"biomes": [
+											"minecraft:cherry_grove"
+										]
 									}
 								}
 							]
@@ -833,7 +718,9 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:nether_wastes"
+										"biomes": [
+											"minecraft:nether_wastes"
+										]
 									}
 								}
 							]
@@ -864,7 +751,9 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:crimson_forest"
+										"biomes": [
+											"minecraft:crimson_forest"
+										]
 									}
 								}
 							]
@@ -895,7 +784,9 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:warped_forest"
+										"biomes": [
+											"minecraft:warped_forest"
+										]
 									}
 								}
 							]
@@ -926,7 +817,9 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:soul_sand_valley"
+										"biomes": [
+											"minecraft:soul_sand_valley"
+										]
 									}
 								}
 							]
@@ -957,7 +850,9 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:basalt_deltas"
+										"biomes": [
+											"minecraft:basalt_deltas"
+										]
 									}
 								}
 							]

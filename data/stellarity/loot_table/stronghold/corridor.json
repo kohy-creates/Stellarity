@@ -129,7 +129,7 @@
 						{
 							"function": "minecraft:enchant_with_levels",
 							"levels": 30,
-							"treasure": true
+							"options": "#minecraft:on_random_loot"
 						}
 					]
 				},
@@ -162,7 +162,7 @@
 								"min": 15,
 								"max": 29
 							},
-							"treasure": true
+							"options": "#minecraft:on_random_loot"
 						}
 					]
 				},
@@ -176,7 +176,7 @@
 								"min": 15,
 								"max": 29
 							},
-							"treasure": true
+							"options": "#minecraft:on_random_loot"
 						},
 						{
 							"function": "minecraft:set_components",
@@ -238,7 +238,7 @@
 								"min": 15,
 								"max": 29
 							},
-							"treasure": true
+							"options": "#minecraft:on_random_loot"
 						},
 						{
 							"function": "minecraft:set_components",
@@ -300,7 +300,7 @@
 								"min": 15,
 								"max": 29
 							},
-							"treasure": true
+							"options": "#minecraft:on_random_loot"
 						},
 						{
 							"function": "minecraft:set_components",
@@ -362,7 +362,7 @@
 								"min": 15,
 								"max": 29
 							},
-							"treasure": true
+							"options": "#minecraft:on_random_loot"
 						},
 						{
 							"function": "minecraft:set_components",
@@ -428,7 +428,7 @@
 					"functions": [
 						{
 							"function": "minecraft:enchant_randomly",
-							"enchantments": [
+							"options": [
 								"minecraft:protection",
 								"minecraft:blast_protection",
 								"minecraft:fire_protection",

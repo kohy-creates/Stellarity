@@ -16,7 +16,7 @@
 						},
 						{
 							"function": "minecraft:enchant_randomly",
-							"enchantments": [
+							"options": [
 								"minecraft:quick_charge",
 								"minecraft:multishot",
 								"minecraft:piercing"

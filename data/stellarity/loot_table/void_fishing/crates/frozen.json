@@ -149,7 +149,7 @@
 					"functions": [
 						{
 							"function": "minecraft:enchant_randomly",
-							"enchantments": [
+							"options": [
 								"minecraft:frost_walker"
 							]
 						}
@@ -169,7 +169,7 @@
 					"functions": [
 						{
 							"function": "minecraft:enchant_randomly",
-							"enchantments": [
+							"options": [
 								"minecraft:smite"
 							]
 						}

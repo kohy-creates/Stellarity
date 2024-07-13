@@ -20,7 +20,9 @@
 						{
 							"condition": "minecraft:location_check",
 							"predicate": {
-								"biome": "far_end:amethyst_forest"
+								"biomes": [
+									"far_end:amethyst_forest"
+								]
 							}
 						}
 					]
@@ -33,7 +35,9 @@
 						{
 							"condition": "minecraft:location_check",
 							"predicate": {
-								"biome": "far_end:flesh_tundra"
+								"biomes": [
+									"far_end:flesh_tundra"
+								]
 							}
 						}
 					]
@@ -46,7 +50,9 @@
 						{
 							"condition": "minecraft:location_check",
 							"predicate": {
-								"biome": "far_end:flesh_tundra"
+								"biomes": [
+									"far_end:flesh_tundra"
+								]
 							}
 						}
 					]
@@ -59,7 +65,9 @@
 						{
 							"condition": "minecraft:location_check",
 							"predicate": {
-								"biome": "stellarity:the_hallow"
+								"biomes": [
+									"stellarity:the_hallow"
+								]
 							}
 						}
 					]
@@ -72,7 +80,9 @@
 						{
 							"condition": "minecraft:location_check",
 							"predicate": {
-								"biome": "stellarity:the_hallow"
+								"biomes": [
+									"stellarity:the_hallow"
+								]
 							}
 						}
 					]
@@ -85,7 +95,9 @@
 						{
 							"condition": "minecraft:location_check",
 							"predicate": {
-								"biome": "stellarity:blazing_dunes"
+								"biomes": [
+									"stellarity:blazing_dunes"
+								]
 							}
 						}
 					]
@@ -96,25 +108,15 @@
 					"value": "stellarity:items/food/fish/overgrown_cod",
 					"conditions": [
 						{
-							"condition": "minecraft:any_of",
-							"terms": [
-								{
-									"condition": "minecraft:reference",
-									"name": "stellarity:locations/biomes/in_end_midlands"
-								},
-								{
-									"condition": "minecraft:reference",
-									"name": "stellarity:locations/biomes/in_end_highlands"
-								},
-								{
-									"condition": "minecraft:reference",
-									"name": "stellarity:locations/biomes/in_small_end_islands"
-								},
-								{
-									"condition": "minecraft:reference",
-									"name": "stellarity:locations/biomes/in_end_barrens"
-								}
-							]
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"biomes": [
+									"minecraft:end_midlands",
+									"minecraft:end_highlands",
+									"minecraft:small_end_islands",
+									"minecraft:end_barrens"
+								]
+							}
 						}
 					]
 				},
@@ -126,7 +128,9 @@
 						{
 							"condition": "minecraft:location_check",
 							"predicate": {
-								"biome": "stellarity:frosted_hills"
+								"biomes": [
+									"stellarity:frosted_hills"
+								]
 							}
 						}
 					]
@@ -139,7 +143,9 @@
 						{
 							"condition": "minecraft:location_check",
 							"predicate": {
-								"biome": "stellarity:prismarine_forest"
+								"biomes": [
+									"stellarity:prismarine_forest"
+								]
 							}
 						}
 					]

@@ -170,7 +170,7 @@
 					"functions": [
 						{
 							"function": "minecraft:enchant_randomly",
-							"enchantments": [
+							"options": [
 								"minecraft:vanishing_curse"
 							]
 						}
@@ -190,7 +190,7 @@
 					"functions": [
 						{
 							"function": "minecraft:enchant_randomly",
-							"enchantments": [
+							"options": [
 								"minecraft:unbreaking"
 							]
 						}

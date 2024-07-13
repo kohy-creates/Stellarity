@@ -150,7 +150,7 @@
 						"min": 25,
 						"max": 35
 					},
-					"treasure": true
+					"options": "#minecraft:on_random_loot"
 				},
 				{
 					"function": "minecraft:set_damage",
@@ -337,7 +337,7 @@
 								"min": 25,
 								"max": 35
 							},
-							"treasure": true
+							"options": "#minecraft:on_random_loot"
 						}
 					]
 				},

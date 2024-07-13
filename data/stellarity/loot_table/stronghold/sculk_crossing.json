@@ -67,7 +67,7 @@
 					"functions": [
 						{
 							"function": "minecraft:enchant_randomly",
-							"enchantments": [
+							"options": [
 								"minecraft:unbreaking",
 								"minecraft:mending"
 							]

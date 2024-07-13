@@ -28,7 +28,9 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "stellarity:the_hallow"
+										"biomes": [
+											"stellarity:the_hallow"
+										]
 									}
 								}
 							]
@@ -211,7 +213,9 @@
 				{
 					"condition": "minecraft:location_check",
 					"predicate": {
-						"biome": "stellarity:the_hallow"
+						"biomes": [
+							"stellarity:the_hallow"
+						]
 					}
 				}
 			]

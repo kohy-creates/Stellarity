@@ -228,7 +228,7 @@
 					"functions": [
 						{
 							"function": "minecraft:enchant_randomly",
-							"enchantments": [
+							"options": [
 								"minecraft:sharpness"
 							]
 						}
@@ -248,8 +248,8 @@
 					"functions": [
 						{
 							"function": "minecraft:enchant_randomly",
-							"enchantments": [
-								"minecraft:sweeping"
+							"options": [
+								"minecraft:sweeping_edge"
 							]
 						}
 					]

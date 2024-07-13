@@ -46,13 +46,10 @@
 										{
 											"condition": "minecraft:location_check",
 											"predicate": {
-												"biome": "minecraft:plains"
-											}
-										},
-										{
-											"condition": "minecraft:location_check",
-											"predicate": {
-												"biome": "minecraft:meadow"
+												"biomes": [
+													"minecraft:plains",
+													"minecraft:meadow"
+												]
 											}
 										}
 									]
@@ -78,7 +75,9 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:sunflower_plains"
+										"biomes": [
+											"minecraft:sunflower_plains"
+										]
 									}
 								}
 							]

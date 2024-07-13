@@ -95,7 +95,7 @@
 					"functions": [
 						{
 							"function": "minecraft:enchant_randomly",
-							"enchantments": [
+							"options": [
 								"minecraft:feather_falling",
 								"minecraft:efficiency"
 							]

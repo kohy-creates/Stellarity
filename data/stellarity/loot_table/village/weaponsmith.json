@@ -17,7 +17,7 @@
 								"min": 29,
 								"max": 39
 							},
-							"treasure": true
+							"options": "#minecraft:on_random_loot"
 						}
 					]
 				},
@@ -31,7 +31,7 @@
 								"min": 29,
 								"max": 39
 							},
-							"treasure": true
+							"options": "#minecraft:on_random_loot"
 						}
 					]
 				},
@@ -45,7 +45,7 @@
 								"min": 29,
 								"max": 39
 							},
-							"treasure": true
+							"options": "#minecraft:on_random_loot"
 						}
 					]
 				}

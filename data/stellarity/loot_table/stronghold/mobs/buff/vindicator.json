@@ -17,7 +17,7 @@
 						},
 						{
 							"function": "minecraft:enchant_randomly",
-							"enchantments": [
+							"options": [
 								"minecraft:sharpness"
 							]
 						}
@@ -42,7 +42,7 @@
 						},
 						{
 							"function": "minecraft:enchant_randomly",
-							"enchantments": [
+							"options": [
 								"minecraft:sharpness"
 							]
 						}
@@ -67,7 +67,7 @@
 						},
 						{
 							"function": "minecraft:enchant_randomly",
-							"enchantments": [
+							"options": [
 								"minecraft:sharpness"
 							]
 						}

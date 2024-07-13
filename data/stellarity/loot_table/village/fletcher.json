@@ -95,7 +95,7 @@
 					"functions": [
 						{
 							"function": "minecraft:enchant_randomly",
-							"enchantments": [
+							"options": [
 								"minecraft:power",
 								"minecraft:punch",
 								"minecraft:flame",
