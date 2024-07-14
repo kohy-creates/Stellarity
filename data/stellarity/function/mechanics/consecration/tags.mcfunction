@@ -1,19 +1,26 @@
 data modify storage stellarity:temp consecration.nbt set from entity @s Item
 data remove storage stellarity:temp consecration.item_tag
 
-execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:golden_carrot"}}} run \
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:golden_carrot"}}} \
+	unless data storage stellarity:temp consecration.nbt.components."minecraft:custom_data"."stellarity.special_item" run \
 	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.golden_carrot"
-execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:poisonous_potato"}}} run \
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:poisonous_potato"}}} \
+	unless data storage stellarity:temp consecration.nbt.components."minecraft:custom_data"."stellarity.special_item" run \
 	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.poisonous_potato"
-execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:chorus_fruit"}}} run \
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:chorus_fruit"}}} \
+	unless data storage stellarity:temp consecration.nbt.components."minecraft:custom_data"."stellarity.special_item" run \
 	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.chorus_fruit"
-execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:sweet_berries"}}} run \
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:sweet_berries"}}} \
+	unless data storage stellarity:temp consecration.nbt.components."minecraft:custom_data"."stellarity.special_item" run \
 	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.sweet_berries"
-execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:beetroot"}}} run \
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:beetroot"}}} \
+	unless data storage stellarity:temp consecration.nbt.components."minecraft:custom_data"."stellarity.special_item" run \
 	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.beetroot"
-execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:rabbit_stew"}}} run \
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:rabbit_stew"}}} \
+	unless data storage stellarity:temp consecration.nbt.components."minecraft:custom_data"."stellarity.special_item" run \
 	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.rabbit_stew"
-execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:enchanted_golden_apple"}}} run \
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:enchanted_golden_apple"}}} \
+	unless data storage stellarity:temp consecration.nbt.components."minecraft:custom_data"."stellarity.special_item" run \
 	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.enchanted_golden_apple"
 
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:oak_leaves"}}} run \
@@ -106,7 +113,8 @@ execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:iron_b
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:turtle_egg"}}} run \
 	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.turtle_egg"
 
-execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:apple"}}} run \
+execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:apple"}}} \
+	unless data storage stellarity:temp consecration.nbt.components."minecraft:custom_data"."stellarity.special_item" run \
 	data modify storage stellarity:temp consecration.item_tag set value "stellarity.consecration.apple"
 
 execute if data storage stellarity:temp {consecration:{nbt:{id:"minecraft:ink_sac"}}} run \
