@@ -1,18 +1,5 @@
-execute unless score @s stellarity.status_effects.bloom.time matches ..2147483647 run \
-	playsound minecraft:block.beehive.enter master @a[distance=0..] ~ ~ ~ 1 1
+execute unless entity @s[scores={stellarity.status_effects.bloom.time=1..}] anchored eyes rotated ~ 0 positioned ^ ^0.35 ^ run function stellarity:utils/status_effects/bloom/flower/spawn
 
-$execute if score @s stellarity.status_effects.bloom.time matches ..2147483647 run \
-	scoreboard players add @s stellarity.status_effects.bloom.damage $(damage_stack)
-
-$execute unless score @s stellarity.status_effects.bloom.time matches ..2147483647 run \
-	scoreboard players add @s stellarity.status_effects.bloom.damage $(damage_base)
-
-$execute if score @s stellarity.status_effects.bloom.time matches ..2147483647 run \
-	scoreboard players add @s stellarity.status_effects.bloom.time $(duration_stack)
-
-$execute unless score @s stellarity.status_effects.bloom.time matches ..2147483647 run \
-	scoreboard players set @s stellarity.status_effects.bloom.time $(duration_base)
-
-playsound minecraft:block.beehive.work master @a[distance=0..] ~ ~ ~ 1 1
+$execute unless score @s stellarity.status_effects.bloom.cooldown matches 1.. anchored eyes rotated ~ 0 run function stellarity:utils/status_effects/bloom/increase_duration {damage_stack:$(damage_stack),damage_base:$(damage_base),duration_stack:$(duration_stack),duration_base:$(duration_base)}
 
 tag @s add kohara.status_effect.tick

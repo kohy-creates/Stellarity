@@ -8,4 +8,3 @@ execute if score @s stellarity.misc matches 1 run particle minecraft:electric_sp
 execute unless block ~ ~ ~ #kohara:non_solid run kill @s
 
 execute if score @s stellarity.misc matches 5.. run kill @s
-

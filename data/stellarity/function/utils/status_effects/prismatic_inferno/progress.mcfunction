@@ -5,5 +5,6 @@ execute if score @s stellarity.dot.prismatic_inferno.progress matches 20 run fun
 scoreboard players remove @s stellarity.dot.prismatic_inferno.time 1
 
 execute if predicate kohara:chance/33percent run particle end_rod ~ ~1 ~ .3 .5 .3 0.02 1 normal
+execute if predicate kohara:chance/50percent run particle minecraft:flame ~ ~1 ~ .3 .5 .3 0.01 1 normal
 
 execute if score @s stellarity.dot.prismatic_inferno.time matches 0 run function stellarity:utils/status_effects/prismatic_inferno/remove

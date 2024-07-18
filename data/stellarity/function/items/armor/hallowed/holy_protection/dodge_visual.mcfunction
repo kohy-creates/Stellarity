@@ -177,6 +177,9 @@ particle minecraft:dust{color:[1.0, 0.82, 0.0], scale:0.84} ^0.1875 ^-0.75 ^0 0 
 # I was able to make a toast on it (10/10 toast)
 
 # Update - I'm here reading this over a year later. What the fuck XD.
+# Update 2 - I think another half a year passed. 
+#			 The fact I wrote all of that still 
+#			 amazes me to say the least.
 
 particle end_rod ~ ~-2 ~ 0 0 0 0.11 12 force @a[distance=..32]
 particle firework ~ ~-2 ~ 0 0 0 0.11 12 force @a[distance=..32]

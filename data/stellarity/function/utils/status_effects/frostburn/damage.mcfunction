@@ -5,7 +5,7 @@ execute if entity @s[type=#minecraft:freeze_hurts_extra_types] run scoreboard pl
 
 scoreboard players reset @s stellarity.dot.frostburn.progress
 
-particle minecraft:soul_fire_flame ~ ~1 ~ .3 .55 .3 0.01 10 force @a[distance=..32]
+particle minecraft:dust_color_transition{from_color:[0.36470588235294116,0.9019607843137255,0.8980392156862745],to_color:[1.0,1.0,1.0],scale:1.4} ~ ~1 ~ .3 .55 .3 0.05 14 force @a[distance=..32]
 
 execute unless entity @s[type=player] run playsound minecraft:entity.player.hurt_freeze neutral @a ~ ~ ~
 

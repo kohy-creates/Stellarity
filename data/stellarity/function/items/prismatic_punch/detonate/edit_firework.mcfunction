@@ -1,5 +1,5 @@
 # Prismatic Inferno
-scoreboard players set #dot.time stellarity.misc 60
+scoreboard players set #effect.duration stellarity.misc 60
 execute as @e[type=!#kohara:invalid_targets,distance=..2.75] run function stellarity:utils/status_effects/prismatic_inferno/apply
 
 execute store result score @s stellarity.misc run random value 1..10

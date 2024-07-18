@@ -16,15 +16,15 @@ scoreboard objectives add kohara.time_since_rest minecraft.custom:minecraft.time
 scoreboard objectives add kohara.hunger food
 scoreboard objectives add kohara.level level
 
-scoreboard objectives add kohara.custom_particle.despawn dummy
-scoreboard objectives add kohara.custom_particle.display dummy
+scoreboard objectives add kohara.particles.despawn dummy
+scoreboard objectives add kohara.particles.display dummy
+scoreboard objectives add kohara.particles.spread.distance dummy
+scoreboard objectives add kohara.particles.spread.x dummy
+scoreboard objectives add kohara.particles.spread.y dummy
 
 scoreboard objectives add kohara.respawn_detection minecraft.custom:minecraft.time_since_death
 
 scoreboard objectives add kohara.health_reset dummy
-
-scoreboard objectives add kohara.record.play_time.current dummy
-scoreboard objectives add kohara.record.play_time.max dummy
 
 # Custom status effects
 # kohara's Libs only handles loading, ticking and removing,

@@ -32,7 +32,7 @@ execute if score #damage_extra stellarity.misc matches 35 run \
 execute if score #damage_extra stellarity.misc matches 67 run \
 	effect give @s saturation 6 0 true
 
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["stellarity.anima_conduit"],potion_contents:{effects:[{id:"minecraft:regeneration",amplifier:5b,duration:1,show_particles:0b,show_icon:0b}]},Duration:2,ReapplicationDelay:0,WaitTime:-1,Age:-1}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["stellarity.anima_conduit"],potion_contents:{custom_effects:[{id:"minecraft:regeneration",amplifier:5b,duration:1,show_particles:0b,show_icon:0b}]},Duration:2,ReapplicationDelay:0,WaitTime:-1,Age:-1}
 execute store result entity @n[type=area_effect_cloud,tag=stellarity.anima_conduit] effects[{id:"minecraft:regeneration"}].duration int 1 run scoreboard players get #duration stellarity.misc
 
 function stellarity:items/frigid_harvester/effects/anima_conduit/heal

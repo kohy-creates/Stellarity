@@ -1,36 +1,23 @@
-scoreboard players set #damage kohara.misc 15
+scoreboard players set #damage kohara.misc 10
+
+scoreboard players set #is_in_daylight stellarity.misc 0
+execute if predicate [{"condition":"minecraft:inverted","term":{"condition":"minecraft:time_check","value":{"min":12786,"max":23460},"period":24000}},{"condition":"minecraft:weather_check","raining":false,"thundering":false},{"condition":"minecraft:location_check","predicate":{"dimension":"minecraft:overworld","can_see_sky":true}}] run scoreboard players set #is_in_daylight stellarity.misc 1
 
 # Double damage to undead mobs
-execute if entity @s[type=#minecraft:undead] run scoreboard players operation #damage kohara.misc += #damage kohara.misc
+scoreboard players set #mul stellarity.misc 2
+execute if entity @s[type=#minecraft:undead] run scoreboard players operation #damage kohara.misc *= #mul stellarity.misc
+# Extra 2x damage if exposed to sunlight
+execute if score #is_in_daylight stellarity.misc matches 1 run scoreboard players operation #damage kohara.misc *= #mul stellarity.misc
 
 scoreboard players reset @s stellarity.dot.prismatic_inferno.progress
 
-# Particles cycle between the colors of the rainbow
-# The cycle actually resumes from where it ended
-# if the effect is reapplied
-scoreboard players add @s stellarity.dot.prismatic_inferno.particle_cycle 1
-execute if score @s stellarity.dot.prismatic_inferno.particle_cycle matches 1 run \
-	particle minecraft:dust{color:[0.98, 0.243, 0.243], scale:1.4} ~ ~1 ~ .3 .55 .3 0 12 force @a[distance=..32]
-execute if score @s stellarity.dot.prismatic_inferno.particle_cycle matches 2 run \
-	particle minecraft:dust{color:[0.98, 0.686, 0.243], scale:1.4} ~ ~1 ~ .3 .55 .3 0 12 force @a[distance=..32]
-execute if score @s stellarity.dot.prismatic_inferno.particle_cycle matches 3 run \
-	particle minecraft:dust{color:[0.98, 0.871, 0.243], scale:1.4} ~ ~1 ~ .3 .55 .3 0 12 force @a[distance=..32]
-execute if score @s stellarity.dot.prismatic_inferno.particle_cycle matches 4 run \
-	particle minecraft:dust{color:[0.6, 0.98, 0.243], scale:1.4} ~ ~1 ~ .3 .55 .3 0 12 force @a[distance=..32]
-execute if score @s stellarity.dot.prismatic_inferno.particle_cycle matches 5 run \
-	particle minecraft:dust{color:[0.243, 0.894, 0.98], scale:1.4} ~ ~1 ~ .3 .55 .3 0 12 force @a[distance=..32]
-execute if score @s stellarity.dot.prismatic_inferno.particle_cycle matches 6 run \
-	particle minecraft:dust{color:[0.318, 0.243, 0.98], scale:1.4} ~ ~1 ~ .3 .55 .3 0 12 force @a[distance=..32]
-execute if score @s stellarity.dot.prismatic_inferno.particle_cycle matches 7 run \
-	particle minecraft:dust{color:[0.98, 0.243, 0.918], scale:1.4} ~ ~1 ~ .3 .55 .3 0 12 force @a[distance=..32]
-execute if score @s stellarity.dot.prismatic_inferno.particle_cycle matches 8 run \
-	particle minecraft:dust{color:[0.647, 0.243, 0.98], scale:1.4} ~ ~1 ~ .3 .55 .3 0 12 force @a[distance=..32]
-
-scoreboard players reset @s[scores={stellarity.dot.prismatic_inferno.particle_cycle=8}] stellarity.dot.prismatic_inferno.particle_cycle
+execute if score #is_in_daylight stellarity.misc matches 0 run function stellarity:utils/status_effects/prismatic_inferno/damage_particle/normal
+execute if score #is_in_daylight stellarity.misc matches 1 run function stellarity:utils/status_effects/prismatic_inferno/damage_particle/exposed_to_daylight
 
 #particle minecraft:flame ~ ~1 ~ .3 .55 .3 0.01 10 force @a[distance=..32]
 
-playsound minecraft:block.amethyst_cluster.break neutral @a[distance=0..] ~ ~ ~
+playsound minecraft:block.amethyst_cluster.break neutral @a[distance=0..] ~ ~ ~ 1 0.9
+playsound minecraft:block.amethyst_cluster.break neutral @a[distance=0..] ~ ~ ~ 1 1.2
 
 tag @p[distance=0.01..] add kohara.attacker
 
