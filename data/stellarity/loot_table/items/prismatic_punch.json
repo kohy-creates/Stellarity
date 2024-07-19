@@ -15,7 +15,8 @@
 									"stellarity.special_item": "prismatic_punch"
 								},
 								"minecraft:fire_resistant": {},
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.prismatic_punch\",\"fallback\": \"Prismatic Punch\",\"color\": \"#FF76D0\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.prismatic_punch\",\"fallback\": \"Prismatic Punch\",\"color\": \"#FF76D0\",\"italic\": false}",
+								"minecraft:rarity": "epic"
 							}
 						},
 						{

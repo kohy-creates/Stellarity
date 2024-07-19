@@ -8,15 +8,6 @@
 					"name": "minecraft:netherite_sword",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"name": {
-								"translate": "stellarity.items.weapons.spirit_dagger.1",
-								"fallback": "The Beginning",
-								"color": "#F5DC68",
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:set_lore",	
 							"mode": "replace_all",
 							"lore": [
@@ -106,10 +97,11 @@
 								"minecraft:custom_model_data": 90005,
 								"minecraft:custom_data": {
 									"stellarity.special_item": "spirit_dagger"
-								}
-							},
-							"minecraft:max_damage": 484,
-							"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.spirit_dagger.1\",\"fallback\": \"The Beginning\",\"color\": \"#F5DC68\",\"italic\": false}"
+								},
+								"minecraft:max_damage": 484,
+								"rarity": "uncommon",
+								"item_name": "{\"translate\": \"stellarity.items.weapons.spirit_dagger.1\",\"fallback\": \"The Beginning\",\"color\": \"#F5DC68\",\"italic\": false}"
+							}
 						}
 					]
 				}
@@ -122,15 +114,6 @@
 					"type": "minecraft:item",
 					"name": "minecraft:netherite_sword",
 					"functions": [
-						{
-							"function": "minecraft:set_name",
-							"name": {
-								"translate": "stellarity.items.weapons.spirit_dagger.2",
-								"fallback": "The End",
-								"color": "#68C6F5",
-								"italic": false
-							}
-						},
 						{
 							"function": "minecraft:set_lore",	
 							"mode": "replace_all",
@@ -221,10 +204,11 @@
 								"minecraft:custom_model_data": 90006,
 								"minecraft:custom_data": {
 									"stellarity.special_item": "spirit_dagger"
-								}
-							},
-							"minecraft:max_damage": 484,
-							"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.spirit_dagger.2\",\"fallback\": \"The End\",\"color\": \"#68C6F5\",\"italic\": false}"
+								},
+								"minecraft:max_damage": 484,
+								"rarity": "uncommon",
+								"item_name": "{\"translate\": \"stellarity.items.weapons.spirit_dagger.2\",\"fallback\": \"The End\",\"color\": \"#68C6F5\",\"italic\": false}"
+							}
 						}
 					]
 				}

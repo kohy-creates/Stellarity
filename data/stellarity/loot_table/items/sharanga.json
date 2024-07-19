@@ -15,7 +15,8 @@
 									"stellarity.special_item": "sharanga"
 								},
 								"minecraft:max_damage": 424,
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.sharanga\",\"fallback\": \"Sharanga\",\"color\": \"#FF6B6B\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.sharanga\",\"fallback\": \"Sharanga\",\"color\": \"#FF6B6B\",\"italic\": false}",
+								"minecraft:rarity": "uncommon"
 							}
 						},
 						{
@@ -33,12 +34,6 @@
 								{
 									"translate": "stellarity.items.weapons.sharanga.description.2",
 									"fallback": "line and deal increased damage",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.weapons.sharanga.description.3",
-									"fallback": "25% chance to save Spectral Arrows",
 									"color": "#EEEEEE",
 									"italic": false
 								},

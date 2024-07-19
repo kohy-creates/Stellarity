@@ -15,6 +15,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "ender_insignia"
 								},
+								"rarity": "rare",
 								"minecraft:max_stack_size": 1,
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.ender_insignia\",\"fallback\": \"Ender Insignia\",\"color\": \"#9936D6\",\"italic\": false}"
 							}
@@ -42,8 +43,7 @@
 									"color": "#CC26FF",
 									"italic": true
 								}
-							],
-							"replace": false
+							]
 						}
 					]
 				}

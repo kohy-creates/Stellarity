@@ -39,6 +39,7 @@
 										}
 									]
 								},
+								"rarity": "epic",
 								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.shepherds_pie\",\"fallback\":\"Shepherd's Pie\",\"color\":\"light_purple\"}"
 							}
 						},

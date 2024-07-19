@@ -14,7 +14,8 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "prismatic_pearl"
 								},
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.prismatic_pearl\",\"fallback\": \"Prismatic Pearl\",\"color\": \"#FF76D0\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.prismatic_pearl\",\"fallback\": \"Prismatic Pearl\",\"color\": \"#FF76D0\",\"italic\": false}",
+								"minecraft:rarity": "epic"
 							}
 						},
 						{

@@ -54,14 +54,14 @@
 									"slot": "mainhand"
 								},
 								{
-									"id": "stellarity:shulker_tool",
+									"id": "minecraft:base_attack_damage",
 									"attribute": "minecraft:player.block_break_speed",
 									"amount": 0.2,
 									"operation": "add_multiplied_total",
 									"slot": "mainhand"
 								},
 								{
-									"id": "stellarity:shulker_tool",
+									"id": "minecraft:base_attack_damage",
 									"attribute": "minecraft:generic.attack_speed",
 									"amount": 0.1,
 									"operation": "add_multiplied_total",

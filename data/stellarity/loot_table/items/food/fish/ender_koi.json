@@ -26,15 +26,6 @@
 							}
 						},
 						{
-							"function": "minecraft:set_name",
-							"name": {
-								"translate": "stellarity.items.fish.ender_koi",
-								"fallback": "Ender Koi",
-								"color": "#B265FF",
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:set_lore",	
 							"mode": "replace_all",
 							"lore": [

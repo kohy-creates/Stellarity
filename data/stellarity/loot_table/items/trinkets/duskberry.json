@@ -92,7 +92,8 @@
 									"modifiers": [],
 									"show_in_tooltip": false
 								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.duskberry\",\"fallback\": \"Duskberry\",\"color\": \"#8100CB\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.duskberry\",\"fallback\": \"Duskberry\",\"color\": \"#8100CB\",\"italic\": false}",
+								"minecraft:rarity": "epic"
 							}
 						}
 					]

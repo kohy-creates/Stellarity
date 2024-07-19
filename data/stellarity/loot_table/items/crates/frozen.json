@@ -16,6 +16,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"rarity": "uncommon",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.crates.frozen\",\"fallback\": \"Frozen Crate\",\"color\": \"#58B6F0\",\"italic\": false}"
 							}
 						},

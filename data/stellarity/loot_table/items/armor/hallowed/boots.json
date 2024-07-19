@@ -52,6 +52,7 @@
 								},
 								"minecraft:fire_resistant": {},
 								"minecraft:max_damage": 481,
+								"rarity": "uncommon",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.armors.hallowed_armor.boots\",\"fallback\": \"Hallowed Boots\",\"color\": \"#FFDD52\",\"italic\": false}"
 							}
 						},

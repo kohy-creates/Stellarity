@@ -14,6 +14,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "spectral_fury"
 								},
+								"minecraft:rarity": "uncommon",
 								"minecraft:max_damage": 636,
 								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.spectral_fury\",\"fallback\": \"Spectral Fury\",\"color\": \"#BDF1FF\",\"italic\": false}"
 							}
@@ -39,12 +40,6 @@
 								{
 									"translate": "stellarity.items.weapons.spectral_fury.description.3",
 									"fallback": "which seek out and attack mobs",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.weapons.spectral_fury.description.4",
-									"fallback": "25% chance to save Spectral Arrows",
 									"color": "#EEEEEE",
 									"italic": false
 								},

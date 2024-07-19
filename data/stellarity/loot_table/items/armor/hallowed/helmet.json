@@ -8,15 +8,6 @@
 					"name": "minecraft:leather_helmet",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"name": {
-								"translate": "stellarity.items.armors.hallowed_armor.helmet",
-								"fallback": "Hallowed Mask",
-								"color": "#FFDD52",
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:set_lore",	
 							"mode": "replace_all",
 							"entity": "this",
@@ -61,6 +52,7 @@
 								},
 								"minecraft:fire_resistant": {},
 								"minecraft:max_damage": 407,
+								"rarity": "uncommon",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.armors.hallowed_armor.helmet\",\"fallback\": \"Hallowed Helmet\",\"color\": \"#FFDD52\",\"italic\": false}"
 							}
 						},

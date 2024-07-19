@@ -53,6 +53,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "crest_of_the_end"
 								},
+								"rarity": "rare",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.crest_of_the_end\",\"fallback\": \"Crest of The End\",\"color\": \"#9936D6\",\"italic\": false}",
 								"minecraft:fire_resistant": {}
 							}

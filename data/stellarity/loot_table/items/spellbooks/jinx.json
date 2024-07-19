@@ -18,7 +18,8 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "book_of_jinx"
 								},
-									"minecraft:item_name": "{\"translate\":  \"stellarity.items.spellbooks.jinx\",\"fallback\": \"Book of Jinx\",\"color\": \"#F816FF\",\"italic\": false}"
+								"rarity": "uncommon",
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.spellbooks.jinx\",\"fallback\": \"Book of Jinx\",\"color\": \"#F816FF\",\"italic\": false}"
 							}
 						},
 						{

@@ -47,7 +47,8 @@
 										}
 									]
 								},
-								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.pho\",\"fallback\":\"Pho\",\"color\":\"yellow\"}"
+								"rarity": "rare",
+								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.pho\",\"fallback\":\"Pho\",\"color\":\"aqua\"}"
 							}
 						},
 						{

@@ -58,6 +58,7 @@
 								},
 								"minecraft:fire_resistant": {},
 								"minecraft:max_damage": 429,
+								"rarity": "uncommon",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.armors.floral_armor.boots\",\"fallback\": \"Floral Boots\",\"color\": \"#FC92D3\",\"italic\": false}"
 							}
 						},

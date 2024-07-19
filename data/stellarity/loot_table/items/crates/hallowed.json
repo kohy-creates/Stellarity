@@ -16,6 +16,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"rarity": "uncommon",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.crates.hallowed\",\"fallback\": \"Hallowed Crate\",\"color\": \"#EA53FF\",\"italic\": false}"
 							}
 						},

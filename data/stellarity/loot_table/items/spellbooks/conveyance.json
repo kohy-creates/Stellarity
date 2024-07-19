@@ -18,6 +18,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "book_of_conveyance"
 								},
+								"rarity": "uncommon",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.spellbooks.conveyance\",\"fallback\": \"Book of Conveyance\",\"color\": \"#A946E7\",\"italic\": false}"
 							}
 						},

@@ -58,6 +58,7 @@
 								},
 								"minecraft:fire_resistant": {},
 								"minecraft:max_damage": 528,
+								"rarity": "uncommon",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.armors.chorus_champion_armor.chestplate\",\"fallback\": \"Chorus Champion Chestplate\",\"color\": \"#A87CC4\",\"italic\": false}"
 							}
 						},

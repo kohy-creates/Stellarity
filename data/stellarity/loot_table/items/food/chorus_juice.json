@@ -8,16 +8,6 @@
 					"name": "minecraft:potion",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "stellarity.items.food.chorus_juice",
-								"fallback": "Chorus Juice",
-								"color": "white",
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:custom_model_data": 90003,

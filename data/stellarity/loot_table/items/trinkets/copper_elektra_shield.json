@@ -61,7 +61,8 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "copper_elektra_shield"
 								},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.copper_elektra_shield\",\"fallback\": \"Copper Elektra Shield\",\"color\": \"#E0976B\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.copper_elektra_shield\",\"fallback\": \"Copper Elektra Shield\",\"color\": \"#E0976B\",\"italic\": false}",
+								"minecraft:rarity": "uncommon"
 							}
 						},
 						{

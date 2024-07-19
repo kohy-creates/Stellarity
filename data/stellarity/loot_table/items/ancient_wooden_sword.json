@@ -8,15 +8,6 @@
 					"name": "minecraft:wooden_sword",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"name": {
-								"translate": "stellarity.items.weapons.ancient_wooden_sword",
-								"fallback": "Ancient Wooden Sword",
-								"color": "white",
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:set_lore",
 							"lore": [
 								"",
@@ -41,14 +32,14 @@
 								{
 									"id": "minecraft:base_attack_damage",
 									"attribute": "minecraft:generic.attack_damage",
-									"amount": 4,
+									"amount": 3,
 									"operation": "add_value",
 									"slot": "mainhand"
 								},
 								{
 									"id": "minecraft:base_attack_speed",
 									"attribute": "minecraft:generic.attack_speed",
-									"amount": 2048,
+									"amount": 2133,
 									"operation": "add_value",
 									"slot": "mainhand"
 								}

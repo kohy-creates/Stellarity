@@ -16,6 +16,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"rarity": "uncommon",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.crates.ender\",\"fallback\": \"Ender Crate\",\"color\": \"#905A9B\",\"italic\": false}"
 							}
 						},

@@ -15,6 +15,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "living_flesh"
 								},
+								"rarity": "uncommon",
 								"minecraft:fire_resistant": {},
 								"minecraft:max_stack_size": 1,
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.living_flesh\",\"fallback\": \"Living Flesh\",\"color\": \"#E53F3F\",\"italic\": false}"
@@ -49,8 +50,7 @@
 									"color": "#CC26FF",
 									"italic": true
 								}
-							],
-							"replace": false
+							]
 						}
 					]
 				}

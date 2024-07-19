@@ -14,6 +14,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "prismember"
 								},
+								"minecraft:rarity": "epic",
 								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.prismember\",\"fallback\": \"Prismember\",\"color\": \"#FF76D0\",\"italic\": false}"
 							}
 						},

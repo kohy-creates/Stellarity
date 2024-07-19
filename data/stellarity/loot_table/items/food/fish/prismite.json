@@ -16,6 +16,7 @@
 									"stellarity.special_item": "overgrown_cod"
 								},
 								"minecraft:item_name": "{\"translate\":\"stellarity.items.fish.prismite\",\"fallback\":\"Prismite\",\"color\":\"yellow\"}",
+								"rarity": "uncommon",
 								"food": {
 									"nutrition": 3,
 									"saturation": 0.6,
@@ -55,8 +56,7 @@
 									"color": "#CC26FF",
 									"italic": true
 								}
-							],
-							"replace": false
+							]
 						}
 					]
 				}

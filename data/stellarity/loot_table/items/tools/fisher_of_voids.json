@@ -14,6 +14,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "fisher_of_voids"
 								},
+								"rarity": "uncommon",
 								"minecraft:fire_resistant": {},
 								"minecraft:max_damage": 264,
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.fisher_of_voids\",\"fallback\": \"Fisher of Voids\",\"color\": \"#8865AF\",\"italic\": false}"
@@ -37,8 +38,7 @@
 									"color": "#CC26FF",
 									"italic": true
 								}
-							],
-							"replace": false
+							]
 						}
 					]
 				}

@@ -40,6 +40,7 @@
 								"minecraft:custom_model_data": 90001,
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"fury_berries\"}",
 								"minecraft:item_name": "{\"translate\":\"stellarity.items.perm_buffs.fury_berries\",\"fallback\":\"Fury Berries\",\"color\":\"#F22AD6\"}",
+								"rarity": "epic",
 								"minecraft:food": {
 									"nutrition": 0,
 									"saturation": 0,

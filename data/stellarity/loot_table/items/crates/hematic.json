@@ -16,6 +16,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"rarity": "uncommon",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.crates.hematic\",\"fallback\": \"Hematic Crate\",\"color\": \"#900000\",\"italic\": false}"
 							}
 						},

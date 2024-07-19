@@ -58,6 +58,7 @@
 								},
 								"minecraft:fire_resistant": {},
 								"minecraft:max_damage": 495,
+								"rarity": "uncommon",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.armors.chorus_champion_armor.leggings\",\"fallback\": \"Chorus Champion Leggings\",\"color\": \"#A87CC4\",\"italic\": false}"
 							}
 						},

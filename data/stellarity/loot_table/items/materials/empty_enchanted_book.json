@@ -8,12 +8,10 @@
 					"name": "minecraft:enchanted_book",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "item.minecraft.enchanted_book",
-								"color": "red",
-								"italic": false
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_name": "{\"translate\":\"item.minecraft.enchanted_book\",\"color\":\"red\"}",
+								"enchantment_glint_override": true
 							}
 						},
 						{

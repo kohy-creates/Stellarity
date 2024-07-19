@@ -8,16 +8,6 @@
 					"name": "minecraft:potion",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "stellarity.items.potions.amarena",
-								"fallback": "Amarene",
-								"color": "#C90D17",
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:set_components",
 							"components":{
 								"minecraft:potion_contents": {
@@ -81,8 +71,7 @@
 									"color": "#CC26FF",
 									"italic": true
 								}
-							],
-							"replace": false
+							]
 						}
 					]
 				}

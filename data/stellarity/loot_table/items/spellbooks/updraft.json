@@ -18,7 +18,8 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "book_of_updraft"
 								},
-									"minecraft:item_name": "{\"translate\":  \"stellarity.items.spellbooks.updraft\",\"fallback\": \"Book of Updraft\",\"color\": \"#E0E0E0\",\"italic\": false}"
+								"rarity": "uncommon",
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.spellbooks.updraft\",\"fallback\": \"Book of Updraft\",\"color\": \"#E0E0E0\",\"italic\": false}"
 							}
 						},
 						{

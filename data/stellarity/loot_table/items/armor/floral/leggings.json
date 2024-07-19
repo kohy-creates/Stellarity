@@ -8,15 +8,6 @@
 					"name": "minecraft:leather_leggings",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"name": {
-								"translate": "stellarity.items.armors.floral_armor.leggings",
-								"fallback": "Floral Leggings",
-								"color": "#FC92D3",
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:set_lore",	
 							"mode": "replace_all",
 							"entity": "this",
@@ -80,6 +71,7 @@
 								},
 								"minecraft:fire_resistant": {},
 								"minecraft:max_damage": 555,
+								"rarity": "uncommon",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.armors.floral_armor.boots\",\"fallback\": \"Floral Boots\",\"color\": \"#FC92D3\",\"italic\": false}"
 							}
 						},

@@ -15,7 +15,8 @@
 									"stellarity.special_item": "slayer_crossbow"
 								},
 								"minecraft:fire_resistant": {},
-								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.slayer_crossbow\",\"fallback\": \"Slayer Crossbow\",\"color\": \"gold\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\": \"stellarity.items.weapons.slayer_crossbow\",\"fallback\": \"Slayer Crossbow\",\"color\": \"gold\",\"italic\": false}",
+								"rarity": "rare"
 							}
 						},
 						{

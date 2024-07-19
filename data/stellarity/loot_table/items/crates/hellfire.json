@@ -16,6 +16,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
+								"rarity": "uncommon",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.crates.hellfire\",\"fallback\": \"Hellfire Crate\",\"color\": \"#E14514\",\"italic\": false}"
 							}
 						},

@@ -18,12 +18,12 @@
 									"stellarity.special_item": "dragonblade"
 								},
 								"minecraft:fire_resistant": {},
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.dragonblade\",\"fallback\": \"Dragonblade\",\"color\": \"#CD6AFF\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.weapons.dragonblade\",\"fallback\": \"Dragonblade\",\"color\": \"#CD6AFF\",\"italic\": false}",
+								"minecraft:rarity": "epic"
 							}
 						},
 						{
-							"function": "minecraft:set_lore",	
-							"mode": "replace_all",
+							"function": "minecraft:set_lore",
 							"lore": [
 								"",
 								{
@@ -50,23 +50,38 @@
 									"translate": "Stellarity",
 									"color": "#CC26FF",
 									"italic": true
-								} 
-							]
+								}
+							],
+							"mode": "replace_all"
 						},
 						{
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.attack_damage",
 									"id": "minecraft:base_attack_damage",
-									"amount": 7,
+									"attribute": "minecraft:generic.attack_damage",
+									"amount": 8,
 									"operation": "add_value",
 									"slot": "mainhand"
 								},
 								{
-									"attribute": "minecraft:generic.attack_speed",
 									"id": "minecraft:base_attack_speed",
-									"amount": -2.7,
+									"attribute": "minecraft:generic.attack_speed",
+									"amount": -3,
+									"operation": "add_value",
+									"slot": "mainhand"
+								},
+								{
+									"id": "stellarity:base_sweeping_damage",
+									"attribute": "minecraft:player.sweeping_damage_ratio",
+									"amount": 0.5,
+									"operation": "add_value",
+									"slot": "mainhand"
+								},
+								{
+									"id": "stellarity:weapon_reach",
+									"attribute": "minecraft:player.entity_interaction_range",
+									"amount": 0.5,
 									"operation": "add_value",
 									"slot": "mainhand"
 								}

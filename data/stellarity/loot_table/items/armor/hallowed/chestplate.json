@@ -52,6 +52,7 @@
 								},
 								"minecraft:fire_resistant": {},
 								"minecraft:max_damage": 592,
+								"rarity": "uncommon",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.armors.hallowed_armor.chestplate\",\"fallback\": \"Hallowed Chestplate\",\"color\": \"#FFDD52\",\"italic\": false}"
 							}
 						},

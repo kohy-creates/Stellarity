@@ -40,6 +40,7 @@
 								"minecraft:custom_model_data": 90001,
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"energizing_fruit\"}",
 								"minecraft:item_name": "{\"translate\":\"stellarity.items.perm_buffs.energizing_fruit\",\"fallback\":\"Energizing Fruit\",\"color\":\"#F22AD6\"}",
+								"rarity": "epic",
 								"minecraft:food": {
 									"nutrition": 0,
 									"saturation": 0,

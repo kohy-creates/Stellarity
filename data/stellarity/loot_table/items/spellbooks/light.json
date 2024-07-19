@@ -18,7 +18,8 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "book_of_light"
 								},
-									"minecraft:item_name": "{\"translate\":  \"stellarity.items.spellbooks.light\",\"fallback\": \"Book of Light\",\"color\": \"#FFF300\",\"italic\": false}"
+								"rarity": "uncommon",
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.spellbooks.light\",\"fallback\": \"Book of Light\",\"color\": \"#FFF300\",\"italic\": false}"
 							}
 						},
 						{

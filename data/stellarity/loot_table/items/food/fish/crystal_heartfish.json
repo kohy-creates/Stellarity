@@ -15,6 +15,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "crimson_tigerfish"
 								},
+								"rarity": "epic",
 								"minecraft:item_name": "{\"translate\":\"stellarity.items.fish.crystal_heartfish\",\"fallback\":\"Crystal Hearfish\",\"color\":\"light_purple\"}",
 								"food": {
 									"nutrition": 1,

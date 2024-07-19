@@ -18,7 +18,8 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "book_of_return"
 								},
-									"minecraft:item_name": "{\"translate\":  \"stellarity.items.spellbooks.return\",\"fallback\": \"Tome of Return\",\"color\": \"#9C369F\",\"italic\": false}"
+								"rarity": "uncommon",
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.spellbooks.return\",\"fallback\": \"Tome of Return\",\"color\": \"#9C369F\",\"italic\": false}"
 							}
 						},
 						{

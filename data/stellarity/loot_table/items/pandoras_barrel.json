@@ -46,9 +46,10 @@
 								"minecraft:custom_model_data": 90000,
 								"minecraft:custom_data": {
 									"stellarity.special_item": "pandoras_barrel"
-								}
-							},
-							"minecraft:item_name": "{\"translate\":  \"stellarity.items.pandoras_barrel\",\"fallback\": \"Pandora's Barrel\",\"color\": \"#934C00\",\"italic\": false}"
+								},
+								"minecraft:rarity": "rare",
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.pandoras_barrel\",\"fallback\": \"Pandora's Barrel\",\"color\": \"#934C00\",\"italic\": false}"
+							}
 						}
 					]
 				}

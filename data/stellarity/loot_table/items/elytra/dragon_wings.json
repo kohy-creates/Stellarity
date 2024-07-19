@@ -40,6 +40,7 @@
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"dragon_wings\"}",
 								"minecraft:fire_resistant": {},
 								"minecraft:max_damage": 424,
+								"rarity": "rare",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.elytra.dragon_wings\",\"fallback\": \"Dragon Wings\",\"color\": \"#9936D6\",\"italic\": false}"
 							}
 						},

@@ -65,6 +65,7 @@
 								},
 								"minecraft:fire_resistant": {},
 								"minecraft:max_damage": 792,
+								"rarity": "uncommon",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.armors.shulker_armor.chestplate\",\"fallback\": \"Shulker Chestplate\",\"color\": \"#976A97\",\"italic\": false}"
 							}
 						},

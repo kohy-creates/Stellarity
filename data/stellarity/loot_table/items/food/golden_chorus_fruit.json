@@ -8,16 +8,6 @@
 					"name": "minecraft:chorus_fruit",
 					"functions": [
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "stellarity.items.food.golden_chorus_fruit",
-								"fallback": "Golden Chorus Fruit",
-								"color": "#55FFFF",
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:enchantment_glint_override": true,
@@ -32,7 +22,8 @@
 									"eat_seconds": 3.5,
 									"effects": []
 								},
-								"minecraft:item_name": "{\"translate\":\"stellarity.items.food.golden_chorus_fruit\",\"fallback\":\"Golden Chorus Fruit\",\"color\":\"light_purple\"}"
+								"rarity": "rare",
+								"item_name": "{\"translate\": \"stellarity.items.food.golden_chorus_fruit\",\"fallback\": \"Golden Chorus Fruit\",\"color\": \"#55FFFF\",\"italic\": false}"
 							}
 						},
 						{

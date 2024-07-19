@@ -47,6 +47,7 @@
 								"minecraft:custom_model_data": 90000,
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"endurance_brew\"}",
 								"minecraft:item_name": "{\"translate\":\"stellarity.items.perm_buffs.endurance_brew\",\"fallback\":\"Endurance Brew\",\"color\":\"#F22AD6\"}",
+								"rarity": "epic",
 								"minecraft:food": {
 									"nutrition": 0,
 									"saturation": 0,

@@ -40,6 +40,7 @@
 								"minecraft:custom_data": {
 									"stellarity.special_item": "phantom_mantle"
 								},
+								"rarity": "uncommon",
 								"minecraft:max_damage": 242,
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.elytra.phantom_mantle\",\"fallback\": \"Phantom Mantle\",\"color\": \"yellow\",\"italic\": false}"
 							}

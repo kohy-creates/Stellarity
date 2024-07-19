@@ -52,6 +52,7 @@
 								},
 								"minecraft:fire_resistant": {},
 								"minecraft:max_damage": 555,
+								"rarity": "uncommon",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.armors.hallowed_armor.leggings\",\"fallback\": \"Hallowed Leggings\",\"color\": \"#FFDD52\",\"italic\": false}"
 							}
 						},

@@ -48,6 +48,20 @@
 									"amount": -3.1,
 									"operation": "add_value",
 									"slot": "mainhand"
+								},
+								{
+									"id": "stellarity:base_sweeping_damage",
+									"attribute": "minecraft:player.sweeping_damage_ratio",
+									"amount": 0.6,
+									"operation": "add_value",
+									"slot": "mainhand"
+								},
+								{
+									"id": "stellarity:weapon_reach",
+									"attribute": "minecraft:player.entity_interaction_range",
+									"amount": 0.5,
+									"operation": "add_value",
+									"slot": "mainhand"
 								}
 							]
 						},
