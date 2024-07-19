@@ -1,3 +1,7 @@
+scoreboard players set #effect.duration stellarity.misc 240
+scoreboard players set #effect.level stellarity.misc 1
+
+execute if entity @s[type=!#kohara:boss,tag=!kohara.boss] run function stellarity:utils/status_effects/voided/apply
 scoreboard players set #mul stellarity.misc 40
 scoreboard players operation #enchant stellarity.misc *= #mul stellarity.misc
 

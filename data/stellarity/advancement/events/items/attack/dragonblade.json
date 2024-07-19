@@ -18,15 +18,15 @@
 				},
 				"damage": {
 					"dealt": {
-						"min": 4,
-						"type": {
-							"tags":[
-								{
-									"id": "stellarity:melee",
-									"expected": true
-								}	
-							]
-						}
+						"min": 3.5
+					},
+					"type": {
+						"tags":[
+							{
+								"id": "stellarity:melee",
+								"expected": true
+							}	
+						]
 					},
 					"blocked": false
 				},

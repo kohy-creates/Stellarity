@@ -11,17 +11,14 @@ function stellarity:items/dragonblade/reset_stacks
 execute store result score #enchant stellarity.misc run data get entity @p[predicate=stellarity:items/holding/dragonblade,predicate=kohara:player/is_sneaking] SelectedItem.components."minecraft:enchantments".levels."minecraft:knockback" 1
 
 # Punch distance gets reduced by half of knockback resistance
-scoreboard players set #2 stellarity.misc 2
-execute store result score #knockback_res stellarity.misc run attribute @s generic.knockback_resistance get 100
-scoreboard players operation #knockback_res stellarity.misc /= #2 stellarity.misc
+# Scale = 50 so that I don't have to set it to 100 and then divide by 2
+execute store result score #knockback_res stellarity.misc run attribute @s generic.knockback_resistance get 50
 # 10 units = 1 block of punch distance
-# Base distance = 6.6 blocks
-# +1.1 per every Knockback level
-# No, this does not have a cap,
-# same applies to damage
+# Base distance = 7.8 blocks (+1.4 per every Knockback level)
+# No, this does not have a cap, same applies to damage
 # Go ham with illegal enchantments lol
-scoreboard players set #max_distance stellarity.misc 66
-scoreboard players set #1.1 stellarity.misc 11
+scoreboard players set #max_distance stellarity.misc 78
+scoreboard players set #1.1 stellarity.misc 14
 scoreboard players operation #extra stellarity.misc = #enchant stellarity.misc
 scoreboard players operation #extra stellarity.misc *= #1.1 stellarity.misc
 scoreboard players operation #max_distance stellarity.misc += #extra stellarity.misc

@@ -1,4 +1,4 @@
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:12,Tags: ["stellarity.items.dragonblade.smthgram_aec","stellarity.aec"]}
+summon minecraft:area_effect_cloud ~ ~ ~ {Duration:5,Tags: ["stellarity.items.dragonblade.smthgram_aec","stellarity.aec"]}
 tp @n[type=area_effect_cloud,tag=stellarity.items.dragonblade.smthgram_aec] ~ ~ ~ ~ ~
 
 function stellarity:items/dragonblade/punch/special_fx/smthgram

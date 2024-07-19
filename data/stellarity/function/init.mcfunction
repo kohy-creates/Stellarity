@@ -21,6 +21,7 @@ function stellarity:config/init
 # Dragonblade
 scoreboard objectives add stellarity.items.dragonblade.cooldown dummy
 scoreboard objectives add stellarity.items.dragonblade.stacks dummy
+scoreboard objectives add stellarity.items.dragonblade.stack_cooldown dummy
 scoreboard objectives add stellarity.items.dragonblade.until_stack_reset dummy
 scoreboard objectives add stellarity.items.dragonblade.punch_progress dummy
 scoreboard objectives add stellarity.items.dragonblade.until_punch_reset dummy
