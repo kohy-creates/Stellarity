@@ -60,7 +60,6 @@
 							"modifiers": [
 								{
 									"attribute": "minecraft:generic.armor",
-									"name": "",
 									"id": "minecraft:armor.boots",
 									"amount": 3,
 									"operation": "add_value",
@@ -68,7 +67,6 @@
 								},
 								{
 									"attribute": "minecraft:generic.armor_toughness",
-									"name": "",
 									"id": "minecraft:armor.boots",
 									"amount": 4,
 									"operation": "add_value",
@@ -76,7 +74,6 @@
 								},
 								{
 									"attribute": "minecraft:generic.knockback_resistance",
-									"name": "",
 									"id": "minecraft:armor.boots",
 									"amount": 0.2,
 									"operation": "add_value",
@@ -84,7 +81,6 @@
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
-									"name": "",
 									"id": "minecraft:armor.boots",
 									"amount": -0.02,
 									"operation": "add_multiplied_total",
@@ -92,7 +88,6 @@
 								},
 								{
 									"attribute": "minecraft:generic.movement_speed",
-									"name": "",
 									"id": "minecraft:armor.boots",
 									"amount": -0.02,
 									"operation": "add_multiplied_total",

@@ -61,7 +61,6 @@
 							"modifiers": [
 								{
 									"attribute": "minecraft:generic.attack_damage",
-									"name": "",
 									"id": "minecraft:base_attack_damage",
 									"amount": 6,
 									"operation": "add_value",
@@ -69,7 +68,6 @@
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
-									"name": "",
 									"id": "minecraft:base_attack_speed",
 									"amount": -2.4,
 									"operation": "add_value",

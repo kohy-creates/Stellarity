@@ -69,7 +69,6 @@
 							"modifiers": [
 								{
 									"attribute": "minecraft:generic.armor",
-									"name": "",
 									"id": "minecraft:armor.helmet",
 									"amount": 3,
 									"operation": "add_value",
@@ -77,7 +76,6 @@
 								},
 								{
 									"attribute": "minecraft:generic.attack_damage",
-									"name": "",
 									"id": "minecraft:armor.helmet",
 									"amount": -0.03,
 									"operation": "add_multiplied_base",
@@ -85,7 +83,6 @@
 								},
 								{
 									"attribute": "minecraft:generic.armor_toughness",
-									"name": "",
 									"id": "minecraft:armor.helmet",
 									"amount": 3,
 									"operation": "add_value",
@@ -93,7 +90,6 @@
 								},
 								{
 									"attribute": "minecraft:generic.knockback_resistance",
-									"name": "",
 									"id": "minecraft:armor.helmet",
 									"amount": 0.1,
 									"operation": "add_value",
