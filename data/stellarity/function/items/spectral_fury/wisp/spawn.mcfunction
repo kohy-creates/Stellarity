@@ -1,5 +1,3 @@
-execute as @p if entity @s[gamemode=!spectator,gamemode=!creative] run function stellarity:items/spectral_fury/ammo_conservation/trigger
-
 summon marker ~ ~ ~ {Tags:["stellarity.marker","stellarity.wisp"]}
 execute as @n[type=marker,tag=stellarity.wisp] at @s rotated as @p[predicate=stellarity:items/holding/spectral_fury] run tp @s ^ ^ ^ ~ ~ 
 
