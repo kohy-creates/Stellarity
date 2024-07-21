@@ -26,6 +26,13 @@
 								},
 								"",
 								{
+									"translate": "stellarity.items.elytra.empress_wings.flavor_text",
+									"fallback": "'Yes, their flight trail is rainbow'",
+									"color": "#EEEEEE",
+									"italic": true
+								},
+								"",
+								{
 									"translate": "Stellarity",
 									"color": "#CC26FF",
 									"italic": true
@@ -48,29 +55,29 @@
 							"modifiers": [
 								{
 									"id": "minecraft:armor.chestplate",
-									"attribute": "minecraft:generic.armor",
-									"amount": -1,
-									"operation": "add_value",
-									"slot": "chest"
-								},
-								{
-									"id": "minecraft:armor.chestplate",
 									"attribute": "minecraft:generic.movement_speed",
-									"amount": 0.12,
+									"amount": 0.1,
 									"operation": "add_multiplied_base",
 									"slot": "chest"
 								},
 								{
 									"id": "minecraft:armor.chestplate",
-									"attribute": "minecraft:generic.gravity",
-									"amount": -0.1,
+									"attribute": "minecraft:generic.fall_damage_multiplier",
+									"amount": -0.25,
 									"operation": "add_multiplied_total",
 									"slot": "chest"
 								},
 								{
 									"id": "minecraft:armor.chestplate",
-									"attribute": "minecraft:generic.fall_damage_multiplier",
-									"amount": -1,
+									"attribute": "minecraft:generic.safe_fall_distance",
+									"amount": 4,
+									"operation": "add_value",
+									"slot": "chest"
+								},
+								{
+									"id": "minecraft:armor.chestplate",
+									"attribute": "minecraft:generic.gravity",
+									"amount": -0.35,
 									"operation": "add_multiplied_total",
 									"slot": "chest"
 								}

@@ -83,6 +83,27 @@
 					]
 				}
 			]
+		},
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "stellarity:items/elytra/phantom_wings"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": {
+						"type": "minecraft:score",
+						"target": "this",
+						"score": "stellarity.phantom.wings_drop_chance",
+						"scale": 0.01
+					}
+				}
+			]
 		}
 	]
 }

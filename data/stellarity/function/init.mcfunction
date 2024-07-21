@@ -163,6 +163,7 @@ scoreboard objectives add stellarity.dragon.ball_of_blight_cooldown dummy
 
 # Phantoms
 scoreboard objectives add stellarity.phantom.size dummy
+scoreboard objectives add stellarity.phantom.wings_drop_chance dummy
 
 ## Boss music
 scoreboard objectives add stellarity.music.ender_dragon.timer dummy

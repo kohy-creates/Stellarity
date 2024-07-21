@@ -95,24 +95,6 @@
 					]
 				}
 			]
-		},
-		{
-			"rolls": 1,
-			"bonus_rolls": 0,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"value": "stellarity:items/elytra/phantom_mantle"
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:random_chance_with_enchanted_bonus",
-					"enchantment": "minecraft:looting",
-					"unenchanted_chance": 0.025,
-					"enchanted_chance": 0.01
-				}
-			]
 		}
 	]
 }

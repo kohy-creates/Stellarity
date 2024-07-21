@@ -46,4 +46,9 @@ tag @s add stellarity.phantom.aware
 scoreboard players operation #size stellarity.misc += #1 stellarity.misc
 scoreboard players operation @s stellarity.phantom.size = #size stellarity.misc
 
+scoreboard players set #3 stellarity.misc 3
+scoreboard players operation @s stellarity.phantom.wings_drop_chance = @s stellarity.phantom.size
+scoreboard players operation @s stellarity.phantom.wings_drop_chance += #2 stellarity.misc
+
+
 team join stellarity.phantom_glow @s

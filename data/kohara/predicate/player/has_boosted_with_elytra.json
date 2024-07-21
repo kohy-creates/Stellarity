@@ -39,14 +39,13 @@
 											"items": [
 												"minecraft:trident"
 											],
-											"enchantments": [
-												{
-													"enchantment": "minecraft:riptide",
-													"levels": {
-														"min": 1
+											"predicates": {
+												"minecraft:enchantments": [
+													{
+														"enchantments": "minecraft:riptide"
 													}
-												}
-											]
+												]
+											}
 										}
 									}
 								}
@@ -60,14 +59,13 @@
 											"items": [
 												"minecraft:trident"
 											],
-											"enchantments": [
-												{
-													"enchantment": "minecraft:riptide",
-													"levels": {
-														"min": 1
+											"predicates": {
+												"minecraft:enchantments": [
+													{
+														"enchantments": "minecraft:riptide"
 													}
-												}
-											]
+												]
+											}
 										}
 									}
 								}

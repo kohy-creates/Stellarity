@@ -8,14 +8,13 @@
 					"name": "minecraft:elytra",
 					"functions": [
 						{
-							"function": "minecraft:set_lore",	
-							"mode": "replace_all",
+							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
 								"",
 								{
 									"translate": "stellarity.items.elytra.dragon_wings.description.1",
-									"fallback": "Sturdy scales provide some protection,",
+									"fallback": "Sturdy scales provide decent protection,",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -31,7 +30,8 @@
 									"color": "#CC26FF",
 									"italic": true
 								}
-							]
+							],
+							"mode": "replace_all"
 						},
 						{
 							"function": "minecraft:set_components",
@@ -39,7 +39,7 @@
 								"minecraft:custom_model_data": 90000,
 								"minecraft:custom_data": "{\"stellarity.special_item\": \"dragon_wings\"}",
 								"minecraft:fire_resistant": {},
-								"minecraft:max_damage": 424,
+								"minecraft:max_damage": 648,
 								"rarity": "rare",
 								"minecraft:item_name": "{\"translate\":  \"stellarity.items.elytra.dragon_wings\",\"fallback\": \"Dragon Wings\",\"color\": \"#9936D6\",\"italic\": false}"
 							}
@@ -48,37 +48,23 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.armor",
 									"id": "minecraft:armor.chestplate",
+									"attribute": "minecraft:generic.armor",
 									"amount": 6,
 									"operation": "add_value",
 									"slot": "chest"
 								},
 								{
-									"attribute": "minecraft:generic.armor_toughness",
 									"id": "minecraft:armor.chestplate",
+									"attribute": "minecraft:generic.armor_toughness",
 									"amount": 2,
 									"operation": "add_value",
 									"slot": "chest"
 								},
 								{
+									"id": "minecraft:armor.chestplate",
 									"attribute": "minecraft:generic.movement_speed",
-									"id": "minecraft:armor.chestplate",
 									"amount": -0.08,
-									"operation": "add_multiplied_base",
-									"slot": "chest"
-								},
-								{
-									"attribute": "minecraft:generic.jump_strength",
-									"id": "minecraft:armor.chestplate",
-									"amount": 0.15,
-									"operation": "add_multiplied_total",
-									"slot": "chest"
-								},
-								{
-									"attribute": "minecraft:generic.fall_damage_multiplier",
-									"id": "minecraft:armor.chestplate",
-									"amount": 0.10,
 									"operation": "add_multiplied_base",
 									"slot": "chest"
 								}
