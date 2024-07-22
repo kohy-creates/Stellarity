@@ -4,8 +4,8 @@ execute if score @s stellarity.misc matches 1 run function stellarity:items/pris
 execute if score @s stellarity.misc matches 3 run function stellarity:items/prismember/spin/animation/2
 
 execute positioned ^ ^0.7 ^1.5 run function stellarity:items/prismember/spin/animation/spin_particle
-execute rotated ~45 ~ positioned ^ ^0.7 ^1.5 run function stellarity:items/prismember/spin/animation/spin_particle
+execute rotated ~-45 ~ positioned ^ ^0.7 ^1.5 run function stellarity:items/prismember/spin/animation/spin_particle
 
-tp @s ~ ~ ~ ~90 ~
+tp @s ~ ~ ~ ~-90 ~
 
 kill @s[scores={stellarity.misc=4..}]

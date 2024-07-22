@@ -9,7 +9,7 @@ kill @n[type=item,tag=stellarity.aota.8_dragon_breath,distance=..1.5]
 loot spawn ~ ~.1 ~ loot stellarity:items/call_of_the_void
 tag @n[type=item] add stellarity.aota.skip
 
-#data modify storage stellarity:temp aota.enchants.levels."stellarity:void_shot" set value 1
+data modify storage stellarity:temp aota.enchants.levels."stellarity:void_shot" set value 1
 
 data modify entity @n[type=item] Item.components."minecraft:enchantments" set from storage stellarity:temp aota.enchants
 
