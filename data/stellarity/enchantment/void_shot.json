@@ -1,0 +1,56 @@
+{
+	"description": {
+		"translate": "enchantment.stellarity.void_shot",
+		"fallback": "Void Shot",
+		"color": "#D600F4"
+	},
+	"supported_items": "#stellarity:enchantable/ranged",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 35,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 75,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 10,
+	"slots": [
+		"mainhand"
+	],
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "stellarity:enchantments/void_shot/spawn_shrapnel"
+				},
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "direct_attacker",
+					"predicate": {
+						"nbt": "{weapon:{components:{\"minecraft:custom_data\":{\"stellarity.special_item\":\"call_of_the_void\"}}}}"
+					}
+				}
+			},
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "stellarity:enchantments/void_shot/apply_voided"
+				},
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "direct_attacker",
+					"predicate": {
+						"type": "#minecraft:arrows"
+					}
+				}
+			}
+		]
+	}
+}

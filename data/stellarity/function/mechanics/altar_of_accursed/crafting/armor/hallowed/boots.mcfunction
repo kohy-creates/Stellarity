@@ -1,6 +1,6 @@
 data modify storage stellarity:temp aota.item set from entity @e[type=item,tag=stellarity.aota.netherite_boots,distance=..1.5,limit=1] Item.components
 
-data modify storage stellarity:temp aota.enchants set from storage stellarity:temp aota.item."minecraft:enchanments"
+data modify storage stellarity:temp aota.enchants set from storage stellarity:temp aota.item."minecraft:enchantments"
 data modify storage stellarity:temp aota.trim set from storage stellarity:temp aota.item."minecraft:trim"
 
 kill @e[type=item,tag=stellarity.aota.hallowed_ingots,distance=..1.5,limit=1]

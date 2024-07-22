@@ -5,8 +5,6 @@ tag @p[predicate=stellarity:items/holding/prismember,distance=0.001..] add kohar
 function kohara:damage/calculate {armor_penetration:30,damage_boost_efficiency:0,ap_damage_type:"kohara:armor_piercing",damage_type:"stellarity:prismember",tag:"stellarity.damage.prismember"}
 
 # Prismatic Inferno
-scoreboard players set #effect.duration stellarity.misc 60
-
-scoreboard players operation #effect.duration stellarity.misc += #enchant stellarity.misc
+scoreboard players set #effect.duration stellarity.misc 120
 
 function stellarity:utils/status_effects/prismatic_inferno/apply

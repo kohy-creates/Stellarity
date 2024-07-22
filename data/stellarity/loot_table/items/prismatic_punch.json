@@ -50,6 +50,12 @@
 									"italic": true
 								}
 							]
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"stellarity:infernal_infusion": 1
+							}
 						}
 					]
 				}

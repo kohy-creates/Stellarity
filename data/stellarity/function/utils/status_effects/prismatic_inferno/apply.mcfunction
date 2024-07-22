@@ -3,8 +3,8 @@ execute unless entity @s[type=!player,tag=stellarity.prismatic_inferno.burning] 
 data merge entity @s[type=!player] {HasVisualFire:1b}
 tag @s add stellarity.prismatic_inferno.burning
 
-scoreboard players set #1 stellarity.misc 1
-scoreboard players operation #effect.duration stellarity.misc -= #1 stellarity.misc
+scoreboard players set #19 stellarity.misc 19
+scoreboard players operation #effect.duration stellarity.misc += #19 stellarity.misc
 
 scoreboard players operation @s stellarity.dot.prismatic_inferno.time = #effect.duration stellarity.misc
 

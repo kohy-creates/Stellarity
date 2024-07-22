@@ -42,6 +42,12 @@
 									"italic": true
 								}
 							]
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"stellarity:void_shot": 1
+							}
 						}
 					]
 				}
