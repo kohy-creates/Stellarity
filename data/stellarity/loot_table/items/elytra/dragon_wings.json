@@ -50,7 +50,7 @@
 								{
 									"id": "minecraft:armor.chestplate",
 									"attribute": "minecraft:generic.armor",
-									"amount": 6,
+									"amount": 3,
 									"operation": "add_value",
 									"slot": "chest"
 								},
