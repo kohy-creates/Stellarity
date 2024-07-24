@@ -80,17 +80,17 @@
 									"slot": "feet"
 								},
 								{
-									"attribute": "minecraft:generic.attack_damage",
-									"id": "minecraft:armor.boots",
-									"amount": 0.025,
-									"operation": "add_multiplied_base",
-									"slot": "feet"
-								},
-								{
 									"attribute": "minecraft:generic.knockback_resistance",
 									"id": "minecraft:armor.boots",
 									"amount": 0.08,
 									"operation": "add_value",
+									"slot": "feet"
+								},
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"id": "minecraft:armor.boots",
+									"amount": 0.025,
+									"operation": "add_multiplied_base",
 									"slot": "feet"
 								}
 							]

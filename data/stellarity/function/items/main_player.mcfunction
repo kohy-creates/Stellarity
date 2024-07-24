@@ -58,8 +58,8 @@ execute if entity @s[tag=stellarity.items.starless_scythe.holding,predicate=!ste
 execute if entity @s[scores={stellarity.items.spectral_fury.until_charge_reset=1..}] run function stellarity:items/spectral_fury/charge_reset_countdown
 
 # Stellar Striker
-execute if entity @s[predicate=stellarity:items/holding/stellar_striker/sword] run function stellarity:items/stellar_striker/holding/loop
-execute if entity @s[tag=stellarity.holding_stellar_striker,predicate=!stellarity:items/holding/stellar_striker/sword] run function stellarity:items/stellar_striker/holding/stop
+execute if entity @s[predicate=stellarity:items/holding/stellar_striker] run function stellarity:items/stellar_striker/holding/loop
+execute if entity @s[tag=stellarity.holding_stellar_striker,predicate=!stellarity:items/holding/stellar_striker] run function stellarity:items/stellar_striker/holding/stop
 
 
 ## Armor sets

@@ -4,55 +4,45 @@
 		"criteria": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
-				"player": {
-					"equipment": {
-						"head": {
-							"components":{
-								"minecraft:custom_data": {
-									"stellarity.special_item": "chorus_champion_armor"
-								}
-							}
-						},
-						"chest": {
-									"components":{
-								"minecraft:custom_data": {
-									"stellarity.special_item": "chorus_champion_armor"
-								}
-							}
-						},
-						"legs": {
-									"components":{
-								"minecraft:custom_data": {
-									"stellarity.special_item": "chorus_champion_armor"
-								}
-							}
-						},
-						"feet": {
-									"components":{
-								"minecraft:custom_data": {
-									"stellarity.special_item": "chorus_champion_armor"
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"head": {
+									"components": {
+										"minecraft:custom_data": "{\"stellarity.special_item\": \"chorus_champion_armor\"}"
+									}
+								},
+								"chest": {
+									"components": {
+										"minecraft:custom_data": "{\"stellarity.special_item\": \"chorus_champion_armor\"}"
+									}
+								},
+								"legs": {
+									"components": {
+										"minecraft:custom_data": "{\"stellarity.special_item\": \"chorus_champion_armor\"}"
+									}
+								},
+								"feet": {
+									"components": {
+										"minecraft:custom_data": "{\"stellarity.special_item\": \"chorus_champion_armor\"}"
+									}
 								}
 							}
 						}
 					}
-				},
+				],
 				"damage": {
-					"blocked": false,
 					"type": {
-						"tags":[
+						"tags": [
 							{
 								"id": "stellarity:melee",
 								"expected": true
-							}	
-						]
-					}
-				},
-				"entity": {
-					"nbt":"{HurtTime:10s}",
-					"distance": {
-						"absolute": {
-							"max": 6.5
-						}
+							}
+						],
+						"is_direct": true
 					}
 				}
 			}

@@ -86,13 +86,6 @@
 									"slot": "chest"
 								},
 								{
-									"attribute": "minecraft:generic.attack_damage",
-									"id": "minecraft:armor.chestplate",
-									"amount": -0.05,
-									"operation": "add_multiplied_base",
-									"slot": "chest"
-								},
-								{
 									"attribute": "minecraft:generic.armor_toughness",
 									"id": "minecraft:armor.chestplate",
 									"amount": 3,
@@ -104,6 +97,13 @@
 									"id": "minecraft:armor.chestplate",
 									"amount": 0.1,
 									"operation": "add_value",
+									"slot": "chest"
+								},
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"id": "minecraft:armor.chestplate",
+									"amount": -0.05,
+									"operation": "add_multiplied_base",
 									"slot": "chest"
 								}
 							]

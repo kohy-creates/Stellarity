@@ -67,13 +67,6 @@
 									"slot": "chest"
 								},
 								{
-									"attribute": "minecraft:generic.attack_damage",
-									"id": "minecraft:armor.chestplate",
-									"amount": -0.03,
-									"operation": "add_multiplied_base",
-									"slot": "chest"
-								},
-								{
 									"attribute": "minecraft:generic.armor_toughness",
 									"id": "minecraft:armor.chestplate",
 									"amount": 3,
@@ -84,6 +77,13 @@
 									"attribute": "minecraft:generic.knockback_resistance",
 									"id": "minecraft:armor.chestplate",
 									"amount": 0.1,
+									"operation": "add_value",
+									"slot": "chest"
+								},
+								{
+									"attribute": "minecraft:generic.safe_fall_distance",
+									"id": "minecraft:armor.chestplate",
+									"amount": 1,
 									"operation": "add_value",
 									"slot": "chest"
 								}

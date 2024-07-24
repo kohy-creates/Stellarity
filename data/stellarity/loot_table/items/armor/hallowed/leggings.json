@@ -74,17 +74,24 @@
 									"slot": "legs"
 								},
 								{
-									"attribute": "minecraft:generic.attack_damage",
-									"id": "minecraft:armor.leggings",
-									"amount": -0.03,
-									"operation": "add_multiplied_base",
-									"slot": "legs"
-								},
-								{
 									"attribute": "minecraft:generic.knockback_resistance",
 									"id": "minecraft:armor.leggings",
 									"amount": 0.1,
 									"operation": "add_value",
+									"slot": "legs"
+								},
+								{
+									"attribute": "minecraft:generic.jump_strength",
+									"id": "minecraft:armor.boots",
+									"amount": 0.15,
+									"operation": "add_multiplied_base",
+									"slot": "legs"
+								},
+								{
+									"attribute": "minecraft:player.sneaking_speed",
+									"id": "minecraft:armor.boots",
+									"amount": 0.25,
+									"operation": "add_multiplied_base",
 									"slot": "legs"
 								}
 							]

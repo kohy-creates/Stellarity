@@ -6,3 +6,4 @@ loot give @s loot stellarity:items/trinkets/ender_insignia
 loot give @s loot stellarity:items/trinkets/living_flesh
 loot give @s loot stellarity:items/trinkets/soaring_insignia
 loot give @s loot stellarity:items/trinkets/starstruck_carcanet
+loot give @s loot stellarity:items/trinkets/endermans_hand

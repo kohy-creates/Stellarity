@@ -80,17 +80,17 @@
 									"slot": "head"
 								},
 								{
-									"attribute": "minecraft:generic.attack_damage",
-									"id": "minecraft:armor.helmet",
-									"amount": 0.025,
-									"operation": "add_multiplied_base",
-									"slot": "head"
-								},
-								{
 									"attribute": "minecraft:generic.knockback_resistance",
 									"id": "minecraft:armor.helmet",
 									"amount": 0.08,
 									"operation": "add_value",
+									"slot": "head"
+								},
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"id": "minecraft:armor.helmet",
+									"amount": 0.025,
+									"operation": "add_multiplied_base",
 									"slot": "head"
 								}
 							]

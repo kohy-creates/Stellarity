@@ -83,14 +83,14 @@
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"id": "minecraft:armor.boots",
-									"amount": -0.02,
+									"amount": -0.03,
 									"operation": "add_multiplied_total",
 									"slot": "feet"
 								},
 								{
 									"attribute": "minecraft:generic.movement_speed",
 									"id": "minecraft:armor.boots",
-									"amount": -0.02,
+									"amount": -0.03,
 									"operation": "add_multiplied_total",
 									"slot": "feet"
 								}

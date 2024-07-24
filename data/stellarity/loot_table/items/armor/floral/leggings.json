@@ -93,17 +93,17 @@
 									"slot": "legs"
 								},
 								{
-									"attribute": "minecraft:generic.attack_damage",
-									"id": "minecraft:armor.leggings",
-									"amount": -0.05,
-									"operation": "add_multiplied_base",
-									"slot": "legs"
-								},
-								{
 									"attribute": "minecraft:generic.knockback_resistance",
 									"id": "minecraft:armor.leggings",
 									"amount": 0.1,
 									"operation": "add_value",
+									"slot": "legs"
+								},
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"id": "minecraft:armor.leggings",
+									"amount": -0.05,
+									"operation": "add_multiplied_base",
 									"slot": "legs"
 								}
 							]

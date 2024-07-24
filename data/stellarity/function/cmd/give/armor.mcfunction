@@ -17,3 +17,7 @@ loot give @s loot stellarity:items/armor/floral/helmet
 loot give @s loot stellarity:items/armor/floral/chestplate
 loot give @s loot stellarity:items/armor/floral/leggings
 loot give @s loot stellarity:items/armor/floral/boots
+
+loot give @s loot stellarity:items/elytra/dragon_wings
+loot give @s loot stellarity:items/elytra/empress_wings
+loot give @s loot stellarity:items/elytra/phantom_wings

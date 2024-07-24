@@ -80,6 +80,13 @@
 									"slot": "legs"
 								},
 								{
+									"attribute": "minecraft:generic.knockback_resistance",
+									"id": "minecraft:armor.leggings",
+									"amount": 0.08,
+									"operation": "add_value",
+									"slot": "legs"
+								},
+								{
 									"attribute": "minecraft:generic.attack_damage",
 									"id": "minecraft:armor.leggings",
 									"amount": 0.025,
@@ -87,9 +94,9 @@
 									"slot": "legs"
 								},
 								{
-									"attribute": "minecraft:generic.knockback_resistance",
+									"attribute": "minecraft:player.sweeping_damage_ratio",
 									"id": "minecraft:armor.leggings",
-									"amount": 0.08,
+									"amount": 0.15,
 									"operation": "add_value",
 									"slot": "legs"
 								}
