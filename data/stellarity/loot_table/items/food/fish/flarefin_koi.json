@@ -13,7 +13,7 @@
 							"components": {
 								"minecraft:custom_model_data": 90010,
 								"minecraft:custom_data": {
-									"stellarity.special_item": "ender_koi"
+									"stellarity.special_item": "flarefin_koi"
 								},
 								"minecraft:item_name": "{\"translate\":\"stellarity.items.fish.flarefin_koi\",\"fallback\":\"Flarefin Koi\"}",
 								"food": {

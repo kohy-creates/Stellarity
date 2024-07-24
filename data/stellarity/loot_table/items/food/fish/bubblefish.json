@@ -13,7 +13,7 @@
 							"components": {
 								"minecraft:custom_model_data": 90008,
 								"minecraft:custom_data": {
-									"stellarity.special_item": "amethyst_budfish"
+									"stellarity.special_item": "bubblefish"
 								},
 								"minecraft:item_name": "{\"translate\":\"stellarity.items.fish.bubblefish\",\"fallback\":\"Bubblefish\"}",
 								"food": {

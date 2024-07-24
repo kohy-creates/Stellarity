@@ -33,7 +33,7 @@ scoreboard objectives remove stellarity.items.prismatic_punch.piercing
 scoreboard objectives remove stellarity.items.prismatic_punch.piercing_cooldown
 scoreboard objectives remove stellarity.items.prismatic_punch.multishot
 
-scoreboard objectives remove stellarity.items.ender_insignia.hold_duration
+scoreboard objectives remove stellarity.items.life_crystal.hold_duration
 
 scoreboard objectives remove stellarity.items.spellbook.conveyance.cooldown
 scoreboard objectives remove stellarity.items.spellbook.conveyance.id

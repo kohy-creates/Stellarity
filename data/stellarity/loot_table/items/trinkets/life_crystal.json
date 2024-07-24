@@ -13,11 +13,11 @@
 								"minecraft:enchantment_glint_override": true,
 								"minecraft:custom_model_data": 90000,
 								"minecraft:custom_data": {
-									"stellarity.special_item": "ender_insignia"
+									"stellarity.special_item": "life_crystal"
 								},
 								"rarity": "rare",
 								"minecraft:max_stack_size": 1,
-								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.ender_insignia\",\"fallback\": \"Ender Insignia\",\"color\": \"#9936D6\",\"italic\": false}"
+								"minecraft:item_name": "{\"translate\":  \"stellarity.items.trinkets.life_crystal\",\"fallback\": \"Life Crystal\",\"color\": \"#9936D6\",\"italic\": false}"
 							}
 						},
 						{
@@ -26,14 +26,8 @@
 							"lore": [
 								"",
 								{
-									"translate": "stellarity.items.trinkets.ender_insignia.description.1",
-									"fallback": "Increases life regeneration while sneaking",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.trinkets.ender_insignia.description.2",
-									"fallback": "Bonus starts weak and slowly increases in strength",
+									"translate": "stellarity.items.trinkets.life_crystal.description",
+									"fallback": "Standing still rapidly replenishes health",
 									"color": "#EEEEEE",
 									"italic": false
 								},

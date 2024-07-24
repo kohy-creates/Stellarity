@@ -13,7 +13,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "stellarity:items/trinkets/ender_insignia"
+					"value": "stellarity:items/trinkets/life_crystal"
 				}
 			]
 		}

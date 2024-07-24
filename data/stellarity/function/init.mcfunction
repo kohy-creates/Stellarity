@@ -53,7 +53,7 @@ scoreboard objectives add stellarity.items.prismatic_punch.piercing_cooldown dum
 scoreboard objectives add stellarity.items.prismatic_punch.multishot dummy
 
 # Ender Insignia
-scoreboard objectives add stellarity.items.ender_insignia.hold_duration dummy
+scoreboard objectives add stellarity.items.life_crystal.heal_amount dummy
 
 # Spellbooks
 scoreboard objectives add stellarity.items.spellbook.conveyance.cooldown dummy

@@ -13,13 +13,13 @@
 							"components": {
 								"minecraft:custom_model_data": 90002,
 								"minecraft:custom_data": {
-									"stellarity.special_item": "crimson_tigerfish"
+									"stellarity.special_item": "crystal_heartfish"
 								},
 								"rarity": "epic",
 								"minecraft:item_name": "{\"translate\":\"stellarity.items.fish.crystal_heartfish\",\"fallback\":\"Crystal Hearfish\",\"color\":\"light_purple\"}",
 								"food": {
-									"nutrition": 1,
-									"saturation": 0.6,
+									"nutrition": 0,
+									"saturation": 0,
 									"can_always_eat": true,
 									"eat_seconds": 3.5,
 									"effects": []
