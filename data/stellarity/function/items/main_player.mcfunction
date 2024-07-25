@@ -61,7 +61,6 @@ execute if entity @s[scores={stellarity.items.spectral_fury.until_charge_reset=1
 execute if entity @s[predicate=stellarity:items/holding/stellar_striker] run function stellarity:items/stellar_striker/holding/loop
 execute if entity @s[tag=stellarity.holding_stellar_striker,predicate=!stellarity:items/holding/stellar_striker] run function stellarity:items/stellar_striker/holding/stop
 
-
 ## Armor sets
 # Has to be ticked after everything so
 # that Floral Armor effects can work
