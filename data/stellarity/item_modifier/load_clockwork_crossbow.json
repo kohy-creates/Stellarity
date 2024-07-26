@@ -27,18 +27,21 @@
 						}
 					},
 					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"slots": {
-								"weapon.mainhand": {
-									"items": "minecraft:crossbow",
-									"predicates": {
-										"minecraft:enchantments": [
-											{
-												"enchantments": "minecraft:multishot"
-											}
-										]
+						"condition": "inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"slots": {
+									"weapon.mainhand": {
+										"items": "minecraft:crossbow",
+										"predicates": {
+											"minecraft:enchantments": [
+												{
+													"enchantments": "minecraft:multishot"
+												}
+											]
+										}
 									}
 								}
 							}
@@ -132,18 +135,21 @@
 						}
 					},
 					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"slots": {
-								"weapon.mainhand": {
-									"items": "minecraft:crossbow",
-									"predicates": {
-										"minecraft:enchantments": [
-											{
-												"enchantments": "minecraft:multishot"
-											}
-										]
+						"condition": "inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"slots": {
+									"weapon.mainhand": {
+										"items": "minecraft:crossbow",
+										"predicates": {
+											"minecraft:enchantments": [
+												{
+													"enchantments": "minecraft:multishot"
+												}
+											]
+										}
 									}
 								}
 							}
