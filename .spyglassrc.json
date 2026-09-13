@@ -6,7 +6,6 @@
             "@vanilla-mcdoc"
         ],
         "exclude": [
-            "**/.*/**",
             "**/node_modules/**",
             "**/__pycache__/**",
             "**/overlay_*/**",
@@ -17,27 +16,10 @@
         ]
     },
     "lint": {
-        "nbtTypeCheck": "loosely",
-        "nbtArrayLengthCheck": true,
         "undeclaredSymbol": [
             {
                 "if": {
-                    "category": "advancement",
-                    "pattern": "^[^/:]+$"
-                },
-                "then": {
-                    "declare": "public"
-                }
-            },
-            {
-                "if": {
-                    "category": [
-                        "attribute_modifier",
-                        "attribute_modifier_uuid",
-                        "tag",
-                        "score_holder",
-                        "translation_key"
-                    ]
+                    "namespace": "c"
                 },
                 "then": {
                     "declare": "public"
