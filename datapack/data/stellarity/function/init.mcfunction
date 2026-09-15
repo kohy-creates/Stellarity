@@ -90,7 +90,7 @@
       scoreboard objectives add stellarity.config.enable_duskberry dummy
       scoreboard objectives add stellarity.config.enable_life_crystal dummy
       scoreboard objectives add stellarity.config.enable_soaring_insignia dummy
-      scoreboard objectives add stellarity.config.enable_endermans_hand dummy
+      scoreboard objectives add stellarity.config.enable_enderman_hand dummy
       scoreboard objectives add stellarity.config.enable_satchel_of_voids dummy
       scoreboard objectives add stellarity.config.enable_prismatic_pearl dummy
       scoreboard objectives add stellarity.config.enable_void_pendant dummy

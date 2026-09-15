@@ -4,5 +4,5 @@
     "type": "minecraft:fixed",
     "name": "#stellarity.config"
   },
-  "score": "stellarity.config.enable_endermans_hand"
+  "score": "stellarity.config.enable_enderman_hand"
 }

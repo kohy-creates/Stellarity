@@ -157,7 +157,7 @@
         },
         {
           "type": "loot_table",
-          "value": "stellarity:item/trinket/endermans_hand",
+          "value": "stellarity:item/trinket/enderman_hand",
           "functions": [
             {
               "function": "set_count",

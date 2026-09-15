@@ -545,6 +545,8 @@
   "item.stellarity.purpur_key": "퍼퍼 열쇠",
   "item.stellarity.purpur_key.description": "엔드 도시의 금고를 엽니다",
   "item.stellarity.radiant_jewel": "Radiant Jewel",
+  "item.stellarity.radiant_jewel.description.1": "Enhances all Empress of Light items",
+  "item.stellarity.radiant_jewel.description.2": "while in any inventory slot",
   "item.stellarity.red_potion": "Red Potion",
   "item.stellarity.regeneraga": "Regeneraga",
   "item.stellarity.reinforced_horse_armor": "보강된 말 갑옷",
@@ -750,6 +752,7 @@
   "subtitles.stellarity.item.fluffy_hammer.throw": "Fluffy Hammer throws",
   "subtitles.stellarity.item.kaleidoscope.ready": "Kaleidoscope charges",
   "subtitles.stellarity.item.living_flesh.boost": "Living Flesh hurts",
+  "subtitles.stellarity.item.void_pendant.zap": "Electric Shock",
   "trim_material.stellarity.chorus": "Chorus Material",
   "trim_material.stellarity.enderite": "Enderite Material"
 }

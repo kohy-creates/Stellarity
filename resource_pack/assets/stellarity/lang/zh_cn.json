@@ -546,6 +546,8 @@
   "item.stellarity.purpur_key": "紫珀钥匙",
   "item.stellarity.purpur_key.description": "用于开启末地城中的宝库",
   "item.stellarity.radiant_jewel": "Radiant Jewel",
+  "item.stellarity.radiant_jewel.description.1": "Enhances all Empress of Light items",
+  "item.stellarity.radiant_jewel.description.2": "while in any inventory slot",
   "item.stellarity.red_potion": "Red Potion",
   "item.stellarity.regeneraga": "Regeneraga",
   "item.stellarity.reinforced_horse_armor": "强化马铠",
@@ -751,6 +753,7 @@
   "subtitles.stellarity.item.fluffy_hammer.throw": "毛绒绒锤子丢出",
   "subtitles.stellarity.item.kaleidoscope.ready": "炽金狂斧蓄力",
   "subtitles.stellarity.item.living_flesh.boost": "生肌犹痛",
+  "subtitles.stellarity.item.void_pendant.zap": "Electric Shock",
   "trim_material.stellarity.chorus": "Chorus Material",
   "trim_material.stellarity.enderite": "Enderite Material"
 }

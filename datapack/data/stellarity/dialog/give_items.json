@@ -978,17 +978,17 @@
       "label": [
         {
           "atlas": "minecraft:items",
-          "sprite": "stellarity:item/endermans_hand"
+          "sprite": "stellarity:item/enderman_hand"
         }
       ],
       "tooltip": {
-        "translate": "item.stellarity.endermans_hand",
+        "translate": "item.stellarity.enderman_hand",
         "fallback": "Enderman's Hand"
       },
       "width": 20,
       "action": {
         "type": "minecraft:run_command",
-        "command": "loot give @s loot stellarity:item/trinket/endermans_hand"
+        "command": "loot give @s loot stellarity:item/trinket/enderman_hand"
       }
     },
     {

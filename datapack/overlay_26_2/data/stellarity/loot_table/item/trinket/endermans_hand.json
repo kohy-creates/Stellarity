@@ -12,7 +12,7 @@
               "lore": [
                 "",
                 {
-                  "translate": "item.stellarity.endermans_hand.flavor_text",
+                  "translate": "item.stellarity.enderman_hand.flavor_text",
                   "color": "#EEEEEE",
                   "italic": true
                 },
@@ -30,14 +30,14 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:enchantment_glint_override": true,
-                "minecraft:item_model": "stellarity:endermans_hand",
+                "minecraft:item_model": "stellarity:enderman_hand",
                 "minecraft:custom_data": {
-                  "stellarity:item": "endermans_hand"
+                  "stellarity:item": "enderman_hand"
                 },
                 "minecraft:max_stack_size": 1,
                 "rarity": "uncommon",
                 "minecraft:item_name": {
-                  "translate": "item.stellarity.endermans_hand",
+                  "translate": "item.stellarity.enderman_hand",
                   "color": "#ed8cff",
                   "italic": false
                 },
@@ -48,7 +48,7 @@
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
-                  "id": "stellarity:endermans_hand",
+                  "id": "stellarity:enderman_hand",
                   "attribute": "minecraft:block_interaction_range",
                   "amount": 3,
                   "operation": "add_value",

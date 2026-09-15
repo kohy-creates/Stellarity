@@ -138,7 +138,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/trinket/endermans_hand",
+          "value": "stellarity:item/trinket/enderman_hand",
           "condition": {
             "type": "minecraft:any_of",
             "terms": [
@@ -163,7 +163,7 @@
                   },
                   {
                     "type": "int_value_check",
-                    "value": "stellarity:item_check/endermans_hand",
+                    "value": "stellarity:item_check/enderman_hand",
                     "test": 1
                   }
                 ]
@@ -192,7 +192,7 @@
                   },
                   {
                     "type": "int_value_check",
-                    "value": "stellarity:item_check/endermans_hand",
+                    "value": "stellarity:item_check/enderman_hand",
                     "test": 1
                   }
                 ]

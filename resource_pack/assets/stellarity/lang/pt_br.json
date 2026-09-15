@@ -546,6 +546,8 @@
   "item.stellarity.purpur_key": "Chave de Púrpura",
   "item.stellarity.purpur_key.description": "Abre Cofres em Cidades do End",
   "item.stellarity.radiant_jewel": "Radiant Jewel",
+  "item.stellarity.radiant_jewel.description.1": "Enhances all Empress of Light items",
+  "item.stellarity.radiant_jewel.description.2": "while in any inventory slot",
   "item.stellarity.red_potion": "Red Potion",
   "item.stellarity.regeneraga": "Regeneraga",
   "item.stellarity.reinforced_horse_armor": "Armadura para Cavalo Reforçada",
@@ -751,6 +753,7 @@
   "subtitles.stellarity.item.fluffy_hammer.throw": "Martelo fofo da justiça lança",
   "subtitles.stellarity.item.kaleidoscope.ready": "Caleidoscópio carrega",
   "subtitles.stellarity.item.living_flesh.boost": "Carne viva ferida",
+  "subtitles.stellarity.item.void_pendant.zap": "Electric Shock",
   "trim_material.stellarity.chorus": "Chorus Material",
   "trim_material.stellarity.enderite": "Enderite Material"
 }

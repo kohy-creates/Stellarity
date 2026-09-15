@@ -546,6 +546,8 @@
   "item.stellarity.purpur_key": "Chiave in porpora",
   "item.stellarity.purpur_key.description": "Apre Casseforti nelle Città dell'End",
   "item.stellarity.radiant_jewel": "Radiant Jewel",
+  "item.stellarity.radiant_jewel.description.1": "Enhances all Empress of Light items",
+  "item.stellarity.radiant_jewel.description.2": "while in any inventory slot",
   "item.stellarity.red_potion": "Red Potion",
   "item.stellarity.regeneraga": "Regeneraga",
   "item.stellarity.reinforced_horse_armor": "Armatura per cavalli rinforzata",
@@ -751,6 +753,7 @@
   "subtitles.stellarity.item.fluffy_hammer.throw": "Martello morbidoso lanciato",
   "subtitles.stellarity.item.kaleidoscope.ready": "Kaleidoscopio si carica",
   "subtitles.stellarity.item.living_flesh.boost": "Carne vivente soffre",
+  "subtitles.stellarity.item.void_pendant.zap": "Electric Shock",
   "trim_material.stellarity.chorus": "Chorus Material",
   "trim_material.stellarity.enderite": "Enderite Material"
 }

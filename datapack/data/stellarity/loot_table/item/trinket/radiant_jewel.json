@@ -28,6 +28,17 @@
               "lore": [
                 "",
                 {
+                  "translate": "item.stellarity.radiant_jewel.description.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "item.stellarity.radiant_jewel.description.2",
+                  "color": "white",
+                  "italic": false
+                },
+                "",
+                {
                   "translate": "Stellarity",
                   "color": "#eaa7ff",
                   "font": "stellarity:tooltip",

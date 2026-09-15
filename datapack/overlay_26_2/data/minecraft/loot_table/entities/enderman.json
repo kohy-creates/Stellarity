@@ -139,7 +139,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "stellarity:item/trinket/endermans_hand",
+          "value": "stellarity:item/trinket/enderman_hand",
           "conditions": [
             {
               "condition": "any_of",

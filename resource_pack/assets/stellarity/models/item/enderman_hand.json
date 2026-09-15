@@ -1,7 +1,7 @@
 {
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "stellarity:item/endermans_hand"
+		"layer0": "stellarity:item/enderman_hand"
 	},
 	"display": {
 		"thirdperson_righthand": {

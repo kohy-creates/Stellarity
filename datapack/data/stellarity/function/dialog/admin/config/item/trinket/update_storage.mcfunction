@@ -19,8 +19,8 @@ execute if score #stellarity.config stellarity.config.enable_life_crystal matche
 execute if score #stellarity.config stellarity.config.enable_duskberry matches 1 run data modify storage stellarity:temp stellarity.config.item.trinket.dialog.inputs[{key:"duskberry"}].options[1].initial set value true
 execute if score #stellarity.config stellarity.config.enable_duskberry matches 0 run data modify storage stellarity:temp stellarity.config.item.trinket.dialog.inputs[{key:"duskberry"}].options[1].initial set value false
 
-execute if score #stellarity.config stellarity.config.enable_endermans_hand matches 1 run data modify storage stellarity:temp stellarity.config.item.trinket.dialog.inputs[{key:"endermans_hand"}].options[1].initial set value true
-execute if score #stellarity.config stellarity.config.enable_endermans_hand matches 0 run data modify storage stellarity:temp stellarity.config.item.trinket.dialog.inputs[{key:"endermans_hand"}].options[1].initial set value false
+execute if score #stellarity.config stellarity.config.enable_enderman_hand matches 1 run data modify storage stellarity:temp stellarity.config.item.trinket.dialog.inputs[{key:"enderman_hand"}].options[1].initial set value true
+execute if score #stellarity.config stellarity.config.enable_enderman_hand matches 0 run data modify storage stellarity:temp stellarity.config.item.trinket.dialog.inputs[{key:"enderman_hand"}].options[1].initial set value false
 
 execute if score #stellarity.config stellarity.config.enable_prismatic_pearl matches 1 run data modify storage stellarity:temp stellarity.config.item.trinket.dialog.inputs[{key:"prismatic_pearl"}].options[1].initial set value true
 execute if score #stellarity.config stellarity.config.enable_prismatic_pearl matches 0 run data modify storage stellarity:temp stellarity.config.item.trinket.dialog.inputs[{key:"prismatic_pearl"}].options[1].initial set value false
