@@ -1,0 +1,1 @@
+execute if predicate kohara:player/is_sneaking unless score @s stellarity.item.void_pendant.glow.cooldown matches 1.. run function stellarity:item/void_pendant/amethyst/glow

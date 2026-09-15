@@ -73,6 +73,9 @@
           # Fluffy Hammer
             scoreboard objectives remove stellarity.item.fluffy_hammer.throw_cooldown
 
+          # Void Pendant
+          scoreboard objectives remove stellarity.item.void_pendant.glow.cooldown
+
           scoreboard objectives remove stellarity.item.satchel_of_voids.cooldown
 
         # Empress Wings

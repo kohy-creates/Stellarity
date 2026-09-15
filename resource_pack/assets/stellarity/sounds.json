@@ -312,5 +312,9 @@
       "stellarity:item/fluffy_hammer/return2"
     ],
     "subtitle": "subtitles.stellarity.item.fluffy_hammer.return"
+  },
+  "item.void_pendant.zap": {
+    "sounds": ["stellarity:item/void_pendant/zap"],
+    "subtitle": "subtitles.stellarity.item.void_pendant.zap"
   }
 }

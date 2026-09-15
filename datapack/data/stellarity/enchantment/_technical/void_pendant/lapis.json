@@ -16,22 +16,5 @@
   },
   "anvil_cost": 0,
   "slots": ["any"],
-  "effects": {
-    "minecraft:block_experience": [
-      {
-        "effect": {
-          "type": "minecraft:add",
-          "value": 2
-        }
-      }
-    ],
-    "minecraft:mob_experience": [
-      {
-        "effect": {
-          "type": "minecraft:add",
-          "value": 2
-        }
-      }
-    ]
-  }
+  "effects": {}
 }

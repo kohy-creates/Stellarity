@@ -1,5 +1,6 @@
 # First Trade
-  function stellarity:entity/villager/trade_editor/add_from_loot_table {max_uses:3,price_multiplier:0.2,loot_table:"stellarity:item/food/candied_chorus_fruit",buy_a_count:2,buy_b_id:"air",buy_b_count:1,sell_count:1,xp:20}
+  execute if score #stellarity.config stellarity.config.enable_candied_chorus_fruit matches 1 \
+  run function stellarity:entity/villager/trade_editor/add_from_loot_table {max_uses:3,price_multiplier:0.2,loot_table:"stellarity:item/food/candied_chorus_fruit",buy_a_count:2,buy_b_id:"air",buy_b_count:1,sell_count:1,xp:20}
 
 # Second Trade
   execute store result score #trade stellarity.misc run random value 1..2

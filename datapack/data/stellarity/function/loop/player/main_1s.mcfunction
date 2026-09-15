@@ -6,6 +6,8 @@
   execute if entity @s[scores={stellarity.item.spellbook.return.cooldown=0..}] run function stellarity:item/spellbooks/return/cooldown_countdown
   execute if entity @s[scores={stellarity.item.spellbook.obstruct.cooldown=0..}] run function stellarity:item/spellbooks/obstruct/cooldown_countdown
 
+  execute if entity @s[scores={stellarity.item.void_pendant.glow.cooldown=0..}] run function stellarity:item/void_pendant/amethyst/cooldown_countdown
+
 
 
 execute if entity @s[scores={stellarity.item.satchel_of_voids.cooldown=0..}] run scoreboard players remove @s stellarity.item.satchel_of_voids.cooldown 1
@@ -27,3 +29,4 @@ scoreboard players reset @s stellarity.misc.loop.1s
   execute as @e[type=item_display,tag=stellarity.obstruct.walls,scores={stellarity.live_time=0..}] run function stellarity:item/spellbooks/obstruct/wall_effects
   execute as @e[type=item_display,tag=stellarity.obstruct.walls,scores={stellarity.live_time=-1}] at @s run function stellarity:item/spellbooks/obstruct/despawn
   
+  effect give @a[predicate=stellarity:item/holding/void_pendant/amethyst] night_vision 15 0 true

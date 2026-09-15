@@ -16,14 +16,5 @@
   },
   "anvil_cost": 0,
   "slots": ["any"],
-  "effects": {
-    "minecraft:attributes": [
-      {
-        "id": "stellarity:void_pendant.attack_speed",
-        "attribute": "minecraft:attack_speed",
-        "amount": 0.06,
-        "operation": "add_multiplied_total"
-      }
-    ]
-  }
+  "effects": {}
 }

@@ -16,20 +16,5 @@
   },
   "anvil_cost": 0,
   "slots": ["any"],
-  "effects": {
-    "minecraft:attributes": [
-      {
-        "id": "stellarity:void_pendant.sweeping",
-        "attribute": "minecraft:sweeping_damage_ratio",
-        "amount": 0.35,
-        "operation": "add_value"
-      },
-      {
-        "id": "stellarity:void_pendant.damage",
-        "attribute": "minecraft:attack_damage",
-        "amount": 2,
-        "operation": "add_value"
-      }
-    ]
-  }
+  "effects": {}
 }

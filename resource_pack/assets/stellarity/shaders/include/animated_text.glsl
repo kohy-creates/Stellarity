@@ -29,7 +29,11 @@ else if (colorInt.rgb == vec3(32, 193, 232)) {
 	t = abs(fract(time / 2.0) - 0.5) * 2.0;
 	color = mix(vec4(0.125, 0.7569, 0.9098, Color.a), vec4(1.0, 0.4118, 0.9216, Color.a), t);
 }
-// Radiant drop names
+// Radiant Jewel name
+else if (colorInt.rgb == vec3(201, 34, 34)) {
+	t = abs(fract(time / 2.0) - 0.5) * 2.0;
+	color = mix(vec4(0.788, 0.133, 0.133, Color.a), vec4(1.0, 0.2235, 0.1216, Color.a), t);
+}
 
 
 // Text shadow
@@ -51,4 +55,9 @@ else if (colorInt.rgb == vec3(63, 52, 9)) {
 else if (colorInt.rgb == vec3(8, 48, 58)) {
 	t = abs(fract(time / 2.0) - 0.5) * 2.0;
 	color = vec4((mix(vec4(0.125, 0.7569, 0.9098, Color.a), vec4(1.0, 0.4118, 0.9216, Color.a), t)).rgb * 0.25, Color.a);
+}
+
+else if (colorInt.rgb == vec3(50, 9, 5)) {
+	t = abs(fract(time / 2.0) - 0.5) * 2.0;
+	color = vec4((mix(vec4(0.788, 0.133, 0.133, Color.a), vec4(1.0, 0.2235, 0.1216, Color.a), t)).rgb * 0.25, Color.a);
 }

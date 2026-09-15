@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": "stellarity:item/holding/void_pendant/copper"
+      }
+    }
+  },
+  "rewards": {
+    "function": "stellarity:item/void_pendant/copper/hit"
+  }
+}

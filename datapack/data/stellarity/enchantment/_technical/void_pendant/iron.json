@@ -16,14 +16,5 @@
   },
   "anvil_cost": 0,
   "slots": ["any"],
-  "effects": {
-    "minecraft:damage_protection": [
-      {
-        "effect": {
-          "type": "minecraft:add",
-          "value": 1.75
-        }
-      }
-    ]
-  }
+  "effects": {}
 }

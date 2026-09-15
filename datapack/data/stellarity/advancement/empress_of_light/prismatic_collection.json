@@ -7,11 +7,11 @@
       }
     },
     "title": {
-      "translate": "advancements.stellarity.collector"
+      "translate": "advancements.stellarity.prismatic_collection.title"
     },
     "description": [
       {
-        "translate": "advancements.stellarity.collector.description",
+        "translate": "advancements.stellarity.prismatic_collection.description",
         "color": "gold"
       },
       "\n\n",

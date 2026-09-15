@@ -16,26 +16,5 @@
   },
   "anvil_cost": 0,
   "slots": ["any"],
-  "effects": {
-    "minecraft:attributes": [
-      {
-        "id": "stellarity:void_pendant.movement_speed",
-        "attribute": "minecraft:movement_speed",
-        "amount": 0.04,
-        "operation": "add_multiplied_total"
-      },
-      {
-        "id": "stellarity:void_pendant.movement_speed",
-        "attribute": "minecraft:jump_strength",
-        "amount": 0.04,
-        "operation": "add_multiplied_total"
-      },
-      {
-        "id": "stellarity:void_pendant.movement_eff",
-        "attribute": "minecraft:movement_efficiency",
-        "amount": 0.4,
-        "operation": "add_value"
-      }
-    ]
-  }
+  "effects": {}
 }

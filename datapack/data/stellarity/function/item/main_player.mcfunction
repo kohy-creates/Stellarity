@@ -49,6 +49,26 @@
   execute if entity @s[predicate=stellarity:item/holding/stellar_striker] run function stellarity:item/stellar_striker/holding/loop
   execute if entity @s[tag=stellarity.holding_stellar_striker,predicate=!stellarity:item/holding/stellar_striker] run function stellarity:item/stellar_striker/holding/stop
 
+# Void Pendant
+  execute if entity @s[predicate=stellarity:item/holding/void_pendant/amethyst] run function stellarity:item/void_pendant/amethyst/loop
+
+  execute if entity @s[predicate=stellarity:item/holding/void_pendant/diamond] run function stellarity:item/void_pendant/diamond/loop
+  execute if entity @s[tag=stellarity.void_pendant.diamond,predicate=!stellarity:item/holding/void_pendant/diamond] run function stellarity:item/void_pendant/diamond/remove_buff
+
+  execute if entity @s[predicate=stellarity:item/holding/void_pendant/emerald] run function stellarity:item/void_pendant/emerald/loop
+  execute if entity @s[tag=stellarity.void_pendant.emerald,predicate=!stellarity:item/holding/void_pendant/emerald] run function stellarity:item/void_pendant/emerald/remove_buff
+
+  execute if entity @s[predicate=stellarity:item/holding/void_pendant/iron] run function stellarity:item/void_pendant/iron/loop
+  execute if entity @s[tag=stellarity.void_pendant.iron,predicate=!stellarity:item/holding/void_pendant/iron] run function stellarity:item/void_pendant/iron/remove_buff
+  
+  execute if entity @s[predicate=stellarity:item/holding/void_pendant/gold] run function stellarity:item/void_pendant/gold/loop
+  execute if entity @s[tag=stellarity.void_pendant.gold,predicate=!stellarity:item/holding/void_pendant/gold] run function stellarity:item/void_pendant/gold/remove_buff
+
+  execute if entity @s[predicate=stellarity:item/holding/void_pendant/netherite] run function stellarity:item/void_pendant/netherite/loop
+  execute if entity @s[tag=stellarity.void_pendant.netherite,predicate=!stellarity:item/holding/void_pendant/netherite] run function stellarity:item/void_pendant/netherite/remove_buff
+
+  execute if entity @s[predicate=stellarity:item/holding/void_pendant/quartz] run function stellarity:item/void_pendant/quartz/loop
+  execute if entity @s[tag=stellarity.void_pendant.quartz,predicate=!stellarity:item/holding/void_pendant/quartz] run function stellarity:item/void_pendant/quartz/remove_buff
 ## Armor sets
   # Has to be ticked after everything so
     # that Floral Armor effects can work

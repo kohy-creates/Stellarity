@@ -212,6 +212,8 @@
         # Empress Wings
           scoreboard objectives add stellarity.item.empress_wings.particles dummy
 
+        # Void Pendant
+          scoreboard objectives add stellarity.item.void_pendant.glow.cooldown dummy
         # Fish
           # yeah, only 1
             scoreboard objectives add stellarity.item.fish.crystal_heartfish.total_consumed dummy

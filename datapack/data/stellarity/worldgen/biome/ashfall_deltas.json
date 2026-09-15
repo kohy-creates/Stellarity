@@ -64,7 +64,7 @@
 				]
 			}
 		},
-		"gameplay/creature_world_gen_spawn_probability": 0
+		"gameplay/creature_world_gen_spawn_probability": 0.3
 	},
 	"effects": {
 		"water_color": 15068927,
